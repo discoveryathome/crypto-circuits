@@ -1,0 +1,3 @@
+checkpoint iterations=100 cpu=6.60264 syntheses=2 windows=42
+checkpoint iterations=200 cpu=18.6647 syntheses=5 windows=89
+done iterations=239 cpu=21.4425 syntheses=5 windows=104

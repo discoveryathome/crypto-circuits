@@ -1,0 +1,2056 @@
+{
+  "session": "w2-m1",
+  "instance": "whirlwindm1",
+  "status": "complete",
+  "issued_at": "2026-10-20T06:55:59.439839+00:00",
+  "deadline": "2026-10-20T07:15:59.439839+00:00",
+  "agent_first_observed_clock": "2026-10-20T06:57:37Z",
+  "receipt_cleanup_ended_at": "2026-10-20T07:15:50.076171+00:00",
+  "session_elapsed_through_receipt_seconds": 1190.636332,
+  "budget_seconds": 1200,
+  "seed": "b41a8b6ab3c78968c1169d89414dec1c",
+  "seed_derivations": [
+    {
+      "phase": 0,
+      "seed": 13913481311639432220,
+      "derivation": "(low64(start.seed)+phase*0x9e3779b97f4a7c15) mod 2^64",
+      "at": "2026-10-20T06:59:46.571994+00:00"
+    },
+    {
+      "phase": 1,
+      "seed": 6867452057253079089,
+      "derivation": "(low64(start.seed)+phase*0x9e3779b97f4a7c15) mod 2^64",
+      "at": "2026-10-20T07:03:59.461519+00:00"
+    },
+    {
+      "phase": 2,
+      "seed": 18268166876576277574,
+      "derivation": "(low64(start.seed)+phase*0x9e3779b97f4a7c15) mod 2^64",
+      "at": "2026-10-20T07:07:07.054875+00:00"
+    },
+    {
+      "phase": 3,
+      "seed": 11222137622189924443,
+      "derivation": "(low64(start.seed)+phase*0x9e3779b97f4a7c15) mod 2^64",
+      "at": "2026-10-20T07:11:28.234520+00:00"
+    }
+  ],
+  "starting_frontier_sha256": "374388cbbb1952be25a055ff5a92642dee8c6735711e789ba19a0f090e9508fb",
+  "last_search_process_ended_at": "2026-10-20T07:15:41.632963+00:00",
+  "last_search_core_exit_observed_at": "2026-10-20T07:15:41.572358+00:00",
+  "search_stop_timestamp_semantics": "Completion timestamp is recorded immediately after monitor drains stdout/checks and waits for the search core; supervisor end is a later bound. Exact OS child-exit instant is not separately instrumented.",
+  "stop_reason": "Inner cutoff reserves eighteen seconds before issued deadline for reaping and receipt cleanup; searches were not stopped upon an initial plateau.",
+  "stopped_before_deadline": true,
+  "phases": [
+    {
+      "phase": 0,
+      "iterations": 820920,
+      "accepted_mutations": 313870,
+      "cyclic_or_unbuildable_mutations_rejected": 217235,
+      "checkpoint_count": 0,
+      "completion": {
+        "returncode": 0,
+        "ended_at": "2026-10-20T07:03:46.596746+00:00"
+      }
+    },
+    {
+      "phase": 1,
+      "iterations": 744853,
+      "accepted_mutations": 65384,
+      "cyclic_or_unbuildable_mutations_rejected": 190297,
+      "checkpoint_count": 32,
+      "completion": {
+        "returncode": 0,
+        "ended_at": "2026-10-20T07:06:59.477695+00:00"
+      }
+    },
+    {
+      "phase": 2,
+      "iterations": 600068,
+      "accepted_mutations": 217938,
+      "cyclic_or_unbuildable_mutations_rejected": 156238,
+      "checkpoint_count": 10,
+      "completion": {
+        "returncode": 0,
+        "ended_at": "2026-10-20T07:11:07.028712+00:00"
+      }
+    },
+    {
+      "phase": 3,
+      "iterations": 773401,
+      "accepted_mutations": 286986,
+      "cyclic_or_unbuildable_mutations_rejected": 199037,
+      "checkpoint_count": 13,
+      "completion": {
+        "returncode": 0,
+        "ended_at": "2026-10-20T07:15:41.572358+00:00"
+      }
+    }
+  ],
+  "methods": [
+    "semantic XOR DAG minimum-arrival relaxation",
+    "random 3\u20135-leaf cone reassociation",
+    "exact pair resubstitution and shared-vertex elimination",
+    "shared-pair insertion",
+    "reverse-accumulation circuit transposition with exact port normalization",
+    "bounded three-signal semantic resubstitution",
+    "bounded four-signal semantic resubstitution"
+  ],
+  "final_combined_frontier": [
+    {
+      "XOR": 163,
+      "depth": 10,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-163-10-dfa71c3370e1.json",
+      "sha256": "dfa71c3370e195e9063a36b1ce9b6d0cc22a51a7ecb06887603fd6cfd45959d2",
+      "prior": false
+    },
+    {
+      "XOR": 164,
+      "depth": 9,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-164-9-c2ff5ef13d92.json",
+      "sha256": "c2ff5ef13d92a45918d28889e73960f89acfd00c588c1d00b1e7cf7ab2848b59",
+      "prior": false
+    },
+    {
+      "XOR": 224,
+      "depth": 5,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-224-5-0e1af86696b6.json",
+      "sha256": "0e1af86696b685838da04099fbbd720bde58c4edd89a52ad2b437357b9025c99",
+      "prior": false
+    },
+    {
+      "XOR": 215,
+      "depth": 6,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-215-6-22daae1c178b.json",
+      "sha256": "22daae1c178b2b6d461cb75b9ee143da2f145cab86734ccd2871d404559a8298",
+      "prior": false
+    }
+  ],
+  "submissions": [
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-239-8-ba568015f115.json",
+      "sha256": "ba568015f1153e5166757d4c00088eeb20f11d38ac058991528ff21cbf9acb3b",
+      "metrics": {
+        "AND": 0,
+        "XOR": 239,
+        "NOT": 0,
+        "total": 239,
+        "depth": 8
+      },
+      "checkpoint_at": "2026-10-20T07:04:00.234979+00:00",
+      "submitted_at": "2026-10-20T07:04:00.385080+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-239-7-3a1ad897c2ec.json",
+      "sha256": "3a1ad897c2eccfc2df4acafa9d768c9c3587453f83952cafde23416cd1f34dd6",
+      "metrics": {
+        "AND": 0,
+        "XOR": 239,
+        "NOT": 0,
+        "total": 239,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:04:00.827693+00:00",
+      "submitted_at": "2026-10-20T07:04:01.011713+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-239-6-5ea0975ae793.json",
+      "sha256": "5ea0975ae793556b5cd611878ca0fbaed2536f41a707351423299124e86e215d",
+      "metrics": {
+        "AND": 0,
+        "XOR": 239,
+        "NOT": 0,
+        "total": 239,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:04:01.071616+00:00",
+      "submitted_at": "2026-10-20T07:04:01.219705+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-239-7-3a1ad897c2ec.json",
+        "sha256": "3a1ad897c2eccfc2df4acafa9d768c9c3587453f83952cafde23416cd1f34dd6"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-238-7-f6dae9ad4efe.json",
+      "sha256": "f6dae9ad4efe077e4b9c0050f817c1f8270295513017d63b600f97fe8aa3a1f9",
+      "metrics": {
+        "AND": 0,
+        "XOR": 238,
+        "NOT": 0,
+        "total": 238,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:04:01.446099+00:00",
+      "submitted_at": "2026-10-20T07:04:01.587057+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-239-7-3a1ad897c2ec.json",
+        "sha256": "3a1ad897c2eccfc2df4acafa9d768c9c3587453f83952cafde23416cd1f34dd6"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-238-6-55f6cef8a993.json",
+      "sha256": "55f6cef8a9932c064bd5e4062f693e3609971e221b00fc065ea9f15bcfdf3dee",
+      "metrics": {
+        "AND": 0,
+        "XOR": 238,
+        "NOT": 0,
+        "total": 238,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:04:01.755852+00:00",
+      "submitted_at": "2026-10-20T07:04:01.891403+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-239-7-3a1ad897c2ec.json",
+        "sha256": "3a1ad897c2eccfc2df4acafa9d768c9c3587453f83952cafde23416cd1f34dd6"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-165-12-b7402ea80962.json",
+      "sha256": "b7402ea80962cafafc86c04688fdb92f8c0693cb7ad3dfe7c064bbbc16d1d08a",
+      "metrics": {
+        "AND": 0,
+        "XOR": 165,
+        "NOT": 0,
+        "total": 165,
+        "depth": 12
+      },
+      "checkpoint_at": "2026-10-20T07:04:02.785720+00:00",
+      "submitted_at": "2026-10-20T07:04:02.991653+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-10-10c982463574.json",
+        "sha256": "10c982463574dbaf5778d88f37518bc735549124eec2975af32c2b547d8753b5",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 166,
+          "dead_gates": 0,
+          "depth": 10,
+          "total": 166
+        },
+        "kind": "verified-wave1-local-prior",
+        "source": "review/checks.json"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-165-11-c29a50b7b6a6.json",
+      "sha256": "c29a50b7b6a64c981fd9b474da86fe968ec0b0300f1dea2094306b68436ec935",
+      "metrics": {
+        "AND": 0,
+        "XOR": 165,
+        "NOT": 0,
+        "total": 165,
+        "depth": 11
+      },
+      "checkpoint_at": "2026-10-20T07:04:02.992282+00:00",
+      "submitted_at": "2026-10-20T07:04:03.118566+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-10-10c982463574.json",
+        "sha256": "10c982463574dbaf5778d88f37518bc735549124eec2975af32c2b547d8753b5",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 166,
+          "dead_gates": 0,
+          "depth": 10,
+          "total": 166
+        },
+        "kind": "verified-wave1-local-prior",
+        "source": "review/checks.json"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-165-10-2cf1b5463a4a.json",
+      "sha256": "2cf1b5463a4a68601f409f4174249cb4e3d024ee6ce217e67ed77ee0030290bb",
+      "metrics": {
+        "AND": 0,
+        "XOR": 165,
+        "NOT": 0,
+        "total": 165,
+        "depth": 10
+      },
+      "checkpoint_at": "2026-10-20T07:04:03.119184+00:00",
+      "submitted_at": "2026-10-20T07:04:03.305624+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-10-10c982463574.json",
+        "sha256": "10c982463574dbaf5778d88f37518bc735549124eec2975af32c2b547d8753b5",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 166,
+          "dead_gates": 0,
+          "depth": 10,
+          "total": 166
+        },
+        "kind": "verified-wave1-local-prior",
+        "source": "review/checks.json"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-165-9-ab19075a9e17.json",
+      "sha256": "ab19075a9e177ca5109b5edcddf206c7f9a5a966635a5cba727811b80d93a43e",
+      "metrics": {
+        "AND": 0,
+        "XOR": 165,
+        "NOT": 0,
+        "total": 165,
+        "depth": 9
+      },
+      "checkpoint_at": "2026-10-20T07:04:03.434865+00:00",
+      "submitted_at": "2026-10-20T07:04:03.584045+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-10-10c982463574.json",
+        "sha256": "10c982463574dbaf5778d88f37518bc735549124eec2975af32c2b547d8753b5",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 166,
+          "dead_gates": 0,
+          "depth": 10,
+          "total": 166
+        },
+        "kind": "verified-wave1-local-prior",
+        "source": "review/checks.json"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-239-5-980b8aff76bd.json",
+      "sha256": "980b8aff76bd180377f51d9c7ffd907d592de65a2a276b320aebd70ae7dba44c",
+      "metrics": {
+        "AND": 0,
+        "XOR": 239,
+        "NOT": 0,
+        "total": 239,
+        "depth": 5
+      },
+      "checkpoint_at": "2026-10-20T07:04:07.490210+00:00",
+      "submitted_at": "2026-10-20T07:04:07.635313+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-239-8-ba568015f115.json",
+        "sha256": "ba568015f1153e5166757d4c00088eeb20f11d38ac058991528ff21cbf9acb3b"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-237-7-6e3188532193.json",
+      "sha256": "6e3188532193fbddcabf5afbde603199a2a64c160cd040a255a96098a451473a",
+      "metrics": {
+        "AND": 0,
+        "XOR": 237,
+        "NOT": 0,
+        "total": 237,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:04:10.816369+00:00",
+      "submitted_at": "2026-10-20T07:04:10.951360+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-238-7-f6dae9ad4efe.json",
+        "sha256": "f6dae9ad4efe077e4b9c0050f817c1f8270295513017d63b600f97fe8aa3a1f9"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-236-6-fb7958f184d4.json",
+      "sha256": "fb7958f184d4118c01e828f444e3d6409f620be21d07784d342a5663a0fc1d5b",
+      "metrics": {
+        "AND": 0,
+        "XOR": 236,
+        "NOT": 0,
+        "total": 236,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:04:13.394113+00:00",
+      "submitted_at": "2026-10-20T07:04:13.529084+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-237-7-6e3188532193.json",
+        "sha256": "6e3188532193fbddcabf5afbde603199a2a64c160cd040a255a96098a451473a"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-235-7-ce5ebc32a3d1.json",
+      "sha256": "ce5ebc32a3d1b45f905af7d3e49ec94a198abaeaba377e48a5fb092376861d8c",
+      "metrics": {
+        "AND": 0,
+        "XOR": 235,
+        "NOT": 0,
+        "total": 235,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:04:32.137654+00:00",
+      "submitted_at": "2026-10-20T07:04:32.295557+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-234-7-1c7224b6ddc9.json",
+      "sha256": "1c7224b6ddc93b6fd95e362a8b8bb0e4cd9ed6e8e6cbe5d9be70b7a14f02b13c",
+      "metrics": {
+        "AND": 0,
+        "XOR": 234,
+        "NOT": 0,
+        "total": 234,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:04:32.296713+00:00",
+      "submitted_at": "2026-10-20T07:04:32.436083+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-233-7-4c4ddc32213b.json",
+      "sha256": "4c4ddc32213ba47fef6ea52b88baec31d8861e8594e4b1271013e723e18a4eab",
+      "metrics": {
+        "AND": 0,
+        "XOR": 233,
+        "NOT": 0,
+        "total": 233,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:04:32.436811+00:00",
+      "submitted_at": "2026-10-20T07:04:32.571975+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-232-6-7f2d94cc1905.json",
+      "sha256": "7f2d94cc190560b3bc8cc43dd239f21b228b9927a0e591f31814255e7d75edbd",
+      "metrics": {
+        "AND": 0,
+        "XOR": 232,
+        "NOT": 0,
+        "total": 232,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:04:32.572531+00:00",
+      "submitted_at": "2026-10-20T07:04:32.705106+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-231-8-b7d4cae38ff4.json",
+      "sha256": "b7d4cae38ff4d8f4972ae345cb54e83306c26bed32a77a6c29548a76df56f2b4",
+      "metrics": {
+        "AND": 0,
+        "XOR": 231,
+        "NOT": 0,
+        "total": 231,
+        "depth": 8
+      },
+      "checkpoint_at": "2026-10-20T07:04:32.705653+00:00",
+      "submitted_at": "2026-10-20T07:04:32.842985+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-231-6-0f61d4535579.json",
+      "sha256": "0f61d45355798f1e4db2495a61f94a99de2c34591ae3c091b61118a90f9b6cc9",
+      "metrics": {
+        "AND": 0,
+        "XOR": 231,
+        "NOT": 0,
+        "total": 231,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:04:32.843699+00:00",
+      "submitted_at": "2026-10-20T07:04:32.976538+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-230-7-c06869d5bbb8.json",
+      "sha256": "c06869d5bbb89a8c8da8b78aed9fec4ba6f37ba2397db8e569f01307a8cd7884",
+      "metrics": {
+        "AND": 0,
+        "XOR": 230,
+        "NOT": 0,
+        "total": 230,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:04:32.977019+00:00",
+      "submitted_at": "2026-10-20T07:04:33.112780+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-230-6-b3bd6459d0e9.json",
+      "sha256": "b3bd6459d0e960ec23e3b40d58affaadb3e5399fee00e95397d390bc6bd4db29",
+      "metrics": {
+        "AND": 0,
+        "XOR": 230,
+        "NOT": 0,
+        "total": 230,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:04:33.113393+00:00",
+      "submitted_at": "2026-10-20T07:04:33.239927+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-229-6-c6da4fa24dbb.json",
+      "sha256": "c6da4fa24dbb7277617a292eda996ca78e8aac972e133d23273c444196c93950",
+      "metrics": {
+        "AND": 0,
+        "XOR": 229,
+        "NOT": 0,
+        "total": 229,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:04:33.240419+00:00",
+      "submitted_at": "2026-10-20T07:04:33.377801+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-228-7-d883e23b33de.json",
+      "sha256": "d883e23b33deaa781e12188fb61b350b8819fb98bdae3da69a9f9ee5e689fa3d",
+      "metrics": {
+        "AND": 0,
+        "XOR": 228,
+        "NOT": 0,
+        "total": 228,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:04:33.378346+00:00",
+      "submitted_at": "2026-10-20T07:04:33.515920+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-227-6-08ff1d2b0414.json",
+      "sha256": "08ff1d2b04142b2900519dd0a0831cba2003bc6720564f5b537192b6cc34076a",
+      "metrics": {
+        "AND": 0,
+        "XOR": 227,
+        "NOT": 0,
+        "total": 227,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:04:33.516433+00:00",
+      "submitted_at": "2026-10-20T07:04:33.647333+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-226-7-1cbe80f6ee99.json",
+      "sha256": "1cbe80f6ee993c88497eec0feab6ea91e9ac70f6bf43d6f6166734f83309a6c5",
+      "metrics": {
+        "AND": 0,
+        "XOR": 226,
+        "NOT": 0,
+        "total": 226,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:04:33.648056+00:00",
+      "submitted_at": "2026-10-20T07:04:33.777272+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-226-6-18d38669269e.json",
+      "sha256": "18d38669269e6896e96173171a189df3fe009a2c934ea54307ce94ffa647edc4",
+      "metrics": {
+        "AND": 0,
+        "XOR": 226,
+        "NOT": 0,
+        "total": 226,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:04:33.777886+00:00",
+      "submitted_at": "2026-10-20T07:04:33.914160+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-225-7-bb8ecdb41f24.json",
+      "sha256": "bb8ecdb41f24fb5b4a423687a4e8349707ae932cabe83f570aa0e3eadc7d44c6",
+      "metrics": {
+        "AND": 0,
+        "XOR": 225,
+        "NOT": 0,
+        "total": 225,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:04:33.914939+00:00",
+      "submitted_at": "2026-10-20T07:04:34.051692+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-225-6-8ab2bd697a9a.json",
+      "sha256": "8ab2bd697a9a83456fd4b4b90e318b18075c64ecd67d846f11abd21a00603890",
+      "metrics": {
+        "AND": 0,
+        "XOR": 225,
+        "NOT": 0,
+        "total": 225,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:04:34.052216+00:00",
+      "submitted_at": "2026-10-20T07:04:34.189968+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "instance": "whirlwindm1",
+        "path": "results/candidates/w3-whirlwindm1-1.json",
+        "kind": "internal-prior",
+        "receipt": "results/runs/w3-whirlwindm1.json",
+        "novelty": "unestablished and ineligible for new session credit",
+        "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "primary": {
+          "ok": true,
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "evidence": {
+            "coefficient_equalities": 1024,
+            "proof": "exact affine propagation"
+          },
+          "verification_seconds": 0.001348666031844914
+        },
+        "second": {
+          "evaluations": 33,
+          "method": "independent scalar implementation",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 240,
+            "depth": 5,
+            "total": 240
+          },
+          "ok": true,
+          "verification_seconds": 0.0036305419635027647
+        }
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-224-7-2df233925fcd.json",
+      "sha256": "2df233925fcd012200acd6288891c0a1977c82229aba16bed3d60ec34829868f",
+      "metrics": {
+        "AND": 0,
+        "XOR": 224,
+        "NOT": 0,
+        "total": 224,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:04:45.954040+00:00",
+      "submitted_at": "2026-10-20T07:04:46.098798+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-225-7-bb8ecdb41f24.json",
+        "sha256": "bb8ecdb41f24fb5b4a423687a4e8349707ae932cabe83f570aa0e3eadc7d44c6"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-164-12-5372a9c78afe.json",
+      "sha256": "5372a9c78afe42799948eb2181a1509550781bfa35c3cbdc7b105bb449d36d49",
+      "metrics": {
+        "AND": 0,
+        "XOR": 164,
+        "NOT": 0,
+        "total": 164,
+        "depth": 12
+      },
+      "checkpoint_at": "2026-10-20T07:05:57.026550+00:00",
+      "submitted_at": "2026-10-20T07:05:57.217395+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-165-11-c29a50b7b6a6.json",
+        "sha256": "c29a50b7b6a64c981fd9b474da86fe968ec0b0300f1dea2094306b68436ec935"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-164-10-714f0bf3dad4.json",
+      "sha256": "714f0bf3dad44a38a59b5a81fda986f3a9e41ce71845804f33cb3390cae2306e",
+      "metrics": {
+        "AND": 0,
+        "XOR": 164,
+        "NOT": 0,
+        "total": 164,
+        "depth": 10
+      },
+      "checkpoint_at": "2026-10-20T07:05:57.217976+00:00",
+      "submitted_at": "2026-10-20T07:05:57.394464+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-165-11-c29a50b7b6a6.json",
+        "sha256": "c29a50b7b6a64c981fd9b474da86fe968ec0b0300f1dea2094306b68436ec935"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-224-6-d0fc2253e1ab.json",
+      "sha256": "d0fc2253e1ab65c936b6f0c0487ae5182aba9198ac3c7dea1d69f96dd59eacaf",
+      "metrics": {
+        "AND": 0,
+        "XOR": 224,
+        "NOT": 0,
+        "total": 224,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:05:59.032515+00:00",
+      "submitted_at": "2026-10-20T07:05:59.168155+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-224-7-2df233925fcd.json",
+        "sha256": "2df233925fcd012200acd6288891c0a1977c82229aba16bed3d60ec34829868f"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-225-5-a2515f8a86be.json",
+      "sha256": "a2515f8a86bee9d5fc36d06652055916f6cbc5e4300dd98b8896cb6403eacc73",
+      "metrics": {
+        "AND": 0,
+        "XOR": 225,
+        "NOT": 0,
+        "total": 225,
+        "depth": 5
+      },
+      "checkpoint_at": "2026-10-20T07:06:37.390208+00:00",
+      "submitted_at": "2026-10-20T07:06:37.571336+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-225-7-bb8ecdb41f24.json",
+        "sha256": "bb8ecdb41f24fb5b4a423687a4e8349707ae932cabe83f570aa0e3eadc7d44c6"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-163-12-449ed643de52.json",
+      "sha256": "449ed643de5211dcd7f6965a6e39e607e283fcd53f88365d47bf19906a665c4d",
+      "metrics": {
+        "AND": 0,
+        "XOR": 163,
+        "NOT": 0,
+        "total": 163,
+        "depth": 12
+      },
+      "checkpoint_at": "2026-10-20T07:07:58.863643+00:00",
+      "submitted_at": "2026-10-20T07:07:59.004545+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v3",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-164-10-714f0bf3dad4.json",
+        "sha256": "714f0bf3dad44a38a59b5a81fda986f3a9e41ce71845804f33cb3390cae2306e"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-163-11-58eb9f3b5161.json",
+      "sha256": "58eb9f3b51619025a2474ad81993c576d5646ec438d105a699fef630dd4f83f2",
+      "metrics": {
+        "AND": 0,
+        "XOR": 163,
+        "NOT": 0,
+        "total": 163,
+        "depth": 11
+      },
+      "checkpoint_at": "2026-10-20T07:07:59.094918+00:00",
+      "submitted_at": "2026-10-20T07:07:59.236107+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v3",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-164-10-714f0bf3dad4.json",
+        "sha256": "714f0bf3dad44a38a59b5a81fda986f3a9e41ce71845804f33cb3390cae2306e"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-163-10-dfa71c3370e1.json",
+      "sha256": "dfa71c3370e195e9063a36b1ce9b6d0cc22a51a7ecb06887603fd6cfd45959d2",
+      "metrics": {
+        "AND": 0,
+        "XOR": 163,
+        "NOT": 0,
+        "total": 163,
+        "depth": 10
+      },
+      "checkpoint_at": "2026-10-20T07:08:20.559861+00:00",
+      "submitted_at": "2026-10-20T07:08:20.710275+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v3",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-163-11-58eb9f3b5161.json",
+        "sha256": "58eb9f3b51619025a2474ad81993c576d5646ec438d105a699fef630dd4f83f2"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-223-7-e4045b419323.json",
+      "sha256": "e4045b419323684853625b9ef055926ce191fc23da302c2230322cab1373fb29",
+      "metrics": {
+        "AND": 0,
+        "XOR": 223,
+        "NOT": 0,
+        "total": 223,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:09:03.490522+00:00",
+      "submitted_at": "2026-10-20T07:09:03.669973+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v3",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-226-7-1cbe80f6ee99.json",
+        "sha256": "1cbe80f6ee993c88497eec0feab6ea91e9ac70f6bf43d6f6166734f83309a6c5"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-223-6-e105de936443.json",
+      "sha256": "e105de936443e3f8da94fb4b84d765cc9ae0ee59b4be0b31d832322ed4087ac6",
+      "metrics": {
+        "AND": 0,
+        "XOR": 223,
+        "NOT": 0,
+        "total": 223,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:09:03.670627+00:00",
+      "submitted_at": "2026-10-20T07:09:03.811819+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v3",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-226-7-1cbe80f6ee99.json",
+        "sha256": "1cbe80f6ee993c88497eec0feab6ea91e9ac70f6bf43d6f6166734f83309a6c5"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-222-7-61ad9a04b9bf.json",
+      "sha256": "61ad9a04b9bfa072ca1bfe668d1fa388be9ca69529b4ab2b2820fab2f5f2cc8a",
+      "metrics": {
+        "AND": 0,
+        "XOR": 222,
+        "NOT": 0,
+        "total": 222,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:09:04.559925+00:00",
+      "submitted_at": "2026-10-20T07:09:04.724593+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v3",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-226-7-1cbe80f6ee99.json",
+        "sha256": "1cbe80f6ee993c88497eec0feab6ea91e9ac70f6bf43d6f6166734f83309a6c5"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-221-8-02966a9359e0.json",
+      "sha256": "02966a9359e04e926725197ce32d06e1155c735e79e256b074de1eebe23bf6cc",
+      "metrics": {
+        "AND": 0,
+        "XOR": 221,
+        "NOT": 0,
+        "total": 221,
+        "depth": 8
+      },
+      "checkpoint_at": "2026-10-20T07:09:04.725091+00:00",
+      "submitted_at": "2026-10-20T07:09:04.890863+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v3",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-226-7-1cbe80f6ee99.json",
+        "sha256": "1cbe80f6ee993c88497eec0feab6ea91e9ac70f6bf43d6f6166734f83309a6c5"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-221-7-715749985a45.json",
+      "sha256": "715749985a45691ce618cf5edb66bea30380b9b6e40dbe455f596753f3971723",
+      "metrics": {
+        "AND": 0,
+        "XOR": 221,
+        "NOT": 0,
+        "total": 221,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:09:04.891335+00:00",
+      "submitted_at": "2026-10-20T07:09:05.035749+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v3",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-226-7-1cbe80f6ee99.json",
+        "sha256": "1cbe80f6ee993c88497eec0feab6ea91e9ac70f6bf43d6f6166734f83309a6c5"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-221-6-44a3b85e699c.json",
+      "sha256": "44a3b85e699c6c0d0e23ab1a8870c1f7d5901bc794f5e41faa0fafb49475d386",
+      "metrics": {
+        "AND": 0,
+        "XOR": 221,
+        "NOT": 0,
+        "total": 221,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:09:05.055371+00:00",
+      "submitted_at": "2026-10-20T07:09:05.245910+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v3",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-226-7-1cbe80f6ee99.json",
+        "sha256": "1cbe80f6ee993c88497eec0feab6ea91e9ac70f6bf43d6f6166734f83309a6c5"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-164-9-c2ff5ef13d92.json",
+      "sha256": "c2ff5ef13d92a45918d28889e73960f89acfd00c588c1d00b1e7cf7ab2848b59",
+      "metrics": {
+        "AND": 0,
+        "XOR": 164,
+        "NOT": 0,
+        "total": 164,
+        "depth": 9
+      },
+      "checkpoint_at": "2026-10-20T07:09:29.318211+00:00",
+      "submitted_at": "2026-10-20T07:09:29.461704+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v3",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-163-11-58eb9f3b5161.json",
+        "sha256": "58eb9f3b51619025a2474ad81993c576d5646ec438d105a699fef630dd4f83f2"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-224-5-0e1af86696b6.json",
+      "sha256": "0e1af86696b685838da04099fbbd720bde58c4edd89a52ad2b437357b9025c99",
+      "metrics": {
+        "AND": 0,
+        "XOR": 224,
+        "NOT": 0,
+        "total": 224,
+        "depth": 5
+      },
+      "checkpoint_at": "2026-10-20T07:12:35.734866+00:00",
+      "submitted_at": "2026-10-20T07:12:35.926559+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v4",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-225-5-a2515f8a86be.json",
+        "sha256": "a2515f8a86bee9d5fc36d06652055916f6cbc5e4300dd98b8896cb6403eacc73"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-220-7-27ec30fc4b51.json",
+      "sha256": "27ec30fc4b51c7f4bfcca1dbf49f8bf717456df4f71ca62ca76637596594e9c2",
+      "metrics": {
+        "AND": 0,
+        "XOR": 220,
+        "NOT": 0,
+        "total": 220,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:12:45.665943+00:00",
+      "submitted_at": "2026-10-20T07:12:45.853740+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v4",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-221-7-715749985a45.json",
+        "sha256": "715749985a45691ce618cf5edb66bea30380b9b6e40dbe455f596753f3971723"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-220-6-5176afb60fa4.json",
+      "sha256": "5176afb60fa41054b69b397f9e570ca7a07ac8762c467062d320ba3c803cad1b",
+      "metrics": {
+        "AND": 0,
+        "XOR": 220,
+        "NOT": 0,
+        "total": 220,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:12:45.979252+00:00",
+      "submitted_at": "2026-10-20T07:12:46.136139+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v4",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-221-7-715749985a45.json",
+        "sha256": "715749985a45691ce618cf5edb66bea30380b9b6e40dbe455f596753f3971723"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-219-8-ff1627df2bec.json",
+      "sha256": "ff1627df2bec6ff53ce716b79a909f91c30eba36d841626595a7a79eeb29f974",
+      "metrics": {
+        "AND": 0,
+        "XOR": 219,
+        "NOT": 0,
+        "total": 219,
+        "depth": 8
+      },
+      "checkpoint_at": "2026-10-20T07:12:46.136598+00:00",
+      "submitted_at": "2026-10-20T07:12:46.274510+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v4",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-221-7-715749985a45.json",
+        "sha256": "715749985a45691ce618cf5edb66bea30380b9b6e40dbe455f596753f3971723"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-219-7-48a3e42b3e0c.json",
+      "sha256": "48a3e42b3e0c9c737ad142ddf091aed636ed7f32040413b0f109486538f89b20",
+      "metrics": {
+        "AND": 0,
+        "XOR": 219,
+        "NOT": 0,
+        "total": 219,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:12:46.274986+00:00",
+      "submitted_at": "2026-10-20T07:12:46.417932+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v4",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-221-7-715749985a45.json",
+        "sha256": "715749985a45691ce618cf5edb66bea30380b9b6e40dbe455f596753f3971723"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-219-6-4da89144b46b.json",
+      "sha256": "4da89144b46bae8f050f86b448f8d91cc8eecf74717a1cfdc5dc7847460a073e",
+      "metrics": {
+        "AND": 0,
+        "XOR": 219,
+        "NOT": 0,
+        "total": 219,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:12:46.630500+00:00",
+      "submitted_at": "2026-10-20T07:12:46.777354+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v4",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-221-7-715749985a45.json",
+        "sha256": "715749985a45691ce618cf5edb66bea30380b9b6e40dbe455f596753f3971723"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-218-7-34f1ad0e0139.json",
+      "sha256": "34f1ad0e01390bfcb8d22ca10d2ab73001523fc0a10b4faf7e2567a6d7c1c1c2",
+      "metrics": {
+        "AND": 0,
+        "XOR": 218,
+        "NOT": 0,
+        "total": 218,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:12:47.465379+00:00",
+      "submitted_at": "2026-10-20T07:12:47.651493+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v4",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-221-7-715749985a45.json",
+        "sha256": "715749985a45691ce618cf5edb66bea30380b9b6e40dbe455f596753f3971723"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-218-6-5c36d80b53e1.json",
+      "sha256": "5c36d80b53e1c5b12fc50b26168670ec5e630294e0f165db3dfab135c2540a7b",
+      "metrics": {
+        "AND": 0,
+        "XOR": 218,
+        "NOT": 0,
+        "total": 218,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:12:47.885175+00:00",
+      "submitted_at": "2026-10-20T07:12:48.057015+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v4",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-221-7-715749985a45.json",
+        "sha256": "715749985a45691ce618cf5edb66bea30380b9b6e40dbe455f596753f3971723"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-217-6-38395388314a.json",
+      "sha256": "38395388314ad79551fc3c5f87316488e920e1f86d1f95ffde34d22074dd437d",
+      "metrics": {
+        "AND": 0,
+        "XOR": 217,
+        "NOT": 0,
+        "total": 217,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:13:05.789406+00:00",
+      "submitted_at": "2026-10-20T07:13:05.940690+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v4",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-219-8-ff1627df2bec.json",
+        "sha256": "ff1627df2bec6ff53ce716b79a909f91c30eba36d841626595a7a79eeb29f974"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-216-7-5ea89a103eba.json",
+      "sha256": "5ea89a103ebad29e8ab09c1139d6c5cf4ac4e1d351aafd499bbc29b15a7a406b",
+      "metrics": {
+        "AND": 0,
+        "XOR": 216,
+        "NOT": 0,
+        "total": 216,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:13:55.937891+00:00",
+      "submitted_at": "2026-10-20T07:13:56.069632+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v4",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-218-7-34f1ad0e0139.json",
+        "sha256": "34f1ad0e01390bfcb8d22ca10d2ab73001523fc0a10b4faf7e2567a6d7c1c1c2"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-216-6-00892d570cc8.json",
+      "sha256": "00892d570cc842b9b3f8558b638f19d68962b2aa4f75f8761355a205936303cf",
+      "metrics": {
+        "AND": 0,
+        "XOR": 216,
+        "NOT": 0,
+        "total": 216,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:13:56.070078+00:00",
+      "submitted_at": "2026-10-20T07:13:56.194514+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v4",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-218-7-34f1ad0e0139.json",
+        "sha256": "34f1ad0e01390bfcb8d22ca10d2ab73001523fc0a10b4faf7e2567a6d7c1c1c2"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-215-7-d6ef5b492178.json",
+      "sha256": "d6ef5b492178f392f7e6b100cb4c2da7f21072edda564a3e2248ec0ffe5b6285",
+      "metrics": {
+        "AND": 0,
+        "XOR": 215,
+        "NOT": 0,
+        "total": 215,
+        "depth": 7
+      },
+      "checkpoint_at": "2026-10-20T07:13:56.194980+00:00",
+      "submitted_at": "2026-10-20T07:13:56.326770+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v4",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-218-7-34f1ad0e0139.json",
+        "sha256": "34f1ad0e01390bfcb8d22ca10d2ab73001523fc0a10b4faf7e2567a6d7c1c1c2"
+      }
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-215-6-22daae1c178b.json",
+      "sha256": "22daae1c178b2b6d461cb75b9ee143da2f145cab86734ccd2871d404559a8298",
+      "metrics": {
+        "AND": 0,
+        "XOR": 215,
+        "NOT": 0,
+        "total": 215,
+        "depth": 6
+      },
+      "checkpoint_at": "2026-10-20T07:13:56.327187+00:00",
+      "submitted_at": "2026-10-20T07:13:56.506295+00:00",
+      "method": "semantic-transpose-cone-and-shared-resubstitution-v4",
+      "parent": {
+        "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-218-7-34f1ad0e0139.json",
+        "sha256": "34f1ad0e01390bfcb8d22ca10d2ab73001523fc0a10b4faf7e2567a6d7c1c1c2"
+      }
+    }
+  ],
+  "invalid_checker_candidates": 0,
+  "duplicate_submission_hashes": 0,
+  "known_prior_hash_duplicates": [],
+  "suppressed_equal_or_dominated_proposals": "Not emitted by search; count not instrumented. Transient formerly nondominated points remain retained.",
+  "first_count_guard_clearing_checkpoint_at": "2026-10-20T07:04:02.785720+00:00",
+  "first_count_guard_clearing_submission_at": "2026-10-20T07:04:02.991653+00:00",
+  "first_checkpoint_at": "2026-10-20T07:04:00.234979+00:00",
+  "first_submission_at": "2026-10-20T07:04:00.385080+00:00",
+  "time_to_first_checkpoint_seconds": 480.79514,
+  "time_to_first_submission_seconds": 480.945241,
+  "process_receipts": [
+    {
+      "command": [
+        "c++",
+        "-O3",
+        "-std=c++17",
+        "research/agent-pilot-v2/sessions/w2-m1/search.cpp",
+        "-o",
+        "research/agent-pilot-v2/sessions/w2-m1/search-bin"
+      ],
+      "started_at": "2026-10-20T06:59:26.207635+00:00",
+      "ended_at": "2026-10-20T06:59:32.653535+00:00",
+      "wall_seconds": 6.445454958011396,
+      "cpu_seconds": 2.9055899999999997,
+      "returncode": 0,
+      "deadline_stop": false
+    },
+    {
+      "command": [
+        "c++",
+        "-O3",
+        "-std=c++17",
+        "research/agent-pilot-v2/sessions/w2-m1/search-v2.cpp",
+        "-o",
+        "research/agent-pilot-v2/sessions/w2-m1/search-v2-bin"
+      ],
+      "started_at": "2026-10-20T07:02:07.733730+00:00",
+      "ended_at": "2026-10-20T07:02:13.492858+00:00",
+      "wall_seconds": 5.758670291979797,
+      "cpu_seconds": 3.433795,
+      "returncode": 0,
+      "deadline_stop": false
+    },
+    {
+      "command": [
+        "python3",
+        "research/agent-pilot-v2/sessions/w2-m1/runner.py",
+        "240",
+        "0"
+      ],
+      "started_at": "2026-10-20T06:59:46.489498+00:00",
+      "ended_at": "2026-10-20T07:03:46.647674+00:00",
+      "wall_seconds": 240.15244958293624,
+      "cpu_seconds": 132.764015,
+      "returncode": 0,
+      "deadline_stop": false
+    },
+    {
+      "command": [
+        "c++",
+        "-O3",
+        "-std=c++17",
+        "research/agent-pilot-v2/sessions/w2-m1/search-v3.cpp",
+        "-o",
+        "research/agent-pilot-v2/sessions/w2-m1/search-v3-bin"
+      ],
+      "started_at": "2026-10-20T07:04:08.510470+00:00",
+      "ended_at": "2026-10-20T07:04:13.106490+00:00",
+      "wall_seconds": 4.59555550001096,
+      "cpu_seconds": 3.441038,
+      "returncode": 0,
+      "deadline_stop": false
+    },
+    {
+      "command": [
+        "c++",
+        "-O3",
+        "-std=c++17",
+        "research/agent-pilot-v2/sessions/w2-m1/search-v3.cpp",
+        "-o",
+        "research/agent-pilot-v2/sessions/w2-m1/search-v3-bin"
+      ],
+      "started_at": "2026-10-20T07:05:29.519203+00:00",
+      "ended_at": "2026-10-20T07:05:35.343613+00:00",
+      "wall_seconds": 5.823546000057831,
+      "cpu_seconds": 3.641711,
+      "returncode": 0,
+      "deadline_stop": false
+    },
+    {
+      "command": [
+        "python3",
+        "research/agent-pilot-v2/sessions/w2-m1/runner.py",
+        "180",
+        "1",
+        "search-v2"
+      ],
+      "started_at": "2026-10-20T07:03:59.380643+00:00",
+      "ended_at": "2026-10-20T07:06:59.519141+00:00",
+      "wall_seconds": 180.13418291707058,
+      "cpu_seconds": 128.570536,
+      "returncode": 0,
+      "deadline_stop": false
+    },
+    {
+      "command": [
+        "c++",
+        "-O3",
+        "-std=c++17",
+        "research/agent-pilot-v2/sessions/w2-m1/search-v4.cpp",
+        "-o",
+        "research/agent-pilot-v2/sessions/w2-m1/search-v4-bin"
+      ],
+      "started_at": "2026-10-20T07:07:57.541456+00:00",
+      "ended_at": "2026-10-20T07:08:07.781711+00:00",
+      "wall_seconds": 10.239733417052776,
+      "cpu_seconds": 3.9298960000000003,
+      "returncode": 0,
+      "deadline_stop": false
+    },
+    {
+      "command": [
+        "python3",
+        "research/agent-pilot-v2/sessions/w2-m1/runner.py",
+        "240",
+        "2",
+        "search-v3"
+      ],
+      "started_at": "2026-10-20T07:07:06.967824+00:00",
+      "ended_at": "2026-10-20T07:11:07.052567+00:00",
+      "wall_seconds": 240.1486180840293,
+      "cpu_seconds": 137.225582,
+      "returncode": 0,
+      "deadline_stop": false
+    },
+    {
+      "command": [
+        "python3",
+        "research/agent-pilot-v2/sessions/w2-m1/final_phase.py"
+      ],
+      "started_at": "2026-10-20T07:11:28.087317+00:00",
+      "ended_at": "2026-10-20T07:15:41.632963+00:00",
+      "wall_seconds": 253.54451170796528,
+      "cpu_seconds": 198.82791500000002,
+      "returncode": 0,
+      "deadline_stop": false
+    }
+  ],
+  "summed_process_cpu_seconds": 614.740078,
+  "summed_process_wall_seconds": 946.8427224591142,
+  "process_wall_caution": "Summed process wall includes overlapping compilation and search; it is not session elapsed. Runner process CPU includes waited-for child search and checker processes. Brief file/metadata orchestration outside the supervisor has no separate CPU instrumentation; no unmeasured CPU is imputed.",
+  "trusted_cli_checker_invocations": 110,
+  "trusted_cli_checker_wall_seconds": 8.212663455633447,
+  "trusted_cli_checker_internal_seconds": 0.24212395958602428,
+  "source_and_binary_sha256": {
+    "phase-2-runner-source.py": "86655195aed7471a5d954343273465bb8810a7e4ef2b1c19b29f34d4f0bc3715",
+    "runner-v1.py": "f7f1d66ed2e0e0829572ed9698f12a7c79e570659a39729fc28ac0ec8af931c3",
+    "runner.py": "86655195aed7471a5d954343273465bb8810a7e4ef2b1c19b29f34d4f0bc3715",
+    "phase-3-runner-source.py": "86655195aed7471a5d954343273465bb8810a7e4ef2b1c19b29f34d4f0bc3715",
+    "final_phase.py": "c0f41bc4d784e36aea6716f92b27c53cbc3e2c245867c6c39cbffbc7566ef5d4",
+    "search-v3-unused-initial.cpp": "9335bf757af6f48c508e89fac1b87d891276c5ab467b3428fc565e1f7077b44a",
+    "finalize.py": "569f505e3c164206ebb8cc1cc705775ba364bb44cab752b308891aff9a11bd58",
+    "search-v4-bin": "337a1ad570bf3b55caef9ccd80b4fe0c12466ee7cd982de53717a57819ef7fca",
+    "search-v2-bin": "fd3991eda80d5232cb650806e08b0a8f9c9a1e5ac13fe79221d461d282c208d1",
+    "search.cpp": "fc5d2a4a57f18ace82e850b7121651128143b58e4fa50c9828fea78e3713adef",
+    "search-v3-bin": "f1a50e5e6bf2c2567e43dc00deb9741ebe84e92aa3b95f88e86d7bf45a386e42",
+    "search-v1.cpp": "fc5d2a4a57f18ace82e850b7121651128143b58e4fa50c9828fea78e3713adef",
+    "search-v2.cpp": "4c41e1aca0de19f73fcd9c6ce1851aa5169a0c341db2d36b9d558087607f4562",
+    "phase-1-runner-source.py": "5b0721783e1e0131e53177ae273db502d384a5bbd826d71cc8c60670a5b06892",
+    "search-bin": "729eed2daacd93637a90187b0773e5626dc2a276198e85cca27105e50db55fbd",
+    "search-v3.cpp": "ad388e6d3afcafb0880a71dafac63dafd6a8acbdc32dbe5273155af9d108fe5f",
+    "search-v4.cpp": "919eeea8bda3c1017e65fa303ca1ea88fdcce69f3b0eb9fb87ff1c6c29fb21e7"
+  },
+  "failed_attempts": [
+    "Phase 0 completed 820920 mutations without a frontier improvement; hotter acceptance drifted above the compact start.",
+    "An initial v3 draft was compiled but not searched; retained as search-v3-unused-initial.cpp, then adjusted to favor compact starts."
+  ],
+  "novelty_status": "Unadjudicated; both checkers establish function/cost only. No discovery claim. Larger shallow points remain blocked for conservative credit by unresolved 170/180-XOR depth comparators.",
+  "lineage_files": [
+    "receipts.jsonl",
+    "transpose-normalization.json",
+    "phase-0-lineage.json",
+    "phase-1-lineage.json",
+    "phase-2-lineage.json",
+    "phase-3-lineage.json"
+  ],
+  "model_identity": "inherited default; exact model/token accounting not exposed",
+  "model_token_usage": "unavailable",
+  "model_cost": "unavailable",
+  "limitations": [
+    "Elapsed time includes reasoning, coding, compilation, search and self-checking; no optimality proof.",
+    "No external scientific review; fresh seed does not imply independent model sampling.",
+    "Only own session files written; no remote publication or downloaded executable code."
+  ]
+}

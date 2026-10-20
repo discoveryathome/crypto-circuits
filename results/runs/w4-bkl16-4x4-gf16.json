@@ -1,0 +1,56 @@
+{
+  "instance": "bkl16-4x4-gf16",
+  "wave": 4,
+  "seed": "15db328b36ecbc7bd70445929d320c88",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/bkl16-4x4-gf16--nist.json",
+  "search_wall_seconds": 0.09473191597498953,
+  "search_cpu_seconds": 0.08223300000000222,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 76,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w4-bkl16-4x4-gf16-0.json",
+      "sha256": "7950c30d3dc894247706ae8e84de6942b2179038747711706d629f0b6e18f50b",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 41,
+        "NOT": 0,
+        "total": 41,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 256,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0002081659622490406
+    },
+    {
+      "path": "results/candidates/w4-bkl16-4x4-gf16-1.json",
+      "sha256": "0dee3903ad280bccdbb109c2dc6dd99c820a8eef427f3a1e332e19200366b7c4",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 47,
+        "NOT": 0,
+        "total": 47,
+        "depth": 3,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 256,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0002090840134769678
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

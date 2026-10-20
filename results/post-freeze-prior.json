@@ -1,0 +1,722 @@
+[
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 41,
+      "NOT": 0,
+      "total": 41,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--SBP_depth3.json",
+    "source": "sources/sbp/SBP/result/GH_1/SBP_depth3.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "metrics": {
+      "AND": 0,
+      "XOR": 41,
+      "NOT": 0,
+      "total": 41,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--SBP_depth3.json",
+    "source": "sources/sbp/SBP/result/GH_1/SBP_depth3.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 39,
+      "NOT": 0,
+      "total": 39,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--SBP_depth4.json",
+    "source": "sources/sbp/SBP/result/GH_1/SBP_depth4.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "metrics": {
+      "AND": 0,
+      "XOR": 39,
+      "NOT": 0,
+      "total": 39,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--SBP_depth4.json",
+    "source": "sources/sbp/SBP/result/GH_1/SBP_depth4.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 38,
+      "NOT": 0,
+      "total": 38,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--SBP_depth5.json",
+    "source": "sources/sbp/SBP/result/GH_1/SBP_depth5.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "metrics": {
+      "AND": 0,
+      "XOR": 38,
+      "NOT": 0,
+      "total": 38,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--SBP_depth5.json",
+    "source": "sources/sbp/SBP/result/GH_1/SBP_depth5.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 49,
+      "NOT": 0,
+      "total": 49,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_LiWang16_i_4x4_4_SBP_depth3.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_LiWang16_i_4x4_4_SBP_depth3.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "metrics": {
+      "AND": 0,
+      "XOR": 49,
+      "NOT": 0,
+      "total": 49,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--FSE_LiWang16_i_4x4_4_SBP_depth3.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_LiWang16_i_4x4_4_SBP_depth3.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 48,
+      "NOT": 0,
+      "total": 48,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_LiWang16_i_4x4_4_SBP_depth4.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_LiWang16_i_4x4_4_SBP_depth4.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "metrics": {
+      "AND": 0,
+      "XOR": 48,
+      "NOT": 0,
+      "total": 48,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--FSE_LiWang16_i_4x4_4_SBP_depth4.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_LiWang16_i_4x4_4_SBP_depth4.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 49,
+      "NOT": 0,
+      "total": 49,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_SKOP15_i_4x4_4_SBP_depth3.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_SKOP15_i_4x4_4_SBP_depth3.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "joltik",
+    "metrics": {
+      "AND": 0,
+      "XOR": 49,
+      "NOT": 0,
+      "total": 49,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/joltik--sbp--FSE_SKOP15_i_4x4_4_SBP_depth3.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_SKOP15_i_4x4_4_SBP_depth3.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "metrics": {
+      "AND": 0,
+      "XOR": 49,
+      "NOT": 0,
+      "total": 49,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--FSE_SKOP15_i_4x4_4_SBP_depth3.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_SKOP15_i_4x4_4_SBP_depth3.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 47,
+      "NOT": 0,
+      "total": 47,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_SKOP15_i_4x4_4_SBP_depth4.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_SKOP15_i_4x4_4_SBP_depth4.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "joltik",
+    "metrics": {
+      "AND": 0,
+      "XOR": 47,
+      "NOT": 0,
+      "total": 47,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/joltik--sbp--FSE_SKOP15_i_4x4_4_SBP_depth4.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_SKOP15_i_4x4_4_SBP_depth4.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "metrics": {
+      "AND": 0,
+      "XOR": 47,
+      "NOT": 0,
+      "total": 47,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--FSE_SKOP15_i_4x4_4_SBP_depth4.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_SKOP15_i_4x4_4_SBP_depth4.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 43,
+      "NOT": 0,
+      "total": 43,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--ToSC_SarSye16_i_4x4_4_SBP_depth3.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ToSC_SarSye16_i_4x4_4_SBP_depth3.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "metrics": {
+      "AND": 0,
+      "XOR": 43,
+      "NOT": 0,
+      "total": 43,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--ToSC_SarSye16_i_4x4_4_SBP_depth3.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ToSC_SarSye16_i_4x4_4_SBP_depth3.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 40,
+      "NOT": 0,
+      "total": 40,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--ToSC_SarSye16_i_4x4_4_SBP_depth4.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ToSC_SarSye16_i_4x4_4_SBP_depth4.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "metrics": {
+      "AND": 0,
+      "XOR": 40,
+      "NOT": 0,
+      "total": 40,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--ToSC_SarSye16_i_4x4_4_SBP_depth4.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ToSC_SarSye16_i_4x4_4_SBP_depth4.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 45,
+      "NOT": 0,
+      "total": 45,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--ePrint_JeaPeySim_i_4x4_4_SBP.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ePrint_JeaPeySim_i_4x4_4_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "metrics": {
+      "AND": 0,
+      "XOR": 45,
+      "NOT": 0,
+      "total": 45,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--ePrint_JeaPeySim_i_4x4_4_SBP.json",
+    "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ePrint_JeaPeySim_i_4x4_4_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 49,
+      "NOT": 0,
+      "total": 49,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--JOLTIK_SBP.json",
+    "source": "sources/sbp/SBP/result/matrices_non_MDS/JOLTIK_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "joltik",
+    "metrics": {
+      "AND": 0,
+      "XOR": 49,
+      "NOT": 0,
+      "total": 49,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/joltik--sbp--JOLTIK_SBP.json",
+    "source": "sources/sbp/SBP/result/matrices_non_MDS/JOLTIK_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "metrics": {
+      "AND": 0,
+      "XOR": 49,
+      "NOT": 0,
+      "total": 49,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--JOLTIK_SBP.json",
+    "source": "sources/sbp/SBP/result/matrices_non_MDS/JOLTIK_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "pridel0",
+    "metrics": {
+      "AND": 0,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 24,
+      "depth": 2,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/pridel0--sbp--MIDORI_SBP.json",
+    "source": "sources/sbp/SBP/result/matrices_non_MDS/MIDORI_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "fides-midori-mantis",
+    "metrics": {
+      "AND": 0,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 24,
+      "depth": 2,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/fides-midori-mantis--sbp--MIDORI_SBP.json",
+    "source": "sources/sbp/SBP/result/matrices_non_MDS/MIDORI_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "pridel0",
+    "metrics": {
+      "AND": 0,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 24,
+      "depth": 2,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/pridel0--sbp--PRIDE_L_0_SBP.json",
+    "source": "sources/sbp/SBP/result/matrices_non_MDS/PRIDE_L_0_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "fides-midori-mantis",
+    "metrics": {
+      "AND": 0,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 24,
+      "depth": 2,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/fides-midori-mantis--sbp--PRIDE_L_0_SBP.json",
+    "source": "sources/sbp/SBP/result/matrices_non_MDS/PRIDE_L_0_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "princem0",
+    "metrics": {
+      "AND": 0,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 24,
+      "depth": 2,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/princem0--sbp--PRINCE_M_0_SBP.json",
+    "source": "sources/sbp/SBP/result/matrices_non_MDS/PRINCE_M_0_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "qarma64",
+    "metrics": {
+      "AND": 0,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 24,
+      "depth": 2,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/qarma64--sbp--QARMA64_SBP.json",
+    "source": "sources/sbp/SBP/result/matrices_non_MDS/QARMA64_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "skinny",
+    "metrics": {
+      "AND": 0,
+      "XOR": 12,
+      "NOT": 0,
+      "total": 12,
+      "depth": 2,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/skinny--sbp--SKINNY_SBP.json",
+    "source": "sources/sbp/SBP/result/matrices_non_MDS/SKINNY_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 48,
+      "NOT": 0,
+      "total": 48,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--SMALLSCALE_AES_SBP_depth3.json",
+    "source": "sources/sbp/SBP/result/matrices_non_MDS/SMALLSCALE_AES_SBP_depth3.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "smallscaleaes",
+    "metrics": {
+      "AND": 0,
+      "XOR": 48,
+      "NOT": 0,
+      "total": 48,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/smallscaleaes--sbp--SMALLSCALE_AES_SBP_depth3.json",
+    "source": "sources/sbp/SBP/result/matrices_non_MDS/SMALLSCALE_AES_SBP_depth3.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 47,
+      "NOT": 0,
+      "total": 47,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--SMALLSCALE_AES_SBP_depth4.json",
+    "source": "sources/sbp/SBP/result/matrices_non_MDS/SMALLSCALE_AES_SBP_depth4.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "smallscaleaes",
+    "metrics": {
+      "AND": 0,
+      "XOR": 47,
+      "NOT": 0,
+      "total": 47,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/smallscaleaes--sbp--SMALLSCALE_AES_SBP_depth4.json",
+    "source": "sources/sbp/SBP/result/matrices_non_MDS/SMALLSCALE_AES_SBP_depth4.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 46,
+      "NOT": 0,
+      "total": 46,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--C_BeiKraLea16_4x4_4_SBP.json",
+    "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/C_BeiKraLea16_4x4_4_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "bkl16-4x4-gf16",
+    "metrics": {
+      "AND": 0,
+      "XOR": 46,
+      "NOT": 0,
+      "total": 46,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/bkl16-4x4-gf16--sbp--C_BeiKraLea16_4x4_4_SBP.json",
+    "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/C_BeiKraLea16_4x4_4_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 47,
+      "NOT": 0,
+      "total": 47,
+      "depth": 3,
+      "dead_gates": 1
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_LiWang16_4x4_4_2_SBP.json",
+    "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/FSE_LiWang16_4x4_4_2_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 47,
+      "NOT": 0,
+      "total": 47,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_LiuSim16_4x4_4_SBP.json",
+    "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/FSE_LiuSim16_4x4_4_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "ls16-4x4-gf16",
+    "metrics": {
+      "AND": 0,
+      "XOR": 47,
+      "NOT": 0,
+      "total": 47,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/ls16-4x4-gf16--sbp--FSE_LiuSim16_4x4_4_SBP.json",
+    "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/FSE_LiuSim16_4x4_4_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 48,
+      "NOT": 0,
+      "total": 48,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_SKOP15_4x4_4_SBP.json",
+    "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/FSE_SKOP15_4x4_4_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 43,
+      "NOT": 0,
+      "total": 43,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--ToSC_SarSye16_4x4_4_SBP.json",
+    "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ToSC_SarSye16_4x4_4_SBP.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 45,
+      "NOT": 0,
+      "total": 45,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--ePrint_JeaPeySim_4x4_4_SBP_depth3.json",
+    "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ePrint_JeaPeySim_4x4_4_SBP_depth3.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "jpst17-4x4-gf16",
+    "metrics": {
+      "AND": 0,
+      "XOR": 45,
+      "NOT": 0,
+      "total": 45,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/jpst17-4x4-gf16--sbp--ePrint_JeaPeySim_4x4_4_SBP_depth3.json",
+    "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ePrint_JeaPeySim_4x4_4_SBP_depth3.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 43,
+      "NOT": 0,
+      "total": 43,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/design-mds4x4-w4--sbp--ePrint_JeaPeySim_4x4_4_SBP_depth4.json",
+    "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ePrint_JeaPeySim_4x4_4_SBP_depth4.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "jpst17-4x4-gf16",
+    "metrics": {
+      "AND": 0,
+      "XOR": 43,
+      "NOT": 0,
+      "total": 43,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/jpst17-4x4-gf16--sbp--ePrint_JeaPeySim_4x4_4_SBP_depth4.json",
+    "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ePrint_JeaPeySim_4x4_4_SBP_depth4.txt",
+    "status": "published-witness-verified-by-two-implementations",
+    "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+  },
+  {
+    "instance": "aria",
+    "metrics": {
+      "AND": 0,
+      "XOR": 384,
+      "NOT": 0,
+      "total": 384,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "path": "results/audit-baselines/aria-published-lane-replication.json",
+    "source": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-128x128/Aria--XOR=387-rs=48-symp=2.circ.txt",
+    "status": "direct-derived-prior",
+    "url": "https://github.com/usnistgov/Circuits/tree/8366158a4324ef902ce740f29ddc9f7ebb1018b2"
+  }
+]

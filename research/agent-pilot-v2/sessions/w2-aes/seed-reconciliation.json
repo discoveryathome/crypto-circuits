@@ -1,0 +1,54 @@
+{
+  "base_hex": "e019192dc0ef07c27033e94a2e4b5a0a",
+  "low64": 8085062260873714186,
+  "runs": [
+    {
+      "name": "global-depth3-v1",
+      "seed": 1057818272259097320,
+      "expected": 1057818272259097320,
+      "matches": true
+    },
+    {
+      "name": "global-depth4-final",
+      "seed": 14442577003036973969,
+      "expected": 14442577003036973969,
+      "matches": true
+    },
+    {
+      "name": "rank-depth3-full",
+      "seed": 11688720111563186954,
+      "expected": 11688720111563186954,
+      "matches": true
+    },
+    {
+      "name": "rank-depth3-v1",
+      "seed": 1296776123666946375,
+      "expected": 1296776123666946375,
+      "matches": true
+    },
+    {
+      "name": "sat-cones-v1",
+      "seed": 433182791136528290,
+      "expected": 433182791136528290,
+      "matches": true
+    },
+    {
+      "name": "sat-window-v1",
+      "seed": 12688941329530084505,
+      "expected": 12688941329530084505,
+      "matches": true
+    },
+    {
+      "name": "union-v1",
+      "seed": 8085062260873714186,
+      "expected": 8085062260873714186,
+      "matches": true
+    },
+    {
+      "name": "union-v2",
+      "seed": 17150992655644173855,
+      "expected": 17150992655644173855,
+      "matches": true
+    }
+  ]
+}

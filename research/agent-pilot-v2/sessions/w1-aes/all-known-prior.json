@@ -1,0 +1,677 @@
+[
+  {
+    "instance": "square-aes-mugi",
+    "path": "certificates/square-aes-mugi--nist.json",
+    "kind": "published",
+    "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-32x32/Square+AES+Mugi--XOR=92--maximov.circ.txt",
+    "source_origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/Square+AES+Mugi--XOR=92--maximov.circ.txt",
+    "sha256": "1c7ed3fd18a9ed69e6b40a5496e9aac11bfb480cf2d6fce6dd5adf3ce7cd1653",
+    "metrics": {
+      "AND": 0,
+      "XOR": 92,
+      "NOT": 0,
+      "total": 92,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 92,
+        "NOT": 0,
+        "total": 92,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0004722500452771783
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 92,
+        "depth": 6,
+        "total": 92
+      },
+      "ok": true,
+      "verification_seconds": 0.003768624970689416
+    }
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+    "kind": "published",
+    "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor88-depth5.circ.txt",
+    "source_origin": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor88-depth5.circ.txt",
+    "sha256": "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+    "metrics": {
+      "AND": 0,
+      "XOR": 88,
+      "NOT": 0,
+      "total": 88,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 88,
+        "NOT": 0,
+        "total": 88,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0033948749769479036
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 88,
+        "depth": 5,
+        "total": 88
+      },
+      "ok": true,
+      "verification_seconds": 0.004360707942396402
+    }
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+    "kind": "published",
+    "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor90-depth4.circ.txt",
+    "source_origin": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor90-depth4.circ.txt",
+    "sha256": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+    "metrics": {
+      "AND": 0,
+      "XOR": 90,
+      "NOT": 0,
+      "total": 90,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 90,
+        "NOT": 0,
+        "total": 90,
+        "depth": 4,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0005351250292733312
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 90,
+        "depth": 4,
+        "total": 90
+      },
+      "ok": true,
+      "verification_seconds": 0.001582416007295251
+    }
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+    "kind": "published",
+    "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor97-depth3.circ.txt",
+    "source_origin": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor97-depth3.circ.txt",
+    "sha256": "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82",
+    "metrics": {
+      "AND": 0,
+      "XOR": 97,
+      "NOT": 0,
+      "total": 97,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 97,
+        "NOT": 0,
+        "total": 97,
+        "depth": 3,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0006617920007556677
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 97,
+        "depth": 3,
+        "total": 97
+      },
+      "ok": true,
+      "verification_seconds": 0.03451016708277166
+    }
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "results/candidates/w0-square-aes-mugi-0.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w0-square-aes-mugi.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+    "metrics": {
+      "AND": 0,
+      "XOR": 88,
+      "NOT": 0,
+      "total": 88,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 88,
+        "NOT": 0,
+        "total": 88,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0007511249277740717
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 88,
+        "depth": 5,
+        "total": 88
+      },
+      "ok": true,
+      "verification_seconds": 0.015275749959982932
+    }
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "results/candidates/w0-square-aes-mugi-1.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w0-square-aes-mugi.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "977690faf215cdce54620ea124ba6b09045ff8b270d755813b67d15a8872ab90",
+    "metrics": {
+      "AND": 0,
+      "XOR": 108,
+      "NOT": 0,
+      "total": 108,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 108,
+        "NOT": 0,
+        "total": 108,
+        "depth": 3,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0007061660289764404
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 108,
+        "depth": 3,
+        "total": 108
+      },
+      "ok": true,
+      "verification_seconds": 0.002235917025245726
+    }
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "results/candidates/w1-square-aes-mugi-0.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w1-square-aes-mugi.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+    "metrics": {
+      "AND": 0,
+      "XOR": 90,
+      "NOT": 0,
+      "total": 90,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 90,
+        "NOT": 0,
+        "total": 90,
+        "depth": 4,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0005178749561309814
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 90,
+        "depth": 4,
+        "total": 90
+      },
+      "ok": true,
+      "verification_seconds": 0.006271500024013221
+    }
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "results/candidates/w1-square-aes-mugi-1.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w1-square-aes-mugi.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "fc15a1a873f8513733042fd196b881294fa37793be5091fc3ef94145e62f4cd4",
+    "metrics": {
+      "AND": 0,
+      "XOR": 108,
+      "NOT": 0,
+      "total": 108,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 108,
+        "NOT": 0,
+        "total": 108,
+        "depth": 3,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0027996249264106154
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 108,
+        "depth": 3,
+        "total": 108
+      },
+      "ok": true,
+      "verification_seconds": 0.0019474999280646443
+    }
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "results/candidates/w2-square-aes-mugi-0.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w2-square-aes-mugi.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82",
+    "metrics": {
+      "AND": 0,
+      "XOR": 97,
+      "NOT": 0,
+      "total": 97,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 97,
+        "NOT": 0,
+        "total": 97,
+        "depth": 3,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0005300829652696848
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 97,
+        "depth": 3,
+        "total": 97
+      },
+      "ok": true,
+      "verification_seconds": 0.0020250420784577727
+    }
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "results/candidates/w3-square-aes-mugi-0.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w3-square-aes-mugi.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+    "metrics": {
+      "AND": 0,
+      "XOR": 88,
+      "NOT": 0,
+      "total": 88,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 88,
+        "NOT": 0,
+        "total": 88,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0005029590101912618
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 88,
+        "depth": 5,
+        "total": 88
+      },
+      "ok": true,
+      "verification_seconds": 0.0040918749291449785
+    }
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "results/candidates/w3-square-aes-mugi-1.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w3-square-aes-mugi.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "ef35a03f1b36b496b68e2c9e601878782b5e41b2f5e8ae48c17c6163bd250b35",
+    "metrics": {
+      "AND": 0,
+      "XOR": 108,
+      "NOT": 0,
+      "total": 108,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 108,
+        "NOT": 0,
+        "total": 108,
+        "depth": 3,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0005702499765902758
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 108,
+        "depth": 3,
+        "total": 108
+      },
+      "ok": true,
+      "verification_seconds": 0.0026140420231968164
+    }
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "results/candidates/w4-square-aes-mugi-0.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w4-square-aes-mugi.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+    "metrics": {
+      "AND": 0,
+      "XOR": 90,
+      "NOT": 0,
+      "total": 90,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 90,
+        "NOT": 0,
+        "total": 90,
+        "depth": 4,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.002384625026024878
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 90,
+        "depth": 4,
+        "total": 90
+      },
+      "ok": true,
+      "verification_seconds": 0.037161875050514936
+    }
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "results/candidates/w4-square-aes-mugi-1.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w4-square-aes-mugi.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "fdfa17851bbd83eaa30cca430ef44375dd5aafc7ff4f65c00dc78dd80a5dee4b",
+    "metrics": {
+      "AND": 0,
+      "XOR": 108,
+      "NOT": 0,
+      "total": 108,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 108,
+        "NOT": 0,
+        "total": 108,
+        "depth": 3,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0007262500002980232
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 108,
+        "depth": 3,
+        "total": 108
+      },
+      "ok": true,
+      "verification_seconds": 0.042087416048161685
+    }
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "research/agent-pilot-v2/preparation/literature/aes-mixcolumns-hill-table9-binary.json",
+    "kind": "published-derived",
+    "source_url": "https://doi.org/10.46586/tosc.v2026.i1.506-526",
+    "normalization": "Table 9: 59 XOR2 + 20 XOR3; minimum-arrival binary association; direct original port order",
+    "sha256": "368ec79e35aba4dbddc8402f4055b89ebfe2a6c96b12bce5fa18d5cf5991840b",
+    "metrics": {
+      "AND": 0,
+      "XOR": 99,
+      "NOT": 0,
+      "total": 99,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 99,
+        "NOT": 0,
+        "total": 99,
+        "depth": 3,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0005294170696288347
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 99,
+        "depth": 3,
+        "total": 99
+      },
+      "ok": true,
+      "verification_seconds": 0.013878333033062518
+    }
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "research/agent-pilot-v2/preparation/literature/aes-mixcolumns-sbp-mixed-binary.json",
+    "kind": "published-derived",
+    "source_url": "https://doi.org/10.7717/peerj-cs.1820",
+    "normalization": "5 XOR2 + 7 XOR3 + 32 XOR4; minimum-arrival binary association; direct original port order",
+    "sha256": "aed8db913e60fd31002e26db592baa18994a002a8f35485197758804b9aec811",
+    "metrics": {
+      "AND": 0,
+      "XOR": 115,
+      "NOT": 0,
+      "total": 115,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 115,
+        "NOT": 0,
+        "total": 115,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0005944999866187572
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 115,
+        "depth": 5,
+        "total": 115
+      },
+      "ok": true,
+      "verification_seconds": 0.0038967919535934925
+    }
+  }
+]

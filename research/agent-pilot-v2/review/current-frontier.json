@@ -1,0 +1,378 @@
+{
+  "scope": "Selected fixed maps; correct local frontier is distinct from accepted novelty",
+  "instances": {
+    "square-aes-mugi": {
+      "specification_sha256": "8ad3723557d639cb064ceaa9673a80b03adc867e2a81cc7f45d94a7e339c033f",
+      "retrieved_published_frontier": [
+        {
+          "path": "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+          "sha256": "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+          "kind": "published",
+          "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor88-depth5.circ.txt",
+          "metrics": {
+            "AND": 0,
+            "XOR": 88,
+            "NOT": 0,
+            "total": 88,
+            "depth": 5,
+            "dead_gates": 0
+          }
+        },
+        {
+          "path": "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+          "sha256": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+          "kind": "published",
+          "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor90-depth4.circ.txt",
+          "metrics": {
+            "AND": 0,
+            "XOR": 90,
+            "NOT": 0,
+            "total": 90,
+            "depth": 4,
+            "dead_gates": 0
+          }
+        },
+        {
+          "path": "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+          "sha256": "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82",
+          "kind": "published",
+          "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor97-depth3.circ.txt",
+          "metrics": {
+            "AND": 0,
+            "XOR": 97,
+            "NOT": 0,
+            "total": 97,
+            "depth": 3,
+            "dead_gates": 0
+          }
+        }
+      ],
+      "current_verified_known_frontier": [
+        {
+          "path": "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+          "sha256": "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+          "kind": "published",
+          "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor88-depth5.circ.txt",
+          "metrics": {
+            "AND": 0,
+            "XOR": 88,
+            "NOT": 0,
+            "total": 88,
+            "depth": 5,
+            "dead_gates": 0
+          }
+        },
+        {
+          "path": "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+          "sha256": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+          "kind": "published",
+          "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor90-depth4.circ.txt",
+          "metrics": {
+            "AND": 0,
+            "XOR": 90,
+            "NOT": 0,
+            "total": 90,
+            "depth": 4,
+            "dead_gates": 0
+          }
+        },
+        {
+          "path": "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+          "sha256": "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82",
+          "kind": "published",
+          "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor97-depth3.circ.txt",
+          "metrics": {
+            "AND": 0,
+            "XOR": 97,
+            "NOT": 0,
+            "total": 97,
+            "depth": 3,
+            "dead_gates": 0
+          }
+        }
+      ],
+      "count_only_literature_guards": [
+        {
+          "XOR": 89,
+          "depth": null,
+          "source_url": "https://eprint.iacr.org/2025/1493",
+          "reason": "2025 revised abstract; no artifact recovered. A shallower >=89 XOR candidate must settle this depth; <=88 cannot be dominated by this point."
+        }
+      ]
+    },
+    "whirlwindm0": {
+      "specification_sha256": "ba2499f59ed277f26062bab7c0b1221e68939c199203f78872ca218b59cdba83",
+      "retrieved_published_frontier": [
+        {
+          "path": "certificates/whirlwindm0--xu2026-size.json",
+          "sha256": "bbe26e3782d0855acf0c826e996e5727d78b10b55937e2a3710831a9ceb0c782",
+          "kind": "published",
+          "source_url": "https://github.com/DerryAlex/circulant_synth/blob/73ff05008ae1d9445a69bc792653726cdccdca5b/results/size/Whirlwind_M0.txt",
+          "metrics": {
+            "AND": 0,
+            "XOR": 159,
+            "NOT": 0,
+            "total": 159,
+            "depth": 14,
+            "dead_gates": 0
+          }
+        }
+      ],
+      "current_verified_known_frontier": [
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor156-depth12-724f1cd5675a.json",
+          "sha256": "724f1cd5675a287d08194d040c39ba5770da51c71c48f5ff38f2da6a669b0b10",
+          "kind": "verified-local-agent-result",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 156,
+            "dead_gates": 0,
+            "depth": 12,
+            "total": 156
+          },
+          "session": "w2-m0",
+          "wave": 2,
+          "adjudication": "accepted"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor157-depth11-5e45d1db35ee.json",
+          "sha256": "5e45d1db35ee9b529f4d7b0b52cef9555385fbac520ff9c7a24ce5d5f7d7f655",
+          "kind": "verified-local-agent-result",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 157,
+            "dead_gates": 0,
+            "depth": 11,
+            "total": 157
+          },
+          "session": "w2-m0",
+          "wave": 2,
+          "adjudication": "accepted"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor158-depth10-4a402ae1c3b3.json",
+          "sha256": "4a402ae1c3b31055dd5ce576f909a16b9a1b2cb154c9afff35f8e45a616d01ef",
+          "kind": "verified-local-agent-result",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 158,
+            "dead_gates": 0,
+            "depth": 10,
+            "total": 158
+          },
+          "session": "w2-m0",
+          "wave": 2,
+          "adjudication": "accepted"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor166-depth9-85b9deac384c.json",
+          "sha256": "85b9deac384c7bcbc40b3775b570f7216b0055eb781ae9296eafa058e5ed21ad",
+          "kind": "verified-local-agent-result",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 166,
+            "dead_gates": 0,
+            "depth": 9,
+            "total": 166
+          },
+          "session": "w2-m0",
+          "wave": 2,
+          "adjudication": "accepted"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor205-depth8-e3cbdd52d90d.json",
+          "sha256": "e3cbdd52d90d10579166be56af34bf2f5ddc2fb508ee9547a0047f146fc34b10",
+          "kind": "verified-local-agent-result",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 205,
+            "dead_gates": 0,
+            "depth": 8,
+            "total": 205
+          },
+          "session": "w2-m0",
+          "wave": 2,
+          "adjudication": "unresolved"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor206-depth7-837fe5a91c9b.json",
+          "sha256": "837fe5a91c9bed4768b04413aa0e8774b661e8555a2060efa9e4930c439cbdab",
+          "kind": "verified-local-agent-result",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 206,
+            "dead_gates": 0,
+            "depth": 7,
+            "total": 206
+          },
+          "session": "w2-m0",
+          "wave": 2,
+          "adjudication": "unresolved"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor210-depth6-bcaa50539c41.json",
+          "sha256": "bcaa50539c415f17e5962cc41947482ee9c5a81fa2a86b5e29aaae9f65c0244e",
+          "kind": "verified-local-agent-result",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 210,
+            "dead_gates": 0,
+            "depth": 6,
+            "total": 210
+          },
+          "session": "w2-m0",
+          "wave": 2,
+          "adjudication": "unresolved"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor214-depth5-8406992ede8e.json",
+          "sha256": "8406992ede8ee3cab9b20ca2d9e24cf3ab1c9c424f90db2ed90f19abf288ce16",
+          "kind": "verified-local-agent-result",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 214,
+            "dead_gates": 0,
+            "depth": 5,
+            "total": 214
+          },
+          "session": "w2-m0",
+          "wave": 2,
+          "adjudication": "unresolved"
+        }
+      ],
+      "count_only_literature_guards": [
+        {
+          "XOR": 183,
+          "depth": null,
+          "source_url": "https://doi.org/10.13154/tosc.v2020.i2.120-145",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard."
+        },
+        {
+          "XOR": 173,
+          "depth": null,
+          "source_url": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard."
+        },
+        {
+          "XOR": 172,
+          "depth": null,
+          "source_url": "https://eprint.iacr.asia/2026/2520",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard."
+        }
+      ]
+    },
+    "whirlwindm1": {
+      "specification_sha256": "46b1cf15018adb7e7747758175ab9280682b9401242a785790731f32664c5ff2",
+      "retrieved_published_frontier": [
+        {
+          "path": "certificates/whirlwindm1--xu2026-size.json",
+          "sha256": "355f5eeeada505bfbb785fa5d2f5e79e667a48fe2228e3570980d17b4f028ef6",
+          "kind": "published",
+          "source_url": "https://github.com/DerryAlex/circulant_synth/blob/73ff05008ae1d9445a69bc792653726cdccdca5b/results/size/Whirlwind_M1.txt",
+          "metrics": {
+            "AND": 0,
+            "XOR": 169,
+            "NOT": 0,
+            "total": 169,
+            "depth": 11,
+            "dead_gates": 0
+          }
+        }
+      ],
+      "current_verified_known_frontier": [
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-163-10-dfa71c3370e1.json",
+          "sha256": "dfa71c3370e195e9063a36b1ce9b6d0cc22a51a7ecb06887603fd6cfd45959d2",
+          "kind": "verified-local-agent-result",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 163,
+            "dead_gates": 0,
+            "depth": 10,
+            "total": 163
+          },
+          "session": "w2-m1",
+          "wave": 2,
+          "adjudication": "accepted"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-164-9-c2ff5ef13d92.json",
+          "sha256": "c2ff5ef13d92a45918d28889e73960f89acfd00c588c1d00b1e7cf7ab2848b59",
+          "kind": "verified-local-agent-result",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 164,
+            "dead_gates": 0,
+            "depth": 9,
+            "total": 164
+          },
+          "session": "w2-m1",
+          "wave": 2,
+          "adjudication": "accepted"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-215-6-22daae1c178b.json",
+          "sha256": "22daae1c178b2b6d461cb75b9ee143da2f145cab86734ccd2871d404559a8298",
+          "kind": "verified-local-agent-result",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 215,
+            "dead_gates": 0,
+            "depth": 6,
+            "total": 215
+          },
+          "session": "w2-m1",
+          "wave": 2,
+          "adjudication": "unresolved"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-224-5-0e1af86696b6.json",
+          "sha256": "0e1af86696b685838da04099fbbd720bde58c4edd89a52ad2b437357b9025c99",
+          "kind": "verified-local-agent-result",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 224,
+            "dead_gates": 0,
+            "depth": 5,
+            "total": 224
+          },
+          "session": "w2-m1",
+          "wave": 2,
+          "adjudication": "unresolved"
+        }
+      ],
+      "count_only_literature_guards": [
+        {
+          "XOR": 180,
+          "depth": null,
+          "source_url": "https://doi.org/10.13154/tosc.v2020.i2.120-145",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard."
+        },
+        {
+          "XOR": 181,
+          "depth": null,
+          "source_url": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard."
+        },
+        {
+          "XOR": 170,
+          "depth": null,
+          "source_url": "https://eprint.iacr.asia/2026/2520",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard."
+        }
+      ]
+    }
+  }
+}

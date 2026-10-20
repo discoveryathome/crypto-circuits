@@ -1,0 +1,253 @@
+{
+  "name": "union-v1",
+  "seed": 8085062260873714186,
+  "seed_derivation": "low64 XOR named constant; unnamed runs XOR first8 SHA256(name) big-endian",
+  "started_at": "2026-10-20T06:58:48.430519+00:00",
+  "command": [
+    "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/union.cpp.bin",
+    "8085062260873714186",
+    "100.0",
+    "100.0",
+    "0",
+    "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/union-v1/matrix.txt",
+    "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/union-v1/start-0.txt",
+    "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/union-v1/start-1.txt",
+    "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/union-v1/start-2.txt"
+  ],
+  "compile_command": [
+    "c++",
+    "-O3",
+    "-std=c++17",
+    "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/union.cpp",
+    "-o",
+    "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/union.cpp.bin"
+  ],
+  "compile_wall": 7.67416912491899,
+  "source_sha256": "9273712e46240e96de3bb899d612eb91a05c7d1b562857f8e0654a7ed3e0585a",
+  "toolkit_sha256": "0831142ac5d31a3a49920001beb658247a8ea2a7054fa8f478c4f7683991d12e",
+  "binary_sha256": "7e9eaab751cac7051c6db776caa061ba85e5f94f221528490363ea786fd2bcda",
+  "starts": [
+    {
+      "instance": "square-aes-mugi",
+      "path": "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+      "kind": "published",
+      "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor88-depth5.circ.txt",
+      "source_origin": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor88-depth5.circ.txt",
+      "sha256": "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+      "metrics": {
+        "AND": 0,
+        "XOR": 88,
+        "NOT": 0,
+        "total": 88,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 88,
+          "NOT": 0,
+          "total": 88,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0033948749769479036
+      },
+      "second": {
+        "evaluations": 33,
+        "method": "independent scalar implementation",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 88,
+          "depth": 5,
+          "total": 88
+        },
+        "ok": true,
+        "verification_seconds": 0.004360707942396402
+      }
+    },
+    {
+      "instance": "square-aes-mugi",
+      "path": "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+      "kind": "published",
+      "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor90-depth4.circ.txt",
+      "source_origin": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor90-depth4.circ.txt",
+      "sha256": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+      "metrics": {
+        "AND": 0,
+        "XOR": 90,
+        "NOT": 0,
+        "total": 90,
+        "depth": 4,
+        "dead_gates": 0
+      },
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 90,
+          "NOT": 0,
+          "total": 90,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0005351250292733312
+      },
+      "second": {
+        "evaluations": 33,
+        "method": "independent scalar implementation",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 90,
+          "depth": 4,
+          "total": 90
+        },
+        "ok": true,
+        "verification_seconds": 0.001582416007295251
+      }
+    },
+    {
+      "instance": "square-aes-mugi",
+      "path": "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+      "kind": "published",
+      "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor97-depth3.circ.txt",
+      "source_origin": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor97-depth3.circ.txt",
+      "sha256": "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82",
+      "metrics": {
+        "AND": 0,
+        "XOR": 97,
+        "NOT": 0,
+        "total": 97,
+        "depth": 3,
+        "dead_gates": 0
+      },
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 97,
+          "NOT": 0,
+          "total": 97,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0006617920007556677
+      },
+      "second": {
+        "evaluations": 33,
+        "method": "independent scalar implementation",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 97,
+          "depth": 3,
+          "total": 97
+        },
+        "ok": true,
+        "verification_seconds": 0.03451016708277166
+      }
+    }
+  ],
+  "status": "complete",
+  "checkpoints": [
+    {
+      "method": "start",
+      "iteration": 0,
+      "cpu_seconds": 0.000447,
+      "XOR": 88,
+      "depth": 5,
+      "first_checkpoint_at": "2026-10-20T06:58:48.440458+00:00",
+      "sha256": "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/union-v1/candidate-0.json",
+      "checks": [
+        {
+          "tool": "tools/check_submission.py",
+          "returncode": 0,
+          "stdout": "{\"evidence\": {\"coefficient_equalities\": 1024, \"proof\": \"exact affine propagation\"}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 88, \"dead_gates\": 0, \"depth\": 5, \"total\": 88}, \"ok\": true, \"verification_seconds\": 0.000513874925673008}\n",
+          "stderr": "",
+          "wall_seconds": 0.07296666596084833
+        },
+        {
+          "tool": "tools/audit_submission.py",
+          "returncode": 0,
+          "stdout": "{\"evaluations\": 33, \"method\": \"independent scalar implementation\", \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 88, \"depth\": 5, \"total\": 88}, \"ok\": true, \"verification_seconds\": 0.0016067909309640527}\n",
+          "stderr": "",
+          "wall_seconds": 0.07006499997805804
+        }
+      ],
+      "dominated_by_issued_prior": true
+    },
+    {
+      "method": "start",
+      "iteration": 0,
+      "cpu_seconds": 0.000527,
+      "XOR": 90,
+      "depth": 4,
+      "first_checkpoint_at": "2026-10-20T06:58:48.585639+00:00",
+      "sha256": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/union-v1/candidate-1.json",
+      "checks": [
+        {
+          "tool": "tools/check_submission.py",
+          "returncode": 0,
+          "stdout": "{\"evidence\": {\"coefficient_equalities\": 1024, \"proof\": \"exact affine propagation\"}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 90, \"dead_gates\": 0, \"depth\": 4, \"total\": 90}, \"ok\": true, \"verification_seconds\": 0.0004495839821174741}\n",
+          "stderr": "",
+          "wall_seconds": 0.06270649994257838
+        },
+        {
+          "tool": "tools/audit_submission.py",
+          "returncode": 0,
+          "stdout": "{\"evaluations\": 33, \"method\": \"independent scalar implementation\", \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 90, \"depth\": 4, \"total\": 90}, \"ok\": true, \"verification_seconds\": 0.0016455830773338675}\n",
+          "stderr": "",
+          "wall_seconds": 0.08581383293494582
+        }
+      ],
+      "dominated_by_issued_prior": true
+    },
+    {
+      "method": "start",
+      "iteration": 0,
+      "cpu_seconds": 0.000614,
+      "XOR": 97,
+      "depth": 3,
+      "first_checkpoint_at": "2026-10-20T06:58:48.736599+00:00",
+      "sha256": "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82",
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/union-v1/candidate-2.json",
+      "checks": [
+        {
+          "tool": "tools/check_submission.py",
+          "returncode": 0,
+          "stdout": "{\"evidence\": {\"coefficient_equalities\": 1024, \"proof\": \"exact affine propagation\"}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 97, \"dead_gates\": 0, \"depth\": 3, \"total\": 97}, \"ok\": true, \"verification_seconds\": 0.0005243329796940088}\n",
+          "stderr": "",
+          "wall_seconds": 0.07817270897794515
+        },
+        {
+          "tool": "tools/audit_submission.py",
+          "returncode": 0,
+          "stdout": "{\"evaluations\": 33, \"method\": \"independent scalar implementation\", \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 97, \"depth\": 3, \"total\": 97}, \"ok\": true, \"verification_seconds\": 0.0017201669979840517}\n",
+          "stderr": "",
+          "wall_seconds": 0.07651220890693367
+        }
+      ],
+      "dominated_by_issued_prior": true
+    }
+  ],
+  "returncode": 0,
+  "ended_at": "2026-10-20T07:00:28.451633+00:00",
+  "search_wall_seconds": 100.01386129192542
+}

@@ -1,0 +1,36 @@
+{
+  "instance": "gf7-91",
+  "wave": 4,
+  "seed": "12daa33e11979e458eecfbf6b839a7d4",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/gf7-91--final-f7.json",
+  "search_wall_seconds": 0.2197949580149725,
+  "search_cpu_seconds": 0.1709329999999909,
+  "counters": {
+    "walk_steps": 256,
+    "accepted_walk_changes": 69,
+    "candidates_considered": 2
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w4-gf7-91-0.json",
+      "sha256": "c9af7d7fd6b5d7c81ed1a1e187ef4979526a7a8666a6eef4204e641dbfb3573e",
+      "ok": true,
+      "metrics": {
+        "AND": 32,
+        "XOR": 55,
+        "NOT": 0,
+        "total": 87,
+        "depth": 8,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "exhaustive_inputs": 16384
+      },
+      "verification_seconds": 0.3454389999387786
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

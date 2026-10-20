@@ -1,0 +1,198 @@
+{
+  "id": "gf8-11b",
+  "title": "GF(2^8), modulus 0x11b",
+  "kind": "multiplier",
+  "inputs": 16,
+  "outputs": 8,
+  "width": 8,
+  "modulus": 283,
+  "baselines": [
+    {
+      "path": "certificates/gf8-11b--aes107-d13.json",
+      "origin": "sources/jain/multipliers/circuits/aes107_d13.slp",
+      "metrics": {
+        "AND": 35,
+        "XOR": 72,
+        "NOT": 0,
+        "total": 107,
+        "depth": 13,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/gf8-11b--aes107-k35.json",
+      "origin": "sources/jain/multipliers/circuits/aes107_k35.slp",
+      "metrics": {
+        "AND": 35,
+        "XOR": 72,
+        "NOT": 0,
+        "total": 107,
+        "depth": 19,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/gf8-11b--aes107-k36.json",
+      "origin": "sources/jain/multipliers/circuits/aes107_k36.slp",
+      "metrics": {
+        "AND": 36,
+        "XOR": 71,
+        "NOT": 0,
+        "total": 107,
+        "depth": 18,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/gf8-11b--aes108-d12.json",
+      "origin": "sources/jain/multipliers/circuits/aes108_d12.slp",
+      "metrics": {
+        "AND": 34,
+        "XOR": 74,
+        "NOT": 0,
+        "total": 108,
+        "depth": 12,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/gf8-11b--aes108-d19.json",
+      "origin": "sources/jain/multipliers/circuits/aes108_d19.slp",
+      "metrics": {
+        "AND": 34,
+        "XOR": 74,
+        "NOT": 0,
+        "total": 108,
+        "depth": 19,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/gf8-11b--aes109-d18.json",
+      "origin": "sources/jain/multipliers/circuits/aes109_d18.slp",
+      "metrics": {
+        "AND": 33,
+        "XOR": 76,
+        "NOT": 0,
+        "total": 109,
+        "depth": 18,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/gf8-11b--aes110-d20.json",
+      "origin": "sources/jain/multipliers/circuits/aes110_d20.slp",
+      "metrics": {
+        "AND": 32,
+        "XOR": 78,
+        "NOT": 0,
+        "total": 110,
+        "depth": 20,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/gf8-11b--aes110-d7.json",
+      "origin": "sources/jain/multipliers/circuits/aes110_d7.slp",
+      "metrics": {
+        "AND": 36,
+        "XOR": 74,
+        "NOT": 0,
+        "total": 110,
+        "depth": 7,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/gf8-11b--aes112-d14.json",
+      "origin": "sources/jain/multipliers/circuits/aes112_d14.slp",
+      "metrics": {
+        "AND": 43,
+        "XOR": 69,
+        "NOT": 0,
+        "total": 112,
+        "depth": 14,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/gf8-11b--aes112-d6.json",
+      "origin": "sources/jain/multipliers/circuits/aes112_d6.slp",
+      "metrics": {
+        "AND": 36,
+        "XOR": 76,
+        "NOT": 0,
+        "total": 112,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/gf8-11b--aes113-d15.json",
+      "origin": "sources/jain/multipliers/circuits/aes113_d15.slp",
+      "metrics": {
+        "AND": 43,
+        "XOR": 70,
+        "NOT": 0,
+        "total": 113,
+        "depth": 15,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/gf8-11b--aes114-d9.json",
+      "origin": "sources/jain/multipliers/circuits/aes114_d9.slp",
+      "metrics": {
+        "AND": 43,
+        "XOR": 71,
+        "NOT": 0,
+        "total": 114,
+        "depth": 9,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/gf8-11b--aes115-cmtprods-d15.json",
+      "origin": "sources/jain/multipliers/circuits/aes115_cmtprods_d15.slp",
+      "metrics": {
+        "AND": 48,
+        "XOR": 67,
+        "NOT": 0,
+        "total": 115,
+        "depth": 15,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/gf8-11b--cmt.json",
+      "origin": "sources/jain/multipliers/sources/circuits/cmt/slp_84310.txt",
+      "metrics": {
+        "AND": 48,
+        "XOR": 69,
+        "NOT": 0,
+        "total": 117,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    }
+  ],
+  "use": "polynomial-basis multiplication component",
+  "literature_status": "Jain October 2026 plus CMT; no global optimality claim",
+  "literature_claims": [],
+  "best_published_xor_upper_bound": 67,
+  "novelty_policy": "Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker."
+}

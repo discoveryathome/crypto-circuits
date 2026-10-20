@@ -1,0 +1,56 @@
+{
+  "instance": "foxmu8",
+  "wave": 0,
+  "seed": "133d99b3a52247005b2bb4b771cf2ac3",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/foxmu8--nist.json",
+  "search_wall_seconds": 16.33540116599761,
+  "search_cpu_seconds": 9.084703000000001,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 87,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w0-foxmu8-0.json",
+      "sha256": "913910490d24d688f509066b0777084b06af20a7f8f3f0e09387a4c04a305c6f",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 601,
+        "NOT": 0,
+        "total": 601,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0054021249525249004
+    },
+    {
+      "path": "results/candidates/w0-foxmu8-1.json",
+      "sha256": "5e5c89279da7822b6f86ed090737415e09889eae38b58c3561e52a5338e0e736",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 540,
+        "NOT": 0,
+        "total": 540,
+        "depth": 13,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.018867583014070988
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

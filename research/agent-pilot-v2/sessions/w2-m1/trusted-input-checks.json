@@ -1,0 +1,18 @@
+{
+  "linear_pilot/checker.py": {
+    "sha256": "b1c9fe1bedd873f695bbb84626b26ad325c38e73c3362c4868420505cd7a3ef3",
+    "matches": true
+  },
+  "tools/check_submission.py": {
+    "sha256": "84f6116276fbdd51ac5e82ec04e40e4b56de16daa0d2b585c289189abf9a2016",
+    "matches": true
+  },
+  "tools/audit_submission.py": {
+    "sha256": "5d15901dca9407acf4f5bf78afadb7649ed59632e6050ce20c7766b85e1b8b78",
+    "matches": true
+  },
+  "portfolio/whirlwindm1.json": {
+    "sha256": "46b1cf15018adb7e7747758175ab9280682b9401242a785790731f32664c5ff2",
+    "matches": true
+  }
+}

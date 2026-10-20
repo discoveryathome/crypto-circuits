@@ -1,0 +1,39 @@
+{
+  "full_seed": "f6a88165b9335b0d3545462389b8bbe9",
+  "attempts": [
+    {
+      "id": "search-initial",
+      "seed": 3838551229259566057,
+      "derivation": "decimal transcription error of low64; protocol deviation retained"
+    },
+    {
+      "id": "search-rotation-0",
+      "seed": 3838551375851600873,
+      "derivation": "int(full_seed,16) % 2**64"
+    },
+    {
+      "id": "search-rotation-1",
+      "seed": 17209347832371177083,
+      "derivation": "int.from_bytes(SHA256(bytes.fromhex(full_seed)+label.encode()).digest()[:8], 'big')",
+      "label": "search-rotation-1"
+    },
+    {
+      "id": "search-rotation-2",
+      "seed": 6901139912375171768,
+      "derivation": "int.from_bytes(SHA256(bytes.fromhex(full_seed)+label.encode()).digest()[:8], 'big')",
+      "label": "search-rotation-2"
+    },
+    {
+      "id": "search-rotation-3",
+      "seed": 4451692180840888237,
+      "derivation": "int.from_bytes(SHA256(bytes.fromhex(full_seed)+label.encode()).digest()[:8], 'big')",
+      "label": "search-rotation-3"
+    },
+    {
+      "id": "search-rotation-4",
+      "seed": 9729919764751559025,
+      "derivation": "int.from_bytes(SHA256(bytes.fromhex(full_seed)+label.encode()).digest()[:8], 'big')",
+      "label": "search-rotation-4"
+    }
+  ]
+}

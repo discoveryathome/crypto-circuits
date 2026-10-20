@@ -1,0 +1,103 @@
+{
+  "spec": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/portfolio/whirlwindm1.json",
+  "spec_sha256": "46b1cf15018adb7e7747758175ab9280682b9401242a785790731f32664c5ff2",
+  "source_sha256": "0831142ac5d31a3a49920001beb658247a8ea2a7054fa8f478c4f7683991d12e",
+  "wrapper_sha256": "5e5bec9e2250454b0bf6642cca0e3827a22e2340673c326b89afa0241968a474",
+  "binary_sha256": "1196865fbd2691ae21a32e18c7ff84d191fee93f8e46884e54d974735a93013c",
+  "seed": 17681717009986988628,
+  "cpu_seconds_budget": 180.0,
+  "wall_seconds_guard": 220.0,
+  "starts": [
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/certificates/whirlwindm1--xu2026-size.json",
+      "sha256": "355f5eeeada505bfbb785fa5d2f5e79e667a48fe2228e3570980d17b4f028ef6"
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/results/candidates/w3-whirlwindm1-1.json",
+      "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d"
+    }
+  ],
+  "checkpoints": [
+    {
+      "method": "start",
+      "iteration": 0,
+      "cpu_seconds": 0.000667,
+      "XOR": 169,
+      "depth": 11,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m1/initial-search/candidate-6c5cc9fa524c0c7c943169e0348db8c738515587aa7b6cf4b894b62d9cde73fa.json",
+      "sha256": "6c5cc9fa524c0c7c943169e0348db8c738515587aa7b6cf4b894b62d9cde73fa",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 169,
+          "NOT": 0,
+          "total": 169,
+          "depth": 11,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0033107500057667494
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 169,
+          "NOT": 0,
+          "total": 169,
+          "depth": 11
+        },
+        "verification_seconds": 0.0035461660008877516
+      }
+    },
+    {
+      "method": "start",
+      "iteration": 0,
+      "cpu_seconds": 0.000799,
+      "XOR": 240,
+      "depth": 5,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m1/initial-search/candidate-c587e5aed4c5d60d6d19c10694edd99483aa026303ed18a5660066dcc5d2b75e.json",
+      "sha256": "c587e5aed4c5d60d6d19c10694edd99483aa026303ed18a5660066dcc5d2b75e",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.004308832925744355
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 240,
+          "NOT": 0,
+          "total": 240,
+          "depth": 5
+        },
+        "verification_seconds": 0.0053934999741613865
+      }
+    }
+  ],
+  "status": "complete",
+  "method": "own bounded-distance BP + exact-distance window BP",
+  "limitations": "Search is heuristic; exact distances do not prove globally optimal circuits. Wall/CPU stopping may change final iteration count.",
+  "returncode": 0,
+  "wall_seconds": 221.2310465829214
+}

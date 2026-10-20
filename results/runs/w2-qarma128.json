@@ -1,0 +1,38 @@
+{
+  "instance": "qarma128",
+  "wave": 2,
+  "seed": "eee4564d87a69561f470086d482ce15c",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/qarma128--nist.json",
+  "search_wall_seconds": 0.5260338749503717,
+  "search_cpu_seconds": 0.11618300000000659,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 104,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w2-qarma128-0.json",
+      "sha256": "549e3ebf4741f5720c4282cdb609136a795fd488e6882c367dda0e13f75bb930",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 48,
+        "NOT": 0,
+        "total": 48,
+        "depth": 2,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.00027774996124207973
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

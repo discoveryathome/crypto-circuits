@@ -1,0 +1,22 @@
+library 4000 edges 66422
+chain 0 iter 20000 last 218/5 accepts 3455
+chain 10 iter 220000 last 158/11 accepts 2294
+chain 20 iter 420000 last 164/10 accepts 2384
+chain 30 iter 620000 last 168/13 accepts 2611
+chain 40 iter 820000 last 157/12 accepts 2353
+chain 50 iter 1020000 last 219/8 accepts 3892
+chain 60 iter 1220000 last 159/10 accepts 2328
+chain 70 iter 1420000 last 172/9 accepts 2351
+chain 80 iter 1620000 last 156/12 accepts 2422
+chain 90 iter 1820000 last 164/10 accepts 2533
+chain 100 iter 2020000 last 158/11 accepts 2341
+chain 110 iter 2220000 last 175/10 accepts 2525
+chain 120 iter 2420000 last 159/13 accepts 2403
+chain 130 iter 2620000 last 156/12 accepts 2318
+chain 140 iter 2820000 last 209/7 accepts 3787
+chain 150 iter 3020000 last 167/9 accepts 2406
+chain 160 iter 3220000 last 165/12 accepts 2637
+chain 170 iter 3420000 last 159/12 accepts 2381
+chain 180 iter 3620000 last 210/6 accepts 3667
+chain 190 iter 3820000 last 159/10 accepts 2282
+done iterations 3916000

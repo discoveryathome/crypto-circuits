@@ -1,0 +1,1736 @@
+{
+  "aria:5e259e82d64343709309fe3a8eb9be70d9212136c6c9f2a4bd1c8d4344f825c6": {
+    "instance": "aria",
+    "path": "certificates/aria--nist.json",
+    "sha256": "5e259e82d64343709309fe3a8eb9be70d9212136c6c9f2a4bd1c8d4344f825c6",
+    "process_wall_seconds": 0.11253312497865409,
+    "evaluations": 129,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 387,
+      "depth": 7,
+      "total": 387
+    },
+    "ok": true,
+    "verification_seconds": 0.027727541979402304
+  },
+  "fides-midori-mantis:6b0d4a373e7152dacbd7effad02333e3c2343ff1a4c608b61dc49d7f072d49d2": {
+    "instance": "fides-midori-mantis",
+    "path": "certificates/fides-midori-mantis--nist.json",
+    "sha256": "6b0d4a373e7152dacbd7effad02333e3c2343ff1a4c608b61dc49d7f072d49d2",
+    "process_wall_seconds": 0.0922450419748202,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 24,
+      "depth": 3,
+      "total": 24
+    },
+    "ok": true,
+    "verification_seconds": 0.00042095803655683994
+  },
+  "joltik:e4b1f048870dcaccfb9449a776fc3d49bdab3f2b84e7e1efaaea897d2dfb8127": {
+    "instance": "joltik",
+    "path": "certificates/joltik--nist.json",
+    "sha256": "e4b1f048870dcaccfb9449a776fc3d49bdab3f2b84e7e1efaaea897d2dfb8127",
+    "process_wall_seconds": 0.06634062493685633,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 44,
+      "depth": 7,
+      "total": 44
+    },
+    "ok": true,
+    "verification_seconds": 0.000540834036655724
+  },
+  "pridel0:462f524643c77fea78c406fab05cf97cc1ffa1fc736b802724890fb6d108dbda": {
+    "instance": "pridel0",
+    "path": "certificates/pridel0--nist.json",
+    "sha256": "462f524643c77fea78c406fab05cf97cc1ffa1fc736b802724890fb6d108dbda",
+    "process_wall_seconds": 0.0833594169234857,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 24,
+      "depth": 4,
+      "total": 24
+    },
+    "ok": true,
+    "verification_seconds": 0.0003802500432357192
+  },
+  "princem0:deff13c262dad01a039259abb82f738a340a837ed38ceed6e79b7a75a2cb494f": {
+    "instance": "princem0",
+    "path": "certificates/princem0--nist.json",
+    "sha256": "deff13c262dad01a039259abb82f738a340a837ed38ceed6e79b7a75a2cb494f",
+    "process_wall_seconds": 0.10346045903861523,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 24,
+      "depth": 4,
+      "total": 24
+    },
+    "ok": true,
+    "verification_seconds": 0.0003812500508502126
+  },
+  "qarma128:0146bcc2a7a8792cc85307bfadb1f602d6c1fca5821c89dba95fd381e95a0642": {
+    "instance": "qarma128",
+    "path": "certificates/qarma128--nist.json",
+    "sha256": "0146bcc2a7a8792cc85307bfadb1f602d6c1fca5821c89dba95fd381e95a0642",
+    "process_wall_seconds": 0.07078425004146993,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 48,
+      "depth": 6,
+      "total": 48
+    },
+    "ok": true,
+    "verification_seconds": 0.0016917079919949174
+  },
+  "qarma64:f62f2c2e1c48200627192ea1da9c644dd10b0ef17cd043fa4a6e08c25003fcc6": {
+    "instance": "qarma64",
+    "path": "certificates/qarma64--nist.json",
+    "sha256": "f62f2c2e1c48200627192ea1da9c644dd10b0ef17cd043fa4a6e08c25003fcc6",
+    "process_wall_seconds": 0.08292066608555615,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 24,
+      "depth": 8,
+      "total": 24
+    },
+    "ok": true,
+    "verification_seconds": 0.00039195793215185404
+  },
+  "skinny:0f328c491608eebbb0d945a99b11542916cf6007ca9805fa8d2710d902a4115a": {
+    "instance": "skinny",
+    "path": "certificates/skinny--nist.json",
+    "sha256": "0f328c491608eebbb0d945a99b11542916cf6007ca9805fa8d2710d902a4115a",
+    "process_wall_seconds": 0.08460391697008163,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 12,
+      "depth": 2,
+      "total": 12
+    },
+    "ok": true,
+    "verification_seconds": 0.00026062491815537214
+  },
+  "smallscaleaes:78dca71e67b3566858fb9ffd8913e8924f419c8cc814fd9e3d6a9b3a64ffed25": {
+    "instance": "smallscaleaes",
+    "path": "certificates/smallscaleaes--nist.json",
+    "sha256": "78dca71e67b3566858fb9ffd8913e8924f419c8cc814fd9e3d6a9b3a64ffed25",
+    "process_wall_seconds": 0.07542920799460262,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 43,
+      "depth": 5,
+      "total": 43
+    },
+    "ok": true,
+    "verification_seconds": 0.0005192919634282589
+  },
+  "anubis-clefiam0:c07e93f2082ea34fe721215a69c81eed6c0934e118d7bd357128d947cd13d34d": {
+    "instance": "anubis-clefiam0",
+    "path": "certificates/anubis-clefiam0--nist.json",
+    "sha256": "c07e93f2082ea34fe721215a69c81eed6c0934e118d7bd357128d947cd13d34d",
+    "process_wall_seconds": 0.09952275000978261,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 98,
+      "depth": 9,
+      "total": 98
+    },
+    "ok": true,
+    "verification_seconds": 0.0018157500308007002
+  },
+  "clefiam1:b7ecdaa6152d94b5f497e014df125a84bf2aaec7e877656fdd468f49e134edcc": {
+    "instance": "clefiam1",
+    "path": "certificates/clefiam1--nist.json",
+    "sha256": "b7ecdaa6152d94b5f497e014df125a84bf2aaec7e877656fdd468f49e134edcc",
+    "process_wall_seconds": 0.07813733397051692,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 103,
+      "depth": 10,
+      "total": 103
+    },
+    "ok": true,
+    "verification_seconds": 0.001697208033874631
+  },
+  "foxmu4:b0eedb62c843112d24f7a5fb1ae8e8c6249a5e8fcc163db1c24cdf8fb8f8732d": {
+    "instance": "foxmu4",
+    "path": "certificates/foxmu4--nist.json",
+    "sha256": "b0eedb62c843112d24f7a5fb1ae8e8c6249a5e8fcc163db1c24cdf8fb8f8732d",
+    "process_wall_seconds": 0.0755103329429403,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 130,
+      "depth": 13,
+      "total": 130
+    },
+    "ok": true,
+    "verification_seconds": 0.002295374986715615
+  },
+  "square-aes-mugi:1c7ed3fd18a9ed69e6b40a5496e9aac11bfb480cf2d6fce6dd5adf3ce7cd1653": {
+    "instance": "square-aes-mugi",
+    "path": "certificates/square-aes-mugi--nist.json",
+    "sha256": "1c7ed3fd18a9ed69e6b40a5496e9aac11bfb480cf2d6fce6dd5adf3ce7cd1653",
+    "process_wall_seconds": 0.08042050001677126,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 92,
+      "depth": 6,
+      "total": 92
+    },
+    "ok": true,
+    "verification_seconds": 0.0016295419773086905
+  },
+  "twofish:65c255e13da2e9ffa3a22673ef741d8000b5dfd0c4ca9cd6545e93f274e26f78": {
+    "instance": "twofish",
+    "path": "certificates/twofish--nist.json",
+    "sha256": "65c255e13da2e9ffa3a22673ef741d8000b5dfd0c4ca9cd6545e93f274e26f78",
+    "process_wall_seconds": 0.07702679105568677,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 111,
+      "depth": 8,
+      "total": 111
+    },
+    "ok": true,
+    "verification_seconds": 0.0026671659434214234
+  },
+  "whirlwindm0:dc4879f2c7ce2c8e41017054c2fd5dcef9e88a0f3b1416927a1aa7baa6682672": {
+    "instance": "whirlwindm0",
+    "path": "certificates/whirlwindm0--nist.json",
+    "sha256": "dc4879f2c7ce2c8e41017054c2fd5dcef9e88a0f3b1416927a1aa7baa6682672",
+    "process_wall_seconds": 0.07332887500524521,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 183,
+      "depth": 14,
+      "total": 183
+    },
+    "ok": true,
+    "verification_seconds": 0.0031039579771459103
+  },
+  "whirlwindm1:1ded87939c258a9f95639ab0227b308801e141cefe355f1c849d6bb441db17ea": {
+    "instance": "whirlwindm1",
+    "path": "certificates/whirlwindm1--nist.json",
+    "sha256": "1ded87939c258a9f95639ab0227b308801e141cefe355f1c849d6bb441db17ea",
+    "process_wall_seconds": 0.08919354202225804,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 187,
+      "depth": 16,
+      "total": 187
+    },
+    "ok": true,
+    "verification_seconds": 0.0031740000704303384
+  },
+  "foxmu8:7d1c3622323ef44fd1d7cd6f27340ac72040f1edc38ef364a1d9a6f65a0a6829": {
+    "instance": "foxmu8",
+    "path": "certificates/foxmu8--nist.json",
+    "sha256": "7d1c3622323ef44fd1d7cd6f27340ac72040f1edc38ef364a1d9a6f65a0a6829",
+    "process_wall_seconds": 0.1189835419645533,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 540,
+      "depth": 14,
+      "total": 540
+    },
+    "ok": true,
+    "verification_seconds": 0.01627641706727445
+  },
+  "grostl:7ee02c2c258118c6d98e0ffeeee7fb764814dc255f32707c4e0edab47aa97208": {
+    "instance": "grostl",
+    "path": "certificates/grostl--nist.json",
+    "sha256": "7ee02c2c258118c6d98e0ffeeee7fb764814dc255f32707c4e0edab47aa97208",
+    "process_wall_seconds": 0.08242933405563235,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 410,
+      "depth": 12,
+      "total": 410
+    },
+    "ok": true,
+    "verification_seconds": 0.011273166979663074
+  },
+  "khazad:f6d8620aa9f9d14a4ac6eaf7be4d92323a4a370515903e3f8bab919b0290fbdb": {
+    "instance": "khazad",
+    "path": "certificates/khazad--nist.json",
+    "sha256": "f6d8620aa9f9d14a4ac6eaf7be4d92323a4a370515903e3f8bab919b0290fbdb",
+    "process_wall_seconds": 0.09384424996096641,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 366,
+      "depth": 18,
+      "total": 366
+    },
+    "ok": true,
+    "verification_seconds": 0.011014417046681046
+  },
+  "whirlpool-maelstrom:332d1407ff30ca39a4912b7065b12ebd4215a737f8659b515460e4246c30a88b": {
+    "instance": "whirlpool-maelstrom",
+    "path": "certificates/whirlpool-maelstrom--nist.json",
+    "sha256": "332d1407ff30ca39a4912b7065b12ebd4215a737f8659b515460e4246c30a88b",
+    "process_wall_seconds": 0.08830387494526803,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 425,
+      "depth": 11,
+      "total": 425
+    },
+    "ok": true,
+    "verification_seconds": 0.011266250046901405
+  },
+  "bkl16-4x4-gf16:7950c30d3dc894247706ae8e84de6942b2179038747711706d629f0b6e18f50b": {
+    "instance": "bkl16-4x4-gf16",
+    "path": "certificates/bkl16-4x4-gf16--nist.json",
+    "sha256": "7950c30d3dc894247706ae8e84de6942b2179038747711706d629f0b6e18f50b",
+    "process_wall_seconds": 0.07197870791424066,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 41,
+      "depth": 5,
+      "total": 41
+    },
+    "ok": true,
+    "verification_seconds": 0.00045320799108594656
+  },
+  "jpst17-4x4-gf16:95b0c60e0aa8838ab54be8afba96fab39efdc4e9824dc80f5afeadd772f8be99": {
+    "instance": "jpst17-4x4-gf16",
+    "path": "certificates/jpst17-4x4-gf16--nist.json",
+    "sha256": "95b0c60e0aa8838ab54be8afba96fab39efdc4e9824dc80f5afeadd772f8be99",
+    "process_wall_seconds": 0.09343008405994624,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 40,
+      "depth": 6,
+      "total": 40
+    },
+    "ok": true,
+    "verification_seconds": 0.0004972500028088689
+  },
+  "klsw17-m-4x4-gf16:30f18550497f45fd222127f5a4f075f738b50aa3c4252a42924ff9b32a9b3354": {
+    "instance": "klsw17-m-4x4-gf16",
+    "path": "certificates/klsw17-m-4x4-gf16--nist.json",
+    "sha256": "30f18550497f45fd222127f5a4f075f738b50aa3c4252a42924ff9b32a9b3354",
+    "process_wall_seconds": 0.0915626249043271,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 36,
+      "depth": 8,
+      "total": 36
+    },
+    "ok": true,
+    "verification_seconds": 0.000483666080981493
+  },
+  "ls16-4x4-gf16:a7bea09ed93758ca51ef5b2cbc50660de5dc936b841875dfe794a09120756763": {
+    "instance": "ls16-4x4-gf16",
+    "path": "certificates/ls16-4x4-gf16--nist.json",
+    "sha256": "a7bea09ed93758ca51ef5b2cbc50660de5dc936b841875dfe794a09120756763",
+    "process_wall_seconds": 0.09025658306200057,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 44,
+      "depth": 4,
+      "total": 44
+    },
+    "ok": true,
+    "verification_seconds": 0.0004734999965876341
+  },
+  "gf4-13:281243bc8e33b376b196d5423a145ae6d9f7f36c09f7eae94d40f68b05211978": {
+    "instance": "gf4-13",
+    "path": "certificates/gf4-13--final-f4.json",
+    "sha256": "281243bc8e33b376b196d5423a145ae6d9f7f36c09f7eae94d40f68b05211978",
+    "process_wall_seconds": 0.07636629196349531,
+    "evaluations": 256,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 10,
+      "NOT": 0,
+      "XOR": 20,
+      "depth": 5,
+      "total": 30
+    },
+    "ok": true,
+    "verification_seconds": 0.0034258750965818763
+  },
+  "gf5-25:2e8880f961c5259bb8fa1fd9ba50ad5bfe1a646f4db70076fa70c7f091dfa1a1": {
+    "instance": "gf5-25",
+    "path": "certificates/gf5-25--final-f5.json",
+    "sha256": "2e8880f961c5259bb8fa1fd9ba50ad5bfe1a646f4db70076fa70c7f091dfa1a1",
+    "process_wall_seconds": 0.09175383299589157,
+    "evaluations": 1024,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 20,
+      "NOT": 0,
+      "XOR": 24,
+      "depth": 6,
+      "total": 44
+    },
+    "ok": true,
+    "verification_seconds": 0.019536750041879714
+  },
+  "gf6-49:680ba035c26c13298e916b471a027d55e2cc3ab83159edd1af0deddaf451287c": {
+    "instance": "gf6-49",
+    "path": "certificates/gf6-49--final-f6.json",
+    "sha256": "680ba035c26c13298e916b471a027d55e2cc3ab83159edd1af0deddaf451287c",
+    "process_wall_seconds": 0.18161312502343208,
+    "evaluations": 4096,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 27,
+      "NOT": 0,
+      "XOR": 30,
+      "depth": 5,
+      "total": 57
+    },
+    "ok": true,
+    "verification_seconds": 0.11250312498304993
+  },
+  "gf7-89:c7972bb977db13a3ff64e37819433e3430df65abe8d4e0ab201475f4a05d8f6c": {
+    "instance": "gf7-89",
+    "path": "certificates/gf7-89--final-f73.json",
+    "sha256": "c7972bb977db13a3ff64e37819433e3430df65abe8d4e0ab201475f4a05d8f6c",
+    "process_wall_seconds": 1.0042129169451073,
+    "evaluations": 16384,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 32,
+      "NOT": 0,
+      "XOR": 51,
+      "depth": 7,
+      "total": 83
+    },
+    "ok": true,
+    "verification_seconds": 0.9284247920149937
+  },
+  "gf7-91:6dbd8d27496b7d6478e9d39df6090d4950363b7f42a461480f656b8a0437db95": {
+    "instance": "gf7-91",
+    "path": "certificates/gf7-91--final-f7.json",
+    "sha256": "6dbd8d27496b7d6478e9d39df6090d4950363b7f42a461480f656b8a0437db95",
+    "process_wall_seconds": 1.1155383340083063,
+    "evaluations": 16384,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 32,
+      "NOT": 0,
+      "XOR": 55,
+      "depth": 11,
+      "total": 87
+    },
+    "ok": true,
+    "verification_seconds": 1.0445619999663904
+  },
+  "gf8-11b:3bb10d68fc3a708b32dfbde92d10653b17d2dc98de3758654f5c5a4d08e6811f": {
+    "instance": "gf8-11b",
+    "path": "certificates/gf8-11b--aes107-d13.json",
+    "sha256": "3bb10d68fc3a708b32dfbde92d10653b17d2dc98de3758654f5c5a4d08e6811f",
+    "process_wall_seconds": 7.301521750050597,
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 35,
+      "NOT": 0,
+      "XOR": 72,
+      "depth": 13,
+      "total": 107
+    },
+    "ok": true,
+    "verification_seconds": 7.225057457922958
+  },
+  "design-mds4x4-w4:37ff233d5f4f96bd3b6bfce34551ede54a49d89b59cd42e6bcfcc9932cdbc71c": {
+    "instance": "design-mds4x4-w4",
+    "path": "certificates/design-mds4x4-w4--tian2024.json",
+    "sha256": "37ff233d5f4f96bd3b6bfce34551ede54a49d89b59cd42e6bcfcc9932cdbc71c",
+    "process_wall_seconds": 2.871972499997355,
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 35,
+      "depth": 6,
+      "total": 35
+    },
+    "ok": true,
+    "verification_seconds": 2.789028957951814
+  },
+  "design-mds4x4-w4-involution:5bb04909ca11f3e53b320a7610e50aa737cda6164a2fec22259dde14a3f19133": {
+    "instance": "design-mds4x4-w4-involution",
+    "path": "certificates/design-mds4x4-w4-involution--tian2024.json",
+    "sha256": "5bb04909ca11f3e53b320a7610e50aa737cda6164a2fec22259dde14a3f19133",
+    "process_wall_seconds": 2.912791999988258,
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 36,
+      "depth": 7,
+      "total": 36
+    },
+    "ok": true,
+    "verification_seconds": 2.8269165829988196
+  },
+  "aria:001d55c8d68968b41dfc6b9e3ca13d7c921fb6fd51431de50156f76a43d114e0": {
+    "instance": "aria",
+    "path": "results/candidates/w0-aria-1.json",
+    "sha256": "001d55c8d68968b41dfc6b9e3ca13d7c921fb6fd51431de50156f76a43d114e0",
+    "process_wall_seconds": 0.09482562495395541,
+    "evaluations": 129,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 388,
+      "depth": 4,
+      "total": 388
+    },
+    "ok": true,
+    "verification_seconds": 0.02392279205378145
+  },
+  "fides-midori-mantis:bc955a343ce6f18ddb1e21d3ec5eb43736a74542a57f3d16112b970e5eb37825": {
+    "instance": "fides-midori-mantis",
+    "path": "results/candidates/w0-fides-midori-mantis-0.json",
+    "sha256": "bc955a343ce6f18ddb1e21d3ec5eb43736a74542a57f3d16112b970e5eb37825",
+    "process_wall_seconds": 0.0685721670743078,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 24,
+      "depth": 2,
+      "total": 24
+    },
+    "ok": true,
+    "verification_seconds": 0.00036995799746364355
+  },
+  "joltik:6341454cb9bc83b9a8c55796b752d19e83d8c570f718c2657e41b5a2c642436a": {
+    "instance": "joltik",
+    "path": "results/candidates/w0-joltik-0.json",
+    "sha256": "6341454cb9bc83b9a8c55796b752d19e83d8c570f718c2657e41b5a2c642436a",
+    "process_wall_seconds": 0.06737608299590647,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 50,
+      "depth": 3,
+      "total": 50
+    },
+    "ok": true,
+    "verification_seconds": 0.0005751249846071005
+  },
+  "joltik:92bfa19ec090595c428caf18f827b9a1b6c9b3d255e8d224f1c2daa537a48efd": {
+    "instance": "joltik",
+    "path": "results/candidates/w0-joltik-1.json",
+    "sha256": "92bfa19ec090595c428caf18f827b9a1b6c9b3d255e8d224f1c2daa537a48efd",
+    "process_wall_seconds": 0.07013708306476474,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 48,
+      "depth": 4,
+      "total": 48
+    },
+    "ok": true,
+    "verification_seconds": 0.0005067079328000546
+  },
+  "joltik:487fad487c76a4c2555d540f2b700971e55ffed7b6c74c533c2ff509c2cb5215": {
+    "instance": "joltik",
+    "path": "results/candidates/w0-joltik-2.json",
+    "sha256": "487fad487c76a4c2555d540f2b700971e55ffed7b6c74c533c2ff509c2cb5215",
+    "process_wall_seconds": 0.07159004197455943,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 44,
+      "depth": 5,
+      "total": 44
+    },
+    "ok": true,
+    "verification_seconds": 0.0005607499042525887
+  },
+  "pridel0:a9e2c25a2a11667c20525ff72a4feb64a684b41c1b38cbb3d7c874e8f28590b5": {
+    "instance": "pridel0",
+    "path": "results/candidates/w0-pridel0-0.json",
+    "sha256": "a9e2c25a2a11667c20525ff72a4feb64a684b41c1b38cbb3d7c874e8f28590b5",
+    "process_wall_seconds": 0.13180741597898304,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 24,
+      "depth": 2,
+      "total": 24
+    },
+    "ok": true,
+    "verification_seconds": 0.00038474996108561754
+  },
+  "princem0:888d6c5eac8140e44281427d907119edb089c1f1154afb8d56fa008e0f502c1d": {
+    "instance": "princem0",
+    "path": "results/candidates/w0-princem0-0.json",
+    "sha256": "888d6c5eac8140e44281427d907119edb089c1f1154afb8d56fa008e0f502c1d",
+    "process_wall_seconds": 0.11153937492053956,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 24,
+      "depth": 2,
+      "total": 24
+    },
+    "ok": true,
+    "verification_seconds": 0.00034066697116941214
+  },
+  "qarma128:1b508a46efe5a23528e62e906224dcfecedf4889660d6606e4338f8fccb7e92c": {
+    "instance": "qarma128",
+    "path": "results/candidates/w0-qarma128-0.json",
+    "sha256": "1b508a46efe5a23528e62e906224dcfecedf4889660d6606e4338f8fccb7e92c",
+    "process_wall_seconds": 0.08971191593445837,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 48,
+      "depth": 2,
+      "total": 48
+    },
+    "ok": true,
+    "verification_seconds": 0.001157167018391192
+  },
+  "qarma64:2ae73986ab44812d140bd977f0e8de1918724ab6664a8afbbdde8caac3867206": {
+    "instance": "qarma64",
+    "path": "results/candidates/w0-qarma64-0.json",
+    "sha256": "2ae73986ab44812d140bd977f0e8de1918724ab6664a8afbbdde8caac3867206",
+    "process_wall_seconds": 0.07481362496037036,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 24,
+      "depth": 2,
+      "total": 24
+    },
+    "ok": true,
+    "verification_seconds": 0.0003488339716568589
+  },
+  "smallscaleaes:5260f9ffe6ccbf7c6d8199ab64b1c2f499a849553d7e54d18553ad792f47a6d0": {
+    "instance": "smallscaleaes",
+    "path": "results/candidates/w0-smallscaleaes-1.json",
+    "sha256": "5260f9ffe6ccbf7c6d8199ab64b1c2f499a849553d7e54d18553ad792f47a6d0",
+    "process_wall_seconds": 0.08496620797086507,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 52,
+      "depth": 3,
+      "total": 52
+    },
+    "ok": true,
+    "verification_seconds": 0.0006276669446378946
+  },
+  "anubis-clefiam0:321564e341dac57785a9f51b9fce5cbebc0b54b682145f6ca6752c98c197039b": {
+    "instance": "anubis-clefiam0",
+    "path": "results/candidates/w0-anubis-clefiam0-1.json",
+    "sha256": "321564e341dac57785a9f51b9fce5cbebc0b54b682145f6ca6752c98c197039b",
+    "process_wall_seconds": 0.09444074996281415,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 120,
+      "depth": 4,
+      "total": 120
+    },
+    "ok": true,
+    "verification_seconds": 0.011030708090402186
+  },
+  "clefiam1:4c8601ab070de6c6ce5d1fd3cc61ad271546caacb35e2c66b5b5ded771bc9de7": {
+    "instance": "clefiam1",
+    "path": "results/candidates/w0-clefiam1-0.json",
+    "sha256": "4c8601ab070de6c6ce5d1fd3cc61ad271546caacb35e2c66b5b5ded771bc9de7",
+    "process_wall_seconds": 0.10339837498031557,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 120,
+      "depth": 4,
+      "total": 120
+    },
+    "ok": true,
+    "verification_seconds": 0.003941250033676624
+  },
+  "clefiam1:c239a6acba53c64fb898d43df4d8bbcfa4e462600de76fa01ed8995dfa9f282c": {
+    "instance": "clefiam1",
+    "path": "results/candidates/w0-clefiam1-1.json",
+    "sha256": "c239a6acba53c64fb898d43df4d8bbcfa4e462600de76fa01ed8995dfa9f282c",
+    "process_wall_seconds": 0.07467487500980496,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 103,
+      "depth": 9,
+      "total": 103
+    },
+    "ok": true,
+    "verification_seconds": 0.0018185829976573586
+  },
+  "foxmu4:75ae156da372015de081e83fec8a9ce5c32862f3e0293b06578547ef816554fd": {
+    "instance": "foxmu4",
+    "path": "results/candidates/w0-foxmu4-0.json",
+    "sha256": "75ae156da372015de081e83fec8a9ce5c32862f3e0293b06578547ef816554fd",
+    "process_wall_seconds": 0.08985379105433822,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 143,
+      "depth": 4,
+      "total": 143
+    },
+    "ok": true,
+    "verification_seconds": 0.004050250048749149
+  },
+  "foxmu4:8e9502414184b76ac47412af96c5e4086ccb2869bb99ff259b82f7e0a6ca57d6": {
+    "instance": "foxmu4",
+    "path": "results/candidates/w0-foxmu4-1.json",
+    "sha256": "8e9502414184b76ac47412af96c5e4086ccb2869bb99ff259b82f7e0a6ca57d6",
+    "process_wall_seconds": 0.07193904102314264,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 140,
+      "depth": 5,
+      "total": 140
+    },
+    "ok": true,
+    "verification_seconds": 0.002208207966759801
+  },
+  "foxmu4:4df712a2d2de037ad43ba1ef0f3e0da259b300a1300ab060c8314c4b5bb1109d": {
+    "instance": "foxmu4",
+    "path": "results/candidates/w0-foxmu4-2.json",
+    "sha256": "4df712a2d2de037ad43ba1ef0f3e0da259b300a1300ab060c8314c4b5bb1109d",
+    "process_wall_seconds": 0.11144866701215506,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 130,
+      "depth": 10,
+      "total": 130
+    },
+    "ok": true,
+    "verification_seconds": 0.002018666942603886
+  },
+  "twofish:e37f942636dbdef1e49ffcfbaa3f287089f05af133de6f1f61feb59326ae36d8": {
+    "instance": "twofish",
+    "path": "results/candidates/w0-twofish-1.json",
+    "sha256": "e37f942636dbdef1e49ffcfbaa3f287089f05af133de6f1f61feb59326ae36d8",
+    "process_wall_seconds": 0.34777366591151804,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 143,
+      "depth": 5,
+      "total": 143
+    },
+    "ok": true,
+    "verification_seconds": 0.002697666990570724
+  },
+  "whirlwindm0:5ee27803fde37d374717a6af760c72934ce4cbc9b94e804d3ac44977b497e9a5": {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w0-whirlwindm0-1.json",
+    "sha256": "5ee27803fde37d374717a6af760c72934ce4cbc9b94e804d3ac44977b497e9a5",
+    "process_wall_seconds": 0.1705375419696793,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 224,
+      "depth": 5,
+      "total": 224
+    },
+    "ok": true,
+    "verification_seconds": 0.03374416695442051
+  },
+  "whirlwindm0:81b4be1a57028e5af3e8251c569582122ea3f9ae91a645d657174d4172b0bb1a": {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w0-whirlwindm0-2.json",
+    "sha256": "81b4be1a57028e5af3e8251c569582122ea3f9ae91a645d657174d4172b0bb1a",
+    "process_wall_seconds": 0.08833729196339846,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 222,
+      "depth": 6,
+      "total": 222
+    },
+    "ok": true,
+    "verification_seconds": 0.006688041961751878
+  },
+  "whirlwindm1:0cbdd61aff251fa9f233fe0bb89228a4344526f5374b209cd6ce02a33a9a9e98": {
+    "instance": "whirlwindm1",
+    "path": "results/candidates/w0-whirlwindm1-1.json",
+    "sha256": "0cbdd61aff251fa9f233fe0bb89228a4344526f5374b209cd6ce02a33a9a9e98",
+    "process_wall_seconds": 0.0717684580013156,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 242,
+      "depth": 5,
+      "total": 242
+    },
+    "ok": true,
+    "verification_seconds": 0.0034689579624682665
+  },
+  "foxmu8:913910490d24d688f509066b0777084b06af20a7f8f3f0e09387a4c04a305c6f": {
+    "instance": "foxmu8",
+    "path": "results/candidates/w0-foxmu8-0.json",
+    "sha256": "913910490d24d688f509066b0777084b06af20a7f8f3f0e09387a4c04a305c6f",
+    "process_wall_seconds": 0.10984883399214596,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 601,
+      "depth": 6,
+      "total": 601
+    },
+    "ok": true,
+    "verification_seconds": 0.028224959038197994
+  },
+  "foxmu8:5e5c89279da7822b6f86ed090737415e09889eae38b58c3561e52a5338e0e736": {
+    "instance": "foxmu8",
+    "path": "results/candidates/w0-foxmu8-1.json",
+    "sha256": "5e5c89279da7822b6f86ed090737415e09889eae38b58c3561e52a5338e0e736",
+    "process_wall_seconds": 0.08519345801323652,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 540,
+      "depth": 13,
+      "total": 540
+    },
+    "ok": true,
+    "verification_seconds": 0.014435249962843955
+  },
+  "grostl:5c37b7b8cdb7dd801d44ad96871af5b8a54ea9223d26c5242afce52404f52e87": {
+    "instance": "grostl",
+    "path": "results/candidates/w0-grostl-1.json",
+    "sha256": "5c37b7b8cdb7dd801d44ad96871af5b8a54ea9223d26c5242afce52404f52e87",
+    "process_wall_seconds": 0.08978900010697544,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 482,
+      "depth": 6,
+      "total": 482
+    },
+    "ok": true,
+    "verification_seconds": 0.014147582929581404
+  },
+  "khazad:ae4a564a9768207b2aeeffc48a0cfb95624ea9e3766cb93b183ec1034be9a5b5": {
+    "instance": "khazad",
+    "path": "results/candidates/w0-khazad-0.json",
+    "sha256": "ae4a564a9768207b2aeeffc48a0cfb95624ea9e3766cb93b183ec1034be9a5b5",
+    "process_wall_seconds": 0.09682691702619195,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 519,
+      "depth": 6,
+      "total": 519
+    },
+    "ok": true,
+    "verification_seconds": 0.018198125064373016
+  },
+  "khazad:8b60981d9c63c4fdb6bf9970a8094a337adfa311c3c3dbbfcfc6a8b72f36a1f4": {
+    "instance": "khazad",
+    "path": "results/candidates/w0-khazad-1.json",
+    "sha256": "8b60981d9c63c4fdb6bf9970a8094a337adfa311c3c3dbbfcfc6a8b72f36a1f4",
+    "process_wall_seconds": 0.11923637497238815,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 504,
+      "depth": 8,
+      "total": 504
+    },
+    "ok": true,
+    "verification_seconds": 0.029322167043574154
+  },
+  "khazad:9fca35a855c4328ec387aa7b661a21240c4bfd3df55c5ab8d6d53f7d0d7b0a49": {
+    "instance": "khazad",
+    "path": "results/candidates/w0-khazad-2.json",
+    "sha256": "9fca35a855c4328ec387aa7b661a21240c4bfd3df55c5ab8d6d53f7d0d7b0a49",
+    "process_wall_seconds": 0.1057470419909805,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 366,
+      "depth": 17,
+      "total": 366
+    },
+    "ok": true,
+    "verification_seconds": 0.011981124989688396
+  },
+  "whirlpool-maelstrom:9e81eda0cc59c990f2f64754652f415a0cdfd88877743e289f4a4def42fd98a9": {
+    "instance": "whirlpool-maelstrom",
+    "path": "results/candidates/w0-whirlpool-maelstrom-0.json",
+    "sha256": "9e81eda0cc59c990f2f64754652f415a0cdfd88877743e289f4a4def42fd98a9",
+    "process_wall_seconds": 0.117606749990955,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 470,
+      "depth": 6,
+      "total": 470
+    },
+    "ok": true,
+    "verification_seconds": 0.014785041101276875
+  },
+  "whirlpool-maelstrom:dee5ba17cae6b0f1a1aa9c1f704d706d174734fd6d25e9eaef0a70512adb9e35": {
+    "instance": "whirlpool-maelstrom",
+    "path": "results/candidates/w0-whirlpool-maelstrom-1.json",
+    "sha256": "dee5ba17cae6b0f1a1aa9c1f704d706d174734fd6d25e9eaef0a70512adb9e35",
+    "process_wall_seconds": 0.10520604206249118,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 476,
+      "depth": 5,
+      "total": 476
+    },
+    "ok": true,
+    "verification_seconds": 0.029623458976857364
+  },
+  "whirlpool-maelstrom:0b87ab7131aecd90b0d65aab19f33d870133e3e8e898c277092eeb4db1b3f719": {
+    "instance": "whirlpool-maelstrom",
+    "path": "results/candidates/w0-whirlpool-maelstrom-2.json",
+    "sha256": "0b87ab7131aecd90b0d65aab19f33d870133e3e8e898c277092eeb4db1b3f719",
+    "process_wall_seconds": 0.21354854095261544,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 425,
+      "depth": 10,
+      "total": 425
+    },
+    "ok": true,
+    "verification_seconds": 0.08734379196539521
+  },
+  "bkl16-4x4-gf16:8aaaa4cca8aa95a4eccb902e97fa6c6520f3e80a27f1ea79fc5e2f671b7fc8ea": {
+    "instance": "bkl16-4x4-gf16",
+    "path": "results/candidates/w0-bkl16-4x4-gf16-0.json",
+    "sha256": "8aaaa4cca8aa95a4eccb902e97fa6c6520f3e80a27f1ea79fc5e2f671b7fc8ea",
+    "process_wall_seconds": 0.07370037504006177,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 48,
+      "depth": 3,
+      "total": 48
+    },
+    "ok": true,
+    "verification_seconds": 0.0005512919742614031
+  },
+  "bkl16-4x4-gf16:abec8225170cea467f5d9620136413826e6997f8ef8ea2625e3e30fe61dbbd2c": {
+    "instance": "bkl16-4x4-gf16",
+    "path": "results/candidates/w0-bkl16-4x4-gf16-1.json",
+    "sha256": "abec8225170cea467f5d9620136413826e6997f8ef8ea2625e3e30fe61dbbd2c",
+    "process_wall_seconds": 0.06894320901483297,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 41,
+      "depth": 4,
+      "total": 41
+    },
+    "ok": true,
+    "verification_seconds": 0.0005323330406099558
+  },
+  "jpst17-4x4-gf16:2ba7b052ce3971d2e56874eb7ccaa57e3096c8fae5f43214c9dc9129ac9f037f": {
+    "instance": "jpst17-4x4-gf16",
+    "path": "results/candidates/w0-jpst17-4x4-gf16-1.json",
+    "sha256": "2ba7b052ce3971d2e56874eb7ccaa57e3096c8fae5f43214c9dc9129ac9f037f",
+    "process_wall_seconds": 0.07157116709277034,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 47,
+      "depth": 3,
+      "total": 47
+    },
+    "ok": true,
+    "verification_seconds": 0.0004899580962955952
+  },
+  "klsw17-m-4x4-gf16:d87a74100ad6d0ff438f5d4d8dc0d56a8c31a0c96c6d9f0e5952c954dc5b4e4f": {
+    "instance": "klsw17-m-4x4-gf16",
+    "path": "results/candidates/w0-klsw17-m-4x4-gf16-0.json",
+    "sha256": "d87a74100ad6d0ff438f5d4d8dc0d56a8c31a0c96c6d9f0e5952c954dc5b4e4f",
+    "process_wall_seconds": 0.0821489579975605,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 40,
+      "depth": 5,
+      "total": 40
+    },
+    "ok": true,
+    "verification_seconds": 0.000443875091150403
+  },
+  "klsw17-m-4x4-gf16:862798572937636c8dc096af7cbcf10698b4c99ef8ed1a3fbe8a5eab551456ea": {
+    "instance": "klsw17-m-4x4-gf16",
+    "path": "results/candidates/w0-klsw17-m-4x4-gf16-1.json",
+    "sha256": "862798572937636c8dc096af7cbcf10698b4c99ef8ed1a3fbe8a5eab551456ea",
+    "process_wall_seconds": 0.07689829205628484,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 36,
+      "depth": 6,
+      "total": 36
+    },
+    "ok": true,
+    "verification_seconds": 0.0004220829578116536
+  },
+  "ls16-4x4-gf16:e872e2587739058162f198194be52840f9c12c7a8a3bdf371c981f1ce7d7d13e": {
+    "instance": "ls16-4x4-gf16",
+    "path": "results/candidates/w0-ls16-4x4-gf16-1.json",
+    "sha256": "e872e2587739058162f198194be52840f9c12c7a8a3bdf371c981f1ce7d7d13e",
+    "process_wall_seconds": 0.0769160829950124,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 47,
+      "depth": 3,
+      "total": 47
+    },
+    "ok": true,
+    "verification_seconds": 0.0005518329562619328
+  },
+  "gf7-91:29cc982ac87c71e68ba2b20adee50ded1a32eeca32207aa68cc77d00763aa602": {
+    "instance": "gf7-91",
+    "path": "results/candidates/w0-gf7-91-0.json",
+    "sha256": "29cc982ac87c71e68ba2b20adee50ded1a32eeca32207aa68cc77d00763aa602",
+    "process_wall_seconds": 1.555075417039916,
+    "evaluations": 16384,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 32,
+      "NOT": 0,
+      "XOR": 55,
+      "depth": 8,
+      "total": 87
+    },
+    "ok": true,
+    "verification_seconds": 1.4739169999957085
+  },
+  "design-mds4x4-w4:1c2c8a79509f1300a26d06529abe10d339efbd1f89c1a27e71d50b576b803123": {
+    "instance": "design-mds4x4-w4",
+    "path": "results/candidates/w0-design-mds4x4-w4-0.json",
+    "sha256": "1c2c8a79509f1300a26d06529abe10d339efbd1f89c1a27e71d50b576b803123",
+    "process_wall_seconds": 4.371897374978289,
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 47,
+      "depth": 3,
+      "total": 47
+    },
+    "ok": true,
+    "verification_seconds": 4.220522791030817
+  },
+  "design-mds4x4-w4:d2140ab2d79ac5ea86786a55275747d4dad8a55779df2c87e5ee9b21660ea692": {
+    "instance": "design-mds4x4-w4",
+    "path": "results/candidates/w0-design-mds4x4-w4-1.json",
+    "sha256": "d2140ab2d79ac5ea86786a55275747d4dad8a55779df2c87e5ee9b21660ea692",
+    "process_wall_seconds": 4.594526125001721,
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 35,
+      "depth": 5,
+      "total": 35
+    },
+    "ok": true,
+    "verification_seconds": 4.48238958301954
+  },
+  "design-mds4x4-w4-involution:0c2b8f1eb22e17fe852dfa3427a63c2fbea2aa32093629f9e18959b362b278eb": {
+    "instance": "design-mds4x4-w4-involution",
+    "path": "results/candidates/w0-design-mds4x4-w4-involution-1.json",
+    "sha256": "0c2b8f1eb22e17fe852dfa3427a63c2fbea2aa32093629f9e18959b362b278eb",
+    "process_wall_seconds": 6.8075228749075904,
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 52,
+      "depth": 3,
+      "total": 52
+    },
+    "ok": true,
+    "verification_seconds": 6.6326917910482734
+  },
+  "aria:f5bb9ce8f27571063c9c2ae8132eff3d9c0f8c9dd762bd23e7957d3f034c4ab8": {
+    "instance": "aria",
+    "path": "results/candidates/w1-aria-1.json",
+    "sha256": "f5bb9ce8f27571063c9c2ae8132eff3d9c0f8c9dd762bd23e7957d3f034c4ab8",
+    "process_wall_seconds": 0.11836983298417181,
+    "evaluations": 129,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 386,
+      "depth": 7,
+      "total": 386
+    },
+    "ok": true,
+    "verification_seconds": 0.02638908301014453
+  },
+  "foxmu4:05a910e4d7ea30259e37a4cd296786713c38ce13597a615e2e2add29a4430faf": {
+    "instance": "foxmu4",
+    "path": "results/candidates/w1-foxmu4-1.json",
+    "sha256": "05a910e4d7ea30259e37a4cd296786713c38ce13597a615e2e2add29a4430faf",
+    "process_wall_seconds": 0.07498458295594901,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 142,
+      "depth": 4,
+      "total": 142
+    },
+    "ok": true,
+    "verification_seconds": 0.002223749994300306
+  },
+  "whirlwindm0:d7f8d2825baa3e2ad12a069b83ada89b6e6512cdbc2b885e3baae6c78a40398f": {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w1-whirlwindm0-1.json",
+    "sha256": "d7f8d2825baa3e2ad12a069b83ada89b6e6512cdbc2b885e3baae6c78a40398f",
+    "process_wall_seconds": 0.07786974997725338,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 222,
+      "depth": 5,
+      "total": 222
+    },
+    "ok": true,
+    "verification_seconds": 0.0032900829100981355
+  },
+  "whirlwindm0:12159b291608e440d996a3a74280f336206ee6326d569827aa603a3e303a1fda": {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w1-whirlwindm0-2.json",
+    "sha256": "12159b291608e440d996a3a74280f336206ee6326d569827aa603a3e303a1fda",
+    "process_wall_seconds": 0.0830640000058338,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 221,
+      "depth": 6,
+      "total": 221
+    },
+    "ok": true,
+    "verification_seconds": 0.003087625023908913
+  },
+  "whirlwindm1:b50c0467d6ef90e99e92b88867d986e428f10fae986619feef77cff51109198b": {
+    "instance": "whirlwindm1",
+    "path": "results/candidates/w1-whirlwindm1-1.json",
+    "sha256": "b50c0467d6ef90e99e92b88867d986e428f10fae986619feef77cff51109198b",
+    "process_wall_seconds": 0.09722562495153397,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 241,
+      "depth": 6,
+      "total": 241
+    },
+    "ok": true,
+    "verification_seconds": 0.006213500048033893
+  },
+  "foxmu8:7ee59f490ab45b1252565910f81b5690686e97e8e6f1d0d007f7f672c9c05d85": {
+    "instance": "foxmu8",
+    "path": "results/candidates/w1-foxmu8-1.json",
+    "sha256": "7ee59f490ab45b1252565910f81b5690686e97e8e6f1d0d007f7f672c9c05d85",
+    "process_wall_seconds": 0.09662795800250024,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 540,
+      "depth": 12,
+      "total": 540
+    },
+    "ok": true,
+    "verification_seconds": 0.014326708973385394
+  },
+  "grostl:6b438a82ab5ee873c20caa1151e6b6912af16cb74f12b8216cdec95898c56134": {
+    "instance": "grostl",
+    "path": "results/candidates/w1-grostl-1.json",
+    "sha256": "6b438a82ab5ee873c20caa1151e6b6912af16cb74f12b8216cdec95898c56134",
+    "process_wall_seconds": 0.13779770804103464,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 481,
+      "depth": 6,
+      "total": 481
+    },
+    "ok": true,
+    "verification_seconds": 0.01222454197704792
+  },
+  "whirlpool-maelstrom:fa1c06c4ddd429c7f25f46d1f03d3887c72ea64fe5ea966b474275532cb21bfe": {
+    "instance": "whirlpool-maelstrom",
+    "path": "results/candidates/w1-whirlpool-maelstrom-0.json",
+    "sha256": "fa1c06c4ddd429c7f25f46d1f03d3887c72ea64fe5ea966b474275532cb21bfe",
+    "process_wall_seconds": 0.1435870409477502,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 470,
+      "depth": 5,
+      "total": 470
+    },
+    "ok": true,
+    "verification_seconds": 0.059935917030088603
+  },
+  "ls16-4x4-gf16:50b82044a0c14a615748d65c7e8f033f18198810ee47cdd23f0af979fdb3dd41": {
+    "instance": "ls16-4x4-gf16",
+    "path": "results/candidates/w1-ls16-4x4-gf16-1.json",
+    "sha256": "50b82044a0c14a615748d65c7e8f033f18198810ee47cdd23f0af979fdb3dd41",
+    "process_wall_seconds": 0.09394225000869483,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 46,
+      "depth": 3,
+      "total": 46
+    },
+    "ok": true,
+    "verification_seconds": 0.00048749998677521944
+  },
+  "gf8-11b:1d0b6bb849701321d2fb5a6283fc2f75a07682ee9dd1c48ff5825540d5ae1719": {
+    "instance": "gf8-11b",
+    "path": "results/candidates/w1-gf8-11b-0.json",
+    "sha256": "1d0b6bb849701321d2fb5a6283fc2f75a07682ee9dd1c48ff5825540d5ae1719",
+    "process_wall_seconds": 8.356718374998309,
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 36,
+      "NOT": 0,
+      "XOR": 71,
+      "depth": 15,
+      "total": 107
+    },
+    "ok": true,
+    "verification_seconds": 8.258586541982368
+  },
+  "design-mds4x4-w4-involution:959fa62f9885c81300ec6c3ee7ccd4bd8f180dcb03839439afb606e2564bd806": {
+    "instance": "design-mds4x4-w4-involution",
+    "path": "results/candidates/w1-design-mds4x4-w4-involution-1.json",
+    "sha256": "959fa62f9885c81300ec6c3ee7ccd4bd8f180dcb03839439afb606e2564bd806",
+    "process_wall_seconds": 4.077864499995485,
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 38,
+      "depth": 4,
+      "total": 38
+    },
+    "ok": true,
+    "verification_seconds": 4.001679209060967
+  },
+  "anubis-clefiam0:ec954592d0c6a168fcf95a026d2e82a03c83fbd5df4cd9fbfd9d14c6b5b2b0b3": {
+    "instance": "anubis-clefiam0",
+    "path": "results/candidates/w2-anubis-clefiam0-1.json",
+    "sha256": "ec954592d0c6a168fcf95a026d2e82a03c83fbd5df4cd9fbfd9d14c6b5b2b0b3",
+    "process_wall_seconds": 0.07431429193820804,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 118,
+      "depth": 4,
+      "total": 118
+    },
+    "ok": true,
+    "verification_seconds": 0.001980082946829498
+  },
+  "foxmu4:9e3a67650a0719f41de572e1f226df145dd1b1297dc2c100d1470d05d6396c20": {
+    "instance": "foxmu4",
+    "path": "results/candidates/w2-foxmu4-2.json",
+    "sha256": "9e3a67650a0719f41de572e1f226df145dd1b1297dc2c100d1470d05d6396c20",
+    "process_wall_seconds": 0.0758024170063436,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 130,
+      "depth": 9,
+      "total": 130
+    },
+    "ok": true,
+    "verification_seconds": 0.0023117499658837914
+  },
+  "whirlwindm0:434e6a0995b1f6b73a74dd26684eb1e27fe1938b6e9f0b6ac1e8dc60d9fd346c": {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w2-whirlwindm0-0.json",
+    "sha256": "434e6a0995b1f6b73a74dd26684eb1e27fe1938b6e9f0b6ac1e8dc60d9fd346c",
+    "process_wall_seconds": 0.08095291699282825,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 219,
+      "depth": 5,
+      "total": 219
+    },
+    "ok": true,
+    "verification_seconds": 0.0037849160144105554
+  },
+  "whirlwindm0:7f74a6d22f6aa2ab713d24274da57c550d143ec7e26cf2342a7c0ca4947ca685": {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w2-whirlwindm0-1.json",
+    "sha256": "7f74a6d22f6aa2ab713d24274da57c550d143ec7e26cf2342a7c0ca4947ca685",
+    "process_wall_seconds": 0.07517883309628814,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 159,
+      "depth": 13,
+      "total": 159
+    },
+    "ok": true,
+    "verification_seconds": 0.0024830829352140427
+  },
+  "grostl:8c76cdf87eeb6f8c76cf8639314301deaa196d10f16ca868bec5b3ffdeac60ef": {
+    "instance": "grostl",
+    "path": "results/candidates/w2-grostl-1.json",
+    "sha256": "8c76cdf87eeb6f8c76cf8639314301deaa196d10f16ca868bec5b3ffdeac60ef",
+    "process_wall_seconds": 0.08271266694646329,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 410,
+      "depth": 11,
+      "total": 410
+    },
+    "ok": true,
+    "verification_seconds": 0.011573499999940395
+  },
+  "khazad:3c1f514bbcdfdd60c118c549c812e943b4bb97e648ff48e9d74b2df444df0abc": {
+    "instance": "khazad",
+    "path": "results/candidates/w2-khazad-0.json",
+    "sha256": "3c1f514bbcdfdd60c118c549c812e943b4bb97e648ff48e9d74b2df444df0abc",
+    "process_wall_seconds": 0.093739208066836,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 511,
+      "depth": 6,
+      "total": 511
+    },
+    "ok": true,
+    "verification_seconds": 0.013384500052779913
+  },
+  "ls16-4x4-gf16:5b4b01fcdcda015f5594e6584c4c3995efe4c4256ce9a6f46e2cd535bad6d55c": {
+    "instance": "ls16-4x4-gf16",
+    "path": "results/candidates/w2-ls16-4x4-gf16-1.json",
+    "sha256": "5b4b01fcdcda015f5594e6584c4c3995efe4c4256ce9a6f46e2cd535bad6d55c",
+    "process_wall_seconds": 0.06591699994169176,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 45,
+      "depth": 3,
+      "total": 45
+    },
+    "ok": true,
+    "verification_seconds": 0.0004888339899480343
+  },
+  "aria:c8b9da1b3c3703001cf5686b31d585bef2e47172729909c1eed8e8dd97f7d99d": {
+    "instance": "aria",
+    "path": "results/candidates/w3-aria-0.json",
+    "sha256": "c8b9da1b3c3703001cf5686b31d585bef2e47172729909c1eed8e8dd97f7d99d",
+    "process_wall_seconds": 0.15449454204645008,
+    "evaluations": 129,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 387,
+      "depth": 4,
+      "total": 387
+    },
+    "ok": true,
+    "verification_seconds": 0.06836495897732675
+  },
+  "twofish:3612f783fbdc624e3a24240582056f86611732620b3357001016f3dfed5f2370": {
+    "instance": "twofish",
+    "path": "results/candidates/w3-twofish-1.json",
+    "sha256": "3612f783fbdc624e3a24240582056f86611732620b3357001016f3dfed5f2370",
+    "process_wall_seconds": 0.08279000001493841,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 111,
+      "depth": 7,
+      "total": 111
+    },
+    "ok": true,
+    "verification_seconds": 0.0018790409667417407
+  },
+  "whirlwindm0:2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb": {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w3-whirlwindm0-0.json",
+    "sha256": "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+    "process_wall_seconds": 0.08192254102323204,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 217,
+      "depth": 5,
+      "total": 217
+    },
+    "ok": true,
+    "verification_seconds": 0.0034991250140592456
+  },
+  "whirlwindm1:90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d": {
+    "instance": "whirlwindm1",
+    "path": "results/candidates/w3-whirlwindm1-1.json",
+    "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+    "process_wall_seconds": 0.08206154208164662,
+    "evaluations": 33,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 240,
+      "depth": 5,
+      "total": 240
+    },
+    "ok": true,
+    "verification_seconds": 0.0036127499770373106
+  },
+  "khazad:8efa70cc675eab0d8b27b67134796788235ac934cd9dd00969bbdb4e3bc06e1d": {
+    "instance": "khazad",
+    "path": "results/candidates/w3-khazad-2.json",
+    "sha256": "8efa70cc675eab0d8b27b67134796788235ac934cd9dd00969bbdb4e3bc06e1d",
+    "process_wall_seconds": 0.11937766708433628,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 366,
+      "depth": 16,
+      "total": 366
+    },
+    "ok": true,
+    "verification_seconds": 0.0189049590844661
+  },
+  "whirlpool-maelstrom:0d6eef9ec877d81bca5a54ba1ce9d713a9acd79336777184878953d270f6576f": {
+    "instance": "whirlpool-maelstrom",
+    "path": "results/candidates/w3-whirlpool-maelstrom-0.json",
+    "sha256": "0d6eef9ec877d81bca5a54ba1ce9d713a9acd79336777184878953d270f6576f",
+    "process_wall_seconds": 0.08526325004640967,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 469,
+      "depth": 6,
+      "total": 469
+    },
+    "ok": true,
+    "verification_seconds": 0.014372500008903444
+  },
+  "gf5-25:0a3c5f0e97cb40ec6b3f309561b30d6d7d4bc3342c45a545c963d2b1524ce488": {
+    "instance": "gf5-25",
+    "path": "results/candidates/w3-gf5-25-0.json",
+    "sha256": "0a3c5f0e97cb40ec6b3f309561b30d6d7d4bc3342c45a545c963d2b1524ce488",
+    "process_wall_seconds": 0.12683591700624675,
+    "evaluations": 1024,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 20,
+      "NOT": 0,
+      "XOR": 24,
+      "depth": 5,
+      "total": 44
+    },
+    "ok": true,
+    "verification_seconds": 0.025301208021119237
+  },
+  "gf8-11b:1bdd7c9bf19bff9e0ad4086d11d262c0a74c77cf092feeae3f7ae83f9bb64fd2": {
+    "instance": "gf8-11b",
+    "path": "results/candidates/w3-gf8-11b-0.json",
+    "sha256": "1bdd7c9bf19bff9e0ad4086d11d262c0a74c77cf092feeae3f7ae83f9bb64fd2",
+    "process_wall_seconds": 4.967297499999404,
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 33,
+      "NOT": 0,
+      "XOR": 76,
+      "depth": 14,
+      "total": 109
+    },
+    "ok": true,
+    "verification_seconds": 4.8598322089528665
+  },
+  "design-mds4x4-w4:566e82b19e20656f8f734805e36be4460c34b1b66524739ff62443ecf2d02a60": {
+    "instance": "design-mds4x4-w4",
+    "path": "results/candidates/w3-design-mds4x4-w4-0.json",
+    "sha256": "566e82b19e20656f8f734805e36be4460c34b1b66524739ff62443ecf2d02a60",
+    "process_wall_seconds": 2.39066004101187,
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 46,
+      "depth": 4,
+      "total": 46
+    },
+    "ok": true,
+    "verification_seconds": 2.301635665935464
+  },
+  "foxmu8:4b3063e8218650724ab33da1cd4e3194012c5ba200e053e056d3d4b3be004127": {
+    "instance": "foxmu8",
+    "path": "results/candidates/w4-foxmu8-1.json",
+    "sha256": "4b3063e8218650724ab33da1cd4e3194012c5ba200e053e056d3d4b3be004127",
+    "process_wall_seconds": 0.08381670899689198,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 539,
+      "depth": 14,
+      "total": 539
+    },
+    "ok": true,
+    "verification_seconds": 0.014296166016720235
+  },
+  "grostl:0b2d9fdc4b3624439d63325928330fced333546a286e2fdb2b96fe2bb1f9508b": {
+    "instance": "grostl",
+    "path": "results/candidates/w4-grostl-0.json",
+    "sha256": "0b2d9fdc4b3624439d63325928330fced333546a286e2fdb2b96fe2bb1f9508b",
+    "process_wall_seconds": 0.08127970807254314,
+    "evaluations": 65,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 477,
+      "depth": 6,
+      "total": 477
+    },
+    "ok": true,
+    "verification_seconds": 0.013124957913532853
+  },
+  "bkl16-4x4-gf16:0dee3903ad280bccdbb109c2dc6dd99c820a8eef427f3a1e332e19200366b7c4": {
+    "instance": "bkl16-4x4-gf16",
+    "path": "results/candidates/w4-bkl16-4x4-gf16-1.json",
+    "sha256": "0dee3903ad280bccdbb109c2dc6dd99c820a8eef427f3a1e332e19200366b7c4",
+    "process_wall_seconds": 0.060816042008809745,
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 47,
+      "depth": 3,
+      "total": 47
+    },
+    "ok": true,
+    "verification_seconds": 0.0005072089843451977
+  },
+  "gf8-11b:e7ae0268daa01444c6d5fa9f4ec5f1ce9ed85f999a266b27d76b3513a9f20248": {
+    "instance": "gf8-11b",
+    "path": "results/candidates/w4-gf8-11b-0.json",
+    "sha256": "e7ae0268daa01444c6d5fa9f4ec5f1ce9ed85f999a266b27d76b3513a9f20248",
+    "process_wall_seconds": 3.4340925419237465,
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 32,
+      "NOT": 0,
+      "XOR": 78,
+      "depth": 17,
+      "total": 110
+    },
+    "ok": true,
+    "verification_seconds": 3.368507834034972
+  }
+}

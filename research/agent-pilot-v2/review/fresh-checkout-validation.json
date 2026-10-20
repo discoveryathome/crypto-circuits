@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "tested_commit": "f198e78c475ffa9d8ebacdf62a451cc6e05982e8",
+  "validated_at": "2026-10-20T07:24:04.121966+00:00",
+  "method": "git archive into a new temporary directory; standard-library data-only checking; temporary directory removed afterward",
+  "verification": {
+    "ok": true,
+    "plan_sha256": "e13c95221645d66df1ba36c59df662d3dbb4e8b0ae82dcce8045911a339b0097",
+    "pinned_files": 74,
+    "certificates": 147,
+    "submission_files": 147,
+    "fresh_checker_processes": 294,
+    "checker_process_seconds": 23.147157037979923,
+    "total_wall_seconds": 23.21749466599431,
+    "scope": "Integrity, exact function, and costs; novelty is separately reviewed"
+  },
+  "recomputed_tools": [
+    "summarize.py",
+    "assess.py"
+  ],
+  "assessment_exact_match_except_generation_time": true,
+  "current_frontier_byte_identical": true,
+  "total_wall_seconds": 25.511275291908532,
+  "upstream_or_submission_code_executed": false
+}

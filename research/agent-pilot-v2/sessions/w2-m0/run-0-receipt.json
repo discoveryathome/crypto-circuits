@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/graph",
+    "14603982664219010559",
+    "120.0",
+    "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/starts.txt",
+    "0"
+  ],
+  "seed": 14603982664219010559,
+  "started_at": "2026-10-20T06:59:39.242139+00:00",
+  "ended_at": "2026-10-20T07:01:39.261548+00:00",
+  "wall_seconds": 120.01644312497228,
+  "children_cpu_seconds": 46.864088,
+  "returncode": 0,
+  "source_sha256": "d4c2bba15560d0e10dd080b089a4e034ca46fdf5cc5ca6294799eb11ce119102",
+  "binary_sha256": "70ee74e2b95cce0a9667adc9032f87908438a1d242b6fb1bcb73058563d47451",
+  "candidate_count": 11
+}

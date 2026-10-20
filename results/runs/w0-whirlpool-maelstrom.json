@@ -1,0 +1,74 @@
+{
+  "instance": "whirlpool-maelstrom",
+  "wave": 0,
+  "seed": "d0aacaba435e45e59c55e82fb35061b4",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/whirlpool-maelstrom--nist.json",
+  "search_wall_seconds": 9.536128500010818,
+  "search_cpu_seconds": 4.525046999999994,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 86,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w0-whirlpool-maelstrom-0.json",
+      "sha256": "9e81eda0cc59c990f2f64754652f415a0cdfd88877743e289f4a4def42fd98a9",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 470,
+        "NOT": 0,
+        "total": 470,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.002055875025689602
+    },
+    {
+      "path": "results/candidates/w0-whirlpool-maelstrom-1.json",
+      "sha256": "dee5ba17cae6b0f1a1aa9c1f704d706d174734fd6d25e9eaef0a70512adb9e35",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 476,
+        "NOT": 0,
+        "total": 476,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.003236125106923282
+    },
+    {
+      "path": "results/candidates/w0-whirlpool-maelstrom-2.json",
+      "sha256": "0b87ab7131aecd90b0d65aab19f33d870133e3e8e898c277092eeb4db1b3f719",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 425,
+        "NOT": 0,
+        "total": 425,
+        "depth": 10,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0020359159680083394
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

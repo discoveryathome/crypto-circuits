@@ -1,0 +1,302 @@
+[
+  {
+    "instance": "square-aes-mugi",
+    "path": "certificates/square-aes-mugi--nist.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 92,
+      "NOT": 0,
+      "total": 92,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "sha256": "1c7ed3fd18a9ed69e6b40a5496e9aac11bfb480cf2d6fce6dd5adf3ce7cd1653",
+    "role": "published",
+    "source": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/Square+AES+Mugi--XOR=92--maximov.circ.txt"
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 88,
+      "NOT": 0,
+      "total": 88,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "sha256": "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+    "role": "published",
+    "source": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor88-depth5.circ.txt"
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 90,
+      "NOT": 0,
+      "total": 90,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "sha256": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+    "role": "published",
+    "source": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor90-depth4.circ.txt"
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 97,
+      "NOT": 0,
+      "total": 97,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "sha256": "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82",
+    "role": "published",
+    "source": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor97-depth3.circ.txt"
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "certificates/whirlwindm0--nist.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 183,
+      "NOT": 0,
+      "total": 183,
+      "depth": 14,
+      "dead_gates": 0
+    },
+    "sha256": "dc4879f2c7ce2c8e41017054c2fd5dcef9e88a0f3b1416927a1aa7baa6682672",
+    "role": "published",
+    "source": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/WhirlwindM0--XOR=183--XLZBZ20.circ.txt"
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "certificates/whirlwindm0--xu2026-size.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 159,
+      "NOT": 0,
+      "total": 159,
+      "depth": 14,
+      "dead_gates": 0
+    },
+    "sha256": "bbe26e3782d0855acf0c826e996e5727d78b10b55937e2a3710831a9ceb0c782",
+    "role": "published",
+    "source": "sources/circulant/results/size/Whirlwind_M0.txt; CNOT to SSA; exact output permutation"
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "certificates/whirlwindm0--xu2026-depth.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 200,
+      "NOT": 0,
+      "total": 200,
+      "depth": 16,
+      "dead_gates": 0
+    },
+    "sha256": "7ac590c579e7fac7efea0948a0ecb5bf3d6b433f4bcd297fe66998d15b7dc94a",
+    "role": "published",
+    "source": "sources/circulant/results/depth/Whirlwind_M0.txt; CNOT to SSA; exact output permutation"
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w0-whirlwindm0-1.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 224,
+      "NOT": 0,
+      "total": 224,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "sha256": "5ee27803fde37d374717a6af760c72934ce4cbc9b94e804d3ac44977b497e9a5",
+    "role": "previous-local-known-prior",
+    "source": "results/proposals.json"
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w0-whirlwindm0-2.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 222,
+      "NOT": 0,
+      "total": 222,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "sha256": "81b4be1a57028e5af3e8251c569582122ea3f9ae91a645d657174d4172b0bb1a",
+    "role": "previous-local-known-prior",
+    "source": "results/proposals.json"
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w1-whirlwindm0-1.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 222,
+      "NOT": 0,
+      "total": 222,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "sha256": "d7f8d2825baa3e2ad12a069b83ada89b6e6512cdbc2b885e3baae6c78a40398f",
+    "role": "previous-local-known-prior",
+    "source": "results/proposals.json"
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w1-whirlwindm0-2.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 221,
+      "NOT": 0,
+      "total": 221,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "sha256": "12159b291608e440d996a3a74280f336206ee6326d569827aa603a3e303a1fda",
+    "role": "previous-local-known-prior",
+    "source": "results/proposals.json"
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w2-whirlwindm0-0.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 219,
+      "NOT": 0,
+      "total": 219,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "sha256": "434e6a0995b1f6b73a74dd26684eb1e27fe1938b6e9f0b6ac1e8dc60d9fd346c",
+    "role": "previous-local-known-prior",
+    "source": "results/proposals.json"
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w2-whirlwindm0-1.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 159,
+      "NOT": 0,
+      "total": 159,
+      "depth": 13,
+      "dead_gates": 0
+    },
+    "sha256": "7f74a6d22f6aa2ab713d24274da57c550d143ec7e26cf2342a7c0ca4947ca685",
+    "role": "previous-local-known-prior",
+    "source": "results/proposals.json"
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w3-whirlwindm0-0.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 217,
+      "NOT": 0,
+      "total": 217,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "sha256": "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+    "role": "previous-local-known-prior",
+    "source": "results/proposals.json"
+  },
+  {
+    "instance": "whirlwindm1",
+    "path": "certificates/whirlwindm1--nist.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 187,
+      "NOT": 0,
+      "total": 187,
+      "depth": 16,
+      "dead_gates": 0
+    },
+    "sha256": "1ded87939c258a9f95639ab0227b308801e141cefe355f1c849d6bb441db17ea",
+    "role": "published",
+    "source": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/WhirlwindM1--XOR=187-rs=20-symp=1-2.circ.txt"
+  },
+  {
+    "instance": "whirlwindm1",
+    "path": "certificates/whirlwindm1--xu2026-size.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 169,
+      "NOT": 0,
+      "total": 169,
+      "depth": 11,
+      "dead_gates": 0
+    },
+    "sha256": "355f5eeeada505bfbb785fa5d2f5e79e667a48fe2228e3570980d17b4f028ef6",
+    "role": "published",
+    "source": "sources/circulant/results/size/Whirlwind_M1.txt; CNOT to SSA; exact output permutation"
+  },
+  {
+    "instance": "whirlwindm1",
+    "path": "certificates/whirlwindm1--xu2026-depth.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 241,
+      "NOT": 0,
+      "total": 241,
+      "depth": 18,
+      "dead_gates": 0
+    },
+    "sha256": "c89996f57fc61a61712f098851c9a0778e0b191e8a77e9b5a32116247f7e554c",
+    "role": "published",
+    "source": "sources/circulant/results/depth/Whirlwind_M1.txt; CNOT to SSA; exact output permutation"
+  },
+  {
+    "instance": "whirlwindm1",
+    "path": "results/candidates/w0-whirlwindm1-1.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 242,
+      "NOT": 0,
+      "total": 242,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "sha256": "0cbdd61aff251fa9f233fe0bb89228a4344526f5374b209cd6ce02a33a9a9e98",
+    "role": "previous-local-known-prior",
+    "source": "results/proposals.json"
+  },
+  {
+    "instance": "whirlwindm1",
+    "path": "results/candidates/w1-whirlwindm1-1.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 241,
+      "NOT": 0,
+      "total": 241,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "sha256": "b50c0467d6ef90e99e92b88867d986e428f10fae986619feef77cff51109198b",
+    "role": "previous-local-known-prior",
+    "source": "results/proposals.json"
+  },
+  {
+    "instance": "whirlwindm1",
+    "path": "results/candidates/w3-whirlwindm1-1.json",
+    "metrics": {
+      "AND": 0,
+      "XOR": 240,
+      "NOT": 0,
+      "total": 240,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+    "role": "previous-local-known-prior",
+    "source": "results/proposals.json"
+  }
+]

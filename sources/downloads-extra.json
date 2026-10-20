@@ -1,0 +1,152 @@
+[
+  {
+    "path": "sources/nist/data/slp/aes/aes-mixcols/README.md",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/README.md",
+    "sha256": "862dcf66e92f264f6bdf16d8b978f9283a3a527a043a41b06a1ff23496523243",
+    "bytes": 348
+  },
+  {
+    "path": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor88-depth5.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor88-depth5.circ.txt",
+    "sha256": "f6af7cabebc27f6be692fe76c66e8e6557b06cebb7a116ad0523cd524cae1e7c",
+    "bytes": 2484
+  },
+  {
+    "path": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor90-depth4.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor90-depth4.circ.txt",
+    "sha256": "fa18cd39c181365fc967e30e89a544571ad6d0198847135bd7d7dccb85b6a5b8",
+    "bytes": 2474
+  },
+  {
+    "path": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor97-depth3.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor97-depth3.circ.txt",
+    "sha256": "699ee449681af57ffc9f356ae8dc261763aa155237768cf1d6e35f3637cac0b3",
+    "bytes": 2546
+  },
+  {
+    "path": "sources/circulant/LICENSE",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/LICENSE",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "bytes": 35149
+  },
+  {
+    "path": "sources/circulant/README.md",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/README.md",
+    "sha256": "b127a9ca5c472d78db390c543193df34cdbbd6b491c349bc69885d1070d69573",
+    "bytes": 1192
+  },
+  {
+    "path": "sources/circulant/results/depth/AES(2).txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/AES%282%29.txt",
+    "sha256": "67b34018aaec5579f5049285b14d37a6237de7bf4b6194a83800d7416fbd2714",
+    "bytes": 585
+  },
+  {
+    "path": "sources/circulant/results/depth/AES.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/AES.txt",
+    "sha256": "2c139911504ebad15f92b036f8147710dcba656aaf1684b46b0156a846db98ed",
+    "bytes": 587
+  },
+  {
+    "path": "sources/circulant/results/depth/Anubis.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/Anubis.txt",
+    "sha256": "2d2d11cc6bfa35d3be8329d4e293937f88296ba0f92c5df9d9c24f8ee258ec89",
+    "bytes": 637
+  },
+  {
+    "path": "sources/circulant/results/depth/C_BeiKraLea16_4x4_8.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/C_BeiKraLea16_4x4_8.txt",
+    "sha256": "99a58e986d44ac4a40681437cdb340e61403fc73d7b8d2c61e2b267398bf198d",
+    "bytes": 1225
+  },
+  {
+    "path": "sources/circulant/results/depth/Clefia_M0.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/Clefia_M0.txt",
+    "sha256": "0ad8cb2f129bcec8b28697e7594be028c80e91521baad7b07e4bd45c61202e8b",
+    "bytes": 656
+  },
+  {
+    "path": "sources/circulant/results/depth/FSE_LiWang16_4x4_4.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/FSE_LiWang16_4x4_4.txt",
+    "sha256": "80862f1e3b7d9f26af441ac3884a4062a14d2d2eaf4d0a98b6b9d8a4fce5247b",
+    "bytes": 317
+  },
+  {
+    "path": "sources/circulant/results/depth/FSE_LiWang16_i_4x4_8.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/FSE_LiWang16_i_4x4_8.txt",
+    "sha256": "976a94417f31d9ce15a0d37541a6f3be59e76f5ea49b94e305006b07854a38cb",
+    "bytes": 601
+  },
+  {
+    "path": "sources/circulant/results/depth/FSE_LiuSim16_4x4_4.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/FSE_LiuSim16_4x4_4.txt",
+    "sha256": "af443dcbfced2ff762ed8acce7abff05da90a55ff39fa327b3d761c904a5622b",
+    "bytes": 335
+  },
+  {
+    "path": "sources/circulant/results/depth/FSE_LiuSim16_4x4_8.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/FSE_LiuSim16_4x4_8.txt",
+    "sha256": "81f3f93bb105ef348bad227b09b623941dbbe63eb973ea2d80eef38d4f8289bc",
+    "bytes": 1135
+  },
+  {
+    "path": "sources/circulant/results/depth/FSE_SKOP15_4x4_4.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/FSE_SKOP15_4x4_4.txt",
+    "sha256": "95d2917754871ed8fba9a1ffd44e9daddb1616b3ad2a9e3352b328eeb330a61e",
+    "bytes": 283
+  },
+  {
+    "path": "sources/circulant/results/depth/FSE_SKOP15_4x4_8.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/FSE_SKOP15_4x4_8.txt",
+    "sha256": "24de9217a217056306dcae2a51395d627ee7e1573ff827ba68dc15d119208748",
+    "bytes": 631
+  },
+  {
+    "path": "sources/circulant/results/depth/FSE_SKOP15_8x8_4.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/FSE_SKOP15_8x8_4.txt",
+    "sha256": "50a03e8873dfeaae8f7dd28bcc27730b19366b3629a4f43e55c96e9f90adcb4f",
+    "bytes": 1254
+  },
+  {
+    "path": "sources/circulant/results/depth/FSE_SKOP15_i_4x4_8.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/FSE_SKOP15_i_4x4_8.txt",
+    "sha256": "580b5b9af0e4076f28a063043219ffa19b01171df3c95c2e9bac4820a68b813e",
+    "bytes": 565
+  },
+  {
+    "path": "sources/circulant/results/depth/FSE_SKOP15_i_8x8_4.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/FSE_SKOP15_i_8x8_4.txt",
+    "sha256": "04e8622f708b59bb7ccfd91887eefb1d4c437315d12b05089ce56b08bc200304",
+    "bytes": 1424
+  },
+  {
+    "path": "sources/circulant/results/depth/SmallScale_AES.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/SmallScale_AES.txt",
+    "sha256": "435f2578be53363b701cadd2185f4f5c72f3a57ff2bfac6dfd77224b411f4334",
+    "bytes": 259
+  },
+  {
+    "path": "sources/circulant/results/depth/Whirlwind_M0.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/Whirlwind_M0.txt",
+    "sha256": "43d56948805a98df5d58d2f1fd8196135716567e18b01760f23b324b8a0d00d2",
+    "bytes": 1087
+  },
+  {
+    "path": "sources/circulant/results/depth/Whirlwind_M1.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/Whirlwind_M1.txt",
+    "sha256": "ad6f64a55087cdb07a4e35b0412a41f09d0fab810dc45a3d591a8ddb90aca8c8",
+    "bytes": 1316
+  },
+  {
+    "path": "sources/circulant/results/size/Whirlwind_M0.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/size/Whirlwind_M0.txt",
+    "sha256": "ce3f73dd3b7c6a9a897e65c2ade466f579a0dbb00520b814e99e87d865d722ed",
+    "bytes": 900
+  },
+  {
+    "path": "sources/circulant/results/size/Whirlwind_M1.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/size/Whirlwind_M1.txt",
+    "sha256": "64575f58ffa7741b910315ee8583af9b24c2644c218886667e3caf02529cbe9d",
+    "bytes": 969
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "candidate": "candidate-166-10-10c982463574.json",
+    "source": "certificates/whirlwindm1--xu2026-size.json",
+    "retained_semantic_intermediates": 114,
+    "removed_semantic_intermediates": 55,
+    "added_semantic_intermediates": 52,
+    "novelty": "pending independent review"
+  },
+  {
+    "candidate": "candidate-166-11-beb91d1c961b.json",
+    "source": "certificates/whirlwindm1--xu2026-size.json",
+    "retained_semantic_intermediates": 106,
+    "removed_semantic_intermediates": 63,
+    "added_semantic_intermediates": 60,
+    "novelty": "pending independent review"
+  },
+  {
+    "candidate": "candidate-166-12-dcdc58b9c801.json",
+    "source": "certificates/whirlwindm1--xu2026-size.json",
+    "retained_semantic_intermediates": 113,
+    "removed_semantic_intermediates": 56,
+    "added_semantic_intermediates": 53,
+    "novelty": "pending independent review"
+  },
+  {
+    "candidate": "candidate-167-11-c1adbbcc79de.json",
+    "source": "certificates/whirlwindm1--xu2026-size.json",
+    "retained_semantic_intermediates": 109,
+    "removed_semantic_intermediates": 60,
+    "added_semantic_intermediates": 58,
+    "novelty": "pending independent review"
+  },
+  {
+    "candidate": "candidate-167-12-c1750b3bf30c.json",
+    "source": "certificates/whirlwindm1--xu2026-size.json",
+    "retained_semantic_intermediates": 111,
+    "removed_semantic_intermediates": 58,
+    "added_semantic_intermediates": 56,
+    "novelty": "pending independent review"
+  },
+  {
+    "candidate": "candidate-167-13-8b87d792afb1.json",
+    "source": "certificates/whirlwindm1--xu2026-size.json",
+    "retained_semantic_intermediates": 105,
+    "removed_semantic_intermediates": 64,
+    "added_semantic_intermediates": 62,
+    "novelty": "pending independent review"
+  },
+  {
+    "candidate": "candidate-167-14-8fda9a5c88be.json",
+    "source": "certificates/whirlwindm1--xu2026-size.json",
+    "retained_semantic_intermediates": 105,
+    "removed_semantic_intermediates": 64,
+    "added_semantic_intermediates": 62,
+    "novelty": "pending independent review"
+  },
+  {
+    "candidate": "candidate-168-11-17aa6c6ab592.json",
+    "source": "certificates/whirlwindm1--xu2026-size.json",
+    "retained_semantic_intermediates": 121,
+    "removed_semantic_intermediates": 48,
+    "added_semantic_intermediates": 47,
+    "novelty": "pending independent review"
+  },
+  {
+    "candidate": "candidate-168-12-92369364ec5d.json",
+    "source": "certificates/whirlwindm1--xu2026-size.json",
+    "retained_semantic_intermediates": 120,
+    "removed_semantic_intermediates": 49,
+    "added_semantic_intermediates": 48,
+    "novelty": "pending independent review"
+  },
+  {
+    "candidate": "candidate-168-13-3a3a9c96a842.json",
+    "source": "certificates/whirlwindm1--xu2026-size.json",
+    "retained_semantic_intermediates": 119,
+    "removed_semantic_intermediates": 50,
+    "added_semantic_intermediates": 49,
+    "novelty": "pending independent review"
+  },
+  {
+    "candidate": "candidate-169-10-0383bad965e3.json",
+    "source": "certificates/whirlwindm1--xu2026-size.json",
+    "retained_semantic_intermediates": 166,
+    "removed_semantic_intermediates": 3,
+    "added_semantic_intermediates": 3,
+    "novelty": "pending independent review"
+  }
+]

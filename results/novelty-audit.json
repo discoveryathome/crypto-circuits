@@ -1,0 +1,2116 @@
+{
+  "001d55c8d68968b41dfc6b9e3ca13d7c921fb6fd51431de50156f76a43d114e0": {
+    "instance": "aria",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 388,
+      "NOT": 0,
+      "total": 388,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "bc955a343ce6f18ddb1e21d3ec5eb43736a74542a57f3d16112b970e5eb37825": {
+    "instance": "fides-midori-mantis",
+    "status": "rejected-published-prior-matches-or-dominates",
+    "reason": "A verified prior construction is no worse on every Pareto axis.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 24,
+      "depth": 2,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [
+      {
+        "instance": "fides-midori-mantis",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 2,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/fides-midori-mantis--sbp--MIDORI_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/MIDORI_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "fides-midori-mantis",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 2,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/fides-midori-mantis--sbp--PRIDE_L_0_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/PRIDE_L_0_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "sources": [
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "6341454cb9bc83b9a8c55796b752d19e83d8c570f718c2657e41b5a2c642436a": {
+    "instance": "joltik",
+    "status": "rejected-published-prior-matches-or-dominates",
+    "reason": "A verified prior construction is no worse on every Pareto axis.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 50,
+      "NOT": 0,
+      "total": 50,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [
+      {
+        "instance": "joltik",
+        "metrics": {
+          "AND": 0,
+          "XOR": 49,
+          "NOT": 0,
+          "total": 49,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/joltik--sbp--FSE_SKOP15_i_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_SKOP15_i_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "joltik",
+        "metrics": {
+          "AND": 0,
+          "XOR": 49,
+          "NOT": 0,
+          "total": 49,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/joltik--sbp--JOLTIK_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/JOLTIK_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "sources": [
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+    ],
+    "count_only_blockers": [
+      {
+        "XOR": 43,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2, citing Lin et al. 2021",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "external_review": false
+  },
+  "92bfa19ec090595c428caf18f827b9a1b6c9b3d255e8d224f1c2daa537a48efd": {
+    "instance": "joltik",
+    "status": "rejected-published-prior-matches-or-dominates",
+    "reason": "A verified prior construction is no worse on every Pareto axis.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 48,
+      "NOT": 0,
+      "total": 48,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [
+      {
+        "instance": "joltik",
+        "metrics": {
+          "AND": 0,
+          "XOR": 47,
+          "NOT": 0,
+          "total": 47,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/joltik--sbp--FSE_SKOP15_i_4x4_4_SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_SKOP15_i_4x4_4_SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "sources": [
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+    ],
+    "count_only_blockers": [
+      {
+        "XOR": 43,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2, citing Lin et al. 2021",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "external_review": false
+  },
+  "487fad487c76a4c2555d540f2b700971e55ffed7b6c74c533c2ff509c2cb5215": {
+    "instance": "joltik",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 44,
+      "NOT": 0,
+      "total": 44,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [
+      {
+        "XOR": 43,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2, citing Lin et al. 2021",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "external_review": false
+  },
+  "a9e2c25a2a11667c20525ff72a4feb64a684b41c1b38cbb3d7c874e8f28590b5": {
+    "instance": "pridel0",
+    "status": "rejected-published-prior-matches-or-dominates",
+    "reason": "A verified prior construction is no worse on every Pareto axis.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 24,
+      "depth": 2,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [
+      {
+        "instance": "pridel0",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 2,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/pridel0--sbp--MIDORI_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/MIDORI_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "pridel0",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 2,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/pridel0--sbp--PRIDE_L_0_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/PRIDE_L_0_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "sources": [
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "888d6c5eac8140e44281427d907119edb089c1f1154afb8d56fa008e0f502c1d": {
+    "instance": "princem0",
+    "status": "rejected-published-prior-matches-or-dominates",
+    "reason": "A verified prior construction is no worse on every Pareto axis.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 24,
+      "depth": 2,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [
+      {
+        "instance": "princem0",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 2,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/princem0--sbp--PRINCE_M_0_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/PRINCE_M_0_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "sources": [
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "1b508a46efe5a23528e62e906224dcfecedf4889660d6606e4338f8fccb7e92c": {
+    "instance": "qarma128",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 48,
+      "NOT": 0,
+      "total": 48,
+      "depth": 2,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "2ae73986ab44812d140bd977f0e8de1918724ab6664a8afbbdde8caac3867206": {
+    "instance": "qarma64",
+    "status": "rejected-published-prior-matches-or-dominates",
+    "reason": "A verified prior construction is no worse on every Pareto axis.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 24,
+      "depth": 2,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [
+      {
+        "instance": "qarma64",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 2,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/qarma64--sbp--QARMA64_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/QARMA64_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "sources": [
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "5260f9ffe6ccbf7c6d8199ab64b1c2f499a849553d7e54d18553ad792f47a6d0": {
+    "instance": "smallscaleaes",
+    "status": "rejected-published-prior-matches-or-dominates",
+    "reason": "A verified prior construction is no worse on every Pareto axis.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 52,
+      "NOT": 0,
+      "total": 52,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [
+      {
+        "instance": "smallscaleaes",
+        "metrics": {
+          "AND": 0,
+          "XOR": 48,
+          "NOT": 0,
+          "total": 48,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/smallscaleaes--sbp--SMALLSCALE_AES_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/SMALLSCALE_AES_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "sources": [
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+    ],
+    "count_only_blockers": [
+      {
+        "XOR": 42,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2, s-XOR embeds into general XOR",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "external_review": false
+  },
+  "321564e341dac57785a9f51b9fce5cbebc0b54b682145f6ca6752c98c197039b": {
+    "instance": "anubis-clefiam0",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 120,
+      "NOT": 0,
+      "total": 120,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [
+      {
+        "XOR": 96,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2 / Xu--Sun 2026 table 4",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "external_review": false
+  },
+  "4c8601ab070de6c6ce5d1fd3cc61ad271546caacb35e2c66b5b5ded771bc9de7": {
+    "instance": "clefiam1",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 120,
+      "NOT": 0,
+      "total": 120,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "c239a6acba53c64fb898d43df4d8bbcfa4e462600de76fa01ed8995dfa9f282c": {
+    "instance": "clefiam1",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 103,
+      "NOT": 0,
+      "total": 103,
+      "depth": 9,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "75ae156da372015de081e83fec8a9ce5c32862f3e0293b06578547ef816554fd": {
+    "instance": "foxmu4",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 143,
+      "NOT": 0,
+      "total": 143,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "8e9502414184b76ac47412af96c5e4086ccb2869bb99ff259b82f7e0a6ca57d6": {
+    "instance": "foxmu4",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 140,
+      "NOT": 0,
+      "total": 140,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "4df712a2d2de037ad43ba1ef0f3e0da259b300a1300ab060c8314c4b5bb1109d": {
+    "instance": "foxmu4",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 130,
+      "NOT": 0,
+      "total": 130,
+      "depth": 10,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "e37f942636dbdef1e49ffcfbaa3f287089f05af133de6f1f61feb59326ae36d8": {
+    "instance": "twofish",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 143,
+      "NOT": 0,
+      "total": 143,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [
+      {
+        "XOR": 110,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2, s-XOR embeds into general XOR",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "external_review": false
+  },
+  "5ee27803fde37d374717a6af760c72934ce4cbc9b94e804d3ac44977b497e9a5": {
+    "instance": "whirlwindm0",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 224,
+      "NOT": 0,
+      "total": 224,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "81b4be1a57028e5af3e8251c569582122ea3f9ae91a645d657174d4172b0bb1a": {
+    "instance": "whirlwindm0",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 222,
+      "NOT": 0,
+      "total": 222,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "0cbdd61aff251fa9f233fe0bb89228a4344526f5374b209cd6ce02a33a9a9e98": {
+    "instance": "whirlwindm1",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 242,
+      "NOT": 0,
+      "total": 242,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "913910490d24d688f509066b0777084b06af20a7f8f3f0e09387a4c04a305c6f": {
+    "instance": "foxmu8",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 601,
+      "NOT": 0,
+      "total": 601,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "5e5c89279da7822b6f86ed090737415e09889eae38b58c3561e52a5338e0e736": {
+    "instance": "foxmu8",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 540,
+      "NOT": 0,
+      "total": 540,
+      "depth": 13,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "5c37b7b8cdb7dd801d44ad96871af5b8a54ea9223d26c5242afce52404f52e87": {
+    "instance": "grostl",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 482,
+      "NOT": 0,
+      "total": 482,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "ae4a564a9768207b2aeeffc48a0cfb95624ea9e3766cb93b183ec1034be9a5b5": {
+    "instance": "khazad",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 519,
+      "NOT": 0,
+      "total": 519,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "8b60981d9c63c4fdb6bf9970a8094a337adfa311c3c3dbbfcfc6a8b72f36a1f4": {
+    "instance": "khazad",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 504,
+      "NOT": 0,
+      "total": 504,
+      "depth": 8,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "9fca35a855c4328ec387aa7b661a21240c4bfd3df55c5ab8d6d53f7d0d7b0a49": {
+    "instance": "khazad",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 366,
+      "NOT": 0,
+      "total": 366,
+      "depth": 17,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "9e81eda0cc59c990f2f64754652f415a0cdfd88877743e289f4a4def42fd98a9": {
+    "instance": "whirlpool-maelstrom",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 470,
+      "NOT": 0,
+      "total": 470,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "dee5ba17cae6b0f1a1aa9c1f704d706d174734fd6d25e9eaef0a70512adb9e35": {
+    "instance": "whirlpool-maelstrom",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 476,
+      "NOT": 0,
+      "total": 476,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "0b87ab7131aecd90b0d65aab19f33d870133e3e8e898c277092eeb4db1b3f719": {
+    "instance": "whirlpool-maelstrom",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 425,
+      "NOT": 0,
+      "total": 425,
+      "depth": 10,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "8aaaa4cca8aa95a4eccb902e97fa6c6520f3e80a27f1ea79fc5e2f671b7fc8ea": {
+    "instance": "bkl16-4x4-gf16",
+    "status": "rejected-published-prior-matches-or-dominates",
+    "reason": "A verified prior construction is no worse on every Pareto axis.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 48,
+      "NOT": 0,
+      "total": 48,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [
+      {
+        "instance": "bkl16-4x4-gf16",
+        "metrics": {
+          "AND": 0,
+          "XOR": 46,
+          "NOT": 0,
+          "total": 46,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/bkl16-4x4-gf16--sbp--C_BeiKraLea16_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/C_BeiKraLea16_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "sources": [
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+    ],
+    "count_only_blockers": [
+      {
+        "XOR": 40,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2 CTG16 row; same authors as BKL16; identity must be checked",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "external_review": false
+  },
+  "abec8225170cea467f5d9620136413826e6997f8ef8ea2625e3e30fe61dbbd2c": {
+    "instance": "bkl16-4x4-gf16",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 41,
+      "NOT": 0,
+      "total": 41,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [
+      {
+        "XOR": 40,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2 CTG16 row; same authors as BKL16; identity must be checked",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "external_review": false
+  },
+  "2ba7b052ce3971d2e56874eb7ccaa57e3096c8fae5f43214c9dc9129ac9f037f": {
+    "instance": "jpst17-4x4-gf16",
+    "status": "rejected-published-prior-matches-or-dominates",
+    "reason": "A verified prior construction is no worse on every Pareto axis.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 47,
+      "NOT": 0,
+      "total": 47,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [
+      {
+        "instance": "jpst17-4x4-gf16",
+        "metrics": {
+          "AND": 0,
+          "XOR": 45,
+          "NOT": 0,
+          "total": 45,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/jpst17-4x4-gf16--sbp--ePrint_JeaPeySim_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ePrint_JeaPeySim_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "sources": [
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "d87a74100ad6d0ff438f5d4d8dc0d56a8c31a0c96c6d9f0e5952c954dc5b4e4f": {
+    "instance": "klsw17-m-4x4-gf16",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 40,
+      "NOT": 0,
+      "total": 40,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "862798572937636c8dc096af7cbcf10698b4c99ef8ed1a3fbe8a5eab551456ea": {
+    "instance": "klsw17-m-4x4-gf16",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 36,
+      "NOT": 0,
+      "total": 36,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "e872e2587739058162f198194be52840f9c12c7a8a3bdf371c981f1ce7d7d13e": {
+    "instance": "ls16-4x4-gf16",
+    "status": "rejected-published-prior-matches-or-dominates",
+    "reason": "A verified prior construction is no worse on every Pareto axis.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 47,
+      "NOT": 0,
+      "total": 47,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [
+      {
+        "instance": "ls16-4x4-gf16",
+        "metrics": {
+          "AND": 0,
+          "XOR": 47,
+          "NOT": 0,
+          "total": 47,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/ls16-4x4-gf16--sbp--FSE_LiuSim16_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/FSE_LiuSim16_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "sources": [
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+    ],
+    "count_only_blockers": [
+      {
+        "XOR": 43,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2, citing Tan--Peyrin 2020 and Lin et al. 2021",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "external_review": false
+  },
+  "29cc982ac87c71e68ba2b20adee50ded1a32eeca32207aa68cc77d00763aa602": {
+    "instance": "gf7-91",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 32,
+      "XOR": 55,
+      "NOT": 0,
+      "total": 87,
+      "depth": 8,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://github.com/Swapnil-jain/gf2m-circuits",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "1c2c8a79509f1300a26d06529abe10d339efbd1f89c1a27e71d50b576b803123": {
+    "instance": "design-mds4x4-w4",
+    "status": "rejected-published-prior-matches-or-dominates",
+    "reason": "A verified prior construction is no worse on every Pareto axis.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 47,
+      "NOT": 0,
+      "total": 47,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 41,
+          "NOT": 0,
+          "total": 41,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/GH_1/SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 43,
+          "NOT": 0,
+          "total": 43,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--ToSC_SarSye16_i_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ToSC_SarSye16_i_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 46,
+          "NOT": 0,
+          "total": 46,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--C_BeiKraLea16_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/C_BeiKraLea16_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 47,
+          "NOT": 0,
+          "total": 47,
+          "depth": 3,
+          "dead_gates": 1
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_LiWang16_4x4_4_2_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/FSE_LiWang16_4x4_4_2_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 47,
+          "NOT": 0,
+          "total": 47,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_LiuSim16_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/FSE_LiuSim16_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 43,
+          "NOT": 0,
+          "total": 43,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--ToSC_SarSye16_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ToSC_SarSye16_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 45,
+          "NOT": 0,
+          "total": 45,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--ePrint_JeaPeySim_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ePrint_JeaPeySim_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "sources": [
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "d2140ab2d79ac5ea86786a55275747d4dad8a55779df2c87e5ee9b21660ea692": {
+    "instance": "design-mds4x4-w4",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 35,
+      "NOT": 0,
+      "total": 35,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "0c2b8f1eb22e17fe852dfa3427a63c2fbea2aa32093629f9e18959b362b278eb": {
+    "instance": "design-mds4x4-w4-involution",
+    "status": "rejected-published-prior-matches-or-dominates",
+    "reason": "A verified prior construction is no worse on every Pareto axis.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 52,
+      "NOT": 0,
+      "total": 52,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 41,
+          "NOT": 0,
+          "total": 41,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/GH_1/SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 49,
+          "NOT": 0,
+          "total": 49,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--FSE_LiWang16_i_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_LiWang16_i_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 49,
+          "NOT": 0,
+          "total": 49,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--FSE_SKOP15_i_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_SKOP15_i_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 43,
+          "NOT": 0,
+          "total": 43,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--ToSC_SarSye16_i_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ToSC_SarSye16_i_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 49,
+          "NOT": 0,
+          "total": 49,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--JOLTIK_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/JOLTIK_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "sources": [
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "f5bb9ce8f27571063c9c2ae8132eff3d9c0f8c9dd762bd23e7957d3f034c4ab8": {
+    "instance": "aria",
+    "status": "rejected-derived-prior-dominates",
+    "reason": "A verified prior construction is no worse on every Pareto axis.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 386,
+      "NOT": 0,
+      "total": 386,
+      "depth": 7,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [
+      {
+        "instance": "aria",
+        "metrics": {
+          "AND": 0,
+          "XOR": 384,
+          "NOT": 0,
+          "total": 384,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/aria-published-lane-replication.json",
+        "source": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-128x128/Aria--XOR=387-rs=48-symp=2.circ.txt",
+        "status": "direct-derived-prior",
+        "url": "https://github.com/usnistgov/Circuits/tree/8366158a4324ef902ce740f29ddc9f7ebb1018b2"
+      }
+    ],
+    "sources": [
+      "https://github.com/usnistgov/Circuits/tree/8366158a4324ef902ce740f29ddc9f7ebb1018b2"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "05a910e4d7ea30259e37a4cd296786713c38ce13597a615e2e2add29a4430faf": {
+    "instance": "foxmu4",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 142,
+      "NOT": 0,
+      "total": 142,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "d7f8d2825baa3e2ad12a069b83ada89b6e6512cdbc2b885e3baae6c78a40398f": {
+    "instance": "whirlwindm0",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 222,
+      "NOT": 0,
+      "total": 222,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "12159b291608e440d996a3a74280f336206ee6326d569827aa603a3e303a1fda": {
+    "instance": "whirlwindm0",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 221,
+      "NOT": 0,
+      "total": 221,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "b50c0467d6ef90e99e92b88867d986e428f10fae986619feef77cff51109198b": {
+    "instance": "whirlwindm1",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 241,
+      "NOT": 0,
+      "total": 241,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "7ee59f490ab45b1252565910f81b5690686e97e8e6f1d0d007f7f672c9c05d85": {
+    "instance": "foxmu8",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 540,
+      "NOT": 0,
+      "total": 540,
+      "depth": 12,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "6b438a82ab5ee873c20caa1151e6b6912af16cb74f12b8216cdec95898c56134": {
+    "instance": "grostl",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 481,
+      "NOT": 0,
+      "total": 481,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "fa1c06c4ddd429c7f25f46d1f03d3887c72ea64fe5ea966b474275532cb21bfe": {
+    "instance": "whirlpool-maelstrom",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 470,
+      "NOT": 0,
+      "total": 470,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "50b82044a0c14a615748d65c7e8f033f18198810ee47cdd23f0af979fdb3dd41": {
+    "instance": "ls16-4x4-gf16",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 46,
+      "NOT": 0,
+      "total": 46,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [
+      {
+        "XOR": 43,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2, citing Tan--Peyrin 2020 and Lin et al. 2021",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "external_review": false
+  },
+  "1d0b6bb849701321d2fb5a6283fc2f75a07682ee9dd1c48ff5825540d5ae1719": {
+    "instance": "gf8-11b",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 36,
+      "XOR": 71,
+      "NOT": 0,
+      "total": 107,
+      "depth": 15,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://github.com/Swapnil-jain/gf2m-circuits",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "959fa62f9885c81300ec6c3ee7ccd4bd8f180dcb03839439afb606e2564bd806": {
+    "instance": "design-mds4x4-w4-involution",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 38,
+      "NOT": 0,
+      "total": 38,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "ec954592d0c6a168fcf95a026d2e82a03c83fbd5df4cd9fbfd9d14c6b5b2b0b3": {
+    "instance": "anubis-clefiam0",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 118,
+      "NOT": 0,
+      "total": 118,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [
+      {
+        "XOR": 96,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2 / Xu--Sun 2026 table 4",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "external_review": false
+  },
+  "9e3a67650a0719f41de572e1f226df145dd1b1297dc2c100d1470d05d6396c20": {
+    "instance": "foxmu4",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 130,
+      "NOT": 0,
+      "total": 130,
+      "depth": 9,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "434e6a0995b1f6b73a74dd26684eb1e27fe1938b6e9f0b6ac1e8dc60d9fd346c": {
+    "instance": "whirlwindm0",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 219,
+      "NOT": 0,
+      "total": 219,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "7f74a6d22f6aa2ab713d24274da57c550d143ec7e26cf2342a7c0ca4947ca685": {
+    "instance": "whirlwindm0",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 159,
+      "NOT": 0,
+      "total": 159,
+      "depth": 13,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "8c76cdf87eeb6f8c76cf8639314301deaa196d10f16ca868bec5b3ffdeac60ef": {
+    "instance": "grostl",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 410,
+      "NOT": 0,
+      "total": 410,
+      "depth": 11,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "3c1f514bbcdfdd60c118c549c812e943b4bb97e648ff48e9d74b2df444df0abc": {
+    "instance": "khazad",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 511,
+      "NOT": 0,
+      "total": 511,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "5b4b01fcdcda015f5594e6584c4c3995efe4c4256ce9a6f46e2cd535bad6d55c": {
+    "instance": "ls16-4x4-gf16",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 45,
+      "NOT": 0,
+      "total": 45,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [
+      {
+        "XOR": 43,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2, citing Tan--Peyrin 2020 and Lin et al. 2021",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "external_review": false
+  },
+  "c8b9da1b3c3703001cf5686b31d585bef2e47172729909c1eed8e8dd97f7d99d": {
+    "instance": "aria",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 387,
+      "NOT": 0,
+      "total": 387,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "3612f783fbdc624e3a24240582056f86611732620b3357001016f3dfed5f2370": {
+    "instance": "twofish",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 111,
+      "NOT": 0,
+      "total": 111,
+      "depth": 7,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [
+      {
+        "XOR": 110,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2, s-XOR embeds into general XOR",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "external_review": false
+  },
+  "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb": {
+    "instance": "whirlwindm0",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 217,
+      "NOT": 0,
+      "total": 217,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d": {
+    "instance": "whirlwindm1",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 240,
+      "NOT": 0,
+      "total": 240,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "8efa70cc675eab0d8b27b67134796788235ac934cd9dd00969bbdb4e3bc06e1d": {
+    "instance": "khazad",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 366,
+      "NOT": 0,
+      "total": 366,
+      "depth": 16,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "0d6eef9ec877d81bca5a54ba1ce9d713a9acd79336777184878953d270f6576f": {
+    "instance": "whirlpool-maelstrom",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 469,
+      "NOT": 0,
+      "total": 469,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "0a3c5f0e97cb40ec6b3f309561b30d6d7d4bc3342c45a545c963d2b1524ce488": {
+    "instance": "gf5-25",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 20,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 44,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://github.com/Swapnil-jain/gf2m-circuits",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "1bdd7c9bf19bff9e0ad4086d11d262c0a74c77cf092feeae3f7ae83f9bb64fd2": {
+    "instance": "gf8-11b",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 33,
+      "XOR": 76,
+      "NOT": 0,
+      "total": 109,
+      "depth": 14,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://github.com/Swapnil-jain/gf2m-circuits",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "566e82b19e20656f8f734805e36be4460c34b1b66524739ff62443ecf2d02a60": {
+    "instance": "design-mds4x4-w4",
+    "status": "rejected-published-prior-matches-or-dominates",
+    "reason": "A verified prior construction is no worse on every Pareto axis.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 46,
+      "NOT": 0,
+      "total": 46,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 41,
+          "NOT": 0,
+          "total": 41,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/GH_1/SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 39,
+          "NOT": 0,
+          "total": 39,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/GH_1/SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 43,
+          "NOT": 0,
+          "total": 43,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--ToSC_SarSye16_i_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ToSC_SarSye16_i_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 40,
+          "NOT": 0,
+          "total": 40,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--ToSC_SarSye16_i_4x4_4_SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ToSC_SarSye16_i_4x4_4_SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 45,
+          "NOT": 0,
+          "total": 45,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--ePrint_JeaPeySim_i_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ePrint_JeaPeySim_i_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 46,
+          "NOT": 0,
+          "total": 46,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--C_BeiKraLea16_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/C_BeiKraLea16_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 43,
+          "NOT": 0,
+          "total": 43,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--ToSC_SarSye16_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ToSC_SarSye16_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 45,
+          "NOT": 0,
+          "total": 45,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--ePrint_JeaPeySim_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ePrint_JeaPeySim_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 43,
+          "NOT": 0,
+          "total": 43,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--ePrint_JeaPeySim_4x4_4_SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ePrint_JeaPeySim_4x4_4_SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "sources": [
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a",
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "4b3063e8218650724ab33da1cd4e3194012c5ba200e053e056d3d4b3be004127": {
+    "instance": "foxmu8",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 539,
+      "NOT": 0,
+      "total": 539,
+      "depth": 14,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "0b2d9fdc4b3624439d63325928330fced333546a286e2fdb2b96fe2bb1f9508b": {
+    "instance": "grostl",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 477,
+      "NOT": 0,
+      "total": 477,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://doi.org/10.7717/peerj-cs.1820",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  },
+  "0dee3903ad280bccdbb109c2dc6dd99c820a8eef427f3a1e332e19200366b7c4": {
+    "instance": "bkl16-4x4-gf16",
+    "status": "rejected-published-prior-matches-or-dominates",
+    "reason": "A verified prior construction is no worse on every Pareto axis.",
+    "compared_metrics": {
+      "AND": 0,
+      "XOR": 47,
+      "NOT": 0,
+      "total": 47,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [
+      {
+        "instance": "bkl16-4x4-gf16",
+        "metrics": {
+          "AND": 0,
+          "XOR": 46,
+          "NOT": 0,
+          "total": 46,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/bkl16-4x4-gf16--sbp--C_BeiKraLea16_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/C_BeiKraLea16_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "sources": [
+      "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+    ],
+    "count_only_blockers": [
+      {
+        "XOR": 40,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2 CTG16 row; same authors as BKL16; identity must be checked",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "external_review": false
+  },
+  "e7ae0268daa01444c6d5fa9f4ec5f1ce9ed85f999a266b27d76b3513a9f20248": {
+    "instance": "gf8-11b",
+    "status": "unresolved-published-pareto-frontier",
+    "reason": "Correctness established; candidate-specific published size/depth coverage is incomplete. Not accepted as new. A count-only claim cannot settle a depth tradeoff; absence from this corpus is insufficient.",
+    "compared_metrics": {
+      "AND": 32,
+      "XOR": 78,
+      "NOT": 0,
+      "total": 110,
+      "depth": 17,
+      "dead_gates": 0
+    },
+    "dominating_or_equal_prior": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "https://github.com/Swapnil-jain/gf2m-circuits",
+      "docs/LITERATURE.md"
+    ],
+    "count_only_blockers": [],
+    "external_review": false
+  }
+}

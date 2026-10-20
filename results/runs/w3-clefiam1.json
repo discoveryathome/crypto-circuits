@@ -1,0 +1,56 @@
+{
+  "instance": "clefiam1",
+  "wave": 3,
+  "seed": "f789e592d9da1ae7618ab513071527f1",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/clefiam1--nist.json",
+  "search_wall_seconds": 0.7337435829686001,
+  "search_cpu_seconds": 0.34815000000000396,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 82,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w3-clefiam1-0.json",
+      "sha256": "c823c8844e5481261007fa83a6a7fbf07d1cb688a346b4d8ef375333e3793833",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 120,
+        "NOT": 0,
+        "total": 120,
+        "depth": 4,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0005674170097336173
+    },
+    {
+      "path": "results/candidates/w3-clefiam1-1.json",
+      "sha256": "a8fd7a7b7f74c1772c26f25ae44d401ea5678d620e0ab3d129797f20ba2ed18a",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 103,
+        "NOT": 0,
+        "total": 103,
+        "depth": 9,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0005414169281721115
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

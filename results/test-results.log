@@ -1,0 +1,15 @@
+test_bad_certificates (test_checker.CheckerTests.test_bad_certificates) ... ok
+test_correct_affine_certificate (test_checker.CheckerTests.test_correct_affine_certificate) ... ok
+test_dead_gates_are_paid (test_checker.CheckerTests.test_dead_gates_are_paid) ... ok
+test_duplicate_keys (test_checker.CheckerTests.test_duplicate_keys) ... ok
+test_mds_property_and_wrong_design (test_checker.CheckerTests.test_mds_property_and_wrong_design) ... ok
+test_multiplier_and_mutation (test_checker.CheckerTests.test_multiplier_and_mutation) ... ok
+test_synthesis_semantics (test_checker.CheckerTests.test_synthesis_semantics) ... ok
+test_duplicate_keys (test_second_checker.SecondCheckerTests.test_duplicate_keys) ... ok
+test_non_mds_and_wrong_product (test_second_checker.SecondCheckerTests.test_non_mds_and_wrong_product) ... ok
+test_structural_and_semantic_rejections (test_second_checker.SecondCheckerTests.test_structural_and_semantic_rejections) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.062s
+
+OK

@@ -1,0 +1,628 @@
+{
+  "spec": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/portfolio/whirlwindm0.json",
+  "spec_sha256": "ba2499f59ed277f26062bab7c0b1221e68939c199203f78872ca218b59cdba83",
+  "source_sha256": "fce403b0522d732e7fb9ef4a5a8e4dff2b92c9a2272984232be37f6e6c29d305",
+  "wrapper_sha256": "cba34916d46eee65641bb634fd048b564f0461a24f3c99e0835bfa8e86800302",
+  "binary_sha256": "bea2d7c4e3125a724f68812b1a701cd9875c3cad4cf8bca533af696feaac25ce",
+  "seed": 6901139912375171768,
+  "cpu_seconds_budget": 170.0,
+  "wall_seconds_guard": 170.0,
+  "starts": [
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/results/candidates/w2-whirlwindm0-1.json",
+      "sha256": "7f74a6d22f6aa2ab713d24274da57c550d143ec7e26cf2342a7c0ca4947ca685"
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/results/candidates/w3-whirlwindm0-0.json",
+      "sha256": "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb"
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-1/candidate-2df3fe36f34815cae929704f80bc27863ade9d9e9570bbf7834da340f81ee9af.json",
+      "sha256": "2df3fe36f34815cae929704f80bc27863ade9d9e9570bbf7834da340f81ee9af"
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-1/candidate-65498f935279d43200cc65b6b7b2ff4b1d77cea4d7cb1045c2bdbcd8e25b70d4.json",
+      "sha256": "65498f935279d43200cc65b6b7b2ff4b1d77cea4d7cb1045c2bdbcd8e25b70d4"
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-0/candidate-079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42.json",
+      "sha256": "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42"
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-0/candidate-a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d.json",
+      "sha256": "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d"
+    }
+  ],
+  "checkpoints": [
+    {
+      "method": "start",
+      "iteration": 0,
+      "cpu_seconds": 0.000981,
+      "XOR": 159,
+      "depth": 13,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/candidate-422f9aaeff9177b6d8d95af42933c3cf381b38dfbc11f6a74a999add8fa7e91e.json",
+      "sha256": "422f9aaeff9177b6d8d95af42933c3cf381b38dfbc11f6a74a999add8fa7e91e",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 159,
+          "NOT": 0,
+          "total": 159,
+          "depth": 13,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.000905499910004437
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 159,
+          "NOT": 0,
+          "total": 159,
+          "depth": 13
+        },
+        "verification_seconds": 0.0026945420540869236
+      },
+      "first_seen_unix_ns": 1792478512542977000
+    },
+    {
+      "method": "start",
+      "iteration": 0,
+      "cpu_seconds": 0.001144,
+      "XOR": 217,
+      "depth": 5,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/candidate-84d661014ea30a470b64f9dcc75cfe6a3d9c45c3230846910b5866f62fe119e0.json",
+      "sha256": "84d661014ea30a470b64f9dcc75cfe6a3d9c45c3230846910b5866f62fe119e0",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 217,
+          "NOT": 0,
+          "total": 217,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0009844159940257668
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 217,
+          "NOT": 0,
+          "total": 217,
+          "depth": 5
+        },
+        "verification_seconds": 0.0033500000135973096
+      },
+      "first_seen_unix_ns": 1792478512556312000
+    },
+    {
+      "method": "start",
+      "iteration": 0,
+      "cpu_seconds": 0.001315,
+      "XOR": 175,
+      "depth": 9,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/candidate-2df3fe36f34815cae929704f80bc27863ade9d9e9570bbf7834da340f81ee9af.json",
+      "sha256": "2df3fe36f34815cae929704f80bc27863ade9d9e9570bbf7834da340f81ee9af",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 175,
+          "NOT": 0,
+          "total": 175,
+          "depth": 9,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0009228331036865711
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 175,
+          "NOT": 0,
+          "total": 175,
+          "depth": 9
+        },
+        "verification_seconds": 0.0026896250201389194
+      },
+      "first_seen_unix_ns": 1792478512577775000
+    },
+    {
+      "method": "start",
+      "iteration": 0,
+      "cpu_seconds": 0.001422,
+      "XOR": 164,
+      "depth": 10,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/candidate-65498f935279d43200cc65b6b7b2ff4b1d77cea4d7cb1045c2bdbcd8e25b70d4.json",
+      "sha256": "65498f935279d43200cc65b6b7b2ff4b1d77cea4d7cb1045c2bdbcd8e25b70d4",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 164,
+          "NOT": 0,
+          "total": 164,
+          "depth": 10,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0008669589878991246
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 164,
+          "NOT": 0,
+          "total": 164,
+          "depth": 10
+        },
+        "verification_seconds": 0.002520208014175296
+      },
+      "first_seen_unix_ns": 1792478512586137000
+    },
+    {
+      "method": "start",
+      "iteration": 0,
+      "cpu_seconds": 0.001521,
+      "XOR": 157,
+      "depth": 12,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/candidate-079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42.json",
+      "sha256": "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 157,
+          "NOT": 0,
+          "total": 157,
+          "depth": 12,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0017942909616976976
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 157,
+          "NOT": 0,
+          "total": 157,
+          "depth": 12
+        },
+        "verification_seconds": 0.0029328749515116215
+      },
+      "first_seen_unix_ns": 1792478512598865000
+    },
+    {
+      "method": "start",
+      "iteration": 0,
+      "cpu_seconds": 0.001615,
+      "XOR": 209,
+      "depth": 7,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/candidate-a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d.json",
+      "sha256": "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 209,
+          "NOT": 0,
+          "total": 209,
+          "depth": 7,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0010590419406071305
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 209,
+          "NOT": 0,
+          "total": 209,
+          "depth": 7
+        },
+        "verification_seconds": 0.006141124991700053
+      },
+      "first_seen_unix_ns": 1792478512608049000
+    },
+    {
+      "method": "rotation-and-connected-window",
+      "iteration": 19650,
+      "cpu_seconds": 0.684814,
+      "XOR": 163,
+      "depth": 11,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/candidate-b1e8f0ee61a80eb6372299993a1a09cb2aaf6526fd07f40cda31ab0b5cb22d60.json",
+      "sha256": "b1e8f0ee61a80eb6372299993a1a09cb2aaf6526fd07f40cda31ab0b5cb22d60",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 163,
+          "NOT": 0,
+          "total": 163,
+          "depth": 11,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.000873749959282577
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 163,
+          "NOT": 0,
+          "total": 163,
+          "depth": 11
+        },
+        "verification_seconds": 0.002745291101746261
+      },
+      "first_seen_unix_ns": 1792478515647622000
+    },
+    {
+      "method": "rotation-and-connected-window",
+      "iteration": 19895,
+      "cpu_seconds": 0.694255,
+      "XOR": 162,
+      "depth": 11,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/candidate-e4e296543df5cf1854cb0365544153a0f9b825e9351b0f5699a81c45b99b0c6d.json",
+      "sha256": "e4e296543df5cf1854cb0365544153a0f9b825e9351b0f5699a81c45b99b0c6d",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 162,
+          "NOT": 0,
+          "total": 162,
+          "depth": 11,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0011211249511688948
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 162,
+          "NOT": 0,
+          "total": 162,
+          "depth": 11
+        },
+        "verification_seconds": 0.002522624912671745
+      },
+      "first_seen_unix_ns": 1792478516020660000
+    },
+    {
+      "method": "rotation-and-connected-window",
+      "iteration": 59070,
+      "cpu_seconds": 2.05544,
+      "XOR": 174,
+      "depth": 9,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/candidate-6335dd8c96623f4a0865f7dc963513fb1950d861d6b3149bdc824c464c0a32dd.json",
+      "sha256": "6335dd8c96623f4a0865f7dc963513fb1950d861d6b3149bdc824c464c0a32dd",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 174,
+          "NOT": 0,
+          "total": 174,
+          "depth": 9,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.001062333001755178
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 174,
+          "NOT": 0,
+          "total": 174,
+          "depth": 9
+        },
+        "verification_seconds": 0.002681999932974577
+      },
+      "first_seen_unix_ns": 1792478518775429000
+    },
+    {
+      "method": "rotation-and-connected-window",
+      "iteration": 520046,
+      "cpu_seconds": 17.558,
+      "XOR": 173,
+      "depth": 9,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/candidate-be382d31cb567755e03fc594b40bda22b8047a76575abe848cf0d3e1ee726f99.json",
+      "sha256": "be382d31cb567755e03fc594b40bda22b8047a76575abe848cf0d3e1ee726f99",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 173,
+          "NOT": 0,
+          "total": 173,
+          "depth": 9,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0029545839643105865
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 173,
+          "NOT": 0,
+          "total": 173,
+          "depth": 9
+        },
+        "verification_seconds": 0.0032357500167563558
+      },
+      "first_seen_unix_ns": 1792478546497592000
+    },
+    {
+      "method": "rotation-and-connected-window",
+      "iteration": 908915,
+      "cpu_seconds": 30.8717,
+      "XOR": 161,
+      "depth": 11,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/candidate-65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212.json",
+      "sha256": "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 161,
+          "NOT": 0,
+          "total": 161,
+          "depth": 11,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0012731250608339906
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 161,
+          "NOT": 0,
+          "total": 161,
+          "depth": 11
+        },
+        "verification_seconds": 0.0026333749992772937
+      },
+      "first_seen_unix_ns": 1792478572129416000
+    },
+    {
+      "method": "rotation-and-connected-window",
+      "iteration": 1059270,
+      "cpu_seconds": 35.9868,
+      "XOR": 172,
+      "depth": 9,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/candidate-e82782d15fadf51311882538009e0f27adb9b913e339751037e119b61feb68fd.json",
+      "sha256": "e82782d15fadf51311882538009e0f27adb9b913e339751037e119b61feb68fd",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 172,
+          "NOT": 0,
+          "total": 172,
+          "depth": 9,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0010749159846454859
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 172,
+          "NOT": 0,
+          "total": 172,
+          "depth": 9
+        },
+        "verification_seconds": 0.0026638329727575183
+      },
+      "first_seen_unix_ns": 1792478583635486000
+    },
+    {
+      "method": "rotation-and-connected-window",
+      "iteration": 1420017,
+      "cpu_seconds": 48.1754,
+      "XOR": 163,
+      "depth": 10,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/candidate-f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c.json",
+      "sha256": "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 163,
+          "NOT": 0,
+          "total": 163,
+          "depth": 10,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0009196659084409475
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 163,
+          "NOT": 0,
+          "total": 163,
+          "depth": 10
+        },
+        "verification_seconds": 0.0023724999045953155
+      },
+      "first_seen_unix_ns": 1792478611820724000
+    },
+    {
+      "method": "rotation-and-connected-window",
+      "iteration": 1849549,
+      "cpu_seconds": 63.3936,
+      "XOR": 171,
+      "depth": 9,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/candidate-2585aa43030c01541c6dedc63fba4d0189334e63a714c2d0c6acfee1ccc33ec8.json",
+      "sha256": "2585aa43030c01541c6dedc63fba4d0189334e63a714c2d0c6acfee1ccc33ec8",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 171,
+          "NOT": 0,
+          "total": 171,
+          "depth": 9,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0013772089732810855
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 171,
+          "NOT": 0,
+          "total": 171,
+          "depth": 9
+        },
+        "verification_seconds": 0.0027567909564822912
+      },
+      "first_seen_unix_ns": 1792478664124313000
+    },
+    {
+      "method": "rotation-and-connected-window",
+      "iteration": 1849759,
+      "cpu_seconds": 63.401,
+      "XOR": 170,
+      "depth": 9,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/candidate-30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c.json",
+      "sha256": "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 170,
+          "NOT": 0,
+          "total": 170,
+          "depth": 9,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0010132910683751106
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 170,
+          "NOT": 0,
+          "total": 170,
+          "depth": 9
+        },
+        "verification_seconds": 0.0026362909702584147
+      },
+      "first_seen_unix_ns": 1792478664398336000
+    }
+  ],
+  "status": "complete",
+  "method": "session-local algebraic DAG rotation + exact-distance window BP",
+  "limitations": "Search is heuristic; exact distances do not prove globally optimal circuits. Wall/CPU stopping may change final iteration count.",
+  "returncode": 0,
+  "wall_seconds": 170.010186666972
+}

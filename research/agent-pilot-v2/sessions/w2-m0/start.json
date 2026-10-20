@@ -1,0 +1,13 @@
+{
+  "id": "w2-m0",
+  "wave": 2,
+  "instance": "whirlwindm0",
+  "seed": "d538b7067d2b65adcaabc4db9ebca5ff",
+  "issued_at": "2026-10-20T06:55:59.269676+00:00",
+  "deadline": "2026-10-20T07:15:59.269676+00:00",
+  "plan_sha256": "e13c95221645d66df1ba36c59df662d3dbb4e8b0ae82dcce8045911a339b0097",
+  "frontier_sha256": "a60f7ae06f12870cf55acb21fc36492b4cdbe85ea82cb4dd3d55fdc5d5bcb633",
+  "agent_task": "session_w2_m0",
+  "model": "inherited default; exact model/token accounting not exposed",
+  "status": "issued"
+}

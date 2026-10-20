@@ -1,0 +1,17 @@
+{
+  "written_at": "2026-10-20T07:13:00.009508+00:00",
+  "problem": "Fixed square-aes-mugi 32x32 linear AES MixColumns map; no S-box.",
+  "lineage": "Original session methods using a local copy of the trusted preparation toolkit for circuit representation and invariants. Inactive w1-aes summary and shallow-v2 source were read as research material, not executed.",
+  "starts": "Every issued frontier certificate included as an available start; cyclic byte rotations preserve target-set semantics and are checked internally on materialization.",
+  "seed_policy": "Read own start.json; low64=int(hex,16)&((1<<64)-1). Named XOR constants in seed-log.json; later seeds low64 XOR first8 bytes SHA256(run name), big endian. Actual seeds in each receipt.",
+  "adaptations": [
+    "Plain semantic union plateaus led to 200 bridge values, colder annealing and coordinated new-child minimization.",
+    "SMT windows use independent bit projections of the incoming-span coefficient matrix, preserving true correlations, followed by full 32-bit semantic checks.",
+    "Contiguous windows are randomized by topological order; later version emphasizes ancestor cones.",
+    "Integer-depth global SMT was followed by Boolean rank constraints and expanded cancellation-aware support choices.",
+    "Final general-depth query targets88/4, retaining unknown-depth89 literature guard."
+  ],
+  "credit_policy": "Known baselines and equal-coordinate reproductions receive no discovery credit. Any certificate must pass both trusted CLI checkers and independent novelty review.",
+  "constraints": "No installations, no downloaded source execution, no external communications or remote writes, no extra subagents; all new writes inside this session.",
+  "clock": "All code/reasoning/compilation/search/self-checking charged against own issued1200-second elapsed cap; search wrappers reserve8 seconds for reaping and receipt finalization."
+}

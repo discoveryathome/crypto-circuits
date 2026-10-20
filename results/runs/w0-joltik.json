@@ -1,0 +1,74 @@
+{
+  "instance": "joltik",
+  "wave": 0,
+  "seed": "6919b42d79d9b8f89ec9096d041f1733",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/joltik--nist.json",
+  "search_wall_seconds": 0.28019841702189296,
+  "search_cpu_seconds": 0.096908,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 50,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w0-joltik-0.json",
+      "sha256": "6341454cb9bc83b9a8c55796b752d19e83d8c570f718c2657e41b5a2c642436a",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 50,
+        "NOT": 0,
+        "total": 50,
+        "depth": 3,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 256,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0002613330725580454
+    },
+    {
+      "path": "results/candidates/w0-joltik-1.json",
+      "sha256": "92bfa19ec090595c428caf18f827b9a1b6c9b3d255e8d224f1c2daa537a48efd",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 48,
+        "NOT": 0,
+        "total": 48,
+        "depth": 4,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 256,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0002406249986961484
+    },
+    {
+      "path": "results/candidates/w0-joltik-2.json",
+      "sha256": "487fad487c76a4c2555d540f2b700971e55ffed7b6c74c533c2ff509c2cb5215",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 44,
+        "NOT": 0,
+        "total": 44,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 256,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.00023945793509483337
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

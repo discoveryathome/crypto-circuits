@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-20T06:40:32.968894+00:00",
+  "purpose": "Supplementary coordination audit; not independent reviewer verdicts",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2511.18226v2",
+      "finding": "May 24 2026 revision explicitly gives a 159-XOR M0 construction. Definitions distinguish in-place s-XOR from general g-XOR. SSA conversion of an in-place witness preserves gate count; classical free-fanout depth is recomputed."
+    },
+    {
+      "url": "https://eprint.iacr.asia/2026/2520",
+      "finding": "October 17 2026 abstract reports M0 172, M1 170 g-XOR. Depth remains unresolved, so these count-only claims stay conservative blockers."
+    },
+    {
+      "url": "https://eprint.iacr.org/2025/1493",
+      "finding": "89-XOR AES claim; PDF access returned 403. No circuit or classical depth recovered; no bypass attempted."
+    }
+  ],
+  "additional_queries": [
+    "\"Whirlwind\" \"157\" XOR",
+    "\"Whirlwind\" \"159\" linear circuits",
+    "\"Whirlwind\" \"M0\" \"2026\" XOR",
+    "\"Whirlwind\" \"XOR\" \"Jain\"",
+    "\"Whirlwind M0\" circuit optimization",
+    "\"Whirlwind M1\" XOR circuit"
+  ],
+  "query_limit": "These searches found no stronger comparator than those already recorded; absence of indexed results is not a completeness proof. Independent candidate-specific review remains required.",
+  "root_review_elapsed_seconds": null,
+  "root_review_timing_note": "Interleaved with coordination and instrumentation; active review time was not separately instrumented."
+}

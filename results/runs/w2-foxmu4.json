@@ -1,0 +1,74 @@
+{
+  "instance": "foxmu4",
+  "wave": 2,
+  "seed": "306dd7d3bb9f66416cec38dc90c1e2d6",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/foxmu4--nist.json",
+  "search_wall_seconds": 1.1478797079762444,
+  "search_cpu_seconds": 0.36678500000000724,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 80,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w2-foxmu4-0.json",
+      "sha256": "40b52c87a97199e7913433dc78b7cf54f5cd01ea5468eac172adf97252634428",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 141,
+        "NOT": 0,
+        "total": 141,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0006575830047950149
+    },
+    {
+      "path": "results/candidates/w2-foxmu4-1.json",
+      "sha256": "dbb25966ea214ef0a211faebc168a66df17c91578c6c0c17e088bd489fd67631",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 143,
+        "NOT": 0,
+        "total": 143,
+        "depth": 4,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.00071237504016608
+    },
+    {
+      "path": "results/candidates/w2-foxmu4-2.json",
+      "sha256": "9e3a67650a0719f41de572e1f226df145dd1b1297dc2c100d1470d05d6396c20",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 130,
+        "NOT": 0,
+        "total": 130,
+        "depth": 9,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0007125409319996834
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "tests": "PASS: exact/bounded synthesis, semantic cancellation, deterministic replay, 100 valid window replacements",
+  "source_sha256": "0831142ac5d31a3a49920001beb658247a8ea2a7054fa8f478c4f7683991d12e",
+  "certificates": [
+    {
+      "method": "test-exact-cancellation",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 11,
+          "NOT": 0,
+          "total": 11,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 36,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.00012649991549551487
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 7,
+        "metrics": {
+          "AND": 0,
+          "XOR": 11,
+          "NOT": 0,
+          "total": 11,
+          "depth": 5
+        },
+        "verification_seconds": 0.00014275009743869305
+      },
+      "semantic_cancellation_gates": 4
+    },
+    {
+      "method": "test-bounded-cancellation",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 13,
+          "NOT": 0,
+          "total": 13,
+          "depth": 6,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 288,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.00014199991710484028
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 13,
+          "NOT": 0,
+          "total": 13,
+          "depth": 6
+        },
+        "verification_seconds": 0.0004540419904515147
+      },
+      "semantic_cancellation_gates": 5
+    }
+  ]
+}

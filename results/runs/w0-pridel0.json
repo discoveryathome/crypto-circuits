@@ -1,0 +1,38 @@
+{
+  "instance": "pridel0",
+  "wave": 0,
+  "seed": "f5d04cfb464d59740dff6b476c69182f",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/pridel0--nist.json",
+  "search_wall_seconds": 0.12112337502185255,
+  "search_cpu_seconds": 0.05136200000000013,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 102,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w0-pridel0-0.json",
+      "sha256": "a9e2c25a2a11667c20525ff72a4feb64a684b41c1b38cbb3d7c874e8f28590b5",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 24,
+        "NOT": 0,
+        "total": 24,
+        "depth": 2,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 256,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.00016308296471834183
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

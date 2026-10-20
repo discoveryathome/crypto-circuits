@@ -1,0 +1,34 @@
+{
+  "primary": {
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 384,
+      "NOT": 0,
+      "total": 384,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 16384,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.003330625011585653
+  },
+  "secondary": {
+    "evaluations": 129,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 384,
+      "depth": 5,
+      "total": 384
+    },
+    "ok": true,
+    "verification_seconds": 0.03175533306784928
+  },
+  "source": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-128x128/Aria--XOR=387-rs=48-symp=2.circ.txt",
+  "method": "Copy the published circuit's bit-0 cone eight times",
+  "classification": "derived-prior baseline correction, not counted as a trial discovery"
+}

@@ -1,0 +1,38 @@
+{
+  "instance": "fides-midori-mantis",
+  "wave": 4,
+  "seed": "13259fdb8dabc07ca5bee13c0faa6558",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/fides-midori-mantis--nist.json",
+  "search_wall_seconds": 0.07433562492951751,
+  "search_cpu_seconds": 0.051812000000012404,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 109,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w4-fides-midori-mantis-0.json",
+      "sha256": "e7feec29c6ce7ec35b6b3605d754de203b74213d5cd419639cbd9b054881dfb8",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 24,
+        "NOT": 0,
+        "total": 24,
+        "depth": 2,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 256,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.00015587499365210533
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

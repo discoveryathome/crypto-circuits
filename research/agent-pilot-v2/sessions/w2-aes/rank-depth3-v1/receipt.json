@@ -1,0 +1,25 @@
+{
+  "name": "rank-depth3-v1",
+  "seed": 1296776123666946375,
+  "seed_derivation": "low64 XOR first8 SHA256(name) big-endian; z3 receives low30 bits",
+  "started_at": "2026-10-20T07:09:14.219847+00:00",
+  "source_sha256": "1f61899a387a3c48f085cfdd9ad5fc4db8bc6423ab4f445c075bdf825b14ce9c",
+  "parent_hashes": [
+    "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+    "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+    "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82"
+  ],
+  "universe": 1453,
+  "options": 5419,
+  "depth_limit": 3,
+  "count_bound": 96,
+  "timeout_seconds": 100.0,
+  "installed_z3_version": "5.1.0",
+  "baseline_model_validation": "sat",
+  "status": "unknown",
+  "ended_at": "2026-10-20T07:10:54.235740+00:00",
+  "solver_wall_seconds": 100.0135117500322,
+  "solver_cpu_seconds": 63.624477999999996,
+  "statistics": "(:max-memory              121.89\n :memory                  106.33\n :num-allocs              2293760049\n :pb-aux-clauses          61681\n :pb-aux-variables        8665\n :pb-compile-card         1\n :rlimit-count            268549958\n :sat-backjumps           102398\n :sat-backtracks          52\n :sat-conflicts           102450\n :sat-decisions           220321\n :sat-del-clause          64464\n :sat-elim-clauses        56\n :sat-elim-literals       87662\n :sat-gc-clause           62855\n :sat-minimized-lits      7428537\n :sat-mk-clause-2ary      48696\n :sat-mk-clause-nary      149324\n :sat-mk-var              26131\n :sat-probing-assigned    2\n :sat-propagations-2ary   214743610\n :sat-propagations-nary   67365770\n :sat-restarts            16097\n :sat-scc-elim-binary     13\n :sat-scc-elim-vars       1877\n :sat-subs-resolution     3909\n :sat-subs-resolution-dyn 311556\n :sat-subsumed            1509\n :sat-tr                  3\n :sat-units               1029\n :time                    100.01)",
+  "reason_unknown": "timeout"
+}

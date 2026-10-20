@@ -1,0 +1,56 @@
+{
+  "instance": "grostl",
+  "wave": 4,
+  "seed": "cf4e9d61b816e3b67ea46aeb0ae95310",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/grostl--nist.json",
+  "search_wall_seconds": 11.82206120796036,
+  "search_cpu_seconds": 6.316880999999995,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 81,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w4-grostl-0.json",
+      "sha256": "0b2d9fdc4b3624439d63325928330fced333546a286e2fdb2b96fe2bb1f9508b",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 477,
+        "NOT": 0,
+        "total": 477,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.002577583072707057
+    },
+    {
+      "path": "results/candidates/w4-grostl-1.json",
+      "sha256": "ded90823d263e938143962a86e53c85aa02257c8966a3c8b7b7d97428a16568e",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 410,
+        "NOT": 0,
+        "total": 410,
+        "depth": 11,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.003177250036969781
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "design-mds4x4-w4-involution",
+  "title": "4x4 block MDS on four 4-bit words; involutory",
+  "kind": "design",
+  "inputs": 16,
+  "outputs": 16,
+  "involutory": true,
+  "baselines": [
+    {
+      "path": "certificates/design-mds4x4-w4-involution--tian2024.json",
+      "origin": "https://arxiv.org/html/2409.03298v1; table 6 #17 / section 3.5 tree 3 #4; 4-bit instantiation",
+      "metrics": {
+        "AND": 0,
+        "XOR": 36,
+        "NOT": 0,
+        "total": 36,
+        "depth": 7,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/design-mds4x4-w4-involution--jpst17-4x4-gf16-inv-xor-41-xzlbz20-circ.json",
+      "origin": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/JPST17-4x4-GF16-inv--XOR=41--XZLBZ20.circ.txt",
+      "metrics": {
+        "AND": 0,
+        "XOR": 41,
+        "NOT": 0,
+        "total": 41,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/design-mds4x4-w4-involution--lw16-4x4-gf16-inv-xor-44-xzlbz20-circ.json",
+      "origin": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/LW16-4x4-GF16-inv--XOR=44--XZLBZ20.circ.txt",
+      "metrics": {
+        "AND": 0,
+        "XOR": 44,
+        "NOT": 0,
+        "total": 44,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/design-mds4x4-w4-involution--skop15-4x4-gf16-inv-xor-44-xzlbz20-circ.json",
+      "origin": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/SKOP15-4x4-GF16-inv--XOR=44--XZLBZ20.circ.txt",
+      "metrics": {
+        "AND": 0,
+        "XOR": 44,
+        "NOT": 0,
+        "total": 44,
+        "depth": 8,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/design-mds4x4-w4-involution--ss16-4x4-gf16-inv-xor-38-rs-120-circ.json",
+      "origin": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/SS16-4x4-GF16-inv--XOR=38-rs=120.circ.txt",
+      "metrics": {
+        "AND": 0,
+        "XOR": 38,
+        "NOT": 0,
+        "total": 38,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    }
+  ],
+  "use": "branch-number-5 diffusion design, GL(4,2) blocks; not a full cipher security claim",
+  "literature_status": "35/36-XOR constructions published; general optimality unproved",
+  "literature_claims": [],
+  "best_published_xor_upper_bound": 36,
+  "novelty_policy": "Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker."
+}

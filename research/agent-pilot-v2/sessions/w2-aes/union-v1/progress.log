@@ -1,0 +1,94 @@
+universe=381 original=381 initializations=12 options=3239
+best=93,6 iteration=30 cpu=0.004231
+iteration=100000 cpu=0.531692 current=123,5 accepted=19273 cycles=38943
+best=91,6 iteration=160014 cpu=0.835357
+best=98,7 iteration=160071 cpu=0.835678
+iteration=200000 cpu=1.06095 current=112,7 accepted=37786 cycles=77229
+iteration=300000 cpu=1.57087 current=97,5 accepted=55081 cycles=115851
+iteration=400000 cpu=2.07251 current=98,5 accepted=71551 cycles=151829
+iteration=500000 cpu=2.59292 current=118,4 accepted=90094 cycles=181346
+iteration=600000 cpu=3.09484 current=102,5 accepted=107480 cycles=216397
+iteration=700000 cpu=3.59835 current=100,5 accepted=124573 cycles=254178
+iteration=800000 cpu=4.10383 current=103,7 accepted=141970 cycles=297422
+iteration=900000 cpu=4.61915 current=119,7 accepted=161455 cycles=332849
+best=97,7 iteration=928525 cpu=4.7581
+best=96,7 iteration=929008 cpu=4.76056
+best=94,7 iteration=930447 cpu=4.76727
+best=93,7 iteration=932300 cpu=4.77517
+best=92,7 iteration=936556 cpu=4.79434
+iteration=1000000 cpu=5.1093 current=103,6 accepted=179646 cycles=375018
+iteration=1100000 cpu=5.61261 current=96,5 accepted=196967 cycles=412746
+iteration=1200000 cpu=6.10418 current=97,5 accepted=213242 cycles=450306
+iteration=1300000 cpu=6.62267 current=119,6 accepted=231653 cycles=482926
+iteration=1400000 cpu=7.12692 current=109,7 accepted=250431 cycles=524318
+iteration=1500000 cpu=7.63393 current=98,5 accepted=268082 cycles=565123
+iteration=1600000 cpu=8.12519 current=91,4 accepted=284638 cycles=598237
+iteration=1700000 cpu=8.63135 current=113,3 accepted=303508 cycles=631530
+iteration=1800000 cpu=9.14081 current=104,6 accepted=321651 cycles=661343
+iteration=1900000 cpu=9.64867 current=107,5 accepted=338865 cycles=699636
+iteration=2000000 cpu=10.1516 current=98,7 accepted=356491 cycles=743024
+iteration=2100000 cpu=10.6596 current=117,5 accepted=375430 cycles=783640
+iteration=2200000 cpu=11.1829 current=101,5 accepted=393728 cycles=822049
+iteration=2300000 cpu=11.6944 current=101,4 accepted=411078 cycles=854925
+iteration=2400000 cpu=12.1954 current=98,4 accepted=428554 cycles=889822
+iteration=2500000 cpu=12.7174 current=115,5 accepted=447034 cycles=914960
+iteration=2600000 cpu=13.2301 current=113,6 accepted=464847 cycles=951673
+iteration=2700000 cpu=13.7292 current=98,3 accepted=481401 cycles=980909
+iteration=2800000 cpu=14.2273 current=99,6 accepted=498816 cycles=1020966
+iteration=2900000 cpu=14.7548 current=120,7 accepted=519197 cycles=1062884
+best=89,6 iteration=2960021 cpu=15.0478
+iteration=3000000 cpu=15.2654 current=105,7 accepted=537861 cycles=1105060
+iteration=3100000 cpu=15.7715 current=101,5 accepted=555561 cycles=1144227
+iteration=3200000 cpu=16.2885 current=102,5 accepted=572998 cycles=1181580
+iteration=3300000 cpu=16.8239 current=123,5 accepted=592595 cycles=1222808
+iteration=3400000 cpu=17.3371 current=106,5 accepted=611172 cycles=1260601
+iteration=3500000 cpu=17.8399 current=98,7 accepted=628876 cycles=1303213
+iteration=3600000 cpu=18.3429 current=98,6 accepted=646380 cycles=1346795
+iteration=3700000 cpu=18.8752 current=117,6 accepted=666115 cycles=1382446
+iteration=3800000 cpu=19.3904 current=106,4 accepted=683949 cycles=1421248
+iteration=3900000 cpu=19.9193 current=105,4 accepted=701397 cycles=1451416
+iteration=4000000 cpu=20.4259 current=101,5 accepted=719167 cycles=1487452
+iteration=4100000 cpu=20.9419 current=121,6 accepted=737839 cycles=1524036
+iteration=4200000 cpu=21.4561 current=104,5 accepted=755989 cycles=1564352
+iteration=4300000 cpu=21.9719 current=102,5 accepted=774098 cycles=1600529
+iteration=4400000 cpu=22.4907 current=101,5 accepted=791424 cycles=1636356
+iteration=4500000 cpu=23.0257 current=126,7 accepted=810962 cycles=1667839
+iteration=4600000 cpu=23.5438 current=110,5 accepted=829422 cycles=1711440
+iteration=4700000 cpu=24.0561 current=102,5 accepted=847326 cycles=1749840
+iteration=4800000 cpu=24.5586 current=102,6 accepted=865456 cycles=1789898
+iteration=4900000 cpu=25.0809 current=119,6 accepted=885216 cycles=1830957
+iteration=5000000 cpu=25.6074 current=104,5 accepted=903289 cycles=1868754
+iteration=5100000 cpu=26.1153 current=103,5 accepted=920489 cycles=1905498
+iteration=5200000 cpu=26.6232 current=101,6 accepted=938085 cycles=1946678
+iteration=5300000 cpu=27.1561 current=121,6 accepted=957049 cycles=1978676
+iteration=5400000 cpu=27.6674 current=100,4 accepted=974954 cycles=2016328
+iteration=5500000 cpu=28.1804 current=105,5 accepted=991928 cycles=2050239
+iteration=5600000 cpu=28.6922 current=100,5 accepted=1009500 cycles=2085684
+iteration=5700000 cpu=29.2094 current=116,3 accepted=1028158 cycles=2119554
+iteration=5800000 cpu=29.7175 current=106,7 accepted=1046268 cycles=2150310
+iteration=5900000 cpu=30.2245 current=98,5 accepted=1063954 cycles=2188251
+iteration=6000000 cpu=30.7361 current=101,6 accepted=1082036 cycles=2229831
+iteration=6100000 cpu=31.2746 current=118,5 accepted=1101016 cycles=2260572
+iteration=6200000 cpu=31.7805 current=106,6 accepted=1118708 cycles=2298139
+iteration=6300000 cpu=32.2891 current=106,7 accepted=1136724 cycles=2341991
+iteration=6400000 cpu=32.8034 current=101,5 accepted=1154566 cycles=2379243
+iteration=6500000 cpu=33.3204 current=109,5 accepted=1172927 cycles=2404709
+iteration=6600000 cpu=33.8472 current=109,5 accepted=1190139 cycles=2442045
+iteration=6700000 cpu=34.3722 current=102,5 accepted=1207912 cycles=2480651
+iteration=6800000 cpu=34.8698 current=96,6 accepted=1224992 cycles=2521315
+iteration=6900000 cpu=35.4008 current=119,5 accepted=1244590 cycles=2554787
+iteration=7000000 cpu=35.9268 current=106,5 accepted=1262889 cycles=2591728
+iteration=7100000 cpu=36.4413 current=98,5 accepted=1280266 cycles=2629742
+iteration=7200000 cpu=36.9456 current=101,5 accepted=1297847 cycles=2668600
+iteration=7300000 cpu=37.475 current=114,6 accepted=1316698 cycles=2706539
+iteration=7400000 cpu=37.9893 current=106,6 accepted=1334569 cycles=2749741
+iteration=7500000 cpu=38.5092 current=104,5 accepted=1352244 cycles=2788676
+iteration=7600000 cpu=39.0163 current=99,7 accepted=1369704 cycles=2831960
+iteration=7700000 cpu=39.5495 current=113,4 accepted=1389072 cycles=2869604
+iteration=7800000 cpu=40.0672 current=101,7 accepted=1406372 cycles=2905019
+iteration=7900000 cpu=40.5722 current=105,5 accepted=1424327 cycles=2946146
+iteration=8000000 cpu=41.0971 current=103,6 accepted=1441723 cycles=2985903
+iteration=8100000 cpu=41.6163 current=115,5 accepted=1460821 cycles=3029263
+iteration=8200000 cpu=42.1277 current=99,4 accepted=1478128 cycles=3063726
+iteration=8300000 cpu=42.6305 current=103,5 accepted=1495204 cycles=3099083
+done iterations=8372644 cpu=43.0063 accepted=1508508 cycles=3121706

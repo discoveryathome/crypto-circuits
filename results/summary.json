@@ -1,0 +1,57 @@
+{
+  "planned_trials": 160,
+  "completed_trials": 160,
+  "missing_trials": 0,
+  "internal_advance_trials": 128,
+  "unique_corpus_frontier_proposals": 70,
+  "confirmed_published_frontier_advances": 0,
+  "confirmed_published_advance_trials": 0,
+  "confirmed_rate_per_trial": 0.0,
+  "search_cpu_seconds": 189.41049099999984,
+  "search_wall_seconds": 384.0522029257845,
+  "primary_check_seconds": 20.07655250967946,
+  "second_check_total_seconds": 64.20046837592963,
+  "second_check_median_seconds": 0.08982139558065683,
+  "second_check_max_seconds": 8.356718374998309,
+  "second_checks": 102,
+  "threshold_met": false,
+  "recommendation": "POSTPONE CRYPTOGRAPHY LAUNCH",
+  "limitation": "Algorithm trials, not actual donated agents; short bounded methods do not establish exhaustion.",
+  "waves": [
+    {
+      "wave": 0,
+      "trials": 32,
+      "internal_advance_trials": 25,
+      "unique_corpus_proposals": 39,
+      "confirmed_published_advances": 0
+    },
+    {
+      "wave": 1,
+      "trials": 32,
+      "internal_advance_trials": 25,
+      "unique_corpus_proposals": 11,
+      "confirmed_published_advances": 0
+    },
+    {
+      "wave": 2,
+      "trials": 32,
+      "internal_advance_trials": 25,
+      "unique_corpus_proposals": 7,
+      "confirmed_published_advances": 0
+    },
+    {
+      "wave": 3,
+      "trials": 32,
+      "internal_advance_trials": 26,
+      "unique_corpus_proposals": 9,
+      "confirmed_published_advances": 0
+    },
+    {
+      "wave": 4,
+      "trials": 32,
+      "internal_advance_trials": 27,
+      "unique_corpus_proposals": 4,
+      "confirmed_published_advances": 0
+    }
+  ]
+}

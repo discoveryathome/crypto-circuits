@@ -1,0 +1,791 @@
+{
+  "reviewer": "/root/prepare_literature; separate from search agents",
+  "review_started_at": "2026-10-20T06:52:02Z",
+  "review_ended_at": "2026-10-20T06:55:28.333238+00:00",
+  "review_elapsed_seconds": 206.333238,
+  "scope": "Six final wave1 frontier candidates only. Superseded checkpoints retained in session archives, not credited separately.",
+  "plan_sha256": "e13c95221645d66df1ba36c59df662d3dbb4e8b0ae82dcce8045911a339b0097",
+  "checks_ledger_sha256_at_review": "f6bdf0649504850ad1d7546734893b8120d385e664ee3f40bcbf57d876bfd639",
+  "observed_summary_sha256_at_review": "b3ec0289b1da93b74ae0c78738ca07e67ee12e59d072c9dfc35d96810cda9114",
+  "points": [
+    {
+      "session": "w1-m0",
+      "wave": 1,
+      "instance": "whirlwindm0",
+      "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor157-depth12-079f1f3f3f22.json",
+      "sha256": "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 157,
+        "dead_gates": 0,
+        "depth": 12,
+        "total": 157
+      },
+      "mtime_utc": "2026-10-20T06:36:15.017046+00:00",
+      "observed_at": "2026-10-20T06:36:15.339522+00:00",
+      "verdict": "accepted",
+      "credit": 1,
+      "acceptance_level": "local independent-agent literature adjudication; not external scientific review",
+      "claim_scope": "New classical binary-XOR count upper bound for this exact fixed map",
+      "reason": "Both checkers agree; strictly nondominated versus every retrieved published and prior-local point; all known missing-depth count guards have strictly larger XOR count; contemporary primary comparison tables and current artifact lineage support the stated bounded claim. Meaningful circuit resynthesis established by changed semantic graph.",
+      "primary_fresh_check": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 157,
+          "NOT": 0,
+          "total": 157,
+          "depth": 12,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0009205410024151206
+      },
+      "second_fresh_check": {
+        "evaluations": 33,
+        "method": "independent scalar implementation",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 157,
+          "depth": 12,
+          "total": 157
+        },
+        "ok": true,
+        "verification_seconds": 0.0025021249894052744
+      },
+      "second_process_wall_seconds": 0.08164595800917596,
+      "point_mechanical_review_started_at": "2026-10-20T06:54:43.324875+00:00",
+      "point_mechanical_review_seconds": 0.08358199999202043,
+      "point_literature_review_seconds": null,
+      "point_literature_review_time_note": "Shared literature/lineage work across all six candidates; no artificial per-candidate allocation.",
+      "dominating_or_equal_known_points": [],
+      "published_comparators": [
+        {
+          "coordinates": [
+            0,
+            159,
+            159,
+            14
+          ],
+          "path": "certificates/whirlwindm0--xu2026-size.json",
+          "kind": "published"
+        }
+      ],
+      "known_combined_comparators": [
+        {
+          "coordinates": [
+            0,
+            159,
+            159,
+            13
+          ],
+          "path": "results/candidates/w2-whirlwindm0-1.json",
+          "kind": "internal-prior"
+        },
+        {
+          "coordinates": [
+            0,
+            217,
+            217,
+            5
+          ],
+          "path": "results/candidates/w3-whirlwindm0-0.json",
+          "kind": "internal-prior"
+        }
+      ],
+      "count_only_guard_decisions": [
+        {
+          "XOR": 183,
+          "depth": null,
+          "source_url": "https://doi.org/10.13154/tosc.v2020.i2.120-145",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "excluded-by-strictly-larger-XOR-count"
+        },
+        {
+          "XOR": 173,
+          "depth": null,
+          "source_url": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "excluded-by-strictly-larger-XOR-count"
+        },
+        {
+          "XOR": 172,
+          "depth": null,
+          "source_url": "https://eprint.iacr.asia/2026/2520",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "excluded-by-strictly-larger-XOR-count"
+        }
+      ],
+      "structural_lineage": {
+        "published_start": "certificates/whirlwindm0--xu2026-size.json",
+        "published_start_sha256": "bbe26e3782d0855acf0c826e996e5727d78b10b55937e2a3710831a9ceb0c782",
+        "published_start_duplicate_semantic_nodes": 0,
+        "published_start_dead_gates": 0,
+        "candidate_new_semantic_signals": 37,
+        "removed_semantic_signals": 39,
+        "identical_gate_equations_retained": 93,
+        "interpretation": "Gates are changed by cancellation-aware DAG resynthesis; these are not merely numbering, scheduling, CNOT-to-SSA conversion, duplicate-node cleanup, or direct replication of a prior bit-plane. No new synthesis algorithm or quantum/CNOT record is claimed."
+      },
+      "external_review": false
+    },
+    {
+      "session": "w1-m0",
+      "wave": 1,
+      "instance": "whirlwindm0",
+      "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor161-depth11-65a10aa404e3.json",
+      "sha256": "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 161,
+        "dead_gates": 0,
+        "depth": 11,
+        "total": 161
+      },
+      "mtime_utc": "2026-10-20T06:42:52.210753+00:00",
+      "observed_at": "2026-10-20T06:46:21.676325+00:00",
+      "verdict": "accepted",
+      "credit": 1,
+      "acceptance_level": "local independent-agent literature adjudication; not external scientific review",
+      "claim_scope": "New nondominated classical binary-XOR size/depth tradeoff against audited published and prior local constructions",
+      "reason": "Both checkers agree; strictly nondominated versus every retrieved published and prior-local point; all known missing-depth count guards have strictly larger XOR count; contemporary primary comparison tables and current artifact lineage support the stated bounded claim. Meaningful circuit resynthesis established by changed semantic graph.",
+      "primary_fresh_check": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 161,
+          "NOT": 0,
+          "total": 161,
+          "depth": 11,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0007409169338643551
+      },
+      "second_fresh_check": {
+        "evaluations": 33,
+        "method": "independent scalar implementation",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 161,
+          "depth": 11,
+          "total": 161
+        },
+        "ok": true,
+        "verification_seconds": 0.0025817090645432472
+      },
+      "second_process_wall_seconds": 0.07571108301635832,
+      "point_mechanical_review_started_at": "2026-10-20T06:54:43.409100+00:00",
+      "point_mechanical_review_seconds": 0.07741199992597103,
+      "point_literature_review_seconds": null,
+      "point_literature_review_time_note": "Shared literature/lineage work across all six candidates; no artificial per-candidate allocation.",
+      "dominating_or_equal_known_points": [],
+      "published_comparators": [
+        {
+          "coordinates": [
+            0,
+            159,
+            159,
+            14
+          ],
+          "path": "certificates/whirlwindm0--xu2026-size.json",
+          "kind": "published"
+        }
+      ],
+      "known_combined_comparators": [
+        {
+          "coordinates": [
+            0,
+            159,
+            159,
+            13
+          ],
+          "path": "results/candidates/w2-whirlwindm0-1.json",
+          "kind": "internal-prior"
+        },
+        {
+          "coordinates": [
+            0,
+            217,
+            217,
+            5
+          ],
+          "path": "results/candidates/w3-whirlwindm0-0.json",
+          "kind": "internal-prior"
+        }
+      ],
+      "count_only_guard_decisions": [
+        {
+          "XOR": 183,
+          "depth": null,
+          "source_url": "https://doi.org/10.13154/tosc.v2020.i2.120-145",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "excluded-by-strictly-larger-XOR-count"
+        },
+        {
+          "XOR": 173,
+          "depth": null,
+          "source_url": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "excluded-by-strictly-larger-XOR-count"
+        },
+        {
+          "XOR": 172,
+          "depth": null,
+          "source_url": "https://eprint.iacr.asia/2026/2520",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "excluded-by-strictly-larger-XOR-count"
+        }
+      ],
+      "structural_lineage": {
+        "published_start": "certificates/whirlwindm0--xu2026-size.json",
+        "published_start_sha256": "bbe26e3782d0855acf0c826e996e5727d78b10b55937e2a3710831a9ceb0c782",
+        "published_start_duplicate_semantic_nodes": 0,
+        "published_start_dead_gates": 0,
+        "candidate_new_semantic_signals": 50,
+        "removed_semantic_signals": 48,
+        "identical_gate_equations_retained": 76,
+        "interpretation": "Gates are changed by cancellation-aware DAG resynthesis; these are not merely numbering, scheduling, CNOT-to-SSA conversion, duplicate-node cleanup, or direct replication of a prior bit-plane. No new synthesis algorithm or quantum/CNOT record is claimed."
+      },
+      "external_review": false
+    },
+    {
+      "session": "w1-m0",
+      "wave": 1,
+      "instance": "whirlwindm0",
+      "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor163-depth10-f258c04d025f.json",
+      "sha256": "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 163,
+        "dead_gates": 0,
+        "depth": 10,
+        "total": 163
+      },
+      "mtime_utc": "2026-10-20T06:43:31.897909+00:00",
+      "observed_at": "2026-10-20T06:46:21.816299+00:00",
+      "verdict": "accepted",
+      "credit": 1,
+      "acceptance_level": "local independent-agent literature adjudication; not external scientific review",
+      "claim_scope": "New nondominated classical binary-XOR size/depth tradeoff against audited published and prior local constructions",
+      "reason": "Both checkers agree; strictly nondominated versus every retrieved published and prior-local point; all known missing-depth count guards have strictly larger XOR count; contemporary primary comparison tables and current artifact lineage support the stated bounded claim. Meaningful circuit resynthesis established by changed semantic graph.",
+      "primary_fresh_check": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 163,
+          "NOT": 0,
+          "total": 163,
+          "depth": 10,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.001036333036608994
+      },
+      "second_fresh_check": {
+        "evaluations": 33,
+        "method": "independent scalar implementation",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 163,
+          "depth": 10,
+          "total": 163
+        },
+        "ok": true,
+        "verification_seconds": 0.002417874988168478
+      },
+      "second_process_wall_seconds": 0.07877641601953655,
+      "point_mechanical_review_started_at": "2026-10-20T06:54:43.486895+00:00",
+      "point_mechanical_review_seconds": 0.08063116599805653,
+      "point_literature_review_seconds": null,
+      "point_literature_review_time_note": "Shared literature/lineage work across all six candidates; no artificial per-candidate allocation.",
+      "dominating_or_equal_known_points": [],
+      "published_comparators": [
+        {
+          "coordinates": [
+            0,
+            159,
+            159,
+            14
+          ],
+          "path": "certificates/whirlwindm0--xu2026-size.json",
+          "kind": "published"
+        }
+      ],
+      "known_combined_comparators": [
+        {
+          "coordinates": [
+            0,
+            159,
+            159,
+            13
+          ],
+          "path": "results/candidates/w2-whirlwindm0-1.json",
+          "kind": "internal-prior"
+        },
+        {
+          "coordinates": [
+            0,
+            217,
+            217,
+            5
+          ],
+          "path": "results/candidates/w3-whirlwindm0-0.json",
+          "kind": "internal-prior"
+        }
+      ],
+      "count_only_guard_decisions": [
+        {
+          "XOR": 183,
+          "depth": null,
+          "source_url": "https://doi.org/10.13154/tosc.v2020.i2.120-145",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "excluded-by-strictly-larger-XOR-count"
+        },
+        {
+          "XOR": 173,
+          "depth": null,
+          "source_url": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "excluded-by-strictly-larger-XOR-count"
+        },
+        {
+          "XOR": 172,
+          "depth": null,
+          "source_url": "https://eprint.iacr.asia/2026/2520",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "excluded-by-strictly-larger-XOR-count"
+        }
+      ],
+      "structural_lineage": {
+        "published_start": "certificates/whirlwindm0--xu2026-size.json",
+        "published_start_sha256": "bbe26e3782d0855acf0c826e996e5727d78b10b55937e2a3710831a9ceb0c782",
+        "published_start_duplicate_semantic_nodes": 0,
+        "published_start_dead_gates": 0,
+        "candidate_new_semantic_signals": 43,
+        "removed_semantic_signals": 39,
+        "identical_gate_equations_retained": 90,
+        "interpretation": "Gates are changed by cancellation-aware DAG resynthesis; these are not merely numbering, scheduling, CNOT-to-SSA conversion, duplicate-node cleanup, or direct replication of a prior bit-plane. No new synthesis algorithm or quantum/CNOT record is claimed."
+      },
+      "external_review": false
+    },
+    {
+      "session": "w1-m0",
+      "wave": 1,
+      "instance": "whirlwindm0",
+      "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor170-depth9-30045c939d4c.json",
+      "sha256": "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 170,
+        "dead_gates": 0,
+        "depth": 9,
+        "total": 170
+      },
+      "mtime_utc": "2026-10-20T06:44:24.480032+00:00",
+      "observed_at": "2026-10-20T06:46:21.963114+00:00",
+      "verdict": "accepted",
+      "credit": 1,
+      "acceptance_level": "local independent-agent literature adjudication; not external scientific review",
+      "claim_scope": "New nondominated classical binary-XOR size/depth tradeoff against audited published and prior local constructions",
+      "reason": "Both checkers agree; strictly nondominated versus every retrieved published and prior-local point; all known missing-depth count guards have strictly larger XOR count; contemporary primary comparison tables and current artifact lineage support the stated bounded claim. Meaningful circuit resynthesis established by changed semantic graph.",
+      "primary_fresh_check": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 170,
+          "NOT": 0,
+          "total": 170,
+          "depth": 9,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0011732500279322267
+      },
+      "second_fresh_check": {
+        "evaluations": 33,
+        "method": "independent scalar implementation",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 170,
+          "depth": 9,
+          "total": 170
+        },
+        "ok": true,
+        "verification_seconds": 0.00264962506480515
+      },
+      "second_process_wall_seconds": 0.0743112500058487,
+      "point_mechanical_review_started_at": "2026-10-20T06:54:43.567861+00:00",
+      "point_mechanical_review_seconds": 0.0763208749704063,
+      "point_literature_review_seconds": null,
+      "point_literature_review_time_note": "Shared literature/lineage work across all six candidates; no artificial per-candidate allocation.",
+      "dominating_or_equal_known_points": [],
+      "published_comparators": [
+        {
+          "coordinates": [
+            0,
+            159,
+            159,
+            14
+          ],
+          "path": "certificates/whirlwindm0--xu2026-size.json",
+          "kind": "published"
+        }
+      ],
+      "known_combined_comparators": [
+        {
+          "coordinates": [
+            0,
+            159,
+            159,
+            13
+          ],
+          "path": "results/candidates/w2-whirlwindm0-1.json",
+          "kind": "internal-prior"
+        },
+        {
+          "coordinates": [
+            0,
+            217,
+            217,
+            5
+          ],
+          "path": "results/candidates/w3-whirlwindm0-0.json",
+          "kind": "internal-prior"
+        }
+      ],
+      "count_only_guard_decisions": [
+        {
+          "XOR": 183,
+          "depth": null,
+          "source_url": "https://doi.org/10.13154/tosc.v2020.i2.120-145",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "excluded-by-strictly-larger-XOR-count"
+        },
+        {
+          "XOR": 173,
+          "depth": null,
+          "source_url": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "excluded-by-strictly-larger-XOR-count"
+        },
+        {
+          "XOR": 172,
+          "depth": null,
+          "source_url": "https://eprint.iacr.asia/2026/2520",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "excluded-by-strictly-larger-XOR-count"
+        }
+      ],
+      "structural_lineage": {
+        "published_start": "certificates/whirlwindm0--xu2026-size.json",
+        "published_start_sha256": "bbe26e3782d0855acf0c826e996e5727d78b10b55937e2a3710831a9ceb0c782",
+        "published_start_duplicate_semantic_nodes": 0,
+        "published_start_dead_gates": 0,
+        "candidate_new_semantic_signals": 72,
+        "removed_semantic_signals": 61,
+        "identical_gate_equations_retained": 58,
+        "interpretation": "Gates are changed by cancellation-aware DAG resynthesis; these are not merely numbering, scheduling, CNOT-to-SSA conversion, duplicate-node cleanup, or direct replication of a prior bit-plane. No new synthesis algorithm or quantum/CNOT record is claimed."
+      },
+      "external_review": false
+    },
+    {
+      "session": "w1-m0",
+      "wave": 1,
+      "instance": "whirlwindm0",
+      "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor209-depth7-a2078fae4a0e.json",
+      "sha256": "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 209,
+        "dead_gates": 0,
+        "depth": 7,
+        "total": 209
+      },
+      "mtime_utc": "2026-10-20T06:38:13.300570+00:00",
+      "observed_at": "2026-10-20T06:39:15.734010+00:00",
+      "verdict": "unresolved",
+      "credit": 0,
+      "acceptance_level": "local independent-agent literature adjudication; not external scientific review",
+      "claim_scope": "Correct internal Pareto proposal; published novelty unresolved",
+      "reason": "Known unknown-depth count guards could dominate this shallower high-count candidate; their depths must be resolved before credit.",
+      "primary_fresh_check": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 209,
+          "NOT": 0,
+          "total": 209,
+          "depth": 7,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0008630410302430391
+      },
+      "second_fresh_check": {
+        "evaluations": 33,
+        "method": "independent scalar implementation",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 209,
+          "depth": 7,
+          "total": 209
+        },
+        "ok": true,
+        "verification_seconds": 0.003249207977205515
+      },
+      "second_process_wall_seconds": 0.07144862494897097,
+      "point_mechanical_review_started_at": "2026-10-20T06:54:43.644556+00:00",
+      "point_mechanical_review_seconds": 0.07320508302655071,
+      "point_literature_review_seconds": null,
+      "point_literature_review_time_note": "Shared literature/lineage work across all six candidates; no artificial per-candidate allocation.",
+      "dominating_or_equal_known_points": [],
+      "published_comparators": [
+        {
+          "coordinates": [
+            0,
+            159,
+            159,
+            14
+          ],
+          "path": "certificates/whirlwindm0--xu2026-size.json",
+          "kind": "published"
+        }
+      ],
+      "known_combined_comparators": [
+        {
+          "coordinates": [
+            0,
+            159,
+            159,
+            13
+          ],
+          "path": "results/candidates/w2-whirlwindm0-1.json",
+          "kind": "internal-prior"
+        },
+        {
+          "coordinates": [
+            0,
+            217,
+            217,
+            5
+          ],
+          "path": "results/candidates/w3-whirlwindm0-0.json",
+          "kind": "internal-prior"
+        }
+      ],
+      "count_only_guard_decisions": [
+        {
+          "XOR": 183,
+          "depth": null,
+          "source_url": "https://doi.org/10.13154/tosc.v2020.i2.120-145",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "blocked-missing-depth"
+        },
+        {
+          "XOR": 173,
+          "depth": null,
+          "source_url": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "blocked-missing-depth"
+        },
+        {
+          "XOR": 172,
+          "depth": null,
+          "source_url": "https://eprint.iacr.asia/2026/2520",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "blocked-missing-depth"
+        }
+      ],
+      "structural_lineage": {
+        "published_start": "certificates/whirlwindm0--xu2026-size.json",
+        "published_start_sha256": "bbe26e3782d0855acf0c826e996e5727d78b10b55937e2a3710831a9ceb0c782",
+        "published_start_duplicate_semantic_nodes": 0,
+        "published_start_dead_gates": 0,
+        "candidate_new_semantic_signals": 175,
+        "removed_semantic_signals": 125,
+        "identical_gate_equations_retained": 2,
+        "interpretation": "Gates are changed by cancellation-aware DAG resynthesis; these are not merely numbering, scheduling, CNOT-to-SSA conversion, duplicate-node cleanup, or direct replication of a prior bit-plane. No new synthesis algorithm or quantum/CNOT record is claimed."
+      },
+      "external_review": false
+    },
+    {
+      "session": "w1-m1",
+      "wave": 1,
+      "instance": "whirlwindm1",
+      "path": "research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-10-10c982463574.json",
+      "sha256": "10c982463574dbaf5778d88f37518bc735549124eec2975af32c2b547d8753b5",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 166,
+        "dead_gates": 0,
+        "depth": 10,
+        "total": 166
+      },
+      "mtime_utc": "2026-10-20T06:42:10.984726+00:00",
+      "observed_at": "2026-10-20T06:42:24.905849+00:00",
+      "verdict": "accepted",
+      "credit": 1,
+      "acceptance_level": "local independent-agent literature adjudication; not external scientific review",
+      "claim_scope": "New classical binary-XOR count upper bound for this exact fixed map",
+      "reason": "Both checkers agree; strictly nondominated versus every retrieved published and prior-local point; all known missing-depth count guards have strictly larger XOR count; contemporary primary comparison tables and current artifact lineage support the stated bounded claim. Meaningful circuit resynthesis established by changed semantic graph.",
+      "primary_fresh_check": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 166,
+          "NOT": 0,
+          "total": 166,
+          "depth": 10,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0008996250107884407
+      },
+      "second_fresh_check": {
+        "evaluations": 33,
+        "method": "independent scalar implementation",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 166,
+          "depth": 10,
+          "total": 166
+        },
+        "ok": true,
+        "verification_seconds": 0.0028661659453064203
+      },
+      "second_process_wall_seconds": 0.07857058302033693,
+      "point_mechanical_review_started_at": "2026-10-20T06:54:43.718868+00:00",
+      "point_mechanical_review_seconds": 0.08023937500547618,
+      "point_literature_review_seconds": null,
+      "point_literature_review_time_note": "Shared literature/lineage work across all six candidates; no artificial per-candidate allocation.",
+      "dominating_or_equal_known_points": [],
+      "published_comparators": [
+        {
+          "coordinates": [
+            0,
+            169,
+            169,
+            11
+          ],
+          "path": "certificates/whirlwindm1--xu2026-size.json",
+          "kind": "published"
+        }
+      ],
+      "known_combined_comparators": [
+        {
+          "coordinates": [
+            0,
+            169,
+            169,
+            11
+          ],
+          "path": "certificates/whirlwindm1--xu2026-size.json",
+          "kind": "published"
+        },
+        {
+          "coordinates": [
+            0,
+            240,
+            240,
+            5
+          ],
+          "path": "results/candidates/w3-whirlwindm1-1.json",
+          "kind": "internal-prior"
+        }
+      ],
+      "count_only_guard_decisions": [
+        {
+          "XOR": 180,
+          "depth": null,
+          "source_url": "https://doi.org/10.13154/tosc.v2020.i2.120-145",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "excluded-by-strictly-larger-XOR-count"
+        },
+        {
+          "XOR": 181,
+          "depth": null,
+          "source_url": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "excluded-by-strictly-larger-XOR-count"
+        },
+        {
+          "XOR": 170,
+          "depth": null,
+          "source_url": "https://eprint.iacr.asia/2026/2520",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard.",
+          "decision": "excluded-by-strictly-larger-XOR-count"
+        }
+      ],
+      "structural_lineage": {
+        "published_start": "certificates/whirlwindm1--xu2026-size.json",
+        "published_start_sha256": "355f5eeeada505bfbb785fa5d2f5e79e667a48fe2228e3570980d17b4f028ef6",
+        "published_start_duplicate_semantic_nodes": 0,
+        "published_start_dead_gates": 0,
+        "candidate_new_semantic_signals": 52,
+        "removed_semantic_signals": 55,
+        "identical_gate_equations_retained": 78,
+        "interpretation": "Gates are changed by cancellation-aware DAG resynthesis; these are not merely numbering, scheduling, CNOT-to-SSA conversion, duplicate-node cleanup, or direct replication of a prior bit-plane. No new synthesis algorithm or quantum/CNOT record is claimed."
+      },
+      "external_review": false
+    }
+  ],
+  "accepted_points": 5,
+  "accepted_instances": [
+    "whirlwindm0",
+    "whirlwindm1"
+  ],
+  "unresolved_points": 1,
+  "rejected_points": 0,
+  "AES": "No novel point submitted; zero credit.",
+  "fresh_primary_check_seconds": 0.005633707041852176,
+  "fresh_second_internal_seconds": 0.016266708029434085,
+  "fresh_second_process_wall_seconds": 0.46046391502022743,
+  "total_mechanical_point_review_seconds": 0.47139049891848117,
+  "sources": [
+    "https://arxiv.org/html/2511.18226v2",
+    "https://arxiv.org/abs/2511.18226",
+    "https://github.com/DerryAlex/circulant_synth/tree/73ff05008ae1d9445a69bc792653726cdccdca5b",
+    "https://eprint.iacr.asia/2026/2520",
+    "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+    "https://doi.org/10.13154/tosc.v2020.i2.120-145",
+    "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits"
+  ],
+  "limitations": [
+    "No exhaustive proof of worldwide novelty; acceptance is against reconciled identified primary literature as of2026-10-20.",
+    "No external human scientific review, patent search, or unpublished-result access.",
+    "Search-query absence is not evidence of novelty; positive source lineage, mathematical count comparisons, checked artifacts, and new semantic graph support acceptance.",
+    "M0(209,7) remains uncredited due to identified unresolved comparators.",
+    "Quantum depth, in-place s-XOR feasibility, hardware area and complete hash-function security are not claimed.",
+    "Historical M1 180 g-XOR attribution is Lin et al.2021 in Xu\u2013Sun Table4; the preparation guard linked Xiang2020 imprecisely. This review corrects attribution without changing frozen inputs or numeric guards."
+  ]
+}

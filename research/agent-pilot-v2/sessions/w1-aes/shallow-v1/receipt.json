@@ -1,0 +1,145 @@
+{
+  "spec": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/portfolio/square-aes-mugi.json",
+  "spec_sha256": "8ad3723557d639cb064ceaa9673a80b03adc867e2a81cc7f45d94a7e339c033f",
+  "source_sha256": "9aa49f824a86fdb8d3e00af267f6c3465f4a582862c2b8287d4bbe6227e1202b",
+  "wrapper_sha256": "d867a46f1424ca970025bffab1846f642bc4338e5b4d1c79c56f70c11cc3defb",
+  "binary_sha256": "15ba4d7b7b3eec82b2f5873ed2fc5f979be4d2507812be057db20ae191c46def",
+  "seed": 4729223582868229464,
+  "cpu_seconds_budget": 300.0,
+  "wall_seconds_guard": 330.0,
+  "starts": [
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+      "sha256": "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da"
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+      "sha256": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808"
+    },
+    {
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+      "sha256": "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82"
+    }
+  ],
+  "checkpoints": [
+    {
+      "method": "depth3-complete-support-annealing",
+      "iteration": 0,
+      "cpu_seconds": 0.000422,
+      "XOR": 88,
+      "depth": 5,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/shallow-v1/candidate-a3565a975083e12e9a6d6fae0d5f0c0162ff0d7681efce5ba07d48c2a86e363d.json",
+      "sha256": "a3565a975083e12e9a6d6fae0d5f0c0162ff0d7681efce5ba07d48c2a86e363d",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 88,
+          "NOT": 0,
+          "total": 88,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0004971669986844063
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 88,
+          "NOT": 0,
+          "total": 88,
+          "depth": 5
+        },
+        "verification_seconds": 0.0016537499614059925
+      }
+    },
+    {
+      "method": "depth3-complete-support-annealing",
+      "iteration": 0,
+      "cpu_seconds": 0.000503,
+      "XOR": 90,
+      "depth": 4,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/shallow-v1/candidate-e7109d17c40e43b3833a7d3d3799f741101cc1e7699f18789626f02b36ca4d8a.json",
+      "sha256": "e7109d17c40e43b3833a7d3d3799f741101cc1e7699f18789626f02b36ca4d8a",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 90,
+          "NOT": 0,
+          "total": 90,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.00041149999015033245
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 90,
+          "NOT": 0,
+          "total": 90,
+          "depth": 4
+        },
+        "verification_seconds": 0.0015534160193055868
+      }
+    },
+    {
+      "method": "depth3-complete-support-annealing",
+      "iteration": 0,
+      "cpu_seconds": 0.000579,
+      "XOR": 97,
+      "depth": 3,
+      "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/shallow-v1/candidate-bc81c1f67eaa59a160d7746334568d4cf7e6be5fa239ae4505a54a44806e9a81.json",
+      "sha256": "bc81c1f67eaa59a160d7746334568d4cf7e6be5fa239ae4505a54a44806e9a81",
+      "primary": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 97,
+          "NOT": 0,
+          "total": 97,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0005087919998914003
+      },
+      "second": {
+        "ok": true,
+        "method": "independent scalar implementation",
+        "evaluations": 33,
+        "metrics": {
+          "AND": 0,
+          "XOR": 97,
+          "NOT": 0,
+          "total": 97,
+          "depth": 3
+        },
+        "verification_seconds": 0.0017255420098081231
+      }
+    }
+  ],
+  "status": "interrupted",
+  "method": "depth-3 all-support rank-DAG annealing with local coordinate partition minimization",
+  "limitations": "Search is heuristic; exact distances do not prove globally optimal circuits. Wall/CPU stopping may change final iteration count.",
+  "returncode": -15,
+  "wall_seconds": 118.66062391700689
+}

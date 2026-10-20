@@ -1,0 +1,316 @@
+{
+  "schema": "discover-catalog/v0",
+  "priority_revision": 1,
+  "assessed_on": "2026-10-20",
+  "priority_log": "discover/priority-log.md",
+  "status": "Local research backlog only; donor intake paused",
+  "tracks": [
+    {
+      "id": "linear",
+      "weight": 40,
+      "useful_outcome": "Normalize and improve useful fixed linear maps without stale comparators.",
+      "tasks": [
+        {
+          "id": "classical-depth-audit",
+          "question": "Reconcile the remaining published classical XOR/depth frontier for every unresolved proposal.",
+          "starting_points": [
+            "https://doi.org/10.7717/peerj-cs.1820",
+            "docs/LITERATURE.md",
+            "results/novelty-audit.json"
+          ],
+          "methods": [
+            "Artifact matching",
+            "gate normalization",
+            "exact verification"
+          ],
+          "acceptance_gate": "Import a published witness or document its exact access/identity blocker; only a complete candidate-specific comparison permits a novelty claim.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-I",
+              "tools/check_submission.py",
+              "portfolio/joltik.json",
+              "certificates/joltik--nist.json"
+            ],
+            "expected": "ok=true and recomputed metrics",
+            "scope": "Positive control only; not a new discovery"
+          },
+          "bottleneck_link": "https://doi.org/10.7717/peerj-cs.1820",
+          "first_experiment": "Audit all sources listed in docs/LITERATURE.md, beginning with the unresolved proposal having the fewest plausible prior comparators.",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "allowed_variations": [
+            "Separate versioned experiments only; preserve original seeds and specifications"
+          ],
+          "scope_change_triggers": [
+            "A stronger prior construction or mismatched gate model blocks the claim."
+          ],
+          "existing_checks": [
+            {
+              "scope": "Frozen 160-trial algorithm experiment; two implementations for every proposal",
+              "evidence": "results/summary.json",
+              "status": "local-only",
+              "remaining": "Reconcile the remaining published classical XOR/depth frontier for every unresolved proposal."
+            }
+          ]
+        },
+        {
+          "id": "cancellation-aware-search",
+          "question": "Does a cancellation-aware BP or bounded replacement search produce recurring published advances under a new frozen budget?",
+          "starting_points": [
+            "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+            "docs/LITERATURE.md",
+            "results/novelty-audit.json"
+          ],
+          "methods": [
+            "BP variants",
+            "exact bounded replacement"
+          ],
+          "acceptance_gate": "A separately preregistered experiment, all seeds and failures retained, both checkers passing, candidate-specific novelty decisions. Corpus wins alone fail.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-I",
+              "tools/check_submission.py",
+              "portfolio/twofish.json",
+              "certificates/twofish--nist.json"
+            ],
+            "expected": "ok=true and recomputed metrics",
+            "scope": "Positive control only; not a new discovery"
+          },
+          "bottleneck_link": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "first_experiment": "Reproduce one published method against its artifact before running equal-budget method comparisons; do not edit the original plan.",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "allowed_variations": [
+            "Separate versioned experiments only; preserve original seeds and specifications"
+          ],
+          "scope_change_triggers": [
+            "A stronger prior construction or mismatched gate model blocks the claim."
+          ],
+          "existing_checks": [
+            {
+              "scope": "Frozen 160-trial algorithm experiment; two implementations for every proposal",
+              "evidence": "results/summary.json",
+              "status": "local-only",
+              "remaining": "Does a cancellation-aware BP or bounded replacement search produce recurring published advances under a new frozen budget?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "field",
+      "weight": 25,
+      "useful_outcome": "Search structural multiplier decompositions beyond fixed-circuit reassociation.",
+      "tasks": [
+        {
+          "id": "bilinear-decompositions",
+          "question": "Can varying bilinear decompositions improve the six exact polynomial-basis multiplier frontiers?",
+          "starting_points": [
+            "https://github.com/Swapnil-jain/gf2m-circuits",
+            "docs/LITERATURE.md",
+            "results/novelty-audit.json"
+          ],
+          "methods": [
+            "Bilinear decomposition",
+            "basis conversion with paid overhead"
+          ],
+          "acceptance_gate": "An exact circuit for the same modulus and ports, all input pairs verified twice, with every AND/XOR/total/depth comparison reconciled against published prior.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-I",
+              "tools/check_submission.py",
+              "portfolio/gf8-11b.json",
+              "certificates/gf8-11b--aes107-d13.json"
+            ],
+            "expected": "ok=true and recomputed metrics",
+            "scope": "Positive control only; not a new discovery"
+          },
+          "bottleneck_link": "https://github.com/Swapnil-jain/gf2m-circuits",
+          "first_experiment": "Reproduce the released polynomial-basis construction; record every basis conversion before exploring alternative products. A tower-basis count alone is not comparable.",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "allowed_variations": [
+            "Separate versioned experiments only; preserve original seeds and specifications"
+          ],
+          "scope_change_triggers": [
+            "A stronger prior construction or mismatched gate model blocks the claim."
+          ],
+          "existing_checks": [
+            {
+              "scope": "Frozen 160-trial algorithm experiment; two implementations for every proposal",
+              "evidence": "results/summary.json",
+              "status": "local-only",
+              "remaining": "Can varying bilinear decompositions improve the six exact polynomial-basis multiplier frontiers?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "weight": 15,
+      "useful_outcome": "Investigate the actual block-MDS cost/depth frontier.",
+      "tasks": [
+        {
+          "id": "block-mds-gap",
+          "question": "Can general binary-block constructions improve on 35-XOR general, 36-XOR involutory, and published shallow designs?",
+          "starting_points": [
+            "https://arxiv.org/html/2409.03298v1",
+            "docs/LITERATURE.md",
+            "results/novelty-audit.json"
+          ],
+          "methods": [
+            "General GL(4,2) block constructions",
+            "bounded exact synthesis"
+          ],
+          "acceptance_gate": "All 69 block minors and exhaustive branch/involution checks; compare all published cost/depth points. A new matrix at old coordinates is not progress.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-I",
+              "tools/check_submission.py",
+              "portfolio/design-mds4x4-w4-involution.json",
+              "certificates/design-mds4x4-w4-involution--tian2024.json"
+            ],
+            "expected": "ok=true and recomputed metrics",
+            "scope": "Positive control only; not a new discovery"
+          },
+          "bottleneck_link": "https://arxiv.org/html/2409.03298v1",
+          "first_experiment": "Reproduce the post-freeze SBP depth-3 guards, then specify a bounded topology before exact search. Restricted unsatisfiability is not a global lower bound.",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "allowed_variations": [
+            "Separate versioned experiments only; preserve original seeds and specifications"
+          ],
+          "scope_change_triggers": [
+            "A stronger prior construction or mismatched gate model blocks the claim."
+          ],
+          "existing_checks": [
+            {
+              "scope": "Frozen 160-trial algorithm experiment; two implementations for every proposal",
+              "evidence": "results/summary.json",
+              "status": "local-only",
+              "remaining": "Can general binary-block constructions improve on 35-XOR general, 36-XOR involutory, and published shallow designs?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calibration",
+      "weight": 10,
+      "useful_outcome": "Establish genuine discovery and review costs before donors are invited.",
+      "tasks": [
+        {
+          "id": "external-agent-calibration",
+          "question": "Can externally reviewed, fixed-budget donated-agent sessions advance the reconciled frontier repeatedly?",
+          "starting_points": [
+            "docs/LAUNCH-ASSESSMENT.md",
+            "docs/LITERATURE.md",
+            "results/novelty-audit.json"
+          ],
+          "methods": [
+            "Independent review",
+            "frozen agent budgets",
+            "chronological deduplication"
+          ],
+          "acceptance_gate": "Actual sessions with model/token/time budgets, failures retained, independently adjudicated novelty, verification and human review times, and progress in later waves.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-I",
+              "tools/check_submission.py",
+              "portfolio/joltik.json",
+              "certificates/joltik--nist.json"
+            ],
+            "expected": "ok=true and recomputed metrics",
+            "scope": "Positive control only; not a new discovery"
+          },
+          "bottleneck_link": "docs/LAUNCH-ASSESSMENT.md",
+          "first_experiment": "Resolve the literature blockers and obtain a consenting reviewer before a new, separately authorized agent-session study. The current 160 algorithm trials are not this study.",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "allowed_variations": [
+            "Separate versioned experiments only; preserve original seeds and specifications"
+          ],
+          "scope_change_triggers": [
+            "A stronger prior construction or mismatched gate model blocks the claim."
+          ],
+          "existing_checks": [
+            {
+              "scope": "Frozen 160-trial algorithm experiment; two implementations for every proposal",
+              "evidence": "results/summary.json",
+              "status": "local-only",
+              "remaining": "Can externally reviewed, fixed-budget donated-agent sessions advance the reconciled frontier repeatedly?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aes-stretch",
+      "weight": 10,
+      "useful_outcome": "Keep the complete AES S-box as high-ambition research.",
+      "tasks": [
+        {
+          "id": "aes-real-frontier",
+          "question": "Can complete AES S-box circuits improve the verified 28-AND frontier without changing the function or gate model?",
+          "starting_points": [
+            "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+            "docs/LITERATURE.md",
+            "results/novelty-audit.json"
+          ],
+          "methods": [
+            "Nonlinear exact synthesis",
+            "representation search"
+          ],
+          "acceptance_gate": "Use the separate AES pilot: complete 256-input truth table, normalized gates and current literature comparison. Do not count it as expected routine portfolio yield.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-I",
+              "tools/check_submission.py",
+              "portfolio/joltik.json",
+              "certificates/joltik--nist.json"
+            ],
+            "expected": "ok=true and recomputed metrics",
+            "scope": "Positive control only; not a new discovery"
+          },
+          "bottleneck_link": "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+          "first_experiment": "Read ../../start-aes-sbox/docs/LITERATURE.md and its task catalogue; the positive control below only checks this portfolio installation.",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "allowed_variations": [
+            "Separate versioned experiments only; preserve original seeds and specifications"
+          ],
+          "scope_change_triggers": [
+            "A stronger prior construction or mismatched gate model blocks the claim."
+          ],
+          "existing_checks": [
+            {
+              "scope": "Frozen 160-trial algorithm experiment; two implementations for every proposal",
+              "evidence": "results/summary.json",
+              "status": "local-only",
+              "remaining": "Can complete AES S-box circuits improve the verified 28-AND frontier without changing the function or gate model?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

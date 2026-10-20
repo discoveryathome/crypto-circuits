@@ -1,0 +1,6 @@
+{
+  "linear_pilot/checker.py": true,
+  "tools/check_submission.py": true,
+  "tools/audit_submission.py": true,
+  "portfolio/square-aes-mugi.json": true
+}

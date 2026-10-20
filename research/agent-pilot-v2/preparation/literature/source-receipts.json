@@ -1,0 +1,87 @@
+{
+  "audited_at": "2026-10-20T06:28:52.959166+00:00",
+  "web_sources": [
+    {
+      "url": "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+      "observed": "Current table confirms AES (97,3),(90,4),(88,5)."
+    },
+    {
+      "url": "https://arxiv.org/html/2511.18226v2",
+      "observed": "May 24 2026 revision; Table 4 159/169 Whirlwind XOR; classical/quantum metrics distinguished."
+    },
+    {
+      "url": "https://www.researchgate.net/publication/402331700_HILL_Efficient_Low-Latency_Implementations_of_Linear_Layers_via_Heuristic_Search",
+      "observed": "Primary author-uploaded paper full text, Table 9 manually transcribed; web tool readable, direct urllib 403. No Whirlwind text match."
+    },
+    {
+      "url": "https://www.jguo.org/publications",
+      "observed": "Author bibliography confirms HILL authors and ToSC 2026 publication."
+    },
+    {
+      "url": "https://eprint.iacr.org/2025/1493",
+      "observed": "Revised 89 XOR AES abstract; missing depth."
+    },
+    {
+      "url": "https://eprint.iacr.asia/2026/2520",
+      "observed": "October17 2026 primary abstract 172/170 Whirlwind; missing depths; PDF 403."
+    }
+  ],
+  "files": [
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/AUDIT.md",
+      "sha256": "82512773b54d465eae3a2888865957454c3dcb36426a9147e49605cdfdf22a05"
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/aes-mixcolumns-hill-table9-binary.json",
+      "sha256": "368ec79e35aba4dbddc8402f4055b89ebfe2a6c96b12bce5fa18d5cf5991840b"
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/aes-mixcolumns-sbp-mixed-binary.json",
+      "sha256": "aed8db913e60fd31002e26db592baa18994a002a8f35485197758804b9aec811"
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/circulant-current-tree.json",
+      "sha256": "42b2e43997477c18c6fcbbbb7231560497a7ae8163ab5d211d0c53b9606666c3"
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/comparators.json",
+      "sha256": "38f36f9354f9afb070427c5e8f8fb34853a6fbfff69c0ff4f3967b484d5ddb3c"
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/convert_hill.py",
+      "sha256": "027be2507610a706cc7f0033f7a971aeac98f1e19ca0c3613dbf2b5ad2a0f058"
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/downloads.json",
+      "sha256": "c99b72d4488eaa2a9a8fa564cbcd1d7aa9626671981519b78a9a1b951721fc18"
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/hill-normalization.json",
+      "sha256": "fbdb95e08c51b1030dbbf6b18a5654355834b286c75a19a8b05c52fd56886784"
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/hill-table9.txt",
+      "sha256": "adaa7eb0f6b0cecf8f04af6b138b9aabac540b516226920cfde9b74f65eb2db0"
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/nist-current-tree.json",
+      "sha256": "33a87dc2e2a39701823a55649129fdfebf58c065029e2ee222154cbe73d971fa"
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/sbp-aes-mixed.txt",
+      "sha256": "6fe625c58a98bba5205565641bfafde926ccbac1f064b85b7b0fb563660cb554"
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/sbp-current-tree.json",
+      "sha256": "157eac1be72fec2864933f5053089adc85222adc9525029f575fefa4ef9944c1"
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/sbp-normalization.json",
+      "sha256": "02c75e3b4c5cb677334472afe217401e4eda36bea1778d0b5e08ada3850f676e"
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/timing.json",
+      "sha256": "61c3e948ef87f26d6677ec8b8992a1dd959df1af1f072fd7294bbd6a2904aef5"
+    }
+  ]
+}

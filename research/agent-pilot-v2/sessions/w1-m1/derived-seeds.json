@@ -1,0 +1,32 @@
+[
+  {
+    "label": "semantic-walk-v1",
+    "derivation": "int.from_bytes(SHA256(bytes.fromhex(session_seed)+label.encode())[:8],big)",
+    "seed": 6855393766799377251
+  },
+  {
+    "label": "topological-window-v1",
+    "derivation": "int.from_bytes(SHA256(bytes.fromhex(session_seed)+label.encode())[:8],big)",
+    "seed": 6511891409058330168
+  },
+  {
+    "label": "semantic-walk-v2",
+    "derivation": "int.from_bytes(SHA256(bytes.fromhex(session_seed)+label.encode())[:8],big)",
+    "seed": 9600117697883733243
+  },
+  {
+    "label": "transpose-v1",
+    "derivation": "int.from_bytes(SHA256(bytes.fromhex(session_seed)+label.encode())[:8],big)",
+    "seed": 1997961842507939908
+  },
+  {
+    "label": "semantic-depth-v3",
+    "derivation": "int.from_bytes(SHA256(bytes.fromhex(session_seed)+label.encode())[:8],big)",
+    "seed": 11866627743401557415
+  },
+  {
+    "label": "balance-v1",
+    "derivation": "int.from_bytes(SHA256(bytes.fromhex(session_seed)+label.encode())[:8],big)",
+    "seed": 13941526909227732113
+  }
+]

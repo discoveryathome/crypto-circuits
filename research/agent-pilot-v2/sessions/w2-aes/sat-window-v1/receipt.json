@@ -1,0 +1,37 @@
+{
+  "name": "sat-window-v1",
+  "seed": 12688941329530084505,
+  "seed_derivation": "low64 XOR first8 bytes SHA256(run name), big endian",
+  "source_sha256": "018375960fda2b06622c09b6b04366c1ee31f45f421553e89d959c7e733f203f",
+  "started_at": "2026-10-20T07:04:26.434393+00:00",
+  "parent_hashes": [
+    "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+    "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+    "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82"
+  ],
+  "counts": {
+    "sat": 333,
+    "accepted": 323,
+    "unsat": 1004,
+    "unknown": 2
+  },
+  "checkpoints": [],
+  "status": "complete",
+  "iterations": 1339,
+  "ended_at": "2026-10-20T07:06:26.675359+00:00",
+  "core_cpu_seconds": 78.53720799999999,
+  "best": [
+    [
+      88,
+      5
+    ],
+    [
+      90,
+      4
+    ],
+    [
+      97,
+      3
+    ]
+  ]
+}

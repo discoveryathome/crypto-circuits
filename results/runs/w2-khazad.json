@@ -1,0 +1,56 @@
+{
+  "instance": "khazad",
+  "wave": 2,
+  "seed": "d1141ebd22d1407265b2f5f5602eb6b3",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/khazad--nist.json",
+  "search_wall_seconds": 15.114690999966115,
+  "search_cpu_seconds": 7.634962000000002,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 83,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w2-khazad-0.json",
+      "sha256": "3c1f514bbcdfdd60c118c549c812e943b4bb97e648ff48e9d74b2df444df0abc",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 511,
+        "NOT": 0,
+        "total": 511,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0025339999701827765
+    },
+    {
+      "path": "results/candidates/w2-khazad-1.json",
+      "sha256": "5c9b661453208607a28ae16dc995a00947476994b779ffc58f1ca54b05379a4a",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 366,
+        "NOT": 0,
+        "total": 366,
+        "depth": 17,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.002836250001564622
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

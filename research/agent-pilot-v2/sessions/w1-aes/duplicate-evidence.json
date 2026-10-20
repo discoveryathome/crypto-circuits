@@ -1,0 +1,107 @@
+[
+  {
+    "candidate": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/baseline/candidate-a3565a975083e12e9a6d6fae0d5f0c0162ff0d7681efce5ba07d48c2a86e363d.json",
+    "identical_start_paths": [
+      "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json"
+    ],
+    "structural_duplicate": true
+  },
+  {
+    "candidate": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/baseline/candidate-e7109d17c40e43b3833a7d3d3799f741101cc1e7699f18789626f02b36ca4d8a.json",
+    "identical_start_paths": [
+      "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json"
+    ],
+    "structural_duplicate": true
+  },
+  {
+    "candidate": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/baseline/candidate-bc81c1f67eaa59a160d7746334568d4cf7e6be5fa239ae4505a54a44806e9a81.json",
+    "identical_start_paths": [
+      "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json"
+    ],
+    "structural_duplicate": true
+  },
+  {
+    "candidate": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/semantic-v2/candidate-a3565a975083e12e9a6d6fae0d5f0c0162ff0d7681efce5ba07d48c2a86e363d.json",
+    "identical_start_paths": [
+      "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json"
+    ],
+    "structural_duplicate": true
+  },
+  {
+    "candidate": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/semantic-v2/candidate-e7109d17c40e43b3833a7d3d3799f741101cc1e7699f18789626f02b36ca4d8a.json",
+    "identical_start_paths": [
+      "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json"
+    ],
+    "structural_duplicate": true
+  },
+  {
+    "candidate": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/semantic-v2/candidate-bc81c1f67eaa59a160d7746334568d4cf7e6be5fa239ae4505a54a44806e9a81.json",
+    "identical_start_paths": [
+      "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json"
+    ],
+    "structural_duplicate": true
+  },
+  {
+    "candidate": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/shallow-v1/candidate-a3565a975083e12e9a6d6fae0d5f0c0162ff0d7681efce5ba07d48c2a86e363d.json",
+    "identical_start_paths": [
+      "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json"
+    ],
+    "structural_duplicate": true
+  },
+  {
+    "candidate": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/shallow-v1/candidate-e7109d17c40e43b3833a7d3d3799f741101cc1e7699f18789626f02b36ca4d8a.json",
+    "identical_start_paths": [
+      "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json"
+    ],
+    "structural_duplicate": true
+  },
+  {
+    "candidate": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/shallow-v1/candidate-bc81c1f67eaa59a160d7746334568d4cf7e6be5fa239ae4505a54a44806e9a81.json",
+    "identical_start_paths": [
+      "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json"
+    ],
+    "structural_duplicate": true
+  },
+  {
+    "candidate": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/shallow-v2/candidate-a3565a975083e12e9a6d6fae0d5f0c0162ff0d7681efce5ba07d48c2a86e363d.json",
+    "identical_start_paths": [
+      "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json"
+    ],
+    "structural_duplicate": true
+  },
+  {
+    "candidate": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/shallow-v2/candidate-e7109d17c40e43b3833a7d3d3799f741101cc1e7699f18789626f02b36ca4d8a.json",
+    "identical_start_paths": [
+      "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json"
+    ],
+    "structural_duplicate": true
+  },
+  {
+    "candidate": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/shallow-v2/candidate-bc81c1f67eaa59a160d7746334568d4cf7e6be5fa239ae4505a54a44806e9a81.json",
+    "identical_start_paths": [
+      "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json"
+    ],
+    "structural_duplicate": true
+  },
+  {
+    "candidate": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/semantic-v3/candidate-a3565a975083e12e9a6d6fae0d5f0c0162ff0d7681efce5ba07d48c2a86e363d.json",
+    "identical_start_paths": [
+      "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json"
+    ],
+    "structural_duplicate": true
+  },
+  {
+    "candidate": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/semantic-v3/candidate-e7109d17c40e43b3833a7d3d3799f741101cc1e7699f18789626f02b36ca4d8a.json",
+    "identical_start_paths": [
+      "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json"
+    ],
+    "structural_duplicate": true
+  },
+  {
+    "candidate": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-aes/semantic-v3/candidate-bc81c1f67eaa59a160d7746334568d4cf7e6be5fa239ae4505a54a44806e9a81.json",
+    "identical_start_paths": [
+      "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json"
+    ],
+    "structural_duplicate": true
+  }
+]

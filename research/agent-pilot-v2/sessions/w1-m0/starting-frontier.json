@@ -1,0 +1,92 @@
+[
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w2-whirlwindm0-1.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w2-whirlwindm0.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "7f74a6d22f6aa2ab713d24274da57c550d143ec7e26cf2342a7c0ca4947ca685",
+    "metrics": {
+      "AND": 0,
+      "XOR": 159,
+      "NOT": 0,
+      "total": 159,
+      "depth": 13,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 159,
+        "NOT": 0,
+        "total": 159,
+        "depth": 13,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.001200209022499621
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 159,
+        "depth": 13,
+        "total": 159
+      },
+      "ok": true,
+      "verification_seconds": 0.002664458006620407
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w3-whirlwindm0-0.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w3-whirlwindm0.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+    "metrics": {
+      "AND": 0,
+      "XOR": 217,
+      "NOT": 0,
+      "total": 217,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 217,
+        "NOT": 0,
+        "total": 217,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.007487916969694197
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 217,
+        "depth": 5,
+        "total": 217
+      },
+      "ok": true,
+      "verification_seconds": 0.010316834086552262
+    }
+  }
+]

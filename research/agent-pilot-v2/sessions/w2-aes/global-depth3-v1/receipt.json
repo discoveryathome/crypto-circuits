@@ -1,0 +1,24 @@
+{
+  "name": "global-depth3-v1",
+  "seed": 1057818272259097320,
+  "seed_derivation": "low64 XOR first8 SHA256(name) big-endian; z3 receives low30 bits",
+  "started_at": "2026-10-20T07:06:57.485467+00:00",
+  "source_sha256": "396a89824544f2b8644cff5eafbb77b6b1d4d4dd9f3bca53aa9353a0f6d327bd",
+  "parent_hashes": [
+    "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+    "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+    "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82"
+  ],
+  "universe": 581,
+  "options": 13760,
+  "depth_limit": 3,
+  "count_bound": 96,
+  "timeout_seconds": 100.0,
+  "installed_z3_version": "5.1.0",
+  "baseline_model_validation": "sat",
+  "status": "unknown",
+  "ended_at": "2026-10-20T07:08:37.499096+00:00",
+  "solver_wall_seconds": 100.01014475000557,
+  "solver_cpu_seconds": 42.588314,
+  "statistics": "(:added-eqs                   2405\n :arith-eq-adapter            97\n :arith-bound-propagations-lp 566377\n :arith-conflicts             1979\n :arith-fixed-eqs             310\n :arith-lower                 243058\n :arith-make-feasible         130500\n :arith-max-columns           12480\n :arith-max-rows              11925\n :arith-offset-eqs            1969\n :arith-upper                 136859\n :binary-propagations         436908467\n :conflicts                   124778\n :decisions                   655852\n :del-clause                  117106\n :final-checks                1\n :max-memory                  108.50\n :memory                      108.50\n :minimized-lits              213479\n :mk-bool-var                 36915\n :mk-clause                   137444\n :mk-clause-binary            57734\n :num-allocs                  671329561\n :num-checks                  2\n :pb-conflicts                2196\n :pb-predicates               1\n :pb-propagations             32697152\n :pb-resolves                 2184\n :propagations                438859951\n :random-seed                 854311656\n :restarts                    427\n :rlimit-count                155365563\n :time                        100.01)"
+}

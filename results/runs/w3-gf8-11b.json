@@ -1,0 +1,36 @@
+{
+  "instance": "gf8-11b",
+  "wave": 3,
+  "seed": "68ebed01979296665f2e411cd03e8818",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/gf8-11b--aes109-d18.json",
+  "search_wall_seconds": 0.7478903329465538,
+  "search_cpu_seconds": 0.4614789999999971,
+  "counters": {
+    "walk_steps": 256,
+    "accepted_walk_changes": 65,
+    "candidates_considered": 2
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w3-gf8-11b-0.json",
+      "sha256": "1bdd7c9bf19bff9e0ad4086d11d262c0a74c77cf092feeae3f7ae83f9bb64fd2",
+      "ok": true,
+      "metrics": {
+        "AND": 33,
+        "XOR": 76,
+        "NOT": 0,
+        "total": 109,
+        "depth": 14,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "exhaustive_inputs": 65536
+      },
+      "verification_seconds": 2.27976300008595
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

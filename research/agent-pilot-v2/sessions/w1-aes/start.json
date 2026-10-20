@@ -1,0 +1,13 @@
+{
+  "id": "w1-aes",
+  "wave": 1,
+  "instance": "square-aes-mugi",
+  "seed": "03372e8b56df69d975ecace485652e86",
+  "issued_at": "2026-10-20T06:30:57.362806+00:00",
+  "deadline": "2026-10-20T06:50:57.362806+00:00",
+  "plan_sha256": "e13c95221645d66df1ba36c59df662d3dbb4e8b0ae82dcce8045911a339b0097",
+  "frontier_sha256": "6c54381c85bc67af678078ff9127d5fc7e531e6ed7ad0910967bdb66dcc37c12",
+  "agent_task": "session_w1_aes",
+  "model": "inherited default; exact model/token accounting not exposed",
+  "status": "issued"
+}

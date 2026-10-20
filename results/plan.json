@@ -1,0 +1,1209 @@
+{
+  "version": 1,
+  "created_at": "2026-10-20T05:17:18.726883+00:00",
+  "purpose": "Launch calibration, not a global optimality claim",
+  "instances": [
+    {
+      "id": "aria",
+      "kind": "linear",
+      "spec_sha256": "d8796bf19fe1c90dc399c95ca016f598812da5ccc24386419070efc6cfc82561",
+      "baseline_frontier": [
+        "certificates/aria--nist.json"
+      ]
+    },
+    {
+      "id": "fides-midori-mantis",
+      "kind": "linear",
+      "spec_sha256": "106807c8d899cb0d7aedd7e6eecbbda78856184cf36c0c4aef2334c9cac590b9",
+      "baseline_frontier": [
+        "certificates/fides-midori-mantis--nist.json"
+      ]
+    },
+    {
+      "id": "joltik",
+      "kind": "linear",
+      "spec_sha256": "2146e20304c56888044a8bc136fdb6d1deba3d57ff768394729debec81a6e612",
+      "baseline_frontier": [
+        "certificates/joltik--nist.json"
+      ]
+    },
+    {
+      "id": "pridel0",
+      "kind": "linear",
+      "spec_sha256": "2aa2a54c025a1696430d11cafa5ccf27871857b1e5994c978193f1ae60fd936d",
+      "baseline_frontier": [
+        "certificates/pridel0--nist.json"
+      ]
+    },
+    {
+      "id": "princem0",
+      "kind": "linear",
+      "spec_sha256": "8d69b4ab633aa1bd45280646e8ad19f5e973ef154ea5392fcd3a9a5328e822f7",
+      "baseline_frontier": [
+        "certificates/princem0--nist.json"
+      ]
+    },
+    {
+      "id": "qarma128",
+      "kind": "linear",
+      "spec_sha256": "f10e11a14f67078179fa0e88b4d23009aedeff6dfdccc49543c6e5eb10c40b23",
+      "baseline_frontier": [
+        "certificates/qarma128--nist.json"
+      ]
+    },
+    {
+      "id": "qarma64",
+      "kind": "linear",
+      "spec_sha256": "7111a66673ac1f15b7041fbc7e5283bd5e34f956e5fec78a180b58f75d7160f6",
+      "baseline_frontier": [
+        "certificates/qarma64--nist.json"
+      ]
+    },
+    {
+      "id": "skinny",
+      "kind": "linear",
+      "spec_sha256": "c0f07becee2604257322b63bba8ef93741021d1d902dfb1d47317222c7dc448a",
+      "baseline_frontier": [
+        "certificates/skinny--nist.json"
+      ]
+    },
+    {
+      "id": "smallscaleaes",
+      "kind": "linear",
+      "spec_sha256": "e0bc82ac5a37d5f64570760a4e82acde1106cefdfc7da41466e0f63f867f72d2",
+      "baseline_frontier": [
+        "certificates/smallscaleaes--nist.json"
+      ]
+    },
+    {
+      "id": "anubis-clefiam0",
+      "kind": "linear",
+      "spec_sha256": "1dabd760519c9014d7b6db4f6721ea9ca5937fa27fa6d74e0da867fe05bc9e3a",
+      "baseline_frontier": [
+        "certificates/anubis-clefiam0--nist.json"
+      ]
+    },
+    {
+      "id": "clefiam1",
+      "kind": "linear",
+      "spec_sha256": "cbecca9dec10105e5ad4f143f174e1e215cfc68cd39a2d398b642c409652bb56",
+      "baseline_frontier": [
+        "certificates/clefiam1--nist.json"
+      ]
+    },
+    {
+      "id": "foxmu4",
+      "kind": "linear",
+      "spec_sha256": "e83cca3aaf51617e8a94d255784946868e4bfe0810074059b68ea4a4124523d7",
+      "baseline_frontier": [
+        "certificates/foxmu4--nist.json"
+      ]
+    },
+    {
+      "id": "square-aes-mugi",
+      "kind": "linear",
+      "spec_sha256": "8ad3723557d639cb064ceaa9673a80b03adc867e2a81cc7f45d94a7e339c033f",
+      "baseline_frontier": [
+        "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+        "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+        "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json"
+      ]
+    },
+    {
+      "id": "twofish",
+      "kind": "linear",
+      "spec_sha256": "802b3c2b5891f68aa0b3dfa1870481637f08e1d65522e4eedf0e7479a61add33",
+      "baseline_frontier": [
+        "certificates/twofish--nist.json"
+      ]
+    },
+    {
+      "id": "whirlwindm0",
+      "kind": "linear",
+      "spec_sha256": "ba2499f59ed277f26062bab7c0b1221e68939c199203f78872ca218b59cdba83",
+      "baseline_frontier": [
+        "certificates/whirlwindm0--xu2026-size.json"
+      ]
+    },
+    {
+      "id": "whirlwindm1",
+      "kind": "linear",
+      "spec_sha256": "46b1cf15018adb7e7747758175ab9280682b9401242a785790731f32664c5ff2",
+      "baseline_frontier": [
+        "certificates/whirlwindm1--xu2026-size.json"
+      ]
+    },
+    {
+      "id": "foxmu8",
+      "kind": "linear",
+      "spec_sha256": "a4ea4b781ac43e3e14f0d163cb976a282cbf01bfe065d7ce75a279d17bb57687",
+      "baseline_frontier": [
+        "certificates/foxmu8--nist.json"
+      ]
+    },
+    {
+      "id": "grostl",
+      "kind": "linear",
+      "spec_sha256": "7cf34f87aed9c8f948916b694b5c1f7b1865e5e5d3a88e68abffb49e2dc072f1",
+      "baseline_frontier": [
+        "certificates/grostl--nist.json"
+      ]
+    },
+    {
+      "id": "khazad",
+      "kind": "linear",
+      "spec_sha256": "34ada2835518c8f354711a2260a3bdf206a8d6f81df9c1df115fe118faba0217",
+      "baseline_frontier": [
+        "certificates/khazad--nist.json"
+      ]
+    },
+    {
+      "id": "whirlpool-maelstrom",
+      "kind": "linear",
+      "spec_sha256": "55259ebda0589a10bb9b7c6f5e499f631ea40587b85bb27a3f00e3584cba1a42",
+      "baseline_frontier": [
+        "certificates/whirlpool-maelstrom--nist.json"
+      ]
+    },
+    {
+      "id": "bkl16-4x4-gf16",
+      "kind": "linear",
+      "spec_sha256": "a1af1276ea4df3ec8caeea52b918cc624504b8b5013725d8b630b8eaf3c32905",
+      "baseline_frontier": [
+        "certificates/bkl16-4x4-gf16--nist.json"
+      ]
+    },
+    {
+      "id": "jpst17-4x4-gf16",
+      "kind": "linear",
+      "spec_sha256": "953fbccb1ae127c4b7fadd91a56a9cb4b08475a85754430ec2044200a83bdcd7",
+      "baseline_frontier": [
+        "certificates/jpst17-4x4-gf16--nist.json"
+      ]
+    },
+    {
+      "id": "klsw17-m-4x4-gf16",
+      "kind": "linear",
+      "spec_sha256": "627866f2bf759c33705cd4dc6a11e0cf01e091db77fff4be42e0d215a7ec06b7",
+      "baseline_frontier": [
+        "certificates/klsw17-m-4x4-gf16--nist.json"
+      ]
+    },
+    {
+      "id": "ls16-4x4-gf16",
+      "kind": "linear",
+      "spec_sha256": "7ad48d12c43e737b845be3c1c96aab3a3a23f06153810e6e628e5bbe08cc45ad",
+      "baseline_frontier": [
+        "certificates/ls16-4x4-gf16--nist.json"
+      ]
+    },
+    {
+      "id": "gf4-13",
+      "kind": "multiplier",
+      "spec_sha256": "0691b8009e20937be5123e49d44d24175dcaba3a55ffeb6eca5985178c560957",
+      "baseline_frontier": [
+        "certificates/gf4-13--final-f4.json"
+      ]
+    },
+    {
+      "id": "gf5-25",
+      "kind": "multiplier",
+      "spec_sha256": "05e7c890bf2203cc73adc1063f287627aad5858cb6e998bd059636bfd32e25e9",
+      "baseline_frontier": [
+        "certificates/gf5-25--final-f5.json"
+      ]
+    },
+    {
+      "id": "gf6-49",
+      "kind": "multiplier",
+      "spec_sha256": "c6dc2099db0916e8ed0970b5b4beef9d142c930e2bf8996939e3e813ed28b5e4",
+      "baseline_frontier": [
+        "certificates/gf6-49--final-f6.json",
+        "certificates/gf6-49--cmt.json"
+      ]
+    },
+    {
+      "id": "gf7-89",
+      "kind": "multiplier",
+      "spec_sha256": "6b1ca6ff75bfd4ad0a093d0dd092a50a63f5cf3d14765793815aff4561dc4bb9",
+      "baseline_frontier": [
+        "certificates/gf7-89--final-f73-d6.json"
+      ]
+    },
+    {
+      "id": "gf7-91",
+      "kind": "multiplier",
+      "spec_sha256": "da5de39e2cc2725121e4c5158769d788376f863952606131a1875bd176dc2f9a",
+      "baseline_frontier": [
+        "certificates/gf7-91--final-f7.json",
+        "certificates/gf7-91--cmt.json"
+      ]
+    },
+    {
+      "id": "gf8-11b",
+      "kind": "multiplier",
+      "spec_sha256": "4f2774698ad8f6e12fcb0b3facedbd7b40f87daf9fe2382d0409e5ed14a06ff0",
+      "baseline_frontier": [
+        "certificates/gf8-11b--aes107-d13.json",
+        "certificates/gf8-11b--aes107-k36.json",
+        "certificates/gf8-11b--aes108-d12.json",
+        "certificates/gf8-11b--aes109-d18.json",
+        "certificates/gf8-11b--aes110-d20.json",
+        "certificates/gf8-11b--aes110-d7.json",
+        "certificates/gf8-11b--aes112-d14.json",
+        "certificates/gf8-11b--aes112-d6.json",
+        "certificates/gf8-11b--aes114-d9.json",
+        "certificates/gf8-11b--aes115-cmtprods-d15.json",
+        "certificates/gf8-11b--cmt.json"
+      ]
+    },
+    {
+      "id": "design-mds4x4-w4",
+      "kind": "design",
+      "spec_sha256": "90d6a7e96e8d54493735c1863995f9f1b31ad597a662514d2f77e18adc174c0f",
+      "baseline_frontier": [
+        "certificates/design-mds4x4-w4--tian2024.json"
+      ]
+    },
+    {
+      "id": "design-mds4x4-w4-involution",
+      "kind": "design",
+      "spec_sha256": "e2f903b737b9eafba5bb6c6cb11361f344af9b40e628b9b790d1081f27161bac",
+      "baseline_frontier": [
+        "certificates/design-mds4x4-w4-involution--tian2024.json",
+        "certificates/design-mds4x4-w4-involution--ss16-4x4-gf16-inv-xor-38-rs-120-circ.json"
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "wave": 0,
+      "instance": "aria",
+      "seed": "65f4286e578d9d3d96dd088b8af811e2"
+    },
+    {
+      "wave": 0,
+      "instance": "fides-midori-mantis",
+      "seed": "08854c1382dab9fd2060db5867fb8e55"
+    },
+    {
+      "wave": 0,
+      "instance": "joltik",
+      "seed": "6919b42d79d9b8f89ec9096d041f1733"
+    },
+    {
+      "wave": 0,
+      "instance": "pridel0",
+      "seed": "f5d04cfb464d59740dff6b476c69182f"
+    },
+    {
+      "wave": 0,
+      "instance": "princem0",
+      "seed": "2755af6ac2cea78c416addde8b7005e4"
+    },
+    {
+      "wave": 0,
+      "instance": "qarma128",
+      "seed": "bb5755a935248e84324b60d4d2de4935"
+    },
+    {
+      "wave": 0,
+      "instance": "qarma64",
+      "seed": "a33d02fc3260d3a9b2b89d8d31431620"
+    },
+    {
+      "wave": 0,
+      "instance": "skinny",
+      "seed": "41c55e34d55634e35c16666c6c9a4cc3"
+    },
+    {
+      "wave": 0,
+      "instance": "smallscaleaes",
+      "seed": "5883c55825084fed214df01c48b0f71a"
+    },
+    {
+      "wave": 0,
+      "instance": "anubis-clefiam0",
+      "seed": "fdb014b90f2ee6e43644ebbb579de9b5"
+    },
+    {
+      "wave": 0,
+      "instance": "clefiam1",
+      "seed": "ff5218b5f028fc8712ca7dcc8fa98a2c"
+    },
+    {
+      "wave": 0,
+      "instance": "foxmu4",
+      "seed": "a588fc455365807bd021e3fde00faf6c"
+    },
+    {
+      "wave": 0,
+      "instance": "square-aes-mugi",
+      "seed": "fab474aef1a41df5b1a09cfd73e15a5b"
+    },
+    {
+      "wave": 0,
+      "instance": "twofish",
+      "seed": "20eefd262fabcded877e2cae6f61530e"
+    },
+    {
+      "wave": 0,
+      "instance": "whirlwindm0",
+      "seed": "060f1dc434cd50ede3806462bd2b38dd"
+    },
+    {
+      "wave": 0,
+      "instance": "whirlwindm1",
+      "seed": "1a8f60f807bac0e94939ac8483cb48ad"
+    },
+    {
+      "wave": 0,
+      "instance": "foxmu8",
+      "seed": "133d99b3a52247005b2bb4b771cf2ac3"
+    },
+    {
+      "wave": 0,
+      "instance": "grostl",
+      "seed": "747e5ec5cb69b53173406f97b69109fd"
+    },
+    {
+      "wave": 0,
+      "instance": "khazad",
+      "seed": "5ddcb63a957a261d0e62a816b249df17"
+    },
+    {
+      "wave": 0,
+      "instance": "whirlpool-maelstrom",
+      "seed": "d0aacaba435e45e59c55e82fb35061b4"
+    },
+    {
+      "wave": 0,
+      "instance": "bkl16-4x4-gf16",
+      "seed": "426b403e1b71330a33f72c5722fb0572"
+    },
+    {
+      "wave": 0,
+      "instance": "jpst17-4x4-gf16",
+      "seed": "64a473afc3192e2a47afd56d140648a6"
+    },
+    {
+      "wave": 0,
+      "instance": "klsw17-m-4x4-gf16",
+      "seed": "1dff3e51ec5fa8cb789dc35628fa343d"
+    },
+    {
+      "wave": 0,
+      "instance": "ls16-4x4-gf16",
+      "seed": "dadb80ba9a46afc2560b7a4a3f5250b1"
+    },
+    {
+      "wave": 0,
+      "instance": "gf4-13",
+      "seed": "de0feabe9b5f6ec634bec711ed682b29"
+    },
+    {
+      "wave": 0,
+      "instance": "gf5-25",
+      "seed": "a654e6da698f888333bfd194ffcb0c2d"
+    },
+    {
+      "wave": 0,
+      "instance": "gf6-49",
+      "seed": "c3ce623a090d732e7697f89a6b9205d0"
+    },
+    {
+      "wave": 0,
+      "instance": "gf7-89",
+      "seed": "6596048b079c0fb4e2bbd10b82bce273"
+    },
+    {
+      "wave": 0,
+      "instance": "gf7-91",
+      "seed": "58f4df149437bc1b9590c8832f274a06"
+    },
+    {
+      "wave": 0,
+      "instance": "gf8-11b",
+      "seed": "5c5f042fb6a5021ba383bd824ae53283"
+    },
+    {
+      "wave": 0,
+      "instance": "design-mds4x4-w4",
+      "seed": "26d55e1e8cb62ea1b66c56296529d79a"
+    },
+    {
+      "wave": 0,
+      "instance": "design-mds4x4-w4-involution",
+      "seed": "9c15062cf7cea56c521592a05f0cc4be"
+    },
+    {
+      "wave": 1,
+      "instance": "aria",
+      "seed": "c221fe2f0823e440532d2b16b7d26eda"
+    },
+    {
+      "wave": 1,
+      "instance": "fides-midori-mantis",
+      "seed": "14bbfca489753e018248f8588dcfd9ad"
+    },
+    {
+      "wave": 1,
+      "instance": "joltik",
+      "seed": "9cc819a1cf8166feb068e265993aa538"
+    },
+    {
+      "wave": 1,
+      "instance": "pridel0",
+      "seed": "cb650632b4faaad4a7baf406ea3a39e2"
+    },
+    {
+      "wave": 1,
+      "instance": "princem0",
+      "seed": "bd2b0a61540bbd2955fe9700ba0e8da0"
+    },
+    {
+      "wave": 1,
+      "instance": "qarma128",
+      "seed": "cb0ad6c364ad471659b93abc1d9dda1d"
+    },
+    {
+      "wave": 1,
+      "instance": "qarma64",
+      "seed": "ab6d10291aee59f2a18018ef279bc650"
+    },
+    {
+      "wave": 1,
+      "instance": "skinny",
+      "seed": "553398468175f7aad453e5f39613a60f"
+    },
+    {
+      "wave": 1,
+      "instance": "smallscaleaes",
+      "seed": "defe527748414ba55b1bc0e617ba6039"
+    },
+    {
+      "wave": 1,
+      "instance": "anubis-clefiam0",
+      "seed": "23c75782046c44526f7e021912d19846"
+    },
+    {
+      "wave": 1,
+      "instance": "clefiam1",
+      "seed": "2cadfae54497a8c7d99048dcec0ffa3c"
+    },
+    {
+      "wave": 1,
+      "instance": "foxmu4",
+      "seed": "4a9e248567af95b6777394db7074a66a"
+    },
+    {
+      "wave": 1,
+      "instance": "square-aes-mugi",
+      "seed": "0be4107b608176ff6196aaa79db0e2fb"
+    },
+    {
+      "wave": 1,
+      "instance": "twofish",
+      "seed": "0322d2eccfc0cecda15f6f6bf2916af6"
+    },
+    {
+      "wave": 1,
+      "instance": "whirlwindm0",
+      "seed": "2399127cc5c759c97724969056606b30"
+    },
+    {
+      "wave": 1,
+      "instance": "whirlwindm1",
+      "seed": "f6c502039429a15c5adaa2ea005fc45e"
+    },
+    {
+      "wave": 1,
+      "instance": "foxmu8",
+      "seed": "e79d2dafc0e7d0c4de8547e902837a96"
+    },
+    {
+      "wave": 1,
+      "instance": "grostl",
+      "seed": "83d2672e03933c208c0e0da0483c5c7e"
+    },
+    {
+      "wave": 1,
+      "instance": "khazad",
+      "seed": "0824aaa9a0a93f3e1d0c8d8b60293777"
+    },
+    {
+      "wave": 1,
+      "instance": "whirlpool-maelstrom",
+      "seed": "ac3a40589754d05f022a3ceb3217b8df"
+    },
+    {
+      "wave": 1,
+      "instance": "bkl16-4x4-gf16",
+      "seed": "4fd58913bd48e7803007420e4b328199"
+    },
+    {
+      "wave": 1,
+      "instance": "jpst17-4x4-gf16",
+      "seed": "b0fd1c2a43041d7c352abff552dfc6f3"
+    },
+    {
+      "wave": 1,
+      "instance": "klsw17-m-4x4-gf16",
+      "seed": "e3659a0192cdf833cf6cca738d71d399"
+    },
+    {
+      "wave": 1,
+      "instance": "ls16-4x4-gf16",
+      "seed": "059cc7c85ef5463ec354785692dcb55f"
+    },
+    {
+      "wave": 1,
+      "instance": "gf4-13",
+      "seed": "a5ee9b2b98467e69a1bf6e4c5136c3ce"
+    },
+    {
+      "wave": 1,
+      "instance": "gf5-25",
+      "seed": "80b124035b9cf4f5e45e9bc722319aec"
+    },
+    {
+      "wave": 1,
+      "instance": "gf6-49",
+      "seed": "ced2ffbfad70a9b59b386e26a00aad26"
+    },
+    {
+      "wave": 1,
+      "instance": "gf7-89",
+      "seed": "279fa6f6babea48755a92725cda406dc"
+    },
+    {
+      "wave": 1,
+      "instance": "gf7-91",
+      "seed": "6d19edb0b83b539ee982929fd3bcf141"
+    },
+    {
+      "wave": 1,
+      "instance": "gf8-11b",
+      "seed": "17a0331b4af10785037f9ebe7987e460"
+    },
+    {
+      "wave": 1,
+      "instance": "design-mds4x4-w4",
+      "seed": "7aac5edab1b654a0c8759aa279acd8b7"
+    },
+    {
+      "wave": 1,
+      "instance": "design-mds4x4-w4-involution",
+      "seed": "8db0076472a0d8323943dd568739de23"
+    },
+    {
+      "wave": 2,
+      "instance": "aria",
+      "seed": "0e7eaad1f28e23d25ce404879a209880"
+    },
+    {
+      "wave": 2,
+      "instance": "fides-midori-mantis",
+      "seed": "6284d9560f0bad6e1bc129db2ae269f7"
+    },
+    {
+      "wave": 2,
+      "instance": "joltik",
+      "seed": "ddbd0d22a44e9d31d02f0b67a6e47f4a"
+    },
+    {
+      "wave": 2,
+      "instance": "pridel0",
+      "seed": "7f3680e028f6cbc30caf15e300d3aa0b"
+    },
+    {
+      "wave": 2,
+      "instance": "princem0",
+      "seed": "fba86ff5dba234a060ee4665d15394dc"
+    },
+    {
+      "wave": 2,
+      "instance": "qarma128",
+      "seed": "eee4564d87a69561f470086d482ce15c"
+    },
+    {
+      "wave": 2,
+      "instance": "qarma64",
+      "seed": "1a372558ecad6ceae69cc5139f2b8395"
+    },
+    {
+      "wave": 2,
+      "instance": "skinny",
+      "seed": "d5df9388a22407ec6dc868eac017fa19"
+    },
+    {
+      "wave": 2,
+      "instance": "smallscaleaes",
+      "seed": "375bb0c6e378d65b4b3ebf9ff7df8053"
+    },
+    {
+      "wave": 2,
+      "instance": "anubis-clefiam0",
+      "seed": "3610e4388ecc1ac2aedbb530fb07c0ff"
+    },
+    {
+      "wave": 2,
+      "instance": "clefiam1",
+      "seed": "df4d29ae281c055b6f0288b0560e6ef1"
+    },
+    {
+      "wave": 2,
+      "instance": "foxmu4",
+      "seed": "306dd7d3bb9f66416cec38dc90c1e2d6"
+    },
+    {
+      "wave": 2,
+      "instance": "square-aes-mugi",
+      "seed": "d96d623508b7d6b3d59bb2b14ef34a95"
+    },
+    {
+      "wave": 2,
+      "instance": "twofish",
+      "seed": "08d0198d9de705abe5cf18caa4cbd503"
+    },
+    {
+      "wave": 2,
+      "instance": "whirlwindm0",
+      "seed": "5c9c61ff06d9a9bd398b8edbe7fa4e68"
+    },
+    {
+      "wave": 2,
+      "instance": "whirlwindm1",
+      "seed": "18ed0e3afb246991837ed023d3848689"
+    },
+    {
+      "wave": 2,
+      "instance": "foxmu8",
+      "seed": "5c0113450e05cfe8ff7084645114d6cc"
+    },
+    {
+      "wave": 2,
+      "instance": "grostl",
+      "seed": "5e9f19dbfdee60bc3aa3e0001ada3904"
+    },
+    {
+      "wave": 2,
+      "instance": "khazad",
+      "seed": "d1141ebd22d1407265b2f5f5602eb6b3"
+    },
+    {
+      "wave": 2,
+      "instance": "whirlpool-maelstrom",
+      "seed": "f2bf1a417598aa2dab0ac28e2f1abea4"
+    },
+    {
+      "wave": 2,
+      "instance": "bkl16-4x4-gf16",
+      "seed": "9ada1d135cdeee5040ebe3fb15fd0bbf"
+    },
+    {
+      "wave": 2,
+      "instance": "jpst17-4x4-gf16",
+      "seed": "71b9639fc8be012671d197a3f069f00c"
+    },
+    {
+      "wave": 2,
+      "instance": "klsw17-m-4x4-gf16",
+      "seed": "1d0c247a7f5a9a2d22a55042fbff529c"
+    },
+    {
+      "wave": 2,
+      "instance": "ls16-4x4-gf16",
+      "seed": "a0020a38c89a4ebaf24534f1b494c145"
+    },
+    {
+      "wave": 2,
+      "instance": "gf4-13",
+      "seed": "b813d7aa76d4e8fb02c84d75874ba47b"
+    },
+    {
+      "wave": 2,
+      "instance": "gf5-25",
+      "seed": "7e4c85914f5d8f7baf2f8b85e4732b0d"
+    },
+    {
+      "wave": 2,
+      "instance": "gf6-49",
+      "seed": "98c783e05f4136ee67d4134b1c26b745"
+    },
+    {
+      "wave": 2,
+      "instance": "gf7-89",
+      "seed": "ce61045be6a4dbb08a5c8c0bf1aafe67"
+    },
+    {
+      "wave": 2,
+      "instance": "gf7-91",
+      "seed": "3c8f5db4f9d7952d83277e6bb6150c9b"
+    },
+    {
+      "wave": 2,
+      "instance": "gf8-11b",
+      "seed": "285245f1f55e21d40e312223bd762b58"
+    },
+    {
+      "wave": 2,
+      "instance": "design-mds4x4-w4",
+      "seed": "020140b88843b44bfc5f7200e189c2ae"
+    },
+    {
+      "wave": 2,
+      "instance": "design-mds4x4-w4-involution",
+      "seed": "3b3f37d6576f55cc8870169f55c32a8e"
+    },
+    {
+      "wave": 3,
+      "instance": "aria",
+      "seed": "3a59c9040879fb93109bc00a55047605"
+    },
+    {
+      "wave": 3,
+      "instance": "fides-midori-mantis",
+      "seed": "32d94881817cf2376d52c6a58ba7b698"
+    },
+    {
+      "wave": 3,
+      "instance": "joltik",
+      "seed": "8a1d0dae8efb078211bbfaa889bfaafa"
+    },
+    {
+      "wave": 3,
+      "instance": "pridel0",
+      "seed": "42aab12bb2ed5c9e26f9c7c9e2963343"
+    },
+    {
+      "wave": 3,
+      "instance": "princem0",
+      "seed": "00e8d9ce00697ed54817500d08a5dfd8"
+    },
+    {
+      "wave": 3,
+      "instance": "qarma128",
+      "seed": "14d3d8f98fe0bb39a3cf7521993104f7"
+    },
+    {
+      "wave": 3,
+      "instance": "qarma64",
+      "seed": "07219b0bb54abe15799da653dbec6154"
+    },
+    {
+      "wave": 3,
+      "instance": "skinny",
+      "seed": "a5acd00299c70280b4434108854aa8dc"
+    },
+    {
+      "wave": 3,
+      "instance": "smallscaleaes",
+      "seed": "faddbc62c57e8924e8ee7b3fbd1ccfe5"
+    },
+    {
+      "wave": 3,
+      "instance": "anubis-clefiam0",
+      "seed": "11e3990a3664c57e1a18112568bc57bd"
+    },
+    {
+      "wave": 3,
+      "instance": "clefiam1",
+      "seed": "f789e592d9da1ae7618ab513071527f1"
+    },
+    {
+      "wave": 3,
+      "instance": "foxmu4",
+      "seed": "e6a9e82b617aa339d06ed2c96d2c3295"
+    },
+    {
+      "wave": 3,
+      "instance": "square-aes-mugi",
+      "seed": "86166af6319440d592e7f70a187c9fc4"
+    },
+    {
+      "wave": 3,
+      "instance": "twofish",
+      "seed": "f19225f1ce7f39de704aa32e6745d641"
+    },
+    {
+      "wave": 3,
+      "instance": "whirlwindm0",
+      "seed": "2ce45d2da3ab4627daf56bbdf7e76406"
+    },
+    {
+      "wave": 3,
+      "instance": "whirlwindm1",
+      "seed": "d6758ac2e2e8312021d5c9a3022e0200"
+    },
+    {
+      "wave": 3,
+      "instance": "foxmu8",
+      "seed": "6abecb6fa1333738d3d16a6a6e682ade"
+    },
+    {
+      "wave": 3,
+      "instance": "grostl",
+      "seed": "0cd31e9892a5af72ddf33bd2a5b5b88a"
+    },
+    {
+      "wave": 3,
+      "instance": "khazad",
+      "seed": "356088d72dadef0161ba85897bd12e9c"
+    },
+    {
+      "wave": 3,
+      "instance": "whirlpool-maelstrom",
+      "seed": "b1e45023f1c3b479b4c3105c124150ea"
+    },
+    {
+      "wave": 3,
+      "instance": "bkl16-4x4-gf16",
+      "seed": "0a69c4e9cc2362970c4d0bcaef28b889"
+    },
+    {
+      "wave": 3,
+      "instance": "jpst17-4x4-gf16",
+      "seed": "161f1d4821897b3e4d0273989158698e"
+    },
+    {
+      "wave": 3,
+      "instance": "klsw17-m-4x4-gf16",
+      "seed": "6ed9af4a1eafc7d1749e5806f08d5c6d"
+    },
+    {
+      "wave": 3,
+      "instance": "ls16-4x4-gf16",
+      "seed": "cab38e43d709282880e63bd337d7d379"
+    },
+    {
+      "wave": 3,
+      "instance": "gf4-13",
+      "seed": "b46f307160a489919e871ccf68028d18"
+    },
+    {
+      "wave": 3,
+      "instance": "gf5-25",
+      "seed": "713d33aadee2e4bd5fe0744b793e73a5"
+    },
+    {
+      "wave": 3,
+      "instance": "gf6-49",
+      "seed": "c32ef84757d4b1d74168436793b62d35"
+    },
+    {
+      "wave": 3,
+      "instance": "gf7-89",
+      "seed": "bf97405e56c4fe93af3cd15b614166a7"
+    },
+    {
+      "wave": 3,
+      "instance": "gf7-91",
+      "seed": "b0acf20b83faa2897ccd6ffeab1d7535"
+    },
+    {
+      "wave": 3,
+      "instance": "gf8-11b",
+      "seed": "68ebed01979296665f2e411cd03e8818"
+    },
+    {
+      "wave": 3,
+      "instance": "design-mds4x4-w4",
+      "seed": "3d2ba26be5cc041a28aa618fb5603fde"
+    },
+    {
+      "wave": 3,
+      "instance": "design-mds4x4-w4-involution",
+      "seed": "e899c4930a2fc8b2a1a8fd6f96a4f8ae"
+    },
+    {
+      "wave": 4,
+      "instance": "aria",
+      "seed": "f13a33a39533df40c70424663be0623f"
+    },
+    {
+      "wave": 4,
+      "instance": "fides-midori-mantis",
+      "seed": "13259fdb8dabc07ca5bee13c0faa6558"
+    },
+    {
+      "wave": 4,
+      "instance": "joltik",
+      "seed": "3b88a6468aba23dad8c0874dcc135476"
+    },
+    {
+      "wave": 4,
+      "instance": "pridel0",
+      "seed": "86405c21f00970df548c5a2423fcea60"
+    },
+    {
+      "wave": 4,
+      "instance": "princem0",
+      "seed": "5eee9c09454255ff1a2d2f12de9934ff"
+    },
+    {
+      "wave": 4,
+      "instance": "qarma128",
+      "seed": "b3280f8b55fadc4ffbc610d994760b6a"
+    },
+    {
+      "wave": 4,
+      "instance": "qarma64",
+      "seed": "855650e502370f32eafee46439bde719"
+    },
+    {
+      "wave": 4,
+      "instance": "skinny",
+      "seed": "168b636964084cb9898a4da08a5e3551"
+    },
+    {
+      "wave": 4,
+      "instance": "smallscaleaes",
+      "seed": "5acc4207f095f3bdcc92a8456b54770b"
+    },
+    {
+      "wave": 4,
+      "instance": "anubis-clefiam0",
+      "seed": "2a144a4475556c273a806110d73e2065"
+    },
+    {
+      "wave": 4,
+      "instance": "clefiam1",
+      "seed": "00a9e535083c7a37f56891af6c19e2a3"
+    },
+    {
+      "wave": 4,
+      "instance": "foxmu4",
+      "seed": "375f8c3a107f7416965f5be058765fa2"
+    },
+    {
+      "wave": 4,
+      "instance": "square-aes-mugi",
+      "seed": "8d46a97c045a7b687cac40266d1c31c2"
+    },
+    {
+      "wave": 4,
+      "instance": "twofish",
+      "seed": "f80466888b8d5b877acdb7ac6ae56882"
+    },
+    {
+      "wave": 4,
+      "instance": "whirlwindm0",
+      "seed": "bc07b3e8acfbd24055e87c4bf1ef4198"
+    },
+    {
+      "wave": 4,
+      "instance": "whirlwindm1",
+      "seed": "a8955b6e60f6006292bdf824f1f74e0e"
+    },
+    {
+      "wave": 4,
+      "instance": "foxmu8",
+      "seed": "0439e6c48fb23ebe6d5f8f189dd2ff60"
+    },
+    {
+      "wave": 4,
+      "instance": "grostl",
+      "seed": "cf4e9d61b816e3b67ea46aeb0ae95310"
+    },
+    {
+      "wave": 4,
+      "instance": "khazad",
+      "seed": "182f135856c631f97f4f79a0237b7093"
+    },
+    {
+      "wave": 4,
+      "instance": "whirlpool-maelstrom",
+      "seed": "102992862c3a499f6fd721fbb7ef90d3"
+    },
+    {
+      "wave": 4,
+      "instance": "bkl16-4x4-gf16",
+      "seed": "15db328b36ecbc7bd70445929d320c88"
+    },
+    {
+      "wave": 4,
+      "instance": "jpst17-4x4-gf16",
+      "seed": "c44bff1f9b4c4b8344caab8c8899d845"
+    },
+    {
+      "wave": 4,
+      "instance": "klsw17-m-4x4-gf16",
+      "seed": "b4c630743abdcb928aedd9e6f4f41257"
+    },
+    {
+      "wave": 4,
+      "instance": "ls16-4x4-gf16",
+      "seed": "c1dda8c58a50ef114db7189915c38a78"
+    },
+    {
+      "wave": 4,
+      "instance": "gf4-13",
+      "seed": "9d8fbc08cc008b68a59ceea1bbde853e"
+    },
+    {
+      "wave": 4,
+      "instance": "gf5-25",
+      "seed": "f1d5923b152e797e5775f4e139c354fd"
+    },
+    {
+      "wave": 4,
+      "instance": "gf6-49",
+      "seed": "9c0f4466e0b160d924e598cd5337c3e8"
+    },
+    {
+      "wave": 4,
+      "instance": "gf7-89",
+      "seed": "8c276b31f22676956bb919a5ca85b533"
+    },
+    {
+      "wave": 4,
+      "instance": "gf7-91",
+      "seed": "12daa33e11979e458eecfbf6b839a7d4"
+    },
+    {
+      "wave": 4,
+      "instance": "gf8-11b",
+      "seed": "e250b57c739ad5389ec0cc440622ad75"
+    },
+    {
+      "wave": 4,
+      "instance": "design-mds4x4-w4",
+      "seed": "7ac18a05925d1e0f8cba2ff2d5616edc"
+    },
+    {
+      "wave": 4,
+      "instance": "design-mds4x4-w4-involution",
+      "seed": "94996ba35f2ed4a94db7e7bcec4f28fd"
+    }
+  ],
+  "budgets": {
+    "linear": {
+      "paar_restarts": 32,
+      "walk_steps": 256
+    },
+    "multiplier": {
+      "walk_steps": 256
+    },
+    "design": {
+      "matrix_draws": 256,
+      "walk_steps": 256
+    }
+  },
+  "selection": "Frozen published-frontier starts, round-robin by wave; no feeding discoveries into later searches",
+  "execution": "Sequential single-process seeded algorithm trials; not donated LLM-agent sessions",
+  "decision_rule": {
+    "min_unique_audited_published_advances": 5,
+    "min_distinct_instances": 3,
+    "min_advances_in_last_two_waves": 2,
+    "max_second_check_seconds": 60,
+    "requires_external_review_before_launch": true,
+    "if_unmet": "POSTPONE cryptography launch; no substitute internal leaderboard wins"
+  },
+  "statistics": "Describe exact sample. No iid binomial CI: shared methods/instances create dependence.",
+  "files": {
+    "linear_pilot/__init__.py": "31b02f6d4341dcfb047ed5d878bec45002e600fb339568c6603fe34c61abd2f3",
+    "linear_pilot/checker.py": "b1c9fe1bedd873f695bbb84626b26ad325c38e73c3362c4868420505cd7a3ef3",
+    "linear_pilot/design_search.py": "d7297ffd288cc6424776467b69747c4dfbcae367c420eee1573adf5e8ea3db45",
+    "linear_pilot/synthesis.py": "75f2f5b689514f8d635b7a2e4b5b3cf2ed8a92df347bc936c83c25fc5ea7b859",
+    "tools/analyze_results.py": "c9636f3186aff586ab3629cf1bd845df89a7dffd5685e8310b2b7bafce670b80",
+    "tools/audit_submission.py": "5d15901dca9407acf4f5bf78afadb7649ed59632e6050ce20c7766b85e1b8b78",
+    "tools/build_portfolio.py": "d889937957afc88995a8b22b47d8503d9fa97a0be8e99d6453eb22cbf038b40c",
+    "tools/check_submission.py": "84f6116276fbdd51ac5e82ec04e40e4b56de16daa0d2b585c289189abf9a2016",
+    "tools/freeze_plan.py": "bc54016e431ab6ac2ac72f58fc04412732a6dd8c5b7f37a5940e5991c80822a6",
+    "tools/run_benchmark.py": "d2ee0c0a191ceed93725f5de2fe614f63282a8d099e1c5975566932c4a87ef57",
+    "tests/test_checker.py": "e08dc5ded211b72755e3c50d20b3cde83373e1b670916c1fab9890a1eec20e6f",
+    "portfolio/anubis-clefiam0.json": "1dabd760519c9014d7b6db4f6721ea9ca5937fa27fa6d74e0da867fe05bc9e3a",
+    "portfolio/aria.json": "d8796bf19fe1c90dc399c95ca016f598812da5ccc24386419070efc6cfc82561",
+    "portfolio/bkl16-4x4-gf16.json": "a1af1276ea4df3ec8caeea52b918cc624504b8b5013725d8b630b8eaf3c32905",
+    "portfolio/clefiam1.json": "cbecca9dec10105e5ad4f143f174e1e215cfc68cd39a2d398b642c409652bb56",
+    "portfolio/design-mds4x4-w4-involution.json": "e2f903b737b9eafba5bb6c6cb11361f344af9b40e628b9b790d1081f27161bac",
+    "portfolio/design-mds4x4-w4.json": "90d6a7e96e8d54493735c1863995f9f1b31ad597a662514d2f77e18adc174c0f",
+    "portfolio/fides-midori-mantis.json": "106807c8d899cb0d7aedd7e6eecbbda78856184cf36c0c4aef2334c9cac590b9",
+    "portfolio/foxmu4.json": "e83cca3aaf51617e8a94d255784946868e4bfe0810074059b68ea4a4124523d7",
+    "portfolio/foxmu8.json": "a4ea4b781ac43e3e14f0d163cb976a282cbf01bfe065d7ce75a279d17bb57687",
+    "portfolio/gf4-13.json": "0691b8009e20937be5123e49d44d24175dcaba3a55ffeb6eca5985178c560957",
+    "portfolio/gf5-25.json": "05e7c890bf2203cc73adc1063f287627aad5858cb6e998bd059636bfd32e25e9",
+    "portfolio/gf6-49.json": "c6dc2099db0916e8ed0970b5b4beef9d142c930e2bf8996939e3e813ed28b5e4",
+    "portfolio/gf7-89.json": "6b1ca6ff75bfd4ad0a093d0dd092a50a63f5cf3d14765793815aff4561dc4bb9",
+    "portfolio/gf7-91.json": "da5de39e2cc2725121e4c5158769d788376f863952606131a1875bd176dc2f9a",
+    "portfolio/gf8-11b.json": "4f2774698ad8f6e12fcb0b3facedbd7b40f87daf9fe2382d0409e5ed14a06ff0",
+    "portfolio/grostl.json": "7cf34f87aed9c8f948916b694b5c1f7b1865e5e5d3a88e68abffb49e2dc072f1",
+    "portfolio/index.json": "b9c21d1af39a7a1b7a07b45fc1e61ae52f934b9dd5a5f94111e2cf6985de8b4a",
+    "portfolio/joltik.json": "2146e20304c56888044a8bc136fdb6d1deba3d57ff768394729debec81a6e612",
+    "portfolio/jpst17-4x4-gf16.json": "953fbccb1ae127c4b7fadd91a56a9cb4b08475a85754430ec2044200a83bdcd7",
+    "portfolio/khazad.json": "34ada2835518c8f354711a2260a3bdf206a8d6f81df9c1df115fe118faba0217",
+    "portfolio/klsw17-m-4x4-gf16.json": "627866f2bf759c33705cd4dc6a11e0cf01e091db77fff4be42e0d215a7ec06b7",
+    "portfolio/ls16-4x4-gf16.json": "7ad48d12c43e737b845be3c1c96aab3a3a23f06153810e6e628e5bbe08cc45ad",
+    "portfolio/pridel0.json": "2aa2a54c025a1696430d11cafa5ccf27871857b1e5994c978193f1ae60fd936d",
+    "portfolio/princem0.json": "8d69b4ab633aa1bd45280646e8ad19f5e973ef154ea5392fcd3a9a5328e822f7",
+    "portfolio/qarma128.json": "f10e11a14f67078179fa0e88b4d23009aedeff6dfdccc49543c6e5eb10c40b23",
+    "portfolio/qarma64.json": "7111a66673ac1f15b7041fbc7e5283bd5e34f956e5fec78a180b58f75d7160f6",
+    "portfolio/skinny.json": "c0f07becee2604257322b63bba8ef93741021d1d902dfb1d47317222c7dc448a",
+    "portfolio/smallscaleaes.json": "e0bc82ac5a37d5f64570760a4e82acde1106cefdfc7da41466e0f63f867f72d2",
+    "portfolio/square-aes-mugi.json": "8ad3723557d639cb064ceaa9673a80b03adc867e2a81cc7f45d94a7e339c033f",
+    "portfolio/twofish.json": "802b3c2b5891f68aa0b3dfa1870481637f08e1d65522e4eedf0e7479a61add33",
+    "portfolio/whirlpool-maelstrom.json": "55259ebda0589a10bb9b7c6f5e499f631ea40587b85bb27a3f00e3584cba1a42",
+    "portfolio/whirlwindm0.json": "ba2499f59ed277f26062bab7c0b1221e68939c199203f78872ca218b59cdba83",
+    "portfolio/whirlwindm1.json": "46b1cf15018adb7e7747758175ab9280682b9401242a785790731f32664c5ff2",
+    "certificates/anubis-clefiam0--nist.json": "c07e93f2082ea34fe721215a69c81eed6c0934e118d7bd357128d947cd13d34d",
+    "certificates/aria--nist.json": "5e259e82d64343709309fe3a8eb9be70d9212136c6c9f2a4bd1c8d4344f825c6",
+    "certificates/bkl16-4x4-gf16--nist.json": "7950c30d3dc894247706ae8e84de6942b2179038747711706d629f0b6e18f50b",
+    "certificates/clefiam1--nist.json": "b7ecdaa6152d94b5f497e014df125a84bf2aaec7e877656fdd468f49e134edcc",
+    "certificates/design-mds4x4-w4--tian2024.json": "37ff233d5f4f96bd3b6bfce34551ede54a49d89b59cd42e6bcfcc9932cdbc71c",
+    "certificates/design-mds4x4-w4-involution--jpst17-4x4-gf16-inv-xor-41-xzlbz20-circ.json": "e84b8c7f6efe21e6f9b634dbd9d06b3fa3c8988dd57069a792e4efe9a9f3caa1",
+    "certificates/design-mds4x4-w4-involution--lw16-4x4-gf16-inv-xor-44-xzlbz20-circ.json": "8b0a3d388518d59a206b2258864b985ad0a5380dc625a49ff01c4fdb166d8b85",
+    "certificates/design-mds4x4-w4-involution--skop15-4x4-gf16-inv-xor-44-xzlbz20-circ.json": "663ce8081c79534614728f6a167887dcede213841c038c5f535b2a65314bf222",
+    "certificates/design-mds4x4-w4-involution--ss16-4x4-gf16-inv-xor-38-rs-120-circ.json": "683b752cb0dbc240a92925b161eb0474df3e936c5553a6a8a8cae16930a29655",
+    "certificates/design-mds4x4-w4-involution--tian2024.json": "5bb04909ca11f3e53b320a7610e50aa737cda6164a2fec22259dde14a3f19133",
+    "certificates/fides-midori-mantis--nist.json": "6b0d4a373e7152dacbd7effad02333e3c2343ff1a4c608b61dc49d7f072d49d2",
+    "certificates/foxmu4--nist.json": "b0eedb62c843112d24f7a5fb1ae8e8c6249a5e8fcc163db1c24cdf8fb8f8732d",
+    "certificates/foxmu8--nist.json": "7d1c3622323ef44fd1d7cd6f27340ac72040f1edc38ef364a1d9a6f65a0a6829",
+    "certificates/gf4-13--final-f4.json": "281243bc8e33b376b196d5423a145ae6d9f7f36c09f7eae94d40f68b05211978",
+    "certificates/gf5-25--final-f5.json": "2e8880f961c5259bb8fa1fd9ba50ad5bfe1a646f4db70076fa70c7f091dfa1a1",
+    "certificates/gf6-49--cmt.json": "402e2462962eeec4ae18bdb90e5932715c13ee15353dd084c7370c279506855d",
+    "certificates/gf6-49--final-f6.json": "680ba035c26c13298e916b471a027d55e2cc3ab83159edd1af0deddaf451287c",
+    "certificates/gf7-89--final-f73-d6.json": "599cf666d5ff004bd78946f722691c8edd94478401d0d23d0ab2031c63b4f5dc",
+    "certificates/gf7-89--final-f73.json": "c7972bb977db13a3ff64e37819433e3430df65abe8d4e0ab201475f4a05d8f6c",
+    "certificates/gf7-91--cmt.json": "a70b9a8a4500316e4fceea14761d432d5a438788033181f94f3b05ee8b65313a",
+    "certificates/gf7-91--final-f7.json": "6dbd8d27496b7d6478e9d39df6090d4950363b7f42a461480f656b8a0437db95",
+    "certificates/gf8-11b--aes107-d13.json": "3bb10d68fc3a708b32dfbde92d10653b17d2dc98de3758654f5c5a4d08e6811f",
+    "certificates/gf8-11b--aes107-k35.json": "4251504dfdd2091f45e6735988c6d6e6d29a2126548898392e7744c462562d19",
+    "certificates/gf8-11b--aes107-k36.json": "1512a2e60eb390c0290dd1eb92f16abb6f7f12b440dd1156d133593580fd55b6",
+    "certificates/gf8-11b--aes108-d12.json": "730f6028264573a4fc845a3976799e981f82eac69664647d286bcfd323bf2218",
+    "certificates/gf8-11b--aes108-d19.json": "72b959193f3a71250c6b01e1c5c057171d0d7b0013ccacfe2ff6fe13870725ee",
+    "certificates/gf8-11b--aes109-d18.json": "90b8bdd144499b952d59f1c3be38489d1eb0e9970607934cf1b05e40d03b66be",
+    "certificates/gf8-11b--aes110-d20.json": "48f9b785c47915731f95395c9d103142f05c5282c5822e7bcf8b3032d659e57c",
+    "certificates/gf8-11b--aes110-d7.json": "92fdaa4bc071789be3b8e17f1d0713484a1dd252e48ac9565736059dc9076f7e",
+    "certificates/gf8-11b--aes112-d14.json": "e4d54f2b54005819a74edf67c5174c07d3881a5b665025039996ed214c6104fc",
+    "certificates/gf8-11b--aes112-d6.json": "5e9028936df3b3f30e84db7e4c79d5d65aff5b004e7ec56770641fd762245a26",
+    "certificates/gf8-11b--aes113-d15.json": "7e60f24a4a11ff6170786213b954023af37b4eb45606ba9588935694e4c4306e",
+    "certificates/gf8-11b--aes114-d9.json": "25742f4161b40f1d34b9ec05d6a10deb23ca23f3972db13518bb794270ed8a50",
+    "certificates/gf8-11b--aes115-cmtprods-d15.json": "c0cb7b7640dc9df99b1d23a326bc9fd76298541375162d09c81d879fad39c93e",
+    "certificates/gf8-11b--cmt.json": "9f2ed62fd31e4ddcaa25633f67c549f15d956cf020e87eeb8890d6cc7e3606da",
+    "certificates/grostl--nist.json": "7ee02c2c258118c6d98e0ffeeee7fb764814dc255f32707c4e0edab47aa97208",
+    "certificates/joltik--nist.json": "e4b1f048870dcaccfb9449a776fc3d49bdab3f2b84e7e1efaaea897d2dfb8127",
+    "certificates/jpst17-4x4-gf16--nist.json": "95b0c60e0aa8838ab54be8afba96fab39efdc4e9824dc80f5afeadd772f8be99",
+    "certificates/khazad--nist.json": "f6d8620aa9f9d14a4ac6eaf7be4d92323a4a370515903e3f8bab919b0290fbdb",
+    "certificates/klsw17-m-4x4-gf16--nist.json": "30f18550497f45fd222127f5a4f075f738b50aa3c4252a42924ff9b32a9b3354",
+    "certificates/ls16-4x4-gf16--nist.json": "a7bea09ed93758ca51ef5b2cbc50660de5dc936b841875dfe794a09120756763",
+    "certificates/pridel0--nist.json": "462f524643c77fea78c406fab05cf97cc1ffa1fc736b802724890fb6d108dbda",
+    "certificates/princem0--nist.json": "deff13c262dad01a039259abb82f738a340a837ed38ceed6e79b7a75a2cb494f",
+    "certificates/qarma128--nist.json": "0146bcc2a7a8792cc85307bfadb1f602d6c1fca5821c89dba95fd381e95a0642",
+    "certificates/qarma64--nist.json": "f62f2c2e1c48200627192ea1da9c644dd10b0ef17cd043fa4a6e08c25003fcc6",
+    "certificates/skinny--nist.json": "0f328c491608eebbb0d945a99b11542916cf6007ca9805fa8d2710d902a4115a",
+    "certificates/smallscaleaes--nist.json": "78dca71e67b3566858fb9ffd8913e8924f419c8cc814fd9e3d6a9b3a64ffed25",
+    "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json": "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+    "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+    "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json": "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82",
+    "certificates/square-aes-mugi--nist.json": "1c7ed3fd18a9ed69e6b40a5496e9aac11bfb480cf2d6fce6dd5adf3ce7cd1653",
+    "certificates/twofish--nist.json": "65c255e13da2e9ffa3a22673ef741d8000b5dfd0c4ca9cd6545e93f274e26f78",
+    "certificates/whirlpool-maelstrom--nist.json": "332d1407ff30ca39a4912b7065b12ebd4215a737f8659b515460e4246c30a88b",
+    "certificates/whirlwindm0--nist.json": "dc4879f2c7ce2c8e41017054c2fd5dcef9e88a0f3b1416927a1aa7baa6682672",
+    "certificates/whirlwindm0--xu2026-depth.json": "7ac590c579e7fac7efea0948a0ecb5bf3d6b433f4bcd297fe66998d15b7dc94a",
+    "certificates/whirlwindm0--xu2026-size.json": "bbe26e3782d0855acf0c826e996e5727d78b10b55937e2a3710831a9ceb0c782",
+    "certificates/whirlwindm1--nist.json": "1ded87939c258a9f95639ab0227b308801e141cefe355f1c849d6bb441db17ea",
+    "certificates/whirlwindm1--xu2026-depth.json": "c89996f57fc61a61712f098851c9a0778e0b191e8a77e9b5a32116247f7e554c",
+    "certificates/whirlwindm1--xu2026-size.json": "355f5eeeada505bfbb785fa5d2f5e79e667a48fe2228e3570980d17b4f028ef6"
+  }
+}

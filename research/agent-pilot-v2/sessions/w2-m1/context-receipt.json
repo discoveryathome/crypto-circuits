@@ -1,0 +1,8 @@
+{
+  "issued_at": "2026-10-20T06:55:59.456305+00:00",
+  "handoff_path": "research/agent-pilot-v2/WAVE2-BRIEF.md",
+  "handoff_sha256": "8acf9c6ae5e56dca0fb5ab22f11d6a035e3a5cd697ca087d08a48aa5bbf92b06",
+  "review_path": "research/agent-pilot-v2/review/wave1-adjudication.json",
+  "review_sha256": "7686c014cbc354dd62317078ac33e1839e6920b7f68689c477683a9ed85e28bb",
+  "all_wave1_valid_candidates_are_prior": true
+}

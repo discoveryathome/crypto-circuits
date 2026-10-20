@@ -1,0 +1,92 @@
+[
+  {
+    "instance": "whirlwindm1",
+    "path": "certificates/whirlwindm1--xu2026-size.json",
+    "kind": "published",
+    "source_url": "https://github.com/DerryAlex/circulant_synth/blob/73ff05008ae1d9445a69bc792653726cdccdca5b/results/size/Whirlwind_M1.txt",
+    "source_origin": "sources/circulant/results/size/Whirlwind_M1.txt; CNOT to SSA; exact output permutation",
+    "sha256": "355f5eeeada505bfbb785fa5d2f5e79e667a48fe2228e3570980d17b4f028ef6",
+    "metrics": {
+      "AND": 0,
+      "XOR": 169,
+      "NOT": 0,
+      "total": 169,
+      "depth": 11,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 169,
+        "NOT": 0,
+        "total": 169,
+        "depth": 11,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0009865419706329703
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 169,
+        "depth": 11,
+        "total": 169
+      },
+      "ok": true,
+      "verification_seconds": 0.003112750011496246
+    }
+  },
+  {
+    "instance": "whirlwindm1",
+    "path": "results/candidates/w3-whirlwindm1-1.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w3-whirlwindm1.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+    "metrics": {
+      "AND": 0,
+      "XOR": 240,
+      "NOT": 0,
+      "total": 240,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 240,
+        "NOT": 0,
+        "total": 240,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.001348666031844914
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 240,
+        "depth": 5,
+        "total": 240
+      },
+      "ok": true,
+      "verification_seconds": 0.0036305419635027647
+    }
+  }
+]

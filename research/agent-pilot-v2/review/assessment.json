@@ -1,0 +1,361 @@
+{
+  "generated_at": "2026-10-20T07:19:12.540633+00:00",
+  "plan_sha256": "e13c95221645d66df1ba36c59df662d3dbb4e8b0ae82dcce8045911a339b0097",
+  "threshold_met": true,
+  "recommendation": "larger private beta only",
+  "confirmed_scope": "Independent-agent acceptance against reconciled identified literature; external review outstanding",
+  "completed_sessions": 6,
+  "sessions_with_accepted_advances": 4,
+  "successful_session_ids": [
+    "w1-m0",
+    "w1-m1",
+    "w2-m0",
+    "w2-m1"
+  ],
+  "instances_with_accepted_advances": [
+    "whirlwindm0",
+    "whirlwindm1"
+  ],
+  "accepted_wave_end_points": 11,
+  "accepted_wave2_points": 6,
+  "retained_accepted_frontier_points": 6,
+  "unresolved_wave_end_points": 7,
+  "rejected_wave_end_points": 0,
+  "submitted_certificates": 147,
+  "valid_certificates": 147,
+  "invalid_certificates": 0,
+  "root_check_process_seconds": 21.839461380383,
+  "root_check_median_seconds": 0.14227025001309812,
+  "root_check_max_seconds": 0.25625412503723055,
+  "independent_review_elapsed_seconds": 380.38744599999995,
+  "sessions": [
+    {
+      "session": "w1-aes",
+      "wave": 1,
+      "instance": "square-aes-mugi",
+      "submitted_certificates": 0,
+      "valid": 0,
+      "accepted_wave_end_points": 0,
+      "first_provisional_submission_seconds": null,
+      "first_credited_wave_end_witness_submission_seconds": null,
+      "adjudicated_at": null,
+      "accepted": []
+    },
+    {
+      "session": "w1-m0",
+      "wave": 1,
+      "instance": "whirlwindm0",
+      "submitted_certificates": 55,
+      "valid": 55,
+      "accepted_wave_end_points": 4,
+      "first_provisional_submission_seconds": 283.135728,
+      "first_credited_wave_end_witness_submission_seconds": 285.385371,
+      "adjudicated_at": "2026-10-20T06:55:28.333238+00:00",
+      "accepted": [
+        {
+          "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor157-depth12-079f1f3f3f22.json",
+          "sha256": "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 157,
+            "dead_gates": 0,
+            "depth": 12,
+            "total": 157
+          },
+          "claim_scope": "New classical binary-XOR count upper bound for this exact fixed map"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor161-depth11-65a10aa404e3.json",
+          "sha256": "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 161,
+            "dead_gates": 0,
+            "depth": 11,
+            "total": 161
+          },
+          "claim_scope": "New nondominated classical binary-XOR size/depth tradeoff against audited published and prior local constructions"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor163-depth10-f258c04d025f.json",
+          "sha256": "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 163,
+            "dead_gates": 0,
+            "depth": 10,
+            "total": 163
+          },
+          "claim_scope": "New nondominated classical binary-XOR size/depth tradeoff against audited published and prior local constructions"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor170-depth9-30045c939d4c.json",
+          "sha256": "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 170,
+            "dead_gates": 0,
+            "depth": 9,
+            "total": 170
+          },
+          "claim_scope": "New nondominated classical binary-XOR size/depth tradeoff against audited published and prior local constructions"
+        }
+      ]
+    },
+    {
+      "session": "w1-m1",
+      "wave": 1,
+      "instance": "whirlwindm1",
+      "submitted_certificates": 11,
+      "valid": 11,
+      "accepted_wave_end_points": 1,
+      "first_provisional_submission_seconds": 380.755058,
+      "first_credited_wave_end_witness_submission_seconds": 640.645398,
+      "adjudicated_at": "2026-10-20T06:55:28.333238+00:00",
+      "accepted": [
+        {
+          "path": "research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-10-10c982463574.json",
+          "sha256": "10c982463574dbaf5778d88f37518bc735549124eec2975af32c2b547d8753b5",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 166,
+            "dead_gates": 0,
+            "depth": 10,
+            "total": 166
+          },
+          "claim_scope": "New classical binary-XOR count upper bound for this exact fixed map"
+        }
+      ]
+    },
+    {
+      "session": "w2-aes",
+      "wave": 2,
+      "instance": "square-aes-mugi",
+      "submitted_certificates": 0,
+      "valid": 0,
+      "accepted_wave_end_points": 0,
+      "first_provisional_submission_seconds": null,
+      "first_credited_wave_end_witness_submission_seconds": null,
+      "adjudicated_at": null,
+      "accepted": []
+    },
+    {
+      "session": "w2-m0",
+      "wave": 2,
+      "instance": "whirlwindm0",
+      "submitted_certificates": 26,
+      "valid": 26,
+      "accepted_wave_end_points": 4,
+      "first_provisional_submission_seconds": 220.860791,
+      "first_credited_wave_end_witness_submission_seconds": 448.311877,
+      "adjudicated_at": "2026-10-20T07:19:11.054208+00:00",
+      "accepted": [
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor156-depth12-724f1cd5675a.json",
+          "sha256": "724f1cd5675a287d08194d040c39ba5770da51c71c48f5ff38f2da6a669b0b10",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 156,
+            "dead_gates": 0,
+            "depth": 12,
+            "total": 156
+          },
+          "claim_scope": "New nondominated general binary-XOR size/depth construction for the exact fixed map, beyond both reconciled published constructions and actual issued wave2 prior"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor157-depth11-5e45d1db35ee.json",
+          "sha256": "5e45d1db35ee9b529f4d7b0b52cef9555385fbac520ff9c7a24ce5d5f7d7f655",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 157,
+            "dead_gates": 0,
+            "depth": 11,
+            "total": 157
+          },
+          "claim_scope": "New nondominated general binary-XOR size/depth construction for the exact fixed map, beyond both reconciled published constructions and actual issued wave2 prior"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor158-depth10-4a402ae1c3b3.json",
+          "sha256": "4a402ae1c3b31055dd5ce576f909a16b9a1b2cb154c9afff35f8e45a616d01ef",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 158,
+            "dead_gates": 0,
+            "depth": 10,
+            "total": 158
+          },
+          "claim_scope": "New nondominated general binary-XOR size/depth construction for the exact fixed map, beyond both reconciled published constructions and actual issued wave2 prior"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor166-depth9-85b9deac384c.json",
+          "sha256": "85b9deac384c7bcbc40b3775b570f7216b0055eb781ae9296eafa058e5ed21ad",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 166,
+            "dead_gates": 0,
+            "depth": 9,
+            "total": 166
+          },
+          "claim_scope": "New nondominated general binary-XOR size/depth construction for the exact fixed map, beyond both reconciled published constructions and actual issued wave2 prior"
+        }
+      ]
+    },
+    {
+      "session": "w2-m1",
+      "wave": 2,
+      "instance": "whirlwindm1",
+      "submitted_certificates": 55,
+      "valid": 55,
+      "accepted_wave_end_points": 2,
+      "first_provisional_submission_seconds": 480.944952,
+      "first_credited_wave_end_witness_submission_seconds": 741.27011,
+      "adjudicated_at": "2026-10-20T07:19:11.054208+00:00",
+      "accepted": [
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-163-10-dfa71c3370e1.json",
+          "sha256": "dfa71c3370e195e9063a36b1ce9b6d0cc22a51a7ecb06887603fd6cfd45959d2",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 163,
+            "dead_gates": 0,
+            "depth": 10,
+            "total": 163
+          },
+          "claim_scope": "New nondominated general binary-XOR size/depth construction for the exact fixed map, beyond both reconciled published constructions and actual issued wave2 prior"
+        },
+        {
+          "path": "research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-164-9-c2ff5ef13d92.json",
+          "sha256": "c2ff5ef13d92a45918d28889e73960f89acfd00c588c1d00b1e7cf7ab2848b59",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 164,
+            "dead_gates": 0,
+            "depth": 9,
+            "total": 164
+          },
+          "claim_scope": "New nondominated general binary-XOR size/depth construction for the exact fixed map, beyond both reconciled published constructions and actual issued wave2 prior"
+        }
+      ]
+    }
+  ],
+  "retained_accepted_frontier": [
+    {
+      "session": "w2-m0",
+      "wave": 2,
+      "instance": "whirlwindm0",
+      "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor156-depth12-724f1cd5675a.json",
+      "sha256": "724f1cd5675a287d08194d040c39ba5770da51c71c48f5ff38f2da6a669b0b10",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 156,
+        "dead_gates": 0,
+        "depth": 12,
+        "total": 156
+      },
+      "claim_scope": "New nondominated general binary-XOR size/depth construction for the exact fixed map, beyond both reconciled published constructions and actual issued wave2 prior"
+    },
+    {
+      "session": "w2-m0",
+      "wave": 2,
+      "instance": "whirlwindm0",
+      "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor157-depth11-5e45d1db35ee.json",
+      "sha256": "5e45d1db35ee9b529f4d7b0b52cef9555385fbac520ff9c7a24ce5d5f7d7f655",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 157,
+        "dead_gates": 0,
+        "depth": 11,
+        "total": 157
+      },
+      "claim_scope": "New nondominated general binary-XOR size/depth construction for the exact fixed map, beyond both reconciled published constructions and actual issued wave2 prior"
+    },
+    {
+      "session": "w2-m0",
+      "wave": 2,
+      "instance": "whirlwindm0",
+      "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor158-depth10-4a402ae1c3b3.json",
+      "sha256": "4a402ae1c3b31055dd5ce576f909a16b9a1b2cb154c9afff35f8e45a616d01ef",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 158,
+        "dead_gates": 0,
+        "depth": 10,
+        "total": 158
+      },
+      "claim_scope": "New nondominated general binary-XOR size/depth construction for the exact fixed map, beyond both reconciled published constructions and actual issued wave2 prior"
+    },
+    {
+      "session": "w2-m0",
+      "wave": 2,
+      "instance": "whirlwindm0",
+      "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor166-depth9-85b9deac384c.json",
+      "sha256": "85b9deac384c7bcbc40b3775b570f7216b0055eb781ae9296eafa058e5ed21ad",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 166,
+        "dead_gates": 0,
+        "depth": 9,
+        "total": 166
+      },
+      "claim_scope": "New nondominated general binary-XOR size/depth construction for the exact fixed map, beyond both reconciled published constructions and actual issued wave2 prior"
+    },
+    {
+      "session": "w2-m1",
+      "wave": 2,
+      "instance": "whirlwindm1",
+      "path": "research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-163-10-dfa71c3370e1.json",
+      "sha256": "dfa71c3370e195e9063a36b1ce9b6d0cc22a51a7ecb06887603fd6cfd45959d2",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 163,
+        "dead_gates": 0,
+        "depth": 10,
+        "total": 163
+      },
+      "claim_scope": "New nondominated general binary-XOR size/depth construction for the exact fixed map, beyond both reconciled published constructions and actual issued wave2 prior"
+    },
+    {
+      "session": "w2-m1",
+      "wave": 2,
+      "instance": "whirlwindm1",
+      "path": "research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-164-9-c2ff5ef13d92.json",
+      "sha256": "c2ff5ef13d92a45918d28889e73960f89acfd00c588c1d00b1e7cf7ab2848b59",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 164,
+        "dead_gates": 0,
+        "depth": 9,
+        "total": 164
+      },
+      "claim_scope": "New nondominated general binary-XOR size/depth construction for the exact fixed map, beyond both reconciled published constructions and actual issued wave2 prior"
+    }
+  ],
+  "cost_limits": [
+    "Model/token costs unavailable",
+    "Preparation and root coordination active time not separately instrumented",
+    "Some forced-stop process CPU accounting incomplete; do not treat raw receipt sum as total CPU"
+  ],
+  "inference_limits": [
+    "Six correlated sessions on three selected maps; no IID population success estimate",
+    "M0 and M1 are related Whirlwind maps",
+    "Multiple Pareto points from one session are related constructions",
+    "Passing this screen does not authorize launch or establish sustained long-term yield"
+  ]
+}

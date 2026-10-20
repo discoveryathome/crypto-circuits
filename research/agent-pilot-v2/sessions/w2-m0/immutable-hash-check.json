@@ -1,0 +1,191 @@
+{
+  "at": "2026-10-20T07:11:33.905319+00:00",
+  "checks": [
+    {
+      "path": "research/agent-pilot-v2/plan.json",
+      "expected": "e13c95221645d66df1ba36c59df662d3dbb4e8b0ae82dcce8045911a339b0097",
+      "actual": "e13c95221645d66df1ba36c59df662d3dbb4e8b0ae82dcce8045911a339b0097",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/sessions/w2-m0/starting-frontier.json",
+      "expected": "a60f7ae06f12870cf55acb21fc36492b4cdbe85ea82cb4dd3d55fdc5d5bcb633",
+      "actual": "a60f7ae06f12870cf55acb21fc36492b4cdbe85ea82cb4dd3d55fdc5d5bcb633",
+      "match": true
+    },
+    {
+      "path": "linear_pilot/checker.py",
+      "expected": "b1c9fe1bedd873f695bbb84626b26ad325c38e73c3362c4868420505cd7a3ef3",
+      "actual": "b1c9fe1bedd873f695bbb84626b26ad325c38e73c3362c4868420505cd7a3ef3",
+      "match": true
+    },
+    {
+      "path": "tools/check_submission.py",
+      "expected": "84f6116276fbdd51ac5e82ec04e40e4b56de16daa0d2b585c289189abf9a2016",
+      "actual": "84f6116276fbdd51ac5e82ec04e40e4b56de16daa0d2b585c289189abf9a2016",
+      "match": true
+    },
+    {
+      "path": "tools/audit_submission.py",
+      "expected": "5d15901dca9407acf4f5bf78afadb7649ed59632e6050ce20c7766b85e1b8b78",
+      "actual": "5d15901dca9407acf4f5bf78afadb7649ed59632e6050ce20c7766b85e1b8b78",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/known-prior.json",
+      "expected": "1d2e95227791d45cda253e95db41374d73887e58ff1d0feee0c7d34bfa26f06f",
+      "actual": "1d2e95227791d45cda253e95db41374d73887e58ff1d0feee0c7d34bfa26f06f",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/timing.json",
+      "expected": "61c3e948ef87f26d6677ec8b8992a1dd959df1af1f072fd7294bbd6a2904aef5",
+      "actual": "61c3e948ef87f26d6677ec8b8992a1dd959df1af1f072fd7294bbd6a2904aef5",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/comparators.json",
+      "expected": "38f36f9354f9afb070427c5e8f8fb34853a6fbfff69c0ff4f3967b484d5ddb3c",
+      "actual": "38f36f9354f9afb070427c5e8f8fb34853a6fbfff69c0ff4f3967b484d5ddb3c",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/convert_hill.py",
+      "expected": "027be2507610a706cc7f0033f7a971aeac98f1e19ca0c3613dbf2b5ad2a0f058",
+      "actual": "027be2507610a706cc7f0033f7a971aeac98f1e19ca0c3613dbf2b5ad2a0f058",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/nist-current-tree.json",
+      "expected": "33a87dc2e2a39701823a55649129fdfebf58c065029e2ee222154cbe73d971fa",
+      "actual": "33a87dc2e2a39701823a55649129fdfebf58c065029e2ee222154cbe73d971fa",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/sbp-current-tree.json",
+      "expected": "157eac1be72fec2864933f5053089adc85222adc9525029f575fefa4ef9944c1",
+      "actual": "157eac1be72fec2864933f5053089adc85222adc9525029f575fefa4ef9944c1",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/downloads.json",
+      "expected": "c99b72d4488eaa2a9a8fa564cbcd1d7aa9626671981519b78a9a1b951721fc18",
+      "actual": "c99b72d4488eaa2a9a8fa564cbcd1d7aa9626671981519b78a9a1b951721fc18",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/AUDIT.md",
+      "expected": "82512773b54d465eae3a2888865957454c3dcb36426a9147e49605cdfdf22a05",
+      "actual": "82512773b54d465eae3a2888865957454c3dcb36426a9147e49605cdfdf22a05",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/aes-mixcolumns-hill-table9-binary.json",
+      "expected": "368ec79e35aba4dbddc8402f4055b89ebfe2a6c96b12bce5fa18d5cf5991840b",
+      "actual": "368ec79e35aba4dbddc8402f4055b89ebfe2a6c96b12bce5fa18d5cf5991840b",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/aes-mixcolumns-sbp-mixed-binary.json",
+      "expected": "aed8db913e60fd31002e26db592baa18994a002a8f35485197758804b9aec811",
+      "actual": "aed8db913e60fd31002e26db592baa18994a002a8f35485197758804b9aec811",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/source-receipts.json",
+      "expected": "6400aeb0cdd5d4ff135c4c5720bff687b8f5e1c85eac994f0052e36945429409",
+      "actual": "6400aeb0cdd5d4ff135c4c5720bff687b8f5e1c85eac994f0052e36945429409",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/hill-normalization.json",
+      "expected": "fbdb95e08c51b1030dbbf6b18a5654355834b286c75a19a8b05c52fd56886784",
+      "actual": "fbdb95e08c51b1030dbbf6b18a5654355834b286c75a19a8b05c52fd56886784",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/circulant-current-tree.json",
+      "expected": "42b2e43997477c18c6fcbbbb7231560497a7ae8163ab5d211d0c53b9606666c3",
+      "actual": "42b2e43997477c18c6fcbbbb7231560497a7ae8163ab5d211d0c53b9606666c3",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/literature/sbp-normalization.json",
+      "expected": "02c75e3b4c5cb677334472afe217401e4eda36bea1778d0b5e08ada3850f676e",
+      "actual": "02c75e3b4c5cb677334472afe217401e4eda36bea1778d0b5e08ada3850f676e",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/search/test_toolkit.py",
+      "expected": "40bf9ea965b03ec32251b1e4083822a25c6e17f541682583852ae9d0b41480bd",
+      "actual": "40bf9ea965b03ec32251b1e4083822a25c6e17f541682583852ae9d0b41480bd",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/search/tests.json",
+      "expected": "ab589f248d09495f820f1817f78637d8dd290bfa426788555e9011beaef02d9b",
+      "actual": "ab589f248d09495f820f1817f78637d8dd290bfa426788555e9011beaef02d9b",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/search/run_search.py",
+      "expected": "5e5bec9e2250454b0bf6642cca0e3827a22e2340673c326b89afa0241968a474",
+      "actual": "5e5bec9e2250454b0bf6642cca0e3827a22e2340673c326b89afa0241968a474",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/search/README.md",
+      "expected": "7f3f072c7313ad6c23b7dd8cfb7bcbe45c759d52a2bc9e861a84829dc045d01e",
+      "actual": "7f3f072c7313ad6c23b7dd8cfb7bcbe45c759d52a2bc9e861a84829dc045d01e",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/search/search.cpp",
+      "expected": "0831142ac5d31a3a49920001beb658247a8ea2a7054fa8f478c4f7683991d12e",
+      "actual": "0831142ac5d31a3a49920001beb658247a8ea2a7054fa8f478c4f7683991d12e",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/preparation/search/test_core.cpp",
+      "expected": "d92394fe720c920283b044034f07be0a6a45b3a54736fd3fc62db652852d3b73",
+      "actual": "d92394fe720c920283b044034f07be0a6a45b3a54736fd3fc62db652852d3b73",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/tools/collect.py",
+      "expected": "b1b75c96ed5416e6ece2e0c82df5c73415f940358c515ee6ed8707d3e397337e",
+      "actual": "b1b75c96ed5416e6ece2e0c82df5c73415f940358c515ee6ed8707d3e397337e",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/tools/budget_run.py",
+      "expected": "2b7d6cf420be90012049cbd6e2397c73603d8d8999e87c1bff23ccd67aeac216",
+      "actual": "2b7d6cf420be90012049cbd6e2397c73603d8d8999e87c1bff23ccd67aeac216",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/tools/setup.py",
+      "expected": "4ae87cf53d33e56b1fec78eec5faf464d2e050743c971a3702f14b4cf333620a",
+      "actual": "4ae87cf53d33e56b1fec78eec5faf464d2e050743c971a3702f14b4cf333620a",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/initial-prior.json",
+      "expected": "ff2934476659b97ddacba3ec96286b29da9b8481f277c21b19c31b7a31d36375",
+      "actual": "ff2934476659b97ddacba3ec96286b29da9b8481f277c21b19c31b7a31d36375",
+      "match": true
+    },
+    {
+      "path": "research/agent-pilot-v2/README.md",
+      "expected": "209dec751580d52b4f212301b72a9031c19de9969db7d1d069c63d86a82f15bd",
+      "actual": "209dec751580d52b4f212301b72a9031c19de9969db7d1d069c63d86a82f15bd",
+      "match": true
+    },
+    {
+      "path": "portfolio/whirlwindm0.json",
+      "expected": "ba2499f59ed277f26062bab7c0b1221e68939c199203f78872ca218b59cdba83",
+      "actual": "ba2499f59ed277f26062bab7c0b1221e68939c199203f78872ca218b59cdba83",
+      "match": true
+    }
+  ]
+}

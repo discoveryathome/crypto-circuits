@@ -1,0 +1,54 @@
+[
+  {
+    "path": "research/agent-pilot-v2/preparation/literature/gpu2026.pdf",
+    "url": "https://eprint.iacr.asia/2026/2520.pdf",
+    "retrieved_at": "2026-10-20T06:25:54.600953+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "path": "research/agent-pilot-v2/preparation/literature/revisit2025.pdf",
+    "url": "https://eprint.iacr.org/2025/1493.pdf",
+    "retrieved_at": "2026-10-20T06:25:54.601548+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "path": "research/agent-pilot-v2/preparation/literature/nist-current-tree.json",
+    "url": "https://api.github.com/repos/usnistgov/Circuits/git/trees/main?recursive=1",
+    "retrieved_at": "2026-10-20T06:25:54.601749+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "path": "research/agent-pilot-v2/preparation/literature/circulant-current-tree.json",
+    "url": "https://api.github.com/repos/DerryAlex/circulant_synth/git/trees/main?recursive=1",
+    "retrieved_at": "2026-10-20T06:25:54.601912+00:00",
+    "sha256": "42b2e43997477c18c6fcbbbb7231560497a7ae8163ab5d211d0c53b9606666c3",
+    "bytes": 8071
+  },
+  {
+    "path": "research/agent-pilot-v2/preparation/literature/sbp-current-tree.json",
+    "url": "https://api.github.com/repos/demirmehmet0/SBP/git/trees/main?recursive=1",
+    "retrieved_at": "2026-10-20T06:25:54.602045+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "path": "research/agent-pilot-v2/preparation/literature/nist-current-tree.json",
+    "url": "https://api.github.com/repos/usnistgov/Circuits/git/trees/master?recursive=1",
+    "retrieved_at": "2026-10-20T06:26:18.312049+00:00",
+    "sha256": "33a87dc2e2a39701823a55649129fdfebf58c065029e2ee222154cbe73d971fa",
+    "bytes": 153379
+  },
+  {
+    "path": "research/agent-pilot-v2/preparation/literature/sbp-current-tree.json",
+    "url": "https://api.github.com/repos/demirmehmet0/SBP/git/trees/master?recursive=1",
+    "retrieved_at": "2026-10-20T06:26:18.312998+00:00",
+    "sha256": "157eac1be72fec2864933f5053089adc85222adc9525029f575fefa4ef9944c1",
+    "bytes": 44680
+  },
+  {
+    "path": "research/agent-pilot-v2/preparation/literature/sbp-aes-mixed.txt",
+    "url": "https://raw.githubusercontent.com/demirmehmet0/SBP/f3880c8f87085e3eead3029593cee781e94ee60a/dB_BDKCI/results/depth-bounded%20BDKCI/ciphers_depth-bounded%20BDKCI/AES_240_95_depth-bounded%20BDKCI.txt",
+    "retrieved_at": "2026-10-20T06:26:18.313188+00:00",
+    "sha256": "6fe625c58a98bba5205565641bfafde926ccbac1f064b85b7b0fb563660cb554",
+    "bytes": 1371
+  }
+]

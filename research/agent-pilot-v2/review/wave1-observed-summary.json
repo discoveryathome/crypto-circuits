@@ -1,0 +1,1501 @@
+{
+  "generated_at": "2026-10-20T06:52:23.854453+00:00",
+  "scope": "Observed correctness and Pareto comparisons, not novelty",
+  "sessions": [
+    {
+      "session": "w1-aes",
+      "instance": "square-aes-mugi",
+      "wave": 1,
+      "issued_at": "2026-10-20T06:30:57.362806+00:00",
+      "deadline": "2026-10-20T06:50:57.362806+00:00",
+      "summary": {
+        "session_id": "w1-aes",
+        "instance": "square-aes-mugi",
+        "issued_at": "2026-10-20T06:30:57.362806+00:00",
+        "budget_started_at": "2026-10-20T06:30:57.362806+00:00",
+        "agent_start_time_independently_instrumented": null,
+        "first_search_process_started_at": "2026-10-20T06:32:04.555975+00:00",
+        "hard_deadline": "2026-10-20T06:50:57.362806+00:00",
+        "summary_written_at": "2026-10-20T06:51:22.086501+00:00",
+        "ended_at": "2026-10-20T06:50:57.388536+00:00",
+        "search_ended_at": "2026-10-20T06:50:57.388536+00:00",
+        "agent_summary_end_at": "2026-10-20T06:51:22.086501+00:00",
+        "elapsed_from_issued_seconds": 1200.02573,
+        "receipt_cleanup_seconds_after_search": 24.697965,
+        "status": "complete",
+        "stop_reason": "global 1200-second session deadline; search supervised by budget_run.py",
+        "seed": "03372e8b56df69d975ecace485652e86",
+        "seed_derivations": "seed-log.json",
+        "initial_frontier_sha256": "6c54381c85bc67af678078ff9127d5fc7e531e6ed7ad0910967bdb66dcc37c12",
+        "runs": [
+          {
+            "name": "baseline",
+            "method": "own bounded-distance BP + exact-distance window BP",
+            "seed": 8497356694431805062,
+            "receipt_status": "complete",
+            "effective_process_status": "complete",
+            "last_logged_iterations": 239,
+            "final_log_line": "done iterations=239 cpu=21.4425 syntheses=5 windows=104",
+            "checkpoint_coordinates": [
+              [
+                88,
+                5
+              ],
+              [
+                90,
+                4
+              ],
+              [
+                97,
+                3
+              ]
+            ],
+            "checkpoint_count": 3,
+            "receipt_path": "baseline/receipt.json",
+            "stop_reason": "complete"
+          },
+          {
+            "name": "semantic-v2",
+            "method": "semantic rewrites, associative rotations, randomized topological exact-distance windows with annealing",
+            "seed": 14863891643800825487,
+            "receipt_status": "complete",
+            "effective_process_status": "complete",
+            "last_logged_iterations": 3063312,
+            "final_log_line": "done iterations=3063312 cpu=80.5563 syntheses=0 windows=57637",
+            "checkpoint_coordinates": [
+              [
+                88,
+                5
+              ],
+              [
+                90,
+                4
+              ],
+              [
+                97,
+                3
+              ]
+            ],
+            "checkpoint_count": 3,
+            "receipt_path": "semantic-v2/receipt.json",
+            "stop_reason": "complete"
+          },
+          {
+            "name": "shallow-v1",
+            "method": "depth-3 all-support rank-DAG annealing with local coordinate partition minimization",
+            "seed": 4729223582868229464,
+            "receipt_status": "interrupted",
+            "effective_process_status": "interrupted",
+            "last_logged_iterations": 41900000,
+            "final_log_line": "iterations=41900000 cpu=59.4767 cost=125 best=97 accepted=18570223",
+            "checkpoint_coordinates": [
+              [
+                88,
+                5
+              ],
+              [
+                90,
+                4
+              ],
+              [
+                97,
+                3
+              ]
+            ],
+            "checkpoint_count": 3,
+            "receipt_path": "shallow-v1/receipt.json",
+            "stop_reason": "adaptive stop: colder sharing-biased method selected after high-temperature cycles failed to improve97"
+          },
+          {
+            "name": "shallow-v2",
+            "method": "depth-3 all-support rank-DAG annealing with local coordinate partition minimization",
+            "seed": 8059499815864148647,
+            "receipt_status": "complete",
+            "effective_process_status": "complete",
+            "last_logged_iterations": 46297028,
+            "final_log_line": "done iterations=46297028 cpu=92.7784 best=97",
+            "checkpoint_coordinates": [
+              [
+                88,
+                5
+              ],
+              [
+                90,
+                4
+              ],
+              [
+                97,
+                3
+              ]
+            ],
+            "checkpoint_count": 3,
+            "receipt_path": "shallow-v2/receipt.json",
+            "stop_reason": "complete"
+          },
+          {
+            "name": "semantic-v3",
+            "method": "count-focused semantic rotations and windows with depth <=10 annealing",
+            "seed": 2684076159790733047,
+            "receipt_status": "running",
+            "effective_process_status": "terminated by global-deadline supervisor; raw receipt retained as written",
+            "last_logged_iterations": 2137000,
+            "final_log_line": "checkpoint iterations=2137000 cpu=79.5818 windows=42305 accepted=1619469 restarts=855 current=93,6",
+            "checkpoint_coordinates": [
+              [
+                88,
+                5
+              ],
+              [
+                90,
+                4
+              ],
+              [
+                97,
+                3
+              ]
+            ],
+            "checkpoint_count": 3,
+            "receipt_path": "semantic-v3/receipt.json",
+            "stop_reason": "global session deadline"
+          }
+        ],
+        "search_process_attempts": 5,
+        "source_versions_attempted": [
+          "search.cpp",
+          "search-v2.cpp",
+          "shallow.cpp",
+          "shallow-v2.cpp",
+          "search-v3.cpp"
+        ],
+        "trusted_checkpoint_checker_invocations": 30,
+        "trusted_start_validation_invocations": 30,
+        "trusted_start_validation_timing": "not separately instrumented; within wrapper process CPU/wall",
+        "trusted_cli_submission_checks": 0,
+        "internal_search_tests": "Semantic candidates are checked in core before frontier offers; each shallow initialization is materialized and checked. These are internal invariants, not independent trusted-checker evaluations. Exact invocation count unavailable.",
+        "proposals": [],
+        "new_pareto_points_proposed": 0,
+        "confirmed_novel_points": 0,
+        "novelty_status": "No new point emitted so far; correctness and novelty are separate. Known prior frontier remains (88,5),(90,4),(97,3). Unknown-depth89-XOR comparator retained.",
+        "invalid_submissions": 0,
+        "known_structural_duplicate_emissions": 15,
+        "search_emissions_are_known_prior_duplicates": true,
+        "process_cpu_seconds": 275.782538,
+        "process_wall_seconds": 1097.460134542198,
+        "process_timing_scope": "Supervised child process totals include compilation and wrappers; core timing and operation counts are in per-run logs.",
+        "known_checkpoint_checker_seconds": 0.035340084112249315,
+        "costs_unavailable": {
+          "model_token_usage": null,
+          "model_monetary_cost": null,
+          "agent_reasoning_cpu_seconds": null,
+          "preparation_costs": null,
+          "aggregate_actual_process_cpu_seconds": "Unavailable because final core rusage was not reaped by wrapper on simultaneous process-group kill."
+        },
+        "source_files": {
+          "finalize.py": "2a933f38da5b58b2421b4ef3680a997d74a002a82a4a03092a63bab5ac034166",
+          "run-shallow-v2.py": "e9a0b220043f155a99227eb6a3fb9275d9d228a215241e8d5b94253f46f1ebf2",
+          "run-shallow.py": "d867a46f1424ca970025bffab1846f642bc4338e5b4d1c79c56f70c11cc3defb",
+          "run-v2.py": "1b7ed9ac8c851f8d4c1ba87da5b81b5f980c1bdfa68bf0a736f934032510a96e",
+          "run-v3.py": "c506d23a0fbd8cf17cfc0f780df321b7afc7ec1a002541788c94f5f5e7c0a785",
+          "run_search.py": "5e5bec9e2250454b0bf6642cca0e3827a22e2340673c326b89afa0241968a474",
+          "search-v2.cpp": "36c937062cbf4f93b467e166e92139912b1c972dbc24f918632edb32f9b63567",
+          "search-v3.cpp": "603b3d159ae626b04b8491c0356b711cb03ce08e8985222b7ae4f3766d6d96b2",
+          "search.cpp": "0831142ac5d31a3a49920001beb658247a8ea2a7054fa8f478c4f7683991d12e",
+          "shallow-v2.cpp": "feb4cbc16e4a3bf17dbe7e885612a477b4e561f1e19a48aa25b4cd1922aaadcd",
+          "shallow.cpp": "9aa49f824a86fdb8d3e00af267f6c3465f4a582862c2b8287d4bbe6227e1202b"
+        },
+        "limitations": [
+          "Heuristic bounded searches do not prove optimality or absence of smaller circuits.",
+          "Depth3 specialization searches homogeneous XOR-only depth3 circuits; affine NOT choices are not searched.",
+          "No upstream optimizer executed, no installs or remote writes, no other sessions read.",
+          "Root independently adjudicates any submitted proposal."
+        ],
+        "process_cpu_seconds_accounting_complete": false,
+        "final_core_cpu_seconds_last_logged": 79.5818,
+        "aggregate_actual_process_cpu_seconds": null,
+        "process_cpu_accounting_note": "Global process-group termination killed wrapper before it reaped its core. budget_run.py RUSAGE_CHILDREN final receipt reports only3.878594 seconds, while the core log independently reports at least79.5818 seconds. Raw receipts are retained; do not treat the275.782538-second receipt sum as complete aggregate CPU or add the figures without avoiding overlap."
+      },
+      "submissions": 0,
+      "valid": 0,
+      "unique_cost_points": 0,
+      "points_advancing_starting_prior": 0,
+      "session_end_frontier_candidates": [],
+      "first_eligible_submission_seconds": null,
+      "first_eligible_submission_at": null,
+      "root_check_seconds": 0,
+      "process_records": [
+        {
+          "command": [
+            "python3",
+            "research/agent-pilot-v2/sessions/w1-aes/run_search.py",
+            "--spec",
+            "portfolio/square-aes-mugi.json",
+            "--seed",
+            "8497356694431805062",
+            "--cpu-seconds",
+            "100",
+            "--wall-seconds",
+            "120",
+            "--start",
+            "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+            "--start",
+            "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+            "--start",
+            "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+            "--output",
+            "research/agent-pilot-v2/sessions/w1-aes/baseline"
+          ],
+          "started_at": "2026-10-20T06:32:04.555975+00:00",
+          "ended_at": "2026-10-20T06:34:19.066074+00:00",
+          "wall_seconds": 134.50687433301937,
+          "cpu_seconds": 25.521089000000003,
+          "returncode": 0,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "research/agent-pilot-v2/sessions/w1-aes/run-v2.py",
+            "--spec",
+            "portfolio/square-aes-mugi.json",
+            "--seed",
+            "14863891643800825487",
+            "--cpu-seconds",
+            "240",
+            "--wall-seconds",
+            "270",
+            "--start",
+            "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+            "--start",
+            "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+            "--start",
+            "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+            "--output",
+            "research/agent-pilot-v2/sessions/w1-aes/semantic-v2"
+          ],
+          "started_at": "2026-10-20T06:34:24.941709+00:00",
+          "ended_at": "2026-10-20T06:39:28.167478+00:00",
+          "wall_seconds": 303.21794037509244,
+          "cpu_seconds": 85.943332,
+          "returncode": 0,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "research/agent-pilot-v2/sessions/w1-aes/run-shallow.py",
+            "--spec",
+            "portfolio/square-aes-mugi.json",
+            "--seed",
+            "4729223582868229464",
+            "--cpu-seconds",
+            "300",
+            "--wall-seconds",
+            "330",
+            "--start",
+            "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+            "--start",
+            "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+            "--start",
+            "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+            "--output",
+            "research/agent-pilot-v2/sessions/w1-aes/shallow-v1"
+          ],
+          "started_at": "2026-10-20T06:39:35.151700+00:00",
+          "ended_at": "2026-10-20T06:41:42.058605+00:00",
+          "wall_seconds": 126.90383454202674,
+          "cpu_seconds": 63.49310799999999,
+          "returncode": 241,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "research/agent-pilot-v2/sessions/w1-aes/run-shallow-v2.py",
+            "--spec",
+            "portfolio/square-aes-mugi.json",
+            "--seed",
+            "8059499815864148647",
+            "--cpu-seconds",
+            "250",
+            "--wall-seconds",
+            "240",
+            "--start",
+            "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+            "--start",
+            "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+            "--start",
+            "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+            "--output",
+            "research/agent-pilot-v2/sessions/w1-aes/shallow-v2"
+          ],
+          "started_at": "2026-10-20T06:41:52.832584+00:00",
+          "ended_at": "2026-10-20T06:46:02.717119+00:00",
+          "wall_seconds": 249.87873391702306,
+          "cpu_seconds": 96.946415,
+          "returncode": 0,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "research/agent-pilot-v2/sessions/w1-aes/run-v3.py",
+            "--spec",
+            "portfolio/square-aes-mugi.json",
+            "--seed",
+            "2684076159790733047",
+            "--cpu-seconds",
+            "600",
+            "--wall-seconds",
+            "600",
+            "--start",
+            "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+            "--start",
+            "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+            "--start",
+            "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+            "--output",
+            "research/agent-pilot-v2/sessions/w1-aes/semantic-v3"
+          ],
+          "started_at": "2026-10-20T06:46:14.429261+00:00",
+          "ended_at": "2026-10-20T06:50:57.388536+00:00",
+          "wall_seconds": 282.9527513750363,
+          "cpu_seconds": 3.8785939999999997,
+          "returncode": -15,
+          "deadline_stop": true
+        }
+      ]
+    },
+    {
+      "session": "w1-m0",
+      "instance": "whirlwindm0",
+      "wave": 1,
+      "issued_at": "2026-10-20T06:31:29.631675+00:00",
+      "deadline": "2026-10-20T06:51:29.631675+00:00",
+      "summary": {
+        "id": "w1-m0",
+        "instance": "whirlwindm0",
+        "issued_at": "2026-10-20T06:31:29.631675+00:00",
+        "deadline": "2026-10-20T06:51:29.631675+00:00",
+        "summary_at": "2026-10-20T06:51:28.647769+00:00",
+        "actual_elapsed_seconds": 1199.096608,
+        "status": "complete",
+        "stop_reason": "Final fixed-budget search phase completed before hard deadline; remaining session time used for provenance and receipt cleanup. No optimality claim.",
+        "seed_full": "f6a88165b9335b0d3545462389b8bbe9",
+        "seed_log": "seeds.json",
+        "starting_frontier_sha256": "fe1fce2022c9dbb6a94600fe97621afeda3e90a42437d496ed1298810185bcaa",
+        "attempts": [
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/search-initial/receipt.json",
+            "status": "complete",
+            "seed": 3838551229259566057,
+            "source_sha256": "0831142ac5d31a3a49920001beb658247a8ea2a7054fa8f478c4f7683991d12e",
+            "wrapper_sha256": "5e5bec9e2250454b0bf6642cca0e3827a22e2340673c326b89afa0241968a474",
+            "wall_seconds": 143.89981487498153,
+            "checkpoints": 2,
+            "new_checkpoints": 0
+          },
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/search-rotation-0/receipt.json",
+            "status": "complete",
+            "seed": 3838551375851600873,
+            "source_sha256": "edc2c02f002a929ec16d68f29d2f2a411670c368d31ed8b31691e9a40595ab3e",
+            "wrapper_sha256": "60e71ed1696da7ba7060f294b6764d474b2a0be6d51498598302c5808259644f",
+            "wall_seconds": 170.0157942919759,
+            "checkpoints": 20,
+            "new_checkpoints": 18
+          },
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/search-rotation-1/receipt.json",
+            "status": "complete",
+            "seed": 17209347832371177083,
+            "source_sha256": "16eedd477a9c758dd98a66026981f5cd9b00c8d3f4e0ec593e390d21921ff1bc",
+            "wrapper_sha256": "cba34916d46eee65641bb634fd048b564f0461a24f3c99e0835bfa8e86800302",
+            "wall_seconds": 180.01105412491597,
+            "checkpoints": 32,
+            "new_checkpoints": 28
+          },
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/search-rotation-2/receipt.json",
+            "status": "complete",
+            "seed": 6901139912375171768,
+            "source_sha256": "fce403b0522d732e7fb9ef4a5a8e4dff2b92c9a2272984232be37f6e6c29d305",
+            "wrapper_sha256": "cba34916d46eee65641bb634fd048b564f0461a24f3c99e0835bfa8e86800302",
+            "wall_seconds": 170.010186666972,
+            "checkpoints": 15,
+            "new_checkpoints": 9
+          },
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/search-rotation-3/receipt.json",
+            "status": "complete",
+            "seed": 4451692180840888237,
+            "source_sha256": "83d8fa36306acd45296fb7b1f78399128dca71fe436db2e8f52956d44fa62148",
+            "wrapper_sha256": "4015b8ad18c95f097113a3dda2850941c3657de04a94b5b6bf16d1c18f6dbcaf",
+            "wall_seconds": 165.01161095895804,
+            "checkpoints": 7,
+            "new_checkpoints": 0
+          },
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/search-rotation-4/receipt.json",
+            "status": "complete",
+            "seed": 9729919764751559025,
+            "source_sha256": "420e614fdc1f569451f8f710a428f7703ce64ac17fa9e3bc04c5f56e40375d7c",
+            "wrapper_sha256": "0ef5b6b361c0aef2c07acabf22ad91a29ebc6e763c58419cf0bc70ff282a0b14",
+            "wall_seconds": 165.0114288330078,
+            "checkpoints": 7,
+            "new_checkpoints": 0
+          }
+        ],
+        "methods": [
+          "original cancellation-aware bounded-distance BP and exact-distance windows",
+          "session-local semantic DAG rotations and pruning",
+          "annealed count/depth optimization with actual cut arrival depths",
+          "connected ancestor-cone windows, semantic equivalent-wire substitutions, fixed-depth count optimization",
+          "rank-aware exact-distance cut resynthesis with rank<=16 then rank<=18; dependent boundary wires retained as free available signals"
+        ],
+        "protocol_deviations": [
+          {
+            "attempt": "search-initial",
+            "description": "Decimal low64 seed was mistyped as 3838551229259566057 instead of 3838551375851600873. Attempt fully retained; no non-start candidate. Later seeds derived programmatically. Clock not reset."
+          }
+        ],
+        "submissions": 55,
+        "all_submissions_pass_both_checkers": true,
+        "invalid_submissions": 0,
+        "pareto_proposals": [
+          {
+            "XOR": 157,
+            "depth": 12,
+            "total": 157,
+            "AND": 0,
+            "NOT": 0,
+            "sha256": "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+            "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor157-depth12-079f1f3f3f22.json"
+          },
+          {
+            "XOR": 161,
+            "depth": 11,
+            "total": 161,
+            "AND": 0,
+            "NOT": 0,
+            "sha256": "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+            "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor161-depth11-65a10aa404e3.json"
+          },
+          {
+            "XOR": 163,
+            "depth": 10,
+            "total": 163,
+            "AND": 0,
+            "NOT": 0,
+            "sha256": "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+            "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor163-depth10-f258c04d025f.json"
+          },
+          {
+            "XOR": 170,
+            "depth": 9,
+            "total": 170,
+            "AND": 0,
+            "NOT": 0,
+            "sha256": "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+            "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor170-depth9-30045c939d4c.json"
+          },
+          {
+            "XOR": 209,
+            "depth": 7,
+            "total": 209,
+            "AND": 0,
+            "NOT": 0,
+            "sha256": "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+            "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor209-depth7-a2078fae4a0e.json"
+          }
+        ],
+        "novelty": "independent root adjudication pending; correctness does not imply novelty",
+        "duplicate_submission_hashes": 0,
+        "known_start_checkpoints": 28,
+        "compile_cpu_seconds": "unavailable separately; included in supervised process totals",
+        "outside_wrapper_checker_cpu_seconds": "unavailable; individual wall times recorded",
+        "process_wall_seconds": 1059.167129083071,
+        "process_cpu_seconds": 348.848911,
+        "processes_log": "processes.jsonl",
+        "primary_cli_verification_wall_seconds": 4.280889997025952,
+        "second_cli_verification_wall_seconds": 4.50696520821657,
+        "checker_cost_overlap": "CLI checks in later wrappers are included in supervised process CPU/wall; do not add these wall times to process wall",
+        "model_tokens": "unavailable",
+        "model_cost": "unavailable",
+        "reasoning_cpu_cost": "unavailable",
+        "source_versions": [
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/versions/rotation-v1-run_search.py",
+            "sha256": "60e71ed1696da7ba7060f294b6764d474b2a0be6d51498598302c5808259644f"
+          },
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/versions/rotation-v1-search.cpp",
+            "sha256": "edc2c02f002a929ec16d68f29d2f2a411670c368d31ed8b31691e9a40595ab3e"
+          },
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/versions/rotation-v2-run_search.py",
+            "sha256": "cba34916d46eee65641bb634fd048b564f0461a24f3c99e0835bfa8e86800302"
+          },
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/versions/rotation-v2-search.cpp",
+            "sha256": "16eedd477a9c758dd98a66026981f5cd9b00c8d3f4e0ec593e390d21921ff1bc"
+          },
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/versions/rotation-v3-run_search.py",
+            "sha256": "cba34916d46eee65641bb634fd048b564f0461a24f3c99e0835bfa8e86800302"
+          },
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/versions/rotation-v3-search.cpp",
+            "sha256": "fce403b0522d732e7fb9ef4a5a8e4dff2b92c9a2272984232be37f6e6c29d305"
+          },
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/versions/rotation-v4-run_search.py",
+            "sha256": "4015b8ad18c95f097113a3dda2850941c3657de04a94b5b6bf16d1c18f6dbcaf"
+          },
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/versions/rotation-v4-search.cpp",
+            "sha256": "83d8fa36306acd45296fb7b1f78399128dca71fe436db2e8f52956d44fa62148"
+          },
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/versions/rotation-v5-run_search.py",
+            "sha256": "0ef5b6b361c0aef2c07acabf22ad91a29ebc6e763c58419cf0bc70ff282a0b14"
+          },
+          {
+            "path": "research/agent-pilot-v2/sessions/w1-m0/versions/rotation-v5-search.cpp",
+            "sha256": "420e614fdc1f569451f8f710a428f7703ce64ac17fa9e3bc04c5f56e40375d7c"
+          }
+        ],
+        "method_results": [
+          {
+            "attempt": "search-initial",
+            "seed": 3838551229259566057,
+            "status": "complete",
+            "new_checkpoints": 0,
+            "final_frontier_points": [],
+            "progress_final_line": "done iterations=39 cpu=24.019 syntheses=0 windows=19"
+          },
+          {
+            "attempt": "search-rotation-0",
+            "seed": 3838551375851600873,
+            "status": "complete",
+            "new_checkpoints": 18,
+            "final_frontier_points": [
+              [
+                157,
+                12
+              ],
+              [
+                209,
+                7
+              ]
+            ],
+            "progress_final_line": "done iterations=1459588 cpu=47.0987 accepted=644176 windows=19388 restarts=584"
+          },
+          {
+            "attempt": "search-rotation-1",
+            "seed": 17209347832371177083,
+            "status": "complete",
+            "new_checkpoints": 28,
+            "final_frontier_points": [],
+            "progress_final_line": "done iterations=2236749 cpu=81.1493 accepted=887742 windows=30992 restarts=224"
+          },
+          {
+            "attempt": "search-rotation-2",
+            "seed": 6901139912375171768,
+            "status": "complete",
+            "new_checkpoints": 9,
+            "final_frontier_points": [
+              [
+                161,
+                11
+              ],
+              [
+                163,
+                10
+              ],
+              [
+                170,
+                9
+              ]
+            ],
+            "progress_final_line": "done iterations=2006596 cpu=68.7957 accepted=978956 windows=27402 restarts=201"
+          },
+          {
+            "attempt": "search-rotation-3",
+            "seed": 4451692180840888237,
+            "status": "complete",
+            "new_checkpoints": 0,
+            "final_frontier_points": [],
+            "progress_final_line": "done iterations=1434328 cpu=48.4744 accepted=705071 windows=19738 restarts=144"
+          },
+          {
+            "attempt": "search-rotation-4",
+            "seed": 9729919764751559025,
+            "status": "complete",
+            "new_checkpoints": 0,
+            "final_frontier_points": [],
+            "progress_final_line": "done iterations=1321247 cpu=49.6336 accepted=638736 windows=11035 restarts=133"
+          }
+        ],
+        "search_stop_observed_at": "2026-10-20T06:51:25.938959+00:00",
+        "search_stop_observed_unix_ns": 1792479085938959000,
+        "receipt_cleanup_ended_at": "2026-10-20T06:51:28.728283+00:00",
+        "actual_ended_at": "2026-10-20T06:51:28.728283+00:00",
+        "search_stopped_before_deadline": true,
+        "source_receipt_consistency": [
+          {
+            "attempt": "search-rotation-2",
+            "source_sha256": "fce403b0522d732e7fb9ef4a5a8e4dff2b92c9a2272984232be37f6e6c29d305",
+            "source_preserved": true,
+            "wrapper_sha256": "cba34916d46eee65641bb634fd048b564f0461a24f3c99e0835bfa8e86800302",
+            "wrapper_preserved": true
+          },
+          {
+            "attempt": "search-rotation-3",
+            "source_sha256": "83d8fa36306acd45296fb7b1f78399128dca71fe436db2e8f52956d44fa62148",
+            "source_preserved": true,
+            "wrapper_sha256": "4015b8ad18c95f097113a3dda2850941c3657de04a94b5b6bf16d1c18f6dbcaf",
+            "wrapper_preserved": true
+          },
+          {
+            "attempt": "search-rotation-4",
+            "source_sha256": "420e614fdc1f569451f8f710a428f7703ce64ac17fa9e3bc04c5f56e40375d7c",
+            "source_preserved": true,
+            "wrapper_sha256": "0ef5b6b361c0aef2c07acabf22ad91a29ebc6e763c58419cf0bc70ff282a0b14",
+            "wrapper_preserved": true
+          },
+          {
+            "attempt": "search-rotation-1",
+            "source_sha256": "16eedd477a9c758dd98a66026981f5cd9b00c8d3f4e0ec593e390d21921ff1bc",
+            "source_preserved": true,
+            "wrapper_sha256": "cba34916d46eee65641bb634fd048b564f0461a24f3c99e0835bfa8e86800302",
+            "wrapper_preserved": true
+          },
+          {
+            "attempt": "search-rotation-0",
+            "source_sha256": "edc2c02f002a929ec16d68f29d2f2a411670c368d31ed8b31691e9a40595ab3e",
+            "source_preserved": true,
+            "wrapper_sha256": "60e71ed1696da7ba7060f294b6764d474b2a0be6d51498598302c5808259644f",
+            "wrapper_preserved": true
+          }
+        ]
+      },
+      "submissions": 55,
+      "valid": 55,
+      "unique_cost_points": 55,
+      "points_advancing_starting_prior": 55,
+      "session_end_frontier_candidates": [
+        {
+          "session": "w1-m0",
+          "wave": 1,
+          "instance": "whirlwindm0",
+          "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor157-depth12-079f1f3f3f22.json",
+          "sha256": "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 157,
+            "dead_gates": 0,
+            "depth": 12,
+            "total": 157
+          },
+          "mtime_utc": "2026-10-20T06:36:15.017046+00:00",
+          "observed_at": "2026-10-20T06:36:15.339522+00:00"
+        },
+        {
+          "session": "w1-m0",
+          "wave": 1,
+          "instance": "whirlwindm0",
+          "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor161-depth11-65a10aa404e3.json",
+          "sha256": "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 161,
+            "dead_gates": 0,
+            "depth": 11,
+            "total": 161
+          },
+          "mtime_utc": "2026-10-20T06:42:52.210753+00:00",
+          "observed_at": "2026-10-20T06:46:21.676325+00:00"
+        },
+        {
+          "session": "w1-m0",
+          "wave": 1,
+          "instance": "whirlwindm0",
+          "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor163-depth10-f258c04d025f.json",
+          "sha256": "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 163,
+            "dead_gates": 0,
+            "depth": 10,
+            "total": 163
+          },
+          "mtime_utc": "2026-10-20T06:43:31.897909+00:00",
+          "observed_at": "2026-10-20T06:46:21.816299+00:00"
+        },
+        {
+          "session": "w1-m0",
+          "wave": 1,
+          "instance": "whirlwindm0",
+          "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor170-depth9-30045c939d4c.json",
+          "sha256": "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 170,
+            "dead_gates": 0,
+            "depth": 9,
+            "total": 170
+          },
+          "mtime_utc": "2026-10-20T06:44:24.480032+00:00",
+          "observed_at": "2026-10-20T06:46:21.963114+00:00"
+        },
+        {
+          "session": "w1-m0",
+          "wave": 1,
+          "instance": "whirlwindm0",
+          "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor209-depth7-a2078fae4a0e.json",
+          "sha256": "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 209,
+            "dead_gates": 0,
+            "depth": 7,
+            "total": 209
+          },
+          "mtime_utc": "2026-10-20T06:38:13.300570+00:00",
+          "observed_at": "2026-10-20T06:39:15.734010+00:00"
+        }
+      ],
+      "first_eligible_submission_seconds": 283.135728,
+      "first_eligible_submission_at": "2026-10-20T06:36:12.767403+00:00",
+      "root_check_seconds": 8.000658876728266,
+      "process_records": [
+        {
+          "command": [
+            "python3",
+            "research/agent-pilot-v2/preparation/search/run_search.py",
+            "--spec",
+            "portfolio/whirlwindm0.json",
+            "--seed",
+            "3838551229259566057",
+            "--cpu-seconds",
+            "95",
+            "--wall-seconds",
+            "140",
+            "--start",
+            "results/candidates/w2-whirlwindm0-1.json",
+            "--start",
+            "results/candidates/w3-whirlwindm0-0.json",
+            "--output",
+            "research/agent-pilot-v2/sessions/w1-m0/search-initial"
+          ],
+          "started_at": "2026-10-20T06:32:23.302080+00:00",
+          "ended_at": "2026-10-20T06:34:47.698042+00:00",
+          "wall_seconds": 144.39117287506815,
+          "cpu_seconds": 24.214403,
+          "returncode": 0,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "research/agent-pilot-v2/sessions/w1-m0/run_search.py",
+            "--spec",
+            "portfolio/whirlwindm0.json",
+            "--seed",
+            "3838551375851600873",
+            "--cpu-seconds",
+            "120",
+            "--wall-seconds",
+            "170",
+            "--start",
+            "results/candidates/w2-whirlwindm0-1.json",
+            "--start",
+            "results/candidates/w3-whirlwindm0-0.json",
+            "--output",
+            "research/agent-pilot-v2/sessions/w1-m0/search-rotation-0"
+          ],
+          "started_at": "2026-10-20T06:34:54.550831+00:00",
+          "ended_at": "2026-10-20T06:38:07.382811+00:00",
+          "wall_seconds": 192.81253883300815,
+          "cpu_seconds": 52.00694,
+          "returncode": 0,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "research/agent-pilot-v2/sessions/w1-m0/launch.py",
+            "search-rotation-1",
+            "180"
+          ],
+          "started_at": "2026-10-20T06:38:25.874899+00:00",
+          "ended_at": "2026-10-20T06:41:36.174298+00:00",
+          "wall_seconds": 190.29498312494252,
+          "cpu_seconds": 91.419769,
+          "returncode": 0,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "research/agent-pilot-v2/sessions/w1-m0/launch.py",
+            "search-rotation-2",
+            "170"
+          ],
+          "started_at": "2026-10-20T06:41:45.310458+00:00",
+          "ended_at": "2026-10-20T06:44:42.599287+00:00",
+          "wall_seconds": 177.2846404160373,
+          "cpu_seconds": 74.983527,
+          "returncode": 0,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "research/agent-pilot-v2/sessions/w1-m0/launch.py",
+            "search-rotation-3",
+            "165"
+          ],
+          "started_at": "2026-10-20T06:45:19.815639+00:00",
+          "ended_at": "2026-10-20T06:48:15.146994+00:00",
+          "wall_seconds": 175.3272794589866,
+          "cpu_seconds": 52.385619,
+          "returncode": 0,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "research/agent-pilot-v2/sessions/w1-m0/launch.py",
+            "search-rotation-4",
+            "165"
+          ],
+          "started_at": "2026-10-20T06:48:26.954267+00:00",
+          "ended_at": "2026-10-20T06:51:26.015530+00:00",
+          "wall_seconds": 179.0565143750282,
+          "cpu_seconds": 53.838653,
+          "returncode": 0,
+          "deadline_stop": false
+        }
+      ]
+    },
+    {
+      "session": "w1-m1",
+      "instance": "whirlwindm1",
+      "wave": 1,
+      "issued_at": "2026-10-20T06:31:30.339328+00:00",
+      "deadline": "2026-10-20T06:51:30.339328+00:00",
+      "summary": {
+        "session": "w1-m1",
+        "instance": "whirlwindm1",
+        "agent_task": "session_w1_m1",
+        "issued_at": "2026-10-20T06:31:30.339328+00:00",
+        "actual_session_start": "2026-10-20T06:31:30.339328+00:00",
+        "actual_session_end": "2026-10-20T06:51:54.813781+00:00",
+        "elapsed_seconds": 1224.474453,
+        "deadline": "2026-10-20T06:51:30.339328+00:00",
+        "seed": "882f8a3d753e2f91f56213f05741aa54",
+        "initial_frontier_sha256": "6a5ed021d622d056902a2dc4f81ca64fde45263753c3c4d15b8185c9184e0b16",
+        "stop_reason": "All executed searches ended before deadline at06:51:16.884198Z. Final balance attempt was rejected by budget_run.py because the deadline had passed; no balance search executed. Receipt cleanup completed after deadline.",
+        "source_versions_sha256": {
+          "window-search-bin": "313373c82caa2b8108b2b66f842e7692a459d7b38852a82b4d129ec6b4da6b18",
+          "submit.py": "699d514bdf2b8d08485d9817958e7d2577e49f1985040d13b3053dc92ea892d3",
+          "transpose_initial.py": "cf4847e3fd47845cc254fd9be36b235756466400313acc16890f9f588030c054",
+          "run_window_search.py": "b2b19174ef094f2bfce74e284b8de216d1c3e463347f126c40cf977a01a667d1",
+          "run_search.py": "5e5bec9e2250454b0bf6642cca0e3827a22e2340673c326b89afa0241968a474",
+          "finalize.py": "89d1965da57d29dd3b05eccea4a7b01ec89a306c9f04236dfe369b26a323a85a",
+          "window-search.cpp": "ea9b29ada840ba3c834e82a47ead8251aacfe53f4ce66478512c291c655da7bd",
+          "transpose.py": "4ea4bb7dd49def036a2abb0b192be96ee5d7d46d87257d7d1f467773b18a24c6",
+          "search.cpp": "0831142ac5d31a3a49920001beb658247a8ea2a7054fa8f478c4f7683991d12e",
+          "rewrite_v2.py": "8c886c291ecb211a71a8c06b3793f6b190924b0e78289fa0ddac10f8bb19b2e6",
+          "search-bin": "1196865fbd2691ae21a32e18c7ff84d191fee93f8e46884e54d974735a93013c",
+          "rewrite.py": "5dd21ba6be727b73b50f950a2b51e4c6cc2b8c9041169f4f92f698c91c90803d",
+          "balance.py": "19d70cd3229881fabaff2ca6eb81a2b6c984bd1b2c700be343a327ba56364695",
+          "rewrite_v3.py": "0f8dc971cfb93bb9660219d40b53f3d22e4dc006a936e57bdfe1800df5c2eaf0"
+        },
+        "methods": [
+          "frozen bounded-distance BP + exact-distance windows",
+          "original semantic minimum-arrival DAG relaxation and associative mutation v1",
+          "adaptive count-biased semantic walk v2",
+          "topological cone-order exact-distance windows with cut arrival times",
+          "transpose/free-port-permutation exploration",
+          "depth-biased semantic walk v3"
+        ],
+        "proposals": [
+          {
+            "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-10-10c982463574.json",
+            "sha256": "10c982463574dbaf5778d88f37518bc735549124eec2975af32c2b547d8753b5",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 166,
+              "dead_gates": 0,
+              "depth": 10,
+              "total": 166
+            },
+            "submitted_at": "2026-10-20T06:42:10.984572+00:00",
+            "checkpoint_at": "2026-10-20T06:41:30.121558+00:00"
+          },
+          {
+            "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-11-beb91d1c961b.json",
+            "sha256": "beb91d1c961bdb3f1fe3211a5ec5cb613154e6c9e98c25569426082859727555",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 166,
+              "dead_gates": 0,
+              "depth": 11,
+              "total": 166
+            },
+            "submitted_at": "2026-10-20T06:42:11.131444+00:00",
+            "checkpoint_at": "2026-10-20T06:41:13.663928+00:00"
+          },
+          {
+            "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-12-dcdc58b9c801.json",
+            "sha256": "dcdc58b9c801f939e653f6d33a82f599bc3d148c9483a7a27e275f20a7b9550a",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 166,
+              "dead_gates": 0,
+              "depth": 12,
+              "total": 166
+            },
+            "submitted_at": "2026-10-20T06:42:11.270861+00:00",
+            "checkpoint_at": "2026-10-20T06:40:59.621601+00:00"
+          },
+          {
+            "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-167-11-c1adbbcc79de.json",
+            "sha256": "c1adbbcc79ded15f7fc7fce7f80a105eced0bb3d47e7c8a401be99ab4ef83c69",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 167,
+              "dead_gates": 0,
+              "depth": 11,
+              "total": 167
+            },
+            "submitted_at": "2026-10-20T06:42:11.406310+00:00",
+            "checkpoint_at": "2026-10-20T06:41:00.648373+00:00"
+          },
+          {
+            "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-167-12-c1750b3bf30c.json",
+            "sha256": "c1750b3bf30c5bd399a8f3561905206b6149353f3ddb5f83bc1139653e269712",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 167,
+              "dead_gates": 0,
+              "depth": 12,
+              "total": 167
+            },
+            "submitted_at": "2026-10-20T06:42:11.539742+00:00",
+            "checkpoint_at": "2026-10-20T06:40:59.547441+00:00"
+          },
+          {
+            "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-167-13-8b87d792afb1.json",
+            "sha256": "8b87d792afb18ee0617849f88f2ec2f31cd85d6b7a9f7986a402dd361230cb8a",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 167,
+              "dead_gates": 0,
+              "depth": 13,
+              "total": 167
+            },
+            "submitted_at": "2026-10-20T06:42:11.675928+00:00",
+            "checkpoint_at": "2026-10-20T06:40:57.649939+00:00"
+          },
+          {
+            "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-167-14-8fda9a5c88be.json",
+            "sha256": "8fda9a5c88be1480b7be73104895e21862f44bf4e3241876a0a11eef0efec955",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 167,
+              "dead_gates": 0,
+              "depth": 14,
+              "total": 167
+            },
+            "submitted_at": "2026-10-20T06:42:11.812524+00:00",
+            "checkpoint_at": "2026-10-20T06:40:57.477106+00:00"
+          },
+          {
+            "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-168-11-17aa6c6ab592.json",
+            "sha256": "17aa6c6ab592e1839d6a7ccc9d80d7d13003643a8313148aa933eed1e8323688",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 168,
+              "dead_gates": 0,
+              "depth": 11,
+              "total": 168
+            },
+            "submitted_at": "2026-10-20T06:37:51.095037+00:00",
+            "checkpoint_at": "2026-10-20T06:37:40.743446+00:00"
+          },
+          {
+            "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-168-12-92369364ec5d.json",
+            "sha256": "92369364ec5d03dc505f298d2bde63e955d87d12a8a86a6501ce560b8aeab9af",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 168,
+              "dead_gates": 0,
+              "depth": 12,
+              "total": 168
+            },
+            "submitted_at": "2026-10-20T06:37:51.094225+00:00",
+            "checkpoint_at": "2026-10-20T06:37:40.570166+00:00"
+          },
+          {
+            "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-168-13-3a3a9c96a842.json",
+            "sha256": "3a3a9c96a842ac5a9c0b22d75cdb7ea7b8d0836f925910573253409764cbc93d",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 168,
+              "dead_gates": 0,
+              "depth": 13,
+              "total": 168
+            },
+            "submitted_at": "2026-10-20T06:37:51.095667+00:00",
+            "checkpoint_at": "2026-10-20T06:37:40.546341+00:00"
+          },
+          {
+            "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-169-10-0383bad965e3.json",
+            "sha256": "0383bad965e3a559a06304f144876dd725adb906c09a41d2cdb2f8b140b8eec1",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 169,
+              "dead_gates": 0,
+              "depth": 10,
+              "total": 169
+            },
+            "submitted_at": "2026-10-20T06:38:30.727320+00:00",
+            "checkpoint_at": "2026-10-20T06:37:55.401327+00:00"
+          }
+        ],
+        "final_combined_frontier": [
+          [
+            166,
+            10,
+            "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-10-10c982463574.json"
+          ],
+          [
+            240,
+            5,
+            "frozen internal"
+          ]
+        ],
+        "invalid_submissions": 0,
+        "duplicates": "Equal-or-dominated metric offers suppressed; unique strict circuit hashes retained. Historical transient points retained and not counted separately as useful final outcomes.",
+        "novelty_status": "Pending independent candidate-specific literature/lineage review; correctness does not establish discovery.",
+        "last_search_process_ended_at": "2026-10-20T06:51:16.884198+00:00",
+        "receipt_cleanup_ended_at": "2026-10-20T06:51:54.813781+00:00",
+        "process_count": 8,
+        "process_cpu_seconds": 324.42279099999996,
+        "process_wall_seconds": 980.7179082920775,
+        "additional_initial_standalone_checks": 2,
+        "additional_initial_check_timing": "checking-effort-extra.json",
+        "standalone_checker_invocations": 22,
+        "standalone_checker_wall_seconds": 1.523488125181757,
+        "checker_internal_seconds": 0.04111312434542924,
+        "model_token_usage": "unavailable",
+        "model_cost": "unavailable",
+        "model_identity": "inherited default; exact model accounting not exposed",
+        "limitations": [
+          "elapsed-time cap; no optimality proof",
+          "random seeds govern local search, not model sampling",
+          "local correctness checks are not external scientific review"
+        ],
+        "first_submission_at": "2026-10-20T06:37:51.094225+00:00",
+        "time_to_first_submission_seconds": 380.754897,
+        "first_checkpoint_at": "2026-10-20T06:37:40.546341+00:00",
+        "time_to_first_checkpoint_seconds": 370.207013,
+        "method_outcomes": {
+          "window-search": {
+            "status": "complete",
+            "iterations": null,
+            "non_start_checkpoints": 0
+          },
+          "semantic-v2-search": {
+            "status": "complete",
+            "iterations": 58278,
+            "non_start_checkpoints": 7
+          },
+          "semantic-search": {
+            "status": "complete",
+            "iterations": 28126,
+            "non_start_checkpoints": 4
+          },
+          "initial-search": {
+            "status": "complete",
+            "iterations": null,
+            "non_start_checkpoints": 0
+          },
+          "semantic-v3-search": {
+            "status": "complete",
+            "iterations": 25261,
+            "non_start_checkpoints": 0
+          }
+        },
+        "supplementary_attempts_file": "attempts.jsonl",
+        "late_cleanup_only": true,
+        "balance_method_status": "Prepared source only; attempted invocation rejected by deadline guard; no search executed",
+        "cleanup_overrun_seconds": 24.474453
+      },
+      "submissions": 11,
+      "valid": 11,
+      "unique_cost_points": 11,
+      "points_advancing_starting_prior": 11,
+      "session_end_frontier_candidates": [
+        {
+          "session": "w1-m1",
+          "wave": 1,
+          "instance": "whirlwindm1",
+          "path": "research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-10-10c982463574.json",
+          "sha256": "10c982463574dbaf5778d88f37518bc735549124eec2975af32c2b547d8753b5",
+          "metrics": {
+            "AND": 0,
+            "NOT": 0,
+            "XOR": 166,
+            "dead_gates": 0,
+            "depth": 10,
+            "total": 166
+          },
+          "mtime_utc": "2026-10-20T06:42:10.984726+00:00",
+          "observed_at": "2026-10-20T06:42:24.905849+00:00"
+        }
+      ],
+      "first_eligible_submission_seconds": 380.755058,
+      "first_eligible_submission_at": "2026-10-20T06:37:51.094386+00:00",
+      "root_check_seconds": 1.5117159598739818,
+      "process_records": [
+        {
+          "command": [
+            "python3",
+            "research/agent-pilot-v2/sessions/w1-m1/run_search.py",
+            "--spec",
+            "portfolio/whirlwindm1.json",
+            "--seed",
+            "17681717009986988628",
+            "--cpu-seconds",
+            "180",
+            "--wall-seconds",
+            "220",
+            "--start",
+            "certificates/whirlwindm1--xu2026-size.json",
+            "--start",
+            "results/candidates/w3-whirlwindm1-1.json",
+            "--output",
+            "research/agent-pilot-v2/sessions/w1-m1/initial-search"
+          ],
+          "started_at": "2026-10-20T06:33:04.741422+00:00",
+          "ended_at": "2026-10-20T06:37:09.870431+00:00",
+          "wall_seconds": 245.1232657909859,
+          "cpu_seconds": 46.784133999999995,
+          "returncode": 0,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "research/agent-pilot-v2/sessions/w1-m1/rewrite.py",
+            "--seed",
+            "6855393766799377251",
+            "--seconds",
+            "150",
+            "--start",
+            "certificates/whirlwindm1--xu2026-size.json",
+            "--start",
+            "results/candidates/w3-whirlwindm1-1.json",
+            "--output",
+            "research/agent-pilot-v2/sessions/w1-m1/semantic-search"
+          ],
+          "started_at": "2026-10-20T06:37:15.470421+00:00",
+          "ended_at": "2026-10-20T06:37:15.818891+00:00",
+          "wall_seconds": 0.34816062508616596,
+          "cpu_seconds": 0.12589499999999998,
+          "returncode": 1,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "research/agent-pilot-v2/sessions/w1-m1/rewrite.py",
+            "--seed",
+            "6855393766799377251",
+            "--seconds",
+            "150",
+            "--start",
+            "certificates/whirlwindm1--xu2026-size.json",
+            "--start",
+            "results/candidates/w3-whirlwindm1-1.json",
+            "--output",
+            "research/agent-pilot-v2/sessions/w1-m1/semantic-search"
+          ],
+          "started_at": "2026-10-20T06:37:28.184329+00:00",
+          "ended_at": "2026-10-20T06:39:58.360671+00:00",
+          "wall_seconds": 150.17280912504066,
+          "cpu_seconds": 58.615314,
+          "returncode": 0,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "research/agent-pilot-v2/sessions/w1-m1/rewrite_v2.py",
+            "--seed",
+            "9600117697883733243",
+            "--seconds",
+            "250",
+            "--start",
+            "certificates/whirlwindm1--xu2026-size.json",
+            "--start",
+            "results/candidates/w3-whirlwindm1-1.json",
+            "--start",
+            "research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-168-11-17aa6c6ab592.json",
+            "--start",
+            "research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-169-10-0383bad965e3.json",
+            "--output",
+            "research/agent-pilot-v2/sessions/w1-m1/semantic-v2-search"
+          ],
+          "started_at": "2026-10-20T06:40:10.595906+00:00",
+          "ended_at": "2026-10-20T06:44:20.799781+00:00",
+          "wall_seconds": 250.1980826249346,
+          "cpu_seconds": 117.740794,
+          "returncode": 0,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "research/agent-pilot-v2/sessions/w1-m1/transpose.py",
+            "1997961842507939908",
+            "certificates/whirlwindm1--xu2026-size.json",
+            "results/candidates/w3-whirlwindm1-1.json",
+            "research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-10-10c982463574.json"
+          ],
+          "started_at": "2026-10-20T06:44:40.676481+00:00",
+          "ended_at": "2026-10-20T06:44:41.778542+00:00",
+          "wall_seconds": 1.1016873749904335,
+          "cpu_seconds": 0.39141099999999995,
+          "returncode": 0,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "research/agent-pilot-v2/sessions/w1-m1/transpose.py",
+            "1997961842507939908",
+            "certificates/whirlwindm1--xu2026-size.json",
+            "results/candidates/w3-whirlwindm1-1.json",
+            "research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-10-10c982463574.json"
+          ],
+          "started_at": "2026-10-20T06:45:03.076059+00:00",
+          "ended_at": "2026-10-20T06:45:03.964488+00:00",
+          "wall_seconds": 0.8881326250266284,
+          "cpu_seconds": 0.389248,
+          "returncode": 0,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "research/agent-pilot-v2/sessions/w1-m1/run_window_search.py",
+            "--spec",
+            "portfolio/whirlwindm1.json",
+            "--seed",
+            "6511891409058330168",
+            "--cpu-seconds",
+            "140",
+            "--wall-seconds",
+            "150",
+            "--start",
+            "certificates/whirlwindm1--xu2026-size.json",
+            "--start",
+            "results/candidates/w3-whirlwindm1-1.json",
+            "--start",
+            "research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-10-10c982463574.json",
+            "--start",
+            "research/agent-pilot-v2/sessions/w1-m1/transpose-search/start-166-11-candidate-166-10-10c982463574.json",
+            "--output",
+            "research/agent-pilot-v2/sessions/w1-m1/window-search"
+          ],
+          "started_at": "2026-10-20T06:45:16.183827+00:00",
+          "ended_at": "2026-10-20T06:47:55.925433+00:00",
+          "wall_seconds": 159.73772095900495,
+          "cpu_seconds": 48.600854,
+          "returncode": 0,
+          "deadline_stop": false
+        },
+        {
+          "command": [
+            "python3",
+            "research/agent-pilot-v2/sessions/w1-m1/rewrite_v3.py",
+            "--seed",
+            "11866627743401557415",
+            "--seconds",
+            "172.821405",
+            "--start",
+            "certificates/whirlwindm1--xu2026-size.json",
+            "--start",
+            "results/candidates/w3-whirlwindm1-1.json",
+            "--start",
+            "research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-10-10c982463574.json",
+            "--start",
+            "research/agent-pilot-v2/sessions/w1-m1/transpose-search/start-166-11-candidate-166-10-10c982463574.json",
+            "--output",
+            "research/agent-pilot-v2/sessions/w1-m1/semantic-v3-search"
+          ],
+          "started_at": "2026-10-20T06:48:23.732017+00:00",
+          "ended_at": "2026-10-20T06:51:16.884198+00:00",
+          "wall_seconds": 173.14804916700814,
+          "cpu_seconds": 51.775141,
+          "returncode": 0,
+          "deadline_stop": false
+        }
+      ]
+    },
+    {
+      "session": "w2-aes",
+      "status": "not-issued"
+    },
+    {
+      "session": "w2-m0",
+      "status": "not-issued"
+    },
+    {
+      "session": "w2-m1",
+      "status": "not-issued"
+    }
+  ],
+  "submitted_certificates": 66,
+  "valid_certificates": 66,
+  "invalid_certificates": 0,
+  "root_check_process_seconds": 9.512374836602248,
+  "model_token_cost": null,
+  "model_token_cost_reason": "Not exposed by orchestration interface",
+  "root_check_median_seconds": 0.13843608344905078,
+  "root_check_max_seconds": 0.25625412503723055,
+  "combined_candidate_frontiers": {
+    "square-aes-mugi": [],
+    "whirlwindm0": [
+      {
+        "session": "w1-m0",
+        "wave": 1,
+        "instance": "whirlwindm0",
+        "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor157-depth12-079f1f3f3f22.json",
+        "sha256": "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 157,
+          "dead_gates": 0,
+          "depth": 12,
+          "total": 157
+        },
+        "mtime_utc": "2026-10-20T06:36:15.017046+00:00",
+        "observed_at": "2026-10-20T06:36:15.339522+00:00"
+      },
+      {
+        "session": "w1-m0",
+        "wave": 1,
+        "instance": "whirlwindm0",
+        "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor161-depth11-65a10aa404e3.json",
+        "sha256": "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 161,
+          "dead_gates": 0,
+          "depth": 11,
+          "total": 161
+        },
+        "mtime_utc": "2026-10-20T06:42:52.210753+00:00",
+        "observed_at": "2026-10-20T06:46:21.676325+00:00"
+      },
+      {
+        "session": "w1-m0",
+        "wave": 1,
+        "instance": "whirlwindm0",
+        "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor163-depth10-f258c04d025f.json",
+        "sha256": "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 163,
+          "dead_gates": 0,
+          "depth": 10,
+          "total": 163
+        },
+        "mtime_utc": "2026-10-20T06:43:31.897909+00:00",
+        "observed_at": "2026-10-20T06:46:21.816299+00:00"
+      },
+      {
+        "session": "w1-m0",
+        "wave": 1,
+        "instance": "whirlwindm0",
+        "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor170-depth9-30045c939d4c.json",
+        "sha256": "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 170,
+          "dead_gates": 0,
+          "depth": 9,
+          "total": 170
+        },
+        "mtime_utc": "2026-10-20T06:44:24.480032+00:00",
+        "observed_at": "2026-10-20T06:46:21.963114+00:00"
+      },
+      {
+        "session": "w1-m0",
+        "wave": 1,
+        "instance": "whirlwindm0",
+        "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor209-depth7-a2078fae4a0e.json",
+        "sha256": "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 209,
+          "dead_gates": 0,
+          "depth": 7,
+          "total": 209
+        },
+        "mtime_utc": "2026-10-20T06:38:13.300570+00:00",
+        "observed_at": "2026-10-20T06:39:15.734010+00:00"
+      }
+    ],
+    "whirlwindm1": [
+      {
+        "session": "w1-m1",
+        "wave": 1,
+        "instance": "whirlwindm1",
+        "path": "research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-10-10c982463574.json",
+        "sha256": "10c982463574dbaf5778d88f37518bc735549124eec2975af32c2b547d8753b5",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 166,
+          "dead_gates": 0,
+          "depth": 10,
+          "total": 166
+        },
+        "mtime_utc": "2026-10-20T06:42:10.984726+00:00",
+        "observed_at": "2026-10-20T06:42:24.905849+00:00"
+      }
+    ]
+  }
+}

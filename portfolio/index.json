@@ -1,0 +1,50 @@
+{
+  "instances": [
+    "aria",
+    "fides-midori-mantis",
+    "joltik",
+    "pridel0",
+    "princem0",
+    "qarma128",
+    "qarma64",
+    "skinny",
+    "smallscaleaes",
+    "anubis-clefiam0",
+    "clefiam1",
+    "foxmu4",
+    "square-aes-mugi",
+    "twofish",
+    "whirlwindm0",
+    "whirlwindm1",
+    "foxmu8",
+    "grostl",
+    "khazad",
+    "whirlpool-maelstrom",
+    "bkl16-4x4-gf16",
+    "jpst17-4x4-gf16",
+    "klsw17-m-4x4-gf16",
+    "ls16-4x4-gf16",
+    "gf4-13",
+    "gf5-25",
+    "gf6-49",
+    "gf7-89",
+    "gf7-91",
+    "gf8-11b",
+    "design-mds4x4-w4",
+    "design-mds4x4-w4-involution"
+  ],
+  "count": 32,
+  "basis": [
+    "XOR",
+    "AND",
+    "NOT",
+    "0",
+    "1"
+  ],
+  "axes": [
+    "AND",
+    "XOR",
+    "total",
+    "depth"
+  ]
+}

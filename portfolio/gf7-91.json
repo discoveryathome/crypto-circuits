@@ -1,0 +1,42 @@
+{
+  "id": "gf7-91",
+  "title": "GF(2^7), modulus 0x91",
+  "kind": "multiplier",
+  "inputs": 14,
+  "outputs": 7,
+  "width": 7,
+  "modulus": 145,
+  "baselines": [
+    {
+      "path": "certificates/gf7-91--final-f7.json",
+      "origin": "sources/jain/multipliers/circuits/final_f7.slp",
+      "metrics": {
+        "AND": 32,
+        "XOR": 55,
+        "NOT": 0,
+        "total": 87,
+        "depth": 11,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    },
+    {
+      "path": "certificates/gf7-91--cmt.json",
+      "origin": "sources/jain/multipliers/sources/circuits/cmt/slp_740.txt",
+      "metrics": {
+        "AND": 40,
+        "XOR": 44,
+        "NOT": 0,
+        "total": 84,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    }
+  ],
+  "use": "polynomial-basis multiplication component",
+  "literature_status": "Jain October 2026 plus CMT; no global optimality claim",
+  "literature_claims": [],
+  "best_published_xor_upper_bound": 44,
+  "novelty_policy": "Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker."
+}

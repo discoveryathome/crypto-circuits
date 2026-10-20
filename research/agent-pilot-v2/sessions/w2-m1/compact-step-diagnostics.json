@@ -1,0 +1,74 @@
+[
+  {
+    "sha256": "b7402ea80962cafafc86c04688fdb92f8c0693cb7ad3dfe7c064bbbc16d1d08a",
+    "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+    "iteration": 13399,
+    "transpose_step": false,
+    "minimum_arrival_after_step": true,
+    "triple_step_for_v3_only": false
+  },
+  {
+    "sha256": "c29a50b7b6a64c981fd9b474da86fe968ec0b0300f1dea2094306b68436ec935",
+    "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+    "iteration": 13432,
+    "transpose_step": true,
+    "minimum_arrival_after_step": false,
+    "triple_step_for_v3_only": false
+  },
+  {
+    "sha256": "2cf1b5463a4a68601f409f4174249cb4e3d024ee6ce217e67ed77ee0030290bb",
+    "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+    "iteration": 13937,
+    "transpose_step": true,
+    "minimum_arrival_after_step": false,
+    "triple_step_for_v3_only": false
+  },
+  {
+    "sha256": "ab19075a9e177ca5109b5edcddf206c7f9a5a966635a5cba727811b80d93a43e",
+    "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+    "iteration": 16866,
+    "transpose_step": true,
+    "minimum_arrival_after_step": false,
+    "triple_step_for_v3_only": false
+  },
+  {
+    "sha256": "5372a9c78afe42799948eb2181a1509550781bfa35c3cbdc7b105bb449d36d49",
+    "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+    "iteration": 486999,
+    "transpose_step": false,
+    "minimum_arrival_after_step": true,
+    "triple_step_for_v3_only": false
+  },
+  {
+    "sha256": "714f0bf3dad44a38a59b5a81fda986f3a9e41ce71845804f33cb3390cae2306e",
+    "method": "semantic-transpose-cone-and-shared-resubstitution-v2",
+    "iteration": 487021,
+    "transpose_step": true,
+    "minimum_arrival_after_step": false,
+    "triple_step_for_v3_only": false
+  },
+  {
+    "sha256": "449ed643de5211dcd7f6965a6e39e607e283fcd53f88365d47bf19906a665c4d",
+    "method": "semantic-transpose-cone-and-shared-resubstitution-v3",
+    "iteration": 94838,
+    "transpose_step": true,
+    "minimum_arrival_after_step": false,
+    "triple_step_for_v3_only": false
+  },
+  {
+    "sha256": "58eb9f3b51619025a2474ad81993c576d5646ec438d105a699fef630dd4f83f2",
+    "method": "semantic-transpose-cone-and-shared-resubstitution-v3",
+    "iteration": 95242,
+    "transpose_step": true,
+    "minimum_arrival_after_step": false,
+    "triple_step_for_v3_only": false
+  },
+  {
+    "sha256": "dfa71c3370e195e9063a36b1ce9b6d0cc22a51a7ecb06887603fd6cfd45959d2",
+    "method": "semantic-transpose-cone-and-shared-resubstitution-v3",
+    "iteration": 132006,
+    "transpose_step": true,
+    "minimum_arrival_after_step": false,
+    "triple_step_for_v3_only": false
+  }
+]

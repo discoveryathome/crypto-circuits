@@ -1,0 +1,677 @@
+[
+  {
+    "instance": "whirlwindm0",
+    "path": "certificates/whirlwindm0--nist.json",
+    "kind": "published",
+    "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-32x32/WhirlwindM0--XOR=183--XLZBZ20.circ.txt",
+    "source_origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/WhirlwindM0--XOR=183--XLZBZ20.circ.txt",
+    "sha256": "dc4879f2c7ce2c8e41017054c2fd5dcef9e88a0f3b1416927a1aa7baa6682672",
+    "metrics": {
+      "AND": 0,
+      "XOR": 183,
+      "NOT": 0,
+      "total": 183,
+      "depth": 14,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 183,
+        "NOT": 0,
+        "total": 183,
+        "depth": 14,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0018562090117484331
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 183,
+        "depth": 14,
+        "total": 183
+      },
+      "ok": true,
+      "verification_seconds": 0.0031799999997019768
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "certificates/whirlwindm0--xu2026-size.json",
+    "kind": "published",
+    "source_url": "https://github.com/DerryAlex/circulant_synth/blob/73ff05008ae1d9445a69bc792653726cdccdca5b/results/size/Whirlwind_M0.txt",
+    "source_origin": "sources/circulant/results/size/Whirlwind_M0.txt; CNOT to SSA; exact output permutation",
+    "sha256": "bbe26e3782d0855acf0c826e996e5727d78b10b55937e2a3710831a9ceb0c782",
+    "metrics": {
+      "AND": 0,
+      "XOR": 159,
+      "NOT": 0,
+      "total": 159,
+      "depth": 14,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 159,
+        "NOT": 0,
+        "total": 159,
+        "depth": 14,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0009336660150438547
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 159,
+        "depth": 14,
+        "total": 159
+      },
+      "ok": true,
+      "verification_seconds": 0.05421870795544237
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "certificates/whirlwindm0--xu2026-depth.json",
+    "kind": "published",
+    "source_url": "https://github.com/DerryAlex/circulant_synth/blob/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/Whirlwind_M0.txt",
+    "source_origin": "sources/circulant/results/depth/Whirlwind_M0.txt; CNOT to SSA; exact output permutation",
+    "sha256": "7ac590c579e7fac7efea0948a0ecb5bf3d6b433f4bcd297fe66998d15b7dc94a",
+    "metrics": {
+      "AND": 0,
+      "XOR": 200,
+      "NOT": 0,
+      "total": 200,
+      "depth": 16,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 200,
+        "NOT": 0,
+        "total": 200,
+        "depth": 16,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.00121804210357368
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 200,
+        "depth": 16,
+        "total": 200
+      },
+      "ok": true,
+      "verification_seconds": 0.0032160829287022352
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w0-whirlwindm0-0.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w0-whirlwindm0.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "bbe26e3782d0855acf0c826e996e5727d78b10b55937e2a3710831a9ceb0c782",
+    "metrics": {
+      "AND": 0,
+      "XOR": 159,
+      "NOT": 0,
+      "total": 159,
+      "depth": 14,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 159,
+        "NOT": 0,
+        "total": 159,
+        "depth": 14,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0008864999981597066
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 159,
+        "depth": 14,
+        "total": 159
+      },
+      "ok": true,
+      "verification_seconds": 0.0025334999663755298
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w0-whirlwindm0-1.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w0-whirlwindm0.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "5ee27803fde37d374717a6af760c72934ce4cbc9b94e804d3ac44977b497e9a5",
+    "metrics": {
+      "AND": 0,
+      "XOR": 224,
+      "NOT": 0,
+      "total": 224,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 224,
+        "NOT": 0,
+        "total": 224,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0032112919725477695
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 224,
+        "depth": 5,
+        "total": 224
+      },
+      "ok": true,
+      "verification_seconds": 0.0036440000403672457
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w0-whirlwindm0-2.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w0-whirlwindm0.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "81b4be1a57028e5af3e8251c569582122ea3f9ae91a645d657174d4172b0bb1a",
+    "metrics": {
+      "AND": 0,
+      "XOR": 222,
+      "NOT": 0,
+      "total": 222,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 222,
+        "NOT": 0,
+        "total": 222,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0012243329547345638
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 222,
+        "depth": 6,
+        "total": 222
+      },
+      "ok": true,
+      "verification_seconds": 0.006215459085069597
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w1-whirlwindm0-0.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w1-whirlwindm0.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "bbe26e3782d0855acf0c826e996e5727d78b10b55937e2a3710831a9ceb0c782",
+    "metrics": {
+      "AND": 0,
+      "XOR": 159,
+      "NOT": 0,
+      "total": 159,
+      "depth": 14,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 159,
+        "NOT": 0,
+        "total": 159,
+        "depth": 14,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0008397919591516256
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 159,
+        "depth": 14,
+        "total": 159
+      },
+      "ok": true,
+      "verification_seconds": 0.002972042071633041
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w1-whirlwindm0-1.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w1-whirlwindm0.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "d7f8d2825baa3e2ad12a069b83ada89b6e6512cdbc2b885e3baae6c78a40398f",
+    "metrics": {
+      "AND": 0,
+      "XOR": 222,
+      "NOT": 0,
+      "total": 222,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 222,
+        "NOT": 0,
+        "total": 222,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0012382080312818289
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 222,
+        "depth": 5,
+        "total": 222
+      },
+      "ok": true,
+      "verification_seconds": 0.004416249925270677
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w1-whirlwindm0-2.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w1-whirlwindm0.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "12159b291608e440d996a3a74280f336206ee6326d569827aa603a3e303a1fda",
+    "metrics": {
+      "AND": 0,
+      "XOR": 221,
+      "NOT": 0,
+      "total": 221,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 221,
+        "NOT": 0,
+        "total": 221,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.000978749943897128
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 221,
+        "depth": 6,
+        "total": 221
+      },
+      "ok": true,
+      "verification_seconds": 0.12871383305173367
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w2-whirlwindm0-0.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w2-whirlwindm0.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "434e6a0995b1f6b73a74dd26684eb1e27fe1938b6e9f0b6ac1e8dc60d9fd346c",
+    "metrics": {
+      "AND": 0,
+      "XOR": 219,
+      "NOT": 0,
+      "total": 219,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 219,
+        "NOT": 0,
+        "total": 219,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0010164580307900906
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 219,
+        "depth": 5,
+        "total": 219
+      },
+      "ok": true,
+      "verification_seconds": 0.0111359580187127
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w2-whirlwindm0-1.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w2-whirlwindm0.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "7f74a6d22f6aa2ab713d24274da57c550d143ec7e26cf2342a7c0ca4947ca685",
+    "metrics": {
+      "AND": 0,
+      "XOR": 159,
+      "NOT": 0,
+      "total": 159,
+      "depth": 13,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 159,
+        "NOT": 0,
+        "total": 159,
+        "depth": 13,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.001200209022499621
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 159,
+        "depth": 13,
+        "total": 159
+      },
+      "ok": true,
+      "verification_seconds": 0.002664458006620407
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w3-whirlwindm0-0.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w3-whirlwindm0.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+    "metrics": {
+      "AND": 0,
+      "XOR": 217,
+      "NOT": 0,
+      "total": 217,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 217,
+        "NOT": 0,
+        "total": 217,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.007487916969694197
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 217,
+        "depth": 5,
+        "total": 217
+      },
+      "ok": true,
+      "verification_seconds": 0.010316834086552262
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w3-whirlwindm0-1.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w3-whirlwindm0.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "49deb1d516b5453f8e2bd95edf86ed2ff27e8cc37bb8ff1892db62027ea54c70",
+    "metrics": {
+      "AND": 0,
+      "XOR": 159,
+      "NOT": 0,
+      "total": 159,
+      "depth": 13,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 159,
+        "NOT": 0,
+        "total": 159,
+        "depth": 13,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0008747499668970704
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 159,
+        "depth": 13,
+        "total": 159
+      },
+      "ok": true,
+      "verification_seconds": 0.002428749925456941
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w4-whirlwindm0-0.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w4-whirlwindm0.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "29a9382feb9add0be3a3549bb30b19575d379b2bc3d8a0601c0741ed42f52bd0",
+    "metrics": {
+      "AND": 0,
+      "XOR": 217,
+      "NOT": 0,
+      "total": 217,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 217,
+        "NOT": 0,
+        "total": 217,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.001070333062671125
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 217,
+        "depth": 5,
+        "total": 217
+      },
+      "ok": true,
+      "verification_seconds": 0.007927375030703843
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w4-whirlwindm0-1.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w4-whirlwindm0.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "c58dd3b67d8c9586be73bd1fe1b5f0e8108da43b78e47c93b1283b2b46a59500",
+    "metrics": {
+      "AND": 0,
+      "XOR": 159,
+      "NOT": 0,
+      "total": 159,
+      "depth": 13,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 159,
+        "NOT": 0,
+        "total": 159,
+        "depth": 13,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0010187079897150397
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 159,
+        "depth": 13,
+        "total": 159
+      },
+      "ok": true,
+      "verification_seconds": 0.002743417047895491
+    }
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "commit": "5f0de7eed15b2186fb52d34c6174fed1269c9231",
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "method": "Fresh git archive in temporary directory, no network or installs",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.6921584589872509,
+      "stdout": "",
+      "stderr": "test_bad_certificates (test_checker.CheckerTests.test_bad_certificates) ... ok\ntest_correct_affine_certificate (test_checker.CheckerTests.test_correct_affine_certificate) ... ok\ntest_dead_gates_are_paid (test_checker.CheckerTests.test_dead_gates_are_paid) ... ok\ntest_duplicate_keys (test_checker.CheckerTests.test_duplicate_keys) ... ok\ntest_mds_property_and_wrong_design (test_checker.CheckerTests.test_mds_property_and_wrong_design) ... ok\ntest_multiplier_and_mutation (test_checker.CheckerTests.test_multiplier_and_mutation) ... ok\ntest_synthesis_semantics (test_checker.CheckerTests.test_synthesis_semantics) ... ok\ntest_duplicate_keys (test_second_checker.SecondCheckerTests.test_duplicate_keys) ... ok\ntest_non_mds_and_wrong_product (test_second_checker.SecondCheckerTests.test_non_mds_and_wrong_product) ... ok\ntest_structural_and_semantic_rejections (test_second_checker.SecondCheckerTests.test_structural_and_semantic_rejections) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.429s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/check_all.py"
+      ],
+      "returncode": 0,
+      "wall_seconds": 49.768621499999426,
+      "stdout": "{\"ok\": true, \"certificates_checked\": 391, \"wall_seconds\": 49.636301416903734}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-I",
+        "tools/check_submission.py",
+        "portfolio/gf5-25.json",
+        "results/candidates/w3-gf5-25-0.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.08007316698785871,
+      "stdout": "{\"evidence\": {\"exhaustive_inputs\": 1024}, \"metrics\": {\"AND\": 20, \"NOT\": 0, \"XOR\": 24, \"dead_gates\": 0, \"depth\": 5, \"total\": 44}, \"ok\": true, \"verification_seconds\": 0.010983541957102716}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-I",
+        "tools/audit_submission.py",
+        "portfolio/gf5-25.json",
+        "results/candidates/w3-gf5-25-0.json"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.09013675001915544,
+      "stdout": "{\"evaluations\": 1024, \"method\": \"independent scalar implementation\", \"metrics\": {\"AND\": 20, \"NOT\": 0, \"XOR\": 24, \"depth\": 5, \"total\": 44}, \"ok\": true, \"verification_seconds\": 0.020637874957174063}\n",
+      "stderr": ""
+    }
+  ],
+  "replays_completed": [
+    {
+      "instance": "joltik",
+      "wave": 0,
+      "matching_certificates": 3
+    },
+    {
+      "instance": "gf8-11b",
+      "wave": 1,
+      "matching_certificates": 1
+    },
+    {
+      "instance": "design-mds4x4-w4",
+      "wave": 0,
+      "matching_certificates": 2
+    }
+  ],
+  "replay_note": "Recorded earlier using tools/replay_trial.py; same immutable frozen files; equality excludes timing."
+}

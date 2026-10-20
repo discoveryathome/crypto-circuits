@@ -1,0 +1,38 @@
+{
+  "instance": "princem0",
+  "wave": 2,
+  "seed": "fba86ff5dba234a060ee4665d15394dc",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/princem0--nist.json",
+  "search_wall_seconds": 0.1949188329745084,
+  "search_cpu_seconds": 0.05502899999999045,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 109,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w2-princem0-0.json",
+      "sha256": "d8cb42c291c7884b259ab0aa077883c5e9682fec6a508946c2d84c07ad00eef9",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 24,
+        "NOT": 0,
+        "total": 24,
+        "depth": 2,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 256,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0001485829707235098
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

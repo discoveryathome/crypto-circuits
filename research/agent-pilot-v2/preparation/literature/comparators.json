@@ -1,0 +1,2204 @@
+{
+  "audited_at": "2026-10-20T06:27:17.729707+00:00",
+  "basis": {
+    "gates": [
+      "XOR",
+      "AND",
+      "NOT"
+    ],
+    "XOR_fanin": 2,
+    "linear_profile_AND": 0,
+    "constants": "free",
+    "fanout": "free",
+    "wire_permutations": "free",
+    "depth": "classical maximum output gate-path, unit gate delay"
+  },
+  "selected": [
+    "square-aes-mugi",
+    "whirlwindm0",
+    "whirlwindm1"
+  ],
+  "instances": {
+    "square-aes-mugi": {
+      "spec_path": "portfolio/square-aes-mugi.json",
+      "spec_sha256": "8ad3723557d639cb064ceaa9673a80b03adc867e2a81cc7f45d94a7e339c033f",
+      "comparators": [
+        {
+          "path": "certificates/square-aes-mugi--nist.json",
+          "kind": "published",
+          "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-32x32/Square+AES+Mugi--XOR=92--maximov.circ.txt",
+          "source_origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/Square+AES+Mugi--XOR=92--maximov.circ.txt",
+          "sha256": "1c7ed3fd18a9ed69e6b40a5496e9aac11bfb480cf2d6fce6dd5adf3ce7cd1653",
+          "metrics": {
+            "AND": 0,
+            "XOR": 92,
+            "NOT": 0,
+            "total": 92,
+            "depth": 6,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 92,
+              "NOT": 0,
+              "total": 92,
+              "depth": 6,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0004722500452771783
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 92,
+              "depth": 6,
+              "total": 92
+            },
+            "ok": true,
+            "verification_seconds": 0.003768624970689416
+          }
+        },
+        {
+          "path": "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+          "kind": "published",
+          "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor88-depth5.circ.txt",
+          "source_origin": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor88-depth5.circ.txt",
+          "sha256": "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+          "metrics": {
+            "AND": 0,
+            "XOR": 88,
+            "NOT": 0,
+            "total": 88,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 88,
+              "NOT": 0,
+              "total": 88,
+              "depth": 5,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0033948749769479036
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 88,
+              "depth": 5,
+              "total": 88
+            },
+            "ok": true,
+            "verification_seconds": 0.004360707942396402
+          }
+        },
+        {
+          "path": "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+          "kind": "published",
+          "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor90-depth4.circ.txt",
+          "source_origin": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor90-depth4.circ.txt",
+          "sha256": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+          "metrics": {
+            "AND": 0,
+            "XOR": 90,
+            "NOT": 0,
+            "total": 90,
+            "depth": 4,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 90,
+              "NOT": 0,
+              "total": 90,
+              "depth": 4,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0005351250292733312
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 90,
+              "depth": 4,
+              "total": 90
+            },
+            "ok": true,
+            "verification_seconds": 0.001582416007295251
+          }
+        },
+        {
+          "path": "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+          "kind": "published",
+          "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/aes/aes-mixcols/aes-mixcols-xor97-depth3.circ.txt",
+          "source_origin": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor97-depth3.circ.txt",
+          "sha256": "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82",
+          "metrics": {
+            "AND": 0,
+            "XOR": 97,
+            "NOT": 0,
+            "total": 97,
+            "depth": 3,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 97,
+              "NOT": 0,
+              "total": 97,
+              "depth": 3,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0006617920007556677
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 97,
+              "depth": 3,
+              "total": 97
+            },
+            "ok": true,
+            "verification_seconds": 0.03451016708277166
+          }
+        },
+        {
+          "path": "results/candidates/w0-square-aes-mugi-0.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w0-square-aes-mugi.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+          "metrics": {
+            "AND": 0,
+            "XOR": 88,
+            "NOT": 0,
+            "total": 88,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 88,
+              "NOT": 0,
+              "total": 88,
+              "depth": 5,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0007511249277740717
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 88,
+              "depth": 5,
+              "total": 88
+            },
+            "ok": true,
+            "verification_seconds": 0.015275749959982932
+          }
+        },
+        {
+          "path": "results/candidates/w0-square-aes-mugi-1.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w0-square-aes-mugi.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "977690faf215cdce54620ea124ba6b09045ff8b270d755813b67d15a8872ab90",
+          "metrics": {
+            "AND": 0,
+            "XOR": 108,
+            "NOT": 0,
+            "total": 108,
+            "depth": 3,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 108,
+              "NOT": 0,
+              "total": 108,
+              "depth": 3,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0007061660289764404
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 108,
+              "depth": 3,
+              "total": 108
+            },
+            "ok": true,
+            "verification_seconds": 0.002235917025245726
+          }
+        },
+        {
+          "path": "results/candidates/w1-square-aes-mugi-0.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w1-square-aes-mugi.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+          "metrics": {
+            "AND": 0,
+            "XOR": 90,
+            "NOT": 0,
+            "total": 90,
+            "depth": 4,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 90,
+              "NOT": 0,
+              "total": 90,
+              "depth": 4,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0005178749561309814
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 90,
+              "depth": 4,
+              "total": 90
+            },
+            "ok": true,
+            "verification_seconds": 0.006271500024013221
+          }
+        },
+        {
+          "path": "results/candidates/w1-square-aes-mugi-1.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w1-square-aes-mugi.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "fc15a1a873f8513733042fd196b881294fa37793be5091fc3ef94145e62f4cd4",
+          "metrics": {
+            "AND": 0,
+            "XOR": 108,
+            "NOT": 0,
+            "total": 108,
+            "depth": 3,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 108,
+              "NOT": 0,
+              "total": 108,
+              "depth": 3,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0027996249264106154
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 108,
+              "depth": 3,
+              "total": 108
+            },
+            "ok": true,
+            "verification_seconds": 0.0019474999280646443
+          }
+        },
+        {
+          "path": "results/candidates/w2-square-aes-mugi-0.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w2-square-aes-mugi.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82",
+          "metrics": {
+            "AND": 0,
+            "XOR": 97,
+            "NOT": 0,
+            "total": 97,
+            "depth": 3,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 97,
+              "NOT": 0,
+              "total": 97,
+              "depth": 3,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0005300829652696848
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 97,
+              "depth": 3,
+              "total": 97
+            },
+            "ok": true,
+            "verification_seconds": 0.0020250420784577727
+          }
+        },
+        {
+          "path": "results/candidates/w3-square-aes-mugi-0.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w3-square-aes-mugi.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+          "metrics": {
+            "AND": 0,
+            "XOR": 88,
+            "NOT": 0,
+            "total": 88,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 88,
+              "NOT": 0,
+              "total": 88,
+              "depth": 5,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0005029590101912618
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 88,
+              "depth": 5,
+              "total": 88
+            },
+            "ok": true,
+            "verification_seconds": 0.0040918749291449785
+          }
+        },
+        {
+          "path": "results/candidates/w3-square-aes-mugi-1.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w3-square-aes-mugi.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "ef35a03f1b36b496b68e2c9e601878782b5e41b2f5e8ae48c17c6163bd250b35",
+          "metrics": {
+            "AND": 0,
+            "XOR": 108,
+            "NOT": 0,
+            "total": 108,
+            "depth": 3,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 108,
+              "NOT": 0,
+              "total": 108,
+              "depth": 3,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0005702499765902758
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 108,
+              "depth": 3,
+              "total": 108
+            },
+            "ok": true,
+            "verification_seconds": 0.0026140420231968164
+          }
+        },
+        {
+          "path": "results/candidates/w4-square-aes-mugi-0.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w4-square-aes-mugi.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+          "metrics": {
+            "AND": 0,
+            "XOR": 90,
+            "NOT": 0,
+            "total": 90,
+            "depth": 4,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 90,
+              "NOT": 0,
+              "total": 90,
+              "depth": 4,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.002384625026024878
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 90,
+              "depth": 4,
+              "total": 90
+            },
+            "ok": true,
+            "verification_seconds": 0.037161875050514936
+          }
+        },
+        {
+          "path": "results/candidates/w4-square-aes-mugi-1.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w4-square-aes-mugi.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "fdfa17851bbd83eaa30cca430ef44375dd5aafc7ff4f65c00dc78dd80a5dee4b",
+          "metrics": {
+            "AND": 0,
+            "XOR": 108,
+            "NOT": 0,
+            "total": 108,
+            "depth": 3,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 108,
+              "NOT": 0,
+              "total": 108,
+              "depth": 3,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0007262500002980232
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 108,
+              "depth": 3,
+              "total": 108
+            },
+            "ok": true,
+            "verification_seconds": 0.042087416048161685
+          }
+        },
+        {
+          "path": "research/agent-pilot-v2/preparation/literature/aes-mixcolumns-hill-table9-binary.json",
+          "kind": "published-derived",
+          "source_url": "https://doi.org/10.46586/tosc.v2026.i1.506-526",
+          "normalization": "Table 9: 59 XOR2 + 20 XOR3; minimum-arrival binary association; direct original port order",
+          "sha256": "368ec79e35aba4dbddc8402f4055b89ebfe2a6c96b12bce5fa18d5cf5991840b",
+          "metrics": {
+            "AND": 0,
+            "XOR": 99,
+            "NOT": 0,
+            "total": 99,
+            "depth": 3,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 99,
+              "NOT": 0,
+              "total": 99,
+              "depth": 3,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0005294170696288347
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 99,
+              "depth": 3,
+              "total": 99
+            },
+            "ok": true,
+            "verification_seconds": 0.013878333033062518
+          }
+        },
+        {
+          "path": "research/agent-pilot-v2/preparation/literature/aes-mixcolumns-sbp-mixed-binary.json",
+          "kind": "published-derived",
+          "source_url": "https://doi.org/10.7717/peerj-cs.1820",
+          "normalization": "5 XOR2 + 7 XOR3 + 32 XOR4; minimum-arrival binary association; direct original port order",
+          "sha256": "aed8db913e60fd31002e26db592baa18994a002a8f35485197758804b9aec811",
+          "metrics": {
+            "AND": 0,
+            "XOR": 115,
+            "NOT": 0,
+            "total": 115,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 115,
+              "NOT": 0,
+              "total": 115,
+              "depth": 5,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0005944999866187572
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 115,
+              "depth": 5,
+              "total": 115
+            },
+            "ok": true,
+            "verification_seconds": 0.0038967919535934925
+          }
+        }
+      ],
+      "published_frontier_retrieved": [
+        {
+          "coordinates": [
+            0,
+            88,
+            88,
+            5
+          ],
+          "path": "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+          "kind": "published"
+        },
+        {
+          "coordinates": [
+            0,
+            90,
+            90,
+            4
+          ],
+          "path": "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+          "kind": "published"
+        },
+        {
+          "coordinates": [
+            0,
+            97,
+            97,
+            3
+          ],
+          "path": "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+          "kind": "published"
+        }
+      ],
+      "known_combined_frontier": [
+        {
+          "coordinates": [
+            0,
+            88,
+            88,
+            5
+          ],
+          "path": "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+          "kind": "published"
+        },
+        {
+          "coordinates": [
+            0,
+            90,
+            90,
+            4
+          ],
+          "path": "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+          "kind": "published"
+        },
+        {
+          "coordinates": [
+            0,
+            97,
+            97,
+            3
+          ],
+          "path": "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+          "kind": "published"
+        }
+      ],
+      "count_only_guards": [
+        {
+          "XOR": 89,
+          "depth": null,
+          "source_url": "https://eprint.iacr.org/2025/1493",
+          "reason": "2025 revised abstract; no artifact recovered. A shallower >=89 XOR candidate must settle this depth; <=88 cannot be dominated by this point."
+        }
+      ],
+      "novelty_rule": "Must be strictly nondominated against all known published and internal points, not merely a new hash; unknown-depth count guards block if their XOR count <= candidate XOR count until resolved; candidate-specific lineage review still required. No claim of exhaustive worldwide literature coverage."
+    },
+    "whirlwindm0": {
+      "spec_path": "portfolio/whirlwindm0.json",
+      "spec_sha256": "ba2499f59ed277f26062bab7c0b1221e68939c199203f78872ca218b59cdba83",
+      "comparators": [
+        {
+          "path": "certificates/whirlwindm0--nist.json",
+          "kind": "published",
+          "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-32x32/WhirlwindM0--XOR=183--XLZBZ20.circ.txt",
+          "source_origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/WhirlwindM0--XOR=183--XLZBZ20.circ.txt",
+          "sha256": "dc4879f2c7ce2c8e41017054c2fd5dcef9e88a0f3b1416927a1aa7baa6682672",
+          "metrics": {
+            "AND": 0,
+            "XOR": 183,
+            "NOT": 0,
+            "total": 183,
+            "depth": 14,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 183,
+              "NOT": 0,
+              "total": 183,
+              "depth": 14,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0018562090117484331
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 183,
+              "depth": 14,
+              "total": 183
+            },
+            "ok": true,
+            "verification_seconds": 0.0031799999997019768
+          }
+        },
+        {
+          "path": "certificates/whirlwindm0--xu2026-size.json",
+          "kind": "published",
+          "source_url": "https://github.com/DerryAlex/circulant_synth/blob/73ff05008ae1d9445a69bc792653726cdccdca5b/results/size/Whirlwind_M0.txt",
+          "source_origin": "sources/circulant/results/size/Whirlwind_M0.txt; CNOT to SSA; exact output permutation",
+          "sha256": "bbe26e3782d0855acf0c826e996e5727d78b10b55937e2a3710831a9ceb0c782",
+          "metrics": {
+            "AND": 0,
+            "XOR": 159,
+            "NOT": 0,
+            "total": 159,
+            "depth": 14,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 159,
+              "NOT": 0,
+              "total": 159,
+              "depth": 14,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0009336660150438547
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 159,
+              "depth": 14,
+              "total": 159
+            },
+            "ok": true,
+            "verification_seconds": 0.05421870795544237
+          }
+        },
+        {
+          "path": "certificates/whirlwindm0--xu2026-depth.json",
+          "kind": "published",
+          "source_url": "https://github.com/DerryAlex/circulant_synth/blob/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/Whirlwind_M0.txt",
+          "source_origin": "sources/circulant/results/depth/Whirlwind_M0.txt; CNOT to SSA; exact output permutation",
+          "sha256": "7ac590c579e7fac7efea0948a0ecb5bf3d6b433f4bcd297fe66998d15b7dc94a",
+          "metrics": {
+            "AND": 0,
+            "XOR": 200,
+            "NOT": 0,
+            "total": 200,
+            "depth": 16,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 200,
+              "NOT": 0,
+              "total": 200,
+              "depth": 16,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.00121804210357368
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 200,
+              "depth": 16,
+              "total": 200
+            },
+            "ok": true,
+            "verification_seconds": 0.0032160829287022352
+          }
+        },
+        {
+          "path": "results/candidates/w0-whirlwindm0-0.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w0-whirlwindm0.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "bbe26e3782d0855acf0c826e996e5727d78b10b55937e2a3710831a9ceb0c782",
+          "metrics": {
+            "AND": 0,
+            "XOR": 159,
+            "NOT": 0,
+            "total": 159,
+            "depth": 14,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 159,
+              "NOT": 0,
+              "total": 159,
+              "depth": 14,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0008864999981597066
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 159,
+              "depth": 14,
+              "total": 159
+            },
+            "ok": true,
+            "verification_seconds": 0.0025334999663755298
+          }
+        },
+        {
+          "path": "results/candidates/w0-whirlwindm0-1.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w0-whirlwindm0.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "5ee27803fde37d374717a6af760c72934ce4cbc9b94e804d3ac44977b497e9a5",
+          "metrics": {
+            "AND": 0,
+            "XOR": 224,
+            "NOT": 0,
+            "total": 224,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 224,
+              "NOT": 0,
+              "total": 224,
+              "depth": 5,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0032112919725477695
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 224,
+              "depth": 5,
+              "total": 224
+            },
+            "ok": true,
+            "verification_seconds": 0.0036440000403672457
+          }
+        },
+        {
+          "path": "results/candidates/w0-whirlwindm0-2.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w0-whirlwindm0.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "81b4be1a57028e5af3e8251c569582122ea3f9ae91a645d657174d4172b0bb1a",
+          "metrics": {
+            "AND": 0,
+            "XOR": 222,
+            "NOT": 0,
+            "total": 222,
+            "depth": 6,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 222,
+              "NOT": 0,
+              "total": 222,
+              "depth": 6,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0012243329547345638
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 222,
+              "depth": 6,
+              "total": 222
+            },
+            "ok": true,
+            "verification_seconds": 0.006215459085069597
+          }
+        },
+        {
+          "path": "results/candidates/w1-whirlwindm0-0.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w1-whirlwindm0.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "bbe26e3782d0855acf0c826e996e5727d78b10b55937e2a3710831a9ceb0c782",
+          "metrics": {
+            "AND": 0,
+            "XOR": 159,
+            "NOT": 0,
+            "total": 159,
+            "depth": 14,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 159,
+              "NOT": 0,
+              "total": 159,
+              "depth": 14,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0008397919591516256
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 159,
+              "depth": 14,
+              "total": 159
+            },
+            "ok": true,
+            "verification_seconds": 0.002972042071633041
+          }
+        },
+        {
+          "path": "results/candidates/w1-whirlwindm0-1.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w1-whirlwindm0.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "d7f8d2825baa3e2ad12a069b83ada89b6e6512cdbc2b885e3baae6c78a40398f",
+          "metrics": {
+            "AND": 0,
+            "XOR": 222,
+            "NOT": 0,
+            "total": 222,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 222,
+              "NOT": 0,
+              "total": 222,
+              "depth": 5,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0012382080312818289
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 222,
+              "depth": 5,
+              "total": 222
+            },
+            "ok": true,
+            "verification_seconds": 0.004416249925270677
+          }
+        },
+        {
+          "path": "results/candidates/w1-whirlwindm0-2.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w1-whirlwindm0.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "12159b291608e440d996a3a74280f336206ee6326d569827aa603a3e303a1fda",
+          "metrics": {
+            "AND": 0,
+            "XOR": 221,
+            "NOT": 0,
+            "total": 221,
+            "depth": 6,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 221,
+              "NOT": 0,
+              "total": 221,
+              "depth": 6,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.000978749943897128
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 221,
+              "depth": 6,
+              "total": 221
+            },
+            "ok": true,
+            "verification_seconds": 0.12871383305173367
+          }
+        },
+        {
+          "path": "results/candidates/w2-whirlwindm0-0.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w2-whirlwindm0.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "434e6a0995b1f6b73a74dd26684eb1e27fe1938b6e9f0b6ac1e8dc60d9fd346c",
+          "metrics": {
+            "AND": 0,
+            "XOR": 219,
+            "NOT": 0,
+            "total": 219,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 219,
+              "NOT": 0,
+              "total": 219,
+              "depth": 5,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0010164580307900906
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 219,
+              "depth": 5,
+              "total": 219
+            },
+            "ok": true,
+            "verification_seconds": 0.0111359580187127
+          }
+        },
+        {
+          "path": "results/candidates/w2-whirlwindm0-1.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w2-whirlwindm0.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "7f74a6d22f6aa2ab713d24274da57c550d143ec7e26cf2342a7c0ca4947ca685",
+          "metrics": {
+            "AND": 0,
+            "XOR": 159,
+            "NOT": 0,
+            "total": 159,
+            "depth": 13,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 159,
+              "NOT": 0,
+              "total": 159,
+              "depth": 13,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.001200209022499621
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 159,
+              "depth": 13,
+              "total": 159
+            },
+            "ok": true,
+            "verification_seconds": 0.002664458006620407
+          }
+        },
+        {
+          "path": "results/candidates/w3-whirlwindm0-0.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w3-whirlwindm0.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+          "metrics": {
+            "AND": 0,
+            "XOR": 217,
+            "NOT": 0,
+            "total": 217,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 217,
+              "NOT": 0,
+              "total": 217,
+              "depth": 5,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.007487916969694197
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 217,
+              "depth": 5,
+              "total": 217
+            },
+            "ok": true,
+            "verification_seconds": 0.010316834086552262
+          }
+        },
+        {
+          "path": "results/candidates/w3-whirlwindm0-1.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w3-whirlwindm0.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "49deb1d516b5453f8e2bd95edf86ed2ff27e8cc37bb8ff1892db62027ea54c70",
+          "metrics": {
+            "AND": 0,
+            "XOR": 159,
+            "NOT": 0,
+            "total": 159,
+            "depth": 13,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 159,
+              "NOT": 0,
+              "total": 159,
+              "depth": 13,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0008747499668970704
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 159,
+              "depth": 13,
+              "total": 159
+            },
+            "ok": true,
+            "verification_seconds": 0.002428749925456941
+          }
+        },
+        {
+          "path": "results/candidates/w4-whirlwindm0-0.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w4-whirlwindm0.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "29a9382feb9add0be3a3549bb30b19575d379b2bc3d8a0601c0741ed42f52bd0",
+          "metrics": {
+            "AND": 0,
+            "XOR": 217,
+            "NOT": 0,
+            "total": 217,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 217,
+              "NOT": 0,
+              "total": 217,
+              "depth": 5,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.001070333062671125
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 217,
+              "depth": 5,
+              "total": 217
+            },
+            "ok": true,
+            "verification_seconds": 0.007927375030703843
+          }
+        },
+        {
+          "path": "results/candidates/w4-whirlwindm0-1.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w4-whirlwindm0.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "c58dd3b67d8c9586be73bd1fe1b5f0e8108da43b78e47c93b1283b2b46a59500",
+          "metrics": {
+            "AND": 0,
+            "XOR": 159,
+            "NOT": 0,
+            "total": 159,
+            "depth": 13,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 159,
+              "NOT": 0,
+              "total": 159,
+              "depth": 13,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0010187079897150397
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 159,
+              "depth": 13,
+              "total": 159
+            },
+            "ok": true,
+            "verification_seconds": 0.002743417047895491
+          }
+        }
+      ],
+      "published_frontier_retrieved": [
+        {
+          "coordinates": [
+            0,
+            159,
+            159,
+            14
+          ],
+          "path": "certificates/whirlwindm0--xu2026-size.json",
+          "kind": "published"
+        }
+      ],
+      "known_combined_frontier": [
+        {
+          "coordinates": [
+            0,
+            159,
+            159,
+            13
+          ],
+          "path": "results/candidates/w2-whirlwindm0-1.json",
+          "kind": "internal-prior"
+        },
+        {
+          "coordinates": [
+            0,
+            217,
+            217,
+            5
+          ],
+          "path": "results/candidates/w3-whirlwindm0-0.json",
+          "kind": "internal-prior"
+        }
+      ],
+      "count_only_guards": [
+        {
+          "XOR": 183,
+          "depth": null,
+          "source_url": "https://doi.org/10.13154/tosc.v2020.i2.120-145",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard."
+        },
+        {
+          "XOR": 173,
+          "depth": null,
+          "source_url": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard."
+        },
+        {
+          "XOR": 172,
+          "depth": null,
+          "source_url": "https://eprint.iacr.asia/2026/2520",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard."
+        }
+      ],
+      "novelty_rule": "Must be strictly nondominated against all known published and internal points, not merely a new hash; unknown-depth count guards block if their XOR count <= candidate XOR count until resolved; candidate-specific lineage review still required. No claim of exhaustive worldwide literature coverage."
+    },
+    "whirlwindm1": {
+      "spec_path": "portfolio/whirlwindm1.json",
+      "spec_sha256": "46b1cf15018adb7e7747758175ab9280682b9401242a785790731f32664c5ff2",
+      "comparators": [
+        {
+          "path": "certificates/whirlwindm1--nist.json",
+          "kind": "published",
+          "source_url": "https://github.com/usnistgov/Circuits/blob/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-32x32/WhirlwindM1--XOR=187-rs=20-symp=1-2.circ.txt",
+          "source_origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/WhirlwindM1--XOR=187-rs=20-symp=1-2.circ.txt",
+          "sha256": "1ded87939c258a9f95639ab0227b308801e141cefe355f1c849d6bb441db17ea",
+          "metrics": {
+            "AND": 0,
+            "XOR": 187,
+            "NOT": 0,
+            "total": 187,
+            "depth": 16,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 187,
+              "NOT": 0,
+              "total": 187,
+              "depth": 16,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0008886249270290136
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 187,
+              "depth": 16,
+              "total": 187
+            },
+            "ok": true,
+            "verification_seconds": 0.002827709075063467
+          }
+        },
+        {
+          "path": "certificates/whirlwindm1--xu2026-size.json",
+          "kind": "published",
+          "source_url": "https://github.com/DerryAlex/circulant_synth/blob/73ff05008ae1d9445a69bc792653726cdccdca5b/results/size/Whirlwind_M1.txt",
+          "source_origin": "sources/circulant/results/size/Whirlwind_M1.txt; CNOT to SSA; exact output permutation",
+          "sha256": "355f5eeeada505bfbb785fa5d2f5e79e667a48fe2228e3570980d17b4f028ef6",
+          "metrics": {
+            "AND": 0,
+            "XOR": 169,
+            "NOT": 0,
+            "total": 169,
+            "depth": 11,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 169,
+              "NOT": 0,
+              "total": 169,
+              "depth": 11,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0009865419706329703
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 169,
+              "depth": 11,
+              "total": 169
+            },
+            "ok": true,
+            "verification_seconds": 0.003112750011496246
+          }
+        },
+        {
+          "path": "certificates/whirlwindm1--xu2026-depth.json",
+          "kind": "published",
+          "source_url": "https://github.com/DerryAlex/circulant_synth/blob/73ff05008ae1d9445a69bc792653726cdccdca5b/results/depth/Whirlwind_M1.txt",
+          "source_origin": "sources/circulant/results/depth/Whirlwind_M1.txt; CNOT to SSA; exact output permutation",
+          "sha256": "c89996f57fc61a61712f098851c9a0778e0b191e8a77e9b5a32116247f7e554c",
+          "metrics": {
+            "AND": 0,
+            "XOR": 241,
+            "NOT": 0,
+            "total": 241,
+            "depth": 18,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 241,
+              "NOT": 0,
+              "total": 241,
+              "depth": 18,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.001311417086981237
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 241,
+              "depth": 18,
+              "total": 241
+            },
+            "ok": true,
+            "verification_seconds": 0.005828666966408491
+          }
+        },
+        {
+          "path": "results/candidates/w0-whirlwindm1-0.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w0-whirlwindm1.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "355f5eeeada505bfbb785fa5d2f5e79e667a48fe2228e3570980d17b4f028ef6",
+          "metrics": {
+            "AND": 0,
+            "XOR": 169,
+            "NOT": 0,
+            "total": 169,
+            "depth": 11,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 169,
+              "NOT": 0,
+              "total": 169,
+              "depth": 11,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0009617080213502049
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 169,
+              "depth": 11,
+              "total": 169
+            },
+            "ok": true,
+            "verification_seconds": 0.002660667058080435
+          }
+        },
+        {
+          "path": "results/candidates/w0-whirlwindm1-1.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w0-whirlwindm1.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "0cbdd61aff251fa9f233fe0bb89228a4344526f5374b209cd6ce02a33a9a9e98",
+          "metrics": {
+            "AND": 0,
+            "XOR": 242,
+            "NOT": 0,
+            "total": 242,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 242,
+              "NOT": 0,
+              "total": 242,
+              "depth": 5,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0012044160393998027
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 242,
+              "depth": 5,
+              "total": 242
+            },
+            "ok": true,
+            "verification_seconds": 0.0038405420491471887
+          }
+        },
+        {
+          "path": "results/candidates/w1-whirlwindm1-0.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w1-whirlwindm1.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "355f5eeeada505bfbb785fa5d2f5e79e667a48fe2228e3570980d17b4f028ef6",
+          "metrics": {
+            "AND": 0,
+            "XOR": 169,
+            "NOT": 0,
+            "total": 169,
+            "depth": 11,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 169,
+              "NOT": 0,
+              "total": 169,
+              "depth": 11,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.009623958030715585
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 169,
+              "depth": 11,
+              "total": 169
+            },
+            "ok": true,
+            "verification_seconds": 0.00361933303065598
+          }
+        },
+        {
+          "path": "results/candidates/w1-whirlwindm1-1.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w1-whirlwindm1.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "b50c0467d6ef90e99e92b88867d986e428f10fae986619feef77cff51109198b",
+          "metrics": {
+            "AND": 0,
+            "XOR": 241,
+            "NOT": 0,
+            "total": 241,
+            "depth": 6,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 241,
+              "NOT": 0,
+              "total": 241,
+              "depth": 6,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0017247500363737345
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 241,
+              "depth": 6,
+              "total": 241
+            },
+            "ok": true,
+            "verification_seconds": 0.06921904208138585
+          }
+        },
+        {
+          "path": "results/candidates/w1-whirlwindm1-2.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w1-whirlwindm1.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "b284d1c8bd0b087a6bcc12b99706490c82fd0a981c81411891cc5fd874604de4",
+          "metrics": {
+            "AND": 0,
+            "XOR": 243,
+            "NOT": 0,
+            "total": 243,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 243,
+              "NOT": 0,
+              "total": 243,
+              "depth": 5,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0013486250536516309
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 243,
+              "depth": 5,
+              "total": 243
+            },
+            "ok": true,
+            "verification_seconds": 0.003639125032350421
+          }
+        },
+        {
+          "path": "results/candidates/w2-whirlwindm1-0.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w2-whirlwindm1.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "355f5eeeada505bfbb785fa5d2f5e79e667a48fe2228e3570980d17b4f028ef6",
+          "metrics": {
+            "AND": 0,
+            "XOR": 169,
+            "NOT": 0,
+            "total": 169,
+            "depth": 11,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 169,
+              "NOT": 0,
+              "total": 169,
+              "depth": 11,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0009847499895840883
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 169,
+              "depth": 11,
+              "total": 169
+            },
+            "ok": true,
+            "verification_seconds": 0.06231512501835823
+          }
+        },
+        {
+          "path": "results/candidates/w2-whirlwindm1-1.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w2-whirlwindm1.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "77642da7d01f4a96e409e66493d93e1ffc0f3e1880e02c407b4d6a58d846badc",
+          "metrics": {
+            "AND": 0,
+            "XOR": 245,
+            "NOT": 0,
+            "total": 245,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 245,
+              "NOT": 0,
+              "total": 245,
+              "depth": 5,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0014017500216141343
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 245,
+              "depth": 5,
+              "total": 245
+            },
+            "ok": true,
+            "verification_seconds": 0.005580166936852038
+          }
+        },
+        {
+          "path": "results/candidates/w2-whirlwindm1-2.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w2-whirlwindm1.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "806daf8680b0c12ade03e4365c4afe4456c62a93cad4da4b8d91a79f33df3aae",
+          "metrics": {
+            "AND": 0,
+            "XOR": 244,
+            "NOT": 0,
+            "total": 244,
+            "depth": 6,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 244,
+              "NOT": 0,
+              "total": 244,
+              "depth": 6,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.001765958033502102
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 244,
+              "depth": 6,
+              "total": 244
+            },
+            "ok": true,
+            "verification_seconds": 0.07302141597028822
+          }
+        },
+        {
+          "path": "results/candidates/w3-whirlwindm1-0.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w3-whirlwindm1.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "355f5eeeada505bfbb785fa5d2f5e79e667a48fe2228e3570980d17b4f028ef6",
+          "metrics": {
+            "AND": 0,
+            "XOR": 169,
+            "NOT": 0,
+            "total": 169,
+            "depth": 11,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 169,
+              "NOT": 0,
+              "total": 169,
+              "depth": 11,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.0009268330177292228
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 169,
+              "depth": 11,
+              "total": 169
+            },
+            "ok": true,
+            "verification_seconds": 0.010780750075355172
+          }
+        },
+        {
+          "path": "results/candidates/w3-whirlwindm1-1.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w3-whirlwindm1.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 240,
+              "NOT": 0,
+              "total": 240,
+              "depth": 5,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.001348666031844914
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 240,
+              "depth": 5,
+              "total": 240
+            },
+            "ok": true,
+            "verification_seconds": 0.0036305419635027647
+          }
+        },
+        {
+          "path": "results/candidates/w4-whirlwindm1-0.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w4-whirlwindm1.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "355f5eeeada505bfbb785fa5d2f5e79e667a48fe2228e3570980d17b4f028ef6",
+          "metrics": {
+            "AND": 0,
+            "XOR": 169,
+            "NOT": 0,
+            "total": 169,
+            "depth": 11,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 169,
+              "NOT": 0,
+              "total": 169,
+              "depth": 11,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.001717875013127923
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 169,
+              "depth": 11,
+              "total": 169
+            },
+            "ok": true,
+            "verification_seconds": 0.00669487495906651
+          }
+        },
+        {
+          "path": "results/candidates/w4-whirlwindm1-1.json",
+          "kind": "internal-prior",
+          "receipt": "results/runs/w4-whirlwindm1.json",
+          "novelty": "unestablished and ineligible for new session credit",
+          "sha256": "696dfd677deb9fd96dade756964c6a22db9131856fdde66aa29fa310da547d10",
+          "metrics": {
+            "AND": 0,
+            "XOR": 240,
+            "NOT": 0,
+            "total": 240,
+            "depth": 5,
+            "dead_gates": 0
+          },
+          "primary": {
+            "ok": true,
+            "metrics": {
+              "AND": 0,
+              "XOR": 240,
+              "NOT": 0,
+              "total": 240,
+              "depth": 5,
+              "dead_gates": 0
+            },
+            "evidence": {
+              "coefficient_equalities": 1024,
+              "proof": "exact affine propagation"
+            },
+            "verification_seconds": 0.001224125036969781
+          },
+          "second": {
+            "evaluations": 33,
+            "method": "independent scalar implementation",
+            "metrics": {
+              "AND": 0,
+              "NOT": 0,
+              "XOR": 240,
+              "depth": 5,
+              "total": 240
+            },
+            "ok": true,
+            "verification_seconds": 0.003984333947300911
+          }
+        }
+      ],
+      "published_frontier_retrieved": [
+        {
+          "coordinates": [
+            0,
+            169,
+            169,
+            11
+          ],
+          "path": "certificates/whirlwindm1--xu2026-size.json",
+          "kind": "published"
+        }
+      ],
+      "known_combined_frontier": [
+        {
+          "coordinates": [
+            0,
+            169,
+            169,
+            11
+          ],
+          "path": "certificates/whirlwindm1--xu2026-size.json",
+          "kind": "published"
+        },
+        {
+          "coordinates": [
+            0,
+            240,
+            240,
+            5
+          ],
+          "path": "results/candidates/w3-whirlwindm1-1.json",
+          "kind": "internal-prior"
+        }
+      ],
+      "count_only_guards": [
+        {
+          "XOR": 180,
+          "depth": null,
+          "source_url": "https://doi.org/10.13154/tosc.v2020.i2.120-145",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard."
+        },
+        {
+          "XOR": 181,
+          "depth": null,
+          "source_url": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard."
+        },
+        {
+          "XOR": 170,
+          "depth": null,
+          "source_url": "https://eprint.iacr.asia/2026/2520",
+          "reason": "General XOR count reported; missing normalized classical-depth artifact. Do not fabricate depth or drop count guard."
+        }
+      ],
+      "novelty_rule": "Must be strictly nondominated against all known published and internal points, not merely a new hash; unknown-depth count guards block if their XOR count <= candidate XOR count until resolved; candidate-specific lineage review still required. No claim of exhaustive worldwide literature coverage."
+    }
+  }
+}

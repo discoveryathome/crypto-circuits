@@ -1,0 +1,2059 @@
+[
+  {
+    "path": "sources/nist/README.md",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/README.md",
+    "sha256": "3cfdb3ba110b0950c1f8b4589d912468b7d4708d4d2f18fba8554d761387d22c",
+    "bytes": 426
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-128x128/Aria--XOR=387-rs=48-symp=2.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-128x128/Aria--XOR%3D387-rs%3D48-symp%3D2.circ.txt",
+    "sha256": "18a8cc14e1a62d0c1507fa8d5fd747856c0f3b7213f88f3c30d61c6fbc8b9fb0",
+    "bytes": 16841
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/Fides+Midori+Mantis--XOR=24-rs=1.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-16x16/Fides%2BMidori%2BMantis--XOR%3D24-rs%3D1.circ.txt",
+    "sha256": "7d33bcbe8dbd4c48f84895adeeeded1cbf1552bd27e97ccec1150d358e5c5b95",
+    "bytes": 1126
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/Joltik--XOR=44--XZLBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-16x16/Joltik--XOR%3D44--XZLBZ20.circ.txt",
+    "sha256": "77541b5bd9c479ebe5928b49f6e6b1650636438027898a49f585f3f5ea35462c",
+    "bytes": 1996
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/PrideL0--XOR=24-rs=-1.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-16x16/PrideL0--XOR%3D24-rs%3D-1.circ.txt",
+    "sha256": "036e95e70a0841c0e48888a54ddd35c33b9afc620fb2b29b589bafe646f5df16",
+    "bytes": 1127
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/PrinceM0--XOR=24-rs=-1.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-16x16/PrinceM0--XOR%3D24-rs%3D-1.circ.txt",
+    "sha256": "cb5b7b016f02cdfe0806a4935ad6623e662604f07440c2df0a4eaf0e261290b4",
+    "bytes": 1130
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/Qarma128--XOR=48-rs=-1.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-16x16/Qarma128--XOR%3D48-rs%3D-1.circ.txt",
+    "sha256": "42d16d982dfcfdf8df3d2405278453f9a5a2b7878f180dbb974dbb0631e4e24c",
+    "bytes": 1765
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/Qarma64--XOR=24-rs=-1.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-16x16/Qarma64--XOR%3D24-rs%3D-1.circ.txt",
+    "sha256": "629e2241230d43e1d5ddf665f72867d95c0c77ead51bfec3b4dbcc832bec08b2",
+    "bytes": 1126
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/Skinny--XOR=12-EQUAL=4-rs=-1.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-16x16/Skinny--XOR%3D12-EQUAL%3D4-rs%3D-1.circ.txt",
+    "sha256": "6264733a6820e1047aeaecadba007780196f5154fc63419519dc33aa630e94d3",
+    "bytes": 1021
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/SmallScaleAES--XOR=43--XZLBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-16x16/SmallScaleAES--XOR%3D43--XZLBZ20.circ.txt",
+    "sha256": "432fcf5f5652b58a831466d03c54fb5145bb86771786013a141f79da06a93cab",
+    "bytes": 1986
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/Anubis+ClefiaM0--XOR=98--XLZBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-32x32/Anubis%2BClefiaM0--XOR%3D98--XLZBZ20.circ.txt",
+    "sha256": "79f7dc00cb7155e7faf0f332cf431d11a1fcf9ea392f4c973edd9aa9077b4078",
+    "bytes": 3376
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/ClefiaM1--XOR=103--XLZBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-32x32/ClefiaM1--XOR%3D103--XLZBZ20.circ.txt",
+    "sha256": "f77a0b233fc6d46e7654636b7d60cbe31b0d57d35d22189bd9985b7f2e88dd05",
+    "bytes": 3451
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/FoxMu4--XOR=130-rs=471.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-32x32/FoxMu4--XOR%3D130-rs%3D471.circ.txt",
+    "sha256": "323e1a9464be9452ab3c0b7318048274a9a071c35e579c189e15165a0d3352b6",
+    "bytes": 3726
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/Square+AES+Mugi--XOR=92--maximov.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-32x32/Square%2BAES%2BMugi--XOR%3D92--maximov.circ.txt",
+    "sha256": "dc7d009f07d59edb33bf1d20f8034de369b37f0f5fd07afc3364f4c5fa82c43b",
+    "bytes": 3199
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/Twofish--XOR=111--XLZBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-32x32/Twofish--XOR%3D111--XLZBZ20.circ.txt",
+    "sha256": "b7968cb1b09189344c573bf1b124d2ecca5ad2cee1cd0cde94165f3f72d7b39b",
+    "bytes": 3572
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/WhirlwindM0--XOR=183--XLZBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-32x32/WhirlwindM0--XOR%3D183--XLZBZ20.circ.txt",
+    "sha256": "83b394030966ba183a118700c3e2fa4d237497c6d79a60c05f690ed87e40ca03",
+    "bytes": 4875
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/WhirlwindM1--XOR=187-rs=20-symp=1-2.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-32x32/WhirlwindM1--XOR%3D187-rs%3D20-symp%3D1-2.circ.txt",
+    "sha256": "f154ea2bc2ba5097d7302924d8327c6b73e9195126d3716a38795231bfd01d21",
+    "bytes": 4766
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-64x64/FoxMu8--XOR=540-rs=1-symp=2.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-64x64/FoxMu8--XOR%3D540-rs%3D1-symp%3D2.circ.txt",
+    "sha256": "a5d1c7bff63321ad62f84b149e28b971b8d18407a4875a5e862295cb7d51b922",
+    "bytes": 12938
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-64x64/Grostl--XOR=410-rs=2-symp=2.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-64x64/Grostl--XOR%3D410-rs%3D2-symp%3D2.circ.txt",
+    "sha256": "3e2eb2c6f5edc42671d059a73ada1fd19f2e1c300256c9f0eabe3a2cffd0c9ad",
+    "bytes": 10592
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-64x64/Khazad--XOR=366--XLZBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-64x64/Khazad--XOR%3D366--XLZBZ20.circ.txt",
+    "sha256": "e9deb4132ad9697473a513ce043daedb1b78a05120656bc47f890fd6555a2616",
+    "bytes": 9992
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-64x64/Whirlpool+Maelstrom--XOR=425-rs=4-symp=2.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/ciphers-64x64/Whirlpool%2BMaelstrom--XOR%3D425-rs%3D4-symp%3D2.circ.txt",
+    "sha256": "1dc7be47b351550da5078433d6a4fabe9b4a705aca12d0d33651263bea4eebb9",
+    "bytes": 10812
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/BKL16-4x4-GF16--XOR=41-rs=2657.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/BKL16-4x4-GF16--XOR%3D41-rs%3D2657.circ.txt",
+    "sha256": "12b1ff1637e82f92dd45cbdcb2067ac4e4561f58c4aebcd0b3dbf716f7fef955",
+    "bytes": 1408
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/JPST17-4x4-GF16--XOR=40-rs=217-nd=4-2.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/JPST17-4x4-GF16--XOR%3D40-rs%3D217-nd%3D4-2.circ.txt",
+    "sha256": "86e9e7c5268313864ef27d19261ac5e45d05a075a9fc6510b12f720b795e6517",
+    "bytes": 1781
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/JPST17-4x4-GF16-inv--XOR=41--XZLBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/JPST17-4x4-GF16-inv--XOR%3D41--XZLBZ20.circ.txt",
+    "sha256": "a44f650dd4d48059e082ea167f646ebfea99d785bbaadf286c6785b23bd4e8a9",
+    "bytes": 1957
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/KLSW17-M-4x4-GF16--XOR=36-rs=1.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/KLSW17-M-4x4-GF16--XOR%3D36-rs%3D1.circ.txt",
+    "sha256": "b4bbbbc76e368b0b72c6eced8146630a1edbe31d86f4151d4e4d0d1748589004",
+    "bytes": 1715
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/LS16-4x4-GF16--XOR=44-rs=178.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/LS16-4x4-GF16--XOR%3D44-rs%3D178.circ.txt",
+    "sha256": "05988836223cba41f9b40e7b5fd2f62ba8b34c80e253d72e3e6074cccbc5e759",
+    "bytes": 1450
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/LW16-4x4-GF16--XOR=44-rs=109.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/LW16-4x4-GF16--XOR%3D44-rs%3D109.circ.txt",
+    "sha256": "67c31069917dd01b0bc8b8df84c93db30a20de0dd7eb5fe638033cca71bf0a61",
+    "bytes": 1449
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/LW16-4x4-GF16-inv--XOR=44--XZLBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/LW16-4x4-GF16-inv--XOR%3D44--XZLBZ20.circ.txt",
+    "sha256": "1a7ac98d7c085e32bd00fc01b5a745aa7baa2774f3d4b3342a7e2892c951a533",
+    "bytes": 2007
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/SKOP15-4x4-GF16--XOR=44--XZLBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/SKOP15-4x4-GF16--XOR%3D44--XZLBZ20.circ.txt",
+    "sha256": "54feb7cec805026ae3477d26780a479aeecafc8d94eab6ce5d75986913e177c0",
+    "bytes": 2007
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/SKOP15-4x4-GF16-inv--XOR=44--XZLBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/SKOP15-4x4-GF16-inv--XOR%3D44--XZLBZ20.circ.txt",
+    "sha256": "3ca02934804742680ba124337b333e868257ff6f12dd251c65507dc887e6abc9",
+    "bytes": 2005
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/SS16-4x4-GF16--XOR=41-rs=111.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/SS16-4x4-GF16--XOR%3D41-rs%3D111.circ.txt",
+    "sha256": "7ae711c6f5b3fe0a1509b215701d43e284b684579b2cc392e192ed9ad0fbfcb7",
+    "bytes": 1799
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/SS16-4x4-GF16-inv--XOR=38-rs=120.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/SS16-4x4-GF16-inv--XOR%3D38-rs%3D120.circ.txt",
+    "sha256": "1d44f80ff8b1f7345815574c21c24fb57498421fac725243ca6014306862be84",
+    "bytes": 1362
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/BKL16-4x4-GF256--XOR=107-rs=18-d=1.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/BKL16-4x4-GF256--XOR%3D107-rs%3D18-d%3D1.circ.txt",
+    "sha256": "f75f61db6252b404d53479f778b632d392a71034b86d430fe863f1b3ee86007f",
+    "bytes": 3270
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/JPST17-4x4-GF256--XOR=82--XZLBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/JPST17-4x4-GF256--XOR%3D82--XZLBZ20.circ.txt",
+    "sha256": "5ebfe0ca2ac7f7f9fee67b0dd29caba03ab209ee3ff23aa514637d21663740d4",
+    "bytes": 3124
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/JPST17-4x4-GF256-inv--XOR=83--XZLBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/JPST17-4x4-GF256-inv--XOR%3D83--XZLBZ20.circ.txt",
+    "sha256": "4df118933224f96b8984846eefdf358e5070443e4651144fbbda1aeb2f8e5e71",
+    "bytes": 3139
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/KLSW17-M-4x4-GF256--XOR=72-rs=1.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/KLSW17-M-4x4-GF256--XOR%3D72-rs%3D1.circ.txt",
+    "sha256": "027ca108139be7c22d868e6248dc8de4ab2aac7f3e857497746256b0e432f23d",
+    "bytes": 2809
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/KLSW17-M-4x4-GF256-inv--XOR=78-rs=14.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/KLSW17-M-4x4-GF256-inv--XOR%3D78-rs%3D14.circ.txt",
+    "sha256": "b4751f3132913de9cb0cf0f39abec4c7dacc9201db2999c6285dba56a4ea1e24",
+    "bytes": 2905
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/LS16-4x4-GF256--XOR=109-rs=3933.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/LS16-4x4-GF256--XOR%3D109-rs%3D3933.circ.txt",
+    "sha256": "8e57e2f0b6efa075e51f68d5795dc9af231b63078588ee775fefed6173baf4d7",
+    "bytes": 3296
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/LW16-4x4-GF256--XOR=100-rs=572.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/LW16-4x4-GF256--XOR%3D100-rs%3D572.circ.txt",
+    "sha256": "aef5daef5d59a7de022eaac5b089bb0b752a6e7bc1815972291f02e2d2e17c63",
+    "bytes": 3157
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/LW16-4x4-GF256-inv-circ--XOR=89-rs=923.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/LW16-4x4-GF256-inv-circ--XOR%3D89-rs%3D923.circ.txt",
+    "sha256": "893fc35460d9cba9ac71c047138aa5b3111d9cbad17a2e3520f562d91a2737fb",
+    "bytes": 3088
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/LW16-4x4-GF256-inv-had--XOR=87-rs=96-d=1.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/LW16-4x4-GF256-inv-had--XOR%3D87-rs%3D96-d%3D1.circ.txt",
+    "sha256": "3a545b7a666039396d1c64260b5f9a9d66b959b535ee2862e4eb8c50e435c5e9",
+    "bytes": 2958
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/SKOP15-4x4-GF256--XOR=90--XZLBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/SKOP15-4x4-GF256--XOR%3D90--XZLBZ20.circ.txt",
+    "sha256": "55822d7ae2e7b33ac4f1000be7804b282789ae8de9b3b74e9ac87ef1d6a8ba5e",
+    "bytes": 3253
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/SKOP15-4x4-GF256-inv--XOR=91--XZLBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/SKOP15-4x4-GF256-inv--XOR%3D91--XZLBZ20.circ.txt",
+    "sha256": "216a192829cc68875904709d627e9bf979205ba9717ff62eab0b9aceb5c5600a",
+    "bytes": 3268
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/SS16-4x4-GF256--XOR=104-rs=80.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/SS16-4x4-GF256--XOR%3D104-rs%3D80.circ.txt",
+    "sha256": "ae40c4a70b42c068d2faa3e9f3f837f35b32d3bb09e6f692ef911344891cc446",
+    "bytes": 3312
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/SS16-4x4-GF256-inv--XOR=93--XZLBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-4x4-GF256/SS16-4x4-GF256-inv--XOR%3D93--XZLBZ20.circ.txt",
+    "sha256": "b69ced7203dbc7e927a426733421523a5651eade20a2106ded08aa1b524c2597",
+    "bytes": 3303
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-8x8-GF16/KLSW17-M-8x8-GF16-0x13--XOR=175-rs=10.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-8x8-GF16/KLSW17-M-8x8-GF16-0x13--XOR%3D175-rs%3D10.circ.txt",
+    "sha256": "278efa4ef2f244b7b1743b176c9bfa885ad2b76b347a91ce1a764460f1137557",
+    "bytes": 4544
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-8x8-GF16/KLSW17-M-8x8-GF16-0x13-inv--XOR=176-rs=1-symp=2-3.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-8x8-GF16/KLSW17-M-8x8-GF16-0x13-inv--XOR%3D176-rs%3D1-symp%3D2-3.circ.txt",
+    "sha256": "1c07e8fd2a0e0a0bccd8dce1802878b6b47e763e30f05c33e1b1e58e7f984777",
+    "bytes": 4564
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-8x8-GF16/SKOP15-8x8-GF16--XOR=170--XZLBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-8x8-GF16/SKOP15-8x8-GF16--XOR%3D170--XZLBZ20.circ.txt",
+    "sha256": "7faec9baed3cc768e3c4eda776e37935f85ef27fdf768fa5db6f5770bf58d392",
+    "bytes": 4643
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-8x8-GF16/SKOP15-8x8-GF16-inv--XOR=180-rs=1-d=1.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-8x8-GF16/SKOP15-8x8-GF16-inv--XOR%3D180-rs%3D1-d%3D1.circ.txt",
+    "sha256": "58cf8f5389ecb23b29bd356e048beff00a83f0a913e1b2aa86ef1bbe1e4dcc2f",
+    "bytes": 4534
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-8x8-GF16/SS17-8x8-GF16--XOR=178-rs=1103-symp=1.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-8x8-GF16/SS17-8x8-GF16--XOR%3D178-rs%3D1103-symp%3D1.circ.txt",
+    "sha256": "0b8f0d86630b80d042efe7eba79e71b3d0357582a09ac80a237fd284081fc26b",
+    "bytes": 4498
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/BKL16-8x8-GF256--XOR=465-rs=13-symp=2.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/BKL16-8x8-GF256--XOR%3D465-rs%3D13-symp%3D2.circ.txt",
+    "sha256": "aca2afe541ffc86c12d4fdc5627d6c7f8f1afc3b37a6559677fb1c298577cc4d",
+    "bytes": 11560
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/JPST17-8x8-GF256-inv--XOR=528-rs=3-symp=2.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/JPST17-8x8-GF256-inv--XOR%3D528-rs%3D3-symp%3D2.circ.txt",
+    "sha256": "4e37217fb9a03b304b6aaa1d99acd5303da35c05c7a0fed9bca73a32ce97fc6e",
+    "bytes": 12734
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/KLSW17-M-8x8-GF256--XOR=364-rs=25-symp=2-2.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/KLSW17-M-8x8-GF256--XOR%3D364-rs%3D25-symp%3D2-2.circ.txt",
+    "sha256": "57c66e3bc34b62cc54989b9fbe6fafa0a37c95eecc62303cb4016988995d8d07",
+    "bytes": 9729
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/KLSW17-M-8x8-GF256-inv--XOR=368-rs=21-symp=2-2.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/KLSW17-M-8x8-GF256-inv--XOR%3D368-rs%3D21-symp%3D2-2.circ.txt",
+    "sha256": "a7a1110899c31fcd900f49a27e47a65dacc1e3c434cf40c3d8aed3e183e26d93",
+    "bytes": 9824
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/LS16-8x8-GF256--XOR=427-rs=7-symp=2.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/LS16-8x8-GF256--XOR%3D427-rs%3D7-symp%3D2.circ.txt",
+    "sha256": "ce4b733045175438bbc5d2607287706cf34fb239f936a9dd27237b6fbbd9a248",
+    "bytes": 10840
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/SKOP15-8x8-GF256--XOR=445-rs=1-symp=2.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/SKOP15-8x8-GF256--XOR%3D445-rs%3D1-symp%3D2.circ.txt",
+    "sha256": "ebb4520ae271a4997570ac7a68ef4dead4f5ef5e12879239a93544dd7811c752",
+    "bytes": 11180
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/SKOP15-8x8-GF256-inv--XOR=348--XZLBZ20.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/SKOP15-8x8-GF256-inv--XOR%3D348--XZLBZ20.circ.txt",
+    "sha256": "72ad5005532189b85b80cc1b2735cf62b05e5018b2043c658b43b51ec1a032ed",
+    "bytes": 9674
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/SS17-8x8-GF256--XOR=418-rs=7-symp=2.circ.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/circuits/mds-8x8-GF256/SS17-8x8-GF256--XOR%3D418-rs%3D7-symp%3D2.circ.txt",
+    "sha256": "233119b20eaf19415f22a9a0ae4f5c7a37bfdda6b8e646c710f19e6af1f38b70",
+    "bytes": 10659
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-128x128/Aria.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-128x128/Aria.mat.txt",
+    "sha256": "99e8674c321a24bc193b2bf8bc07666923eccdc922e2ed2278b2aeb3812e9a5f",
+    "bytes": 32906
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-16x16/Fides+Midori+Mantis.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-16x16/Fides%2BMidori%2BMantis.mat.txt",
+    "sha256": "08f63589fccb50386551180a569648155c96efa7623cea2bcd4c03da82227f5d",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-16x16/Joltik.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-16x16/Joltik.mat.txt",
+    "sha256": "a17b03deefea686e876bb4d742144152297efa17f021a4ecf1b8173f327e683f",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-16x16/PrideL0.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-16x16/PrideL0.mat.txt",
+    "sha256": "08f63589fccb50386551180a569648155c96efa7623cea2bcd4c03da82227f5d",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-16x16/PrinceM0.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-16x16/PrinceM0.mat.txt",
+    "sha256": "6d826bf70f9d4e07f21c739c3d17bf5203adeffb669d821acc9ebd197c7a528b",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-16x16/Qarma128.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-16x16/Qarma128.mat.txt",
+    "sha256": "8773b99da8cab97cf1481966520f377abff16d5cab1fe4b5c25ce5e654b7fdf9",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-16x16/Qarma64.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-16x16/Qarma64.mat.txt",
+    "sha256": "7ec0e47a9d048236508cfafa749dc1caf02ee1677bb456c006e3b1141e836cd6",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-16x16/Skinny.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-16x16/Skinny.mat.txt",
+    "sha256": "c8d1c4a3dcec4b7afc625cec529d44e34737ece91cd33d376aa907e1de8aed55",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-16x16/SmallScaleAES.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-16x16/SmallScaleAES.mat.txt",
+    "sha256": "b570108202234c478f701abb34e52cc13baa85f473f6efc605317fe79afdda09",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-32x32/Anubis+ClefiaM0.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-32x32/Anubis%2BClefiaM0.mat.txt",
+    "sha256": "8cbe57a69db11f44e10be30b686652bd4732727c16399f7ef56cbf12f35b98c5",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-32x32/ClefiaM1.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-32x32/ClefiaM1.mat.txt",
+    "sha256": "c378fb5e3995c5e3f270daa8d532b75dddc7daba5ac87b28b402b0b7ca98d7ca",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-32x32/FoxMu4.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-32x32/FoxMu4.mat.txt",
+    "sha256": "2b4514bf3efefcc1a64ddaa2591d0c82392f7325b4bfc666325fd36b10e5803c",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-32x32/Square+AES+Mugi.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-32x32/Square%2BAES%2BMugi.mat.txt",
+    "sha256": "ac898b646f0b2599697a4bef53234a3724011468a476c86e1c34c435920181fc",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-32x32/Twofish.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-32x32/Twofish.mat.txt",
+    "sha256": "73e2ee4a8786a07feec7b1801b1d7fc8b4b627789d6a6f1181ae2199b1db6382",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-32x32/WhirlwindM0.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-32x32/WhirlwindM0.mat.txt",
+    "sha256": "4c62fb3f3f27cc3c385545c5cc50a991ba46b226169437280eea0ba143187718",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-32x32/WhirlwindM1.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-32x32/WhirlwindM1.mat.txt",
+    "sha256": "d638403f3bef4606cdb323c285101cc2a2cf6146b128e6f40c81d3e64666140a",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-64x64/FoxMu8.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-64x64/FoxMu8.mat.txt",
+    "sha256": "7e774ee94c86c8a63f3b48cd382a23b34b3c0efbb8601adf3a8be0f0624dd5ba",
+    "bytes": 8200
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-64x64/Grostl.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-64x64/Grostl.mat.txt",
+    "sha256": "d4c4971713b8be3201fb81bc1d69ce891fc68b07de2c6e7c295d8db8c4525951",
+    "bytes": 8200
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-64x64/Khazad.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-64x64/Khazad.mat.txt",
+    "sha256": "c6fde802c81f60e3b1724ce74bd64c872fc97f1f506ec2acc0555ebea183ace1",
+    "bytes": 8200
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/ciphers-64x64/Whirlpool+Maelstrom.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/ciphers-64x64/Whirlpool%2BMaelstrom.mat.txt",
+    "sha256": "f35dd036a5a3a72b9e54bd6808843c53ae9f3a0e11311e146f114a5635be04c7",
+    "bytes": 8200
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/BKL16-4x4-GF16.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/BKL16-4x4-GF16.mat.txt",
+    "sha256": "35df7022238779d41e3a7a11ffb66cff6608702fe5edd31a3d7e146c599a5792",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/JPST17-4x4-GF16-inv.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/JPST17-4x4-GF16-inv.mat.txt",
+    "sha256": "60777051af85db8027c6f7aef919209f8689ad8040b28631c2ac32def8dbe579",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/JPST17-4x4-GF16.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/JPST17-4x4-GF16.mat.txt",
+    "sha256": "d6c73464b0845210c155680c8c74767fbefa45ca3e5e889427c16f3100f0d182",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/KLSW17-M-4x4-GF16.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/KLSW17-M-4x4-GF16.mat.txt",
+    "sha256": "b01a5a627277db21e74f1ac7280a3c81c2e3c41ec0d1a437e707a1a23911b436",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/LS16-4x4-GF16.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/LS16-4x4-GF16.mat.txt",
+    "sha256": "40900a0a47fbba2f4091fbafc4b837235b86369b5d34a2e40e2f7aa5a9338acc",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/LW16-4x4-GF16-inv.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/LW16-4x4-GF16-inv.mat.txt",
+    "sha256": "74f53abcad2a2bd149dcfe6767c93b822cbdd750ae721dea8b479edcb127750d",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/LW16-4x4-GF16.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/LW16-4x4-GF16.mat.txt",
+    "sha256": "8e03426d465e4c5ceb805dd1593457a9ac69ae4f227df7a7b06ca35aaa9a1ae5",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/SKOP15-4x4-GF16-inv.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/SKOP15-4x4-GF16-inv.mat.txt",
+    "sha256": "a17b03deefea686e876bb4d742144152297efa17f021a4ecf1b8173f327e683f",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/SKOP15-4x4-GF16.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/SKOP15-4x4-GF16.mat.txt",
+    "sha256": "152c7de5acd770ae330a52bfb970c45872db2484b71911697d0c0c9d1d247713",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/SS16-4x4-GF16-inv.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/SS16-4x4-GF16-inv.mat.txt",
+    "sha256": "3f432758469b3e125bf2843cd2a57b2e768bc6e46587d7fa5132273788e6fed5",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/SS16-4x4-GF16.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF16/SS16-4x4-GF16.mat.txt",
+    "sha256": "7d4290b0992ecd89673c36cab0c3526a011469f5a12876495d2124eb90421205",
+    "bytes": 520
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/BKL16-4x4-GF256.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/BKL16-4x4-GF256.mat.txt",
+    "sha256": "5a634d09a209223e8653352efb1c1e36669fb2473c0c930ce4b3e7ce61de4e8d",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/JPST17-4x4-GF256-inv.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/JPST17-4x4-GF256-inv.mat.txt",
+    "sha256": "23f17d6560dc435f255d4c79acff4664991305c3444e9c44faa980f0cc781998",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/JPST17-4x4-GF256.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/JPST17-4x4-GF256.mat.txt",
+    "sha256": "59f10dee771a7ac70ac9b1a647aa7d05536e3f614fd04edca2b25d2c93ae188d",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/KLSW17-M-4x4-GF256-inv.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/KLSW17-M-4x4-GF256-inv.mat.txt",
+    "sha256": "1027081a05385c5260189703c0a59e8c6e9e071c9e494bab46b0a5aa5156f20c",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/KLSW17-M-4x4-GF256.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/KLSW17-M-4x4-GF256.mat.txt",
+    "sha256": "4c505bb904201ddb134e18f4a4d1e686f1dc62ba8899da7c31551f6ac3941ed2",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/LS16-4x4-GF256.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/LS16-4x4-GF256.mat.txt",
+    "sha256": "1a41223509ae8050c4ae1b59d395cb9a8e70b32d20f25895f2ff38d4da2e67d0",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/LW16-4x4-GF256-inv-circ.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/LW16-4x4-GF256-inv-circ.mat.txt",
+    "sha256": "a7584bfec34ad0be7329529f747301da4828d7a2d4253ba4422635e2c475981b",
+    "bytes": 2055
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/LW16-4x4-GF256-inv-had.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/LW16-4x4-GF256-inv-had.mat.txt",
+    "sha256": "46e3ac53087e6a783e105ace75a7588a17e8504bd0c08542f2b748d0270db34d",
+    "bytes": 2057
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/LW16-4x4-GF256.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/LW16-4x4-GF256.mat.txt",
+    "sha256": "4e1b4c88c74c720fc43ca8637eeb5b9092f7545cea944566830648148d70f8e3",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/SKOP15-4x4-GF256-inv.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/SKOP15-4x4-GF256-inv.mat.txt",
+    "sha256": "cb65d0a77d9790623509d2502dadfe22dac1bdb1839eb7bd796b3c939c921b9e",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/SKOP15-4x4-GF256.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/SKOP15-4x4-GF256.mat.txt",
+    "sha256": "267cbeb3571a9994b3674a1bb0a590b878d9a86cd622c71021509e188d090c16",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/SS16-4x4-GF256-inv.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/SS16-4x4-GF256-inv.mat.txt",
+    "sha256": "b928fb2946fa53cbefb49feab2ddaf2ea44674396c3ca53359039a41f21639fa",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/SS16-4x4-GF256.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-4x4-GF256/SS16-4x4-GF256.mat.txt",
+    "sha256": "442f411599a589171209e36a9aaeb3519ac9a9adc5afe51ec02f980ea5a4cbcc",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-8x8-GF16/KLSW17-M-8x8-GF16-0x13-inv.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-8x8-GF16/KLSW17-M-8x8-GF16-0x13-inv.mat.txt",
+    "sha256": "94edff801dbbd7a725356a94f87ec9b299d8063f90a74bd2910e6e28fc077fea",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-8x8-GF16/KLSW17-M-8x8-GF16-0x13.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-8x8-GF16/KLSW17-M-8x8-GF16-0x13.mat.txt",
+    "sha256": "38ff9c96376dd3fae3fa5570143878970f6c9565530f6188f35ff189de3ef5ee",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-8x8-GF16/SKOP15-8x8-GF16-inv.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-8x8-GF16/SKOP15-8x8-GF16-inv.mat.txt",
+    "sha256": "0b97690e68bc705e58c691a0b66ad48a6856116e5f09dbb14a471057942d9970",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-8x8-GF16/SKOP15-8x8-GF16.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-8x8-GF16/SKOP15-8x8-GF16.mat.txt",
+    "sha256": "772e2b7722ab9db2ca17026909c4694b0b596af6d69c252a3441ee8c0b52a683",
+    "bytes": 2056
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-8x8-GF16/SS17-8x8-GF16.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-8x8-GF16/SS17-8x8-GF16.mat.txt",
+    "sha256": "416a75cf2aa6aa1f3ceb43794555c997610d08548673d18a31b9cfe4d297035d",
+    "bytes": 2055
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/BKL16-8x8-GF256.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/BKL16-8x8-GF256.mat.txt",
+    "sha256": "a13288c41773768a04225aa4c5212577d890bc353326c8fbfb890dd6976ddd04",
+    "bytes": 8200
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/JPST17-8x8-GF256-inv.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/JPST17-8x8-GF256-inv.mat.txt",
+    "sha256": "a5783006ee13c852ca6203f04c2ff5e0ad208b395a6f9e8fa212aa98da6e9b5e",
+    "bytes": 8265
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/KLSW17-M-8x8-GF256-inv.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/KLSW17-M-8x8-GF256-inv.mat.txt",
+    "sha256": "c79f5a385b57a0b55f51aeedb5ee80d66daefbac6d1eb225a1fc8052628cf820",
+    "bytes": 8200
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/KLSW17-M-8x8-GF256.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/KLSW17-M-8x8-GF256.mat.txt",
+    "sha256": "5d739b7a656881d21adb7795f08a773f37ea6329968ca0dc0e8cd054d5991990",
+    "bytes": 8200
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/LS16-8x8-GF256.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/LS16-8x8-GF256.mat.txt",
+    "sha256": "8e9b9d58f09b412d8065a9e3c83b28f71ff9429d89afc678e5d07a253a8dadef",
+    "bytes": 8200
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/SKOP15-8x8-GF256-inv.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/SKOP15-8x8-GF256-inv.mat.txt",
+    "sha256": "8a2bf25936a1be72745371d815a31b83e1d6950f026ae6f960d957f502968da7",
+    "bytes": 8200
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/SKOP15-8x8-GF256.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/SKOP15-8x8-GF256.mat.txt",
+    "sha256": "58ce8bf20c0941ea96cefcd299b1231dd72f5b316150526d8e69c7ebffefafc8",
+    "bytes": 8200
+  },
+  {
+    "path": "sources/nist/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/SS17-8x8-GF256.mat.txt",
+    "url": "https://raw.githubusercontent.com/usnistgov/Circuits/8366158a4324ef902ce740f29ddc9f7ebb1018b2/data/slp/2021-linearmaps/matrices/mds-8x8-GF256/SS17-8x8-GF256.mat.txt",
+    "sha256": "d780c7b468b66e3c09b10944424585dadfd9d5b9cb47efdbb836dc94d162a121",
+    "bytes": 8200
+  },
+  {
+    "path": "sources/jain/LICENSE",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357
+  },
+  {
+    "path": "sources/jain/README.md",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/README.md",
+    "sha256": "2ffeb89ad1d87b8bbc5c061e4b90a62ca46654eaa4e2f7922d2770012a032ecc",
+    "bytes": 2888
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/M128.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/M128.slp",
+    "sha256": "aa5594ff03e83e4e995735271215f4b972ebf68353f6eb0fd3c2cbb72918a4df",
+    "bytes": 249579
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/aes107_d13.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/aes107_d13.slp",
+    "sha256": "cade935d4534dee0ffe55a7196bcd9ed8c5fdb4ac86c1b3b37346dc16035c6b8",
+    "bytes": 1741
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/aes107_k35.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/aes107_k35.slp",
+    "sha256": "ebae5b576046b74552c243214b3ecb6711a9ab785bfc3de207a162dadc11da09",
+    "bytes": 1804
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/aes107_k36.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/aes107_k36.slp",
+    "sha256": "7bdcaf469f0c433d5357db9d742f93d0eec089e3d5e7a996672bb97e0af7f90f",
+    "bytes": 1874
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/aes108_d12.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/aes108_d12.slp",
+    "sha256": "a23d03e1a6dabb68c1fe0a178fce073684ae6f4160c922636b4854dac2b1d06b",
+    "bytes": 1760
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/aes108_d19.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/aes108_d19.slp",
+    "sha256": "f0c61c1a94174c69e2020f49b2efcbfd26102a537aee0f9f3ee3e0b1bc99a923",
+    "bytes": 1861
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/aes109_d18.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/aes109_d18.slp",
+    "sha256": "30e169d760379373da257cdff85fb93cd7ffe4ce5e05136773dddbe974a3197a",
+    "bytes": 1879
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/aes110_d20.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/aes110_d20.slp",
+    "sha256": "3d84794d5e2f4e52365550c439503da5b7fbcb6756c8c641f93e1a321770707f",
+    "bytes": 1900
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/aes110_d7.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/aes110_d7.slp",
+    "sha256": "906f14db4a0cbff517b2f893e965266677ef741448746ae71181a31cfd0d82e8",
+    "bytes": 1789
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/aes112_d14.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/aes112_d14.slp",
+    "sha256": "448b70479ec530d0b91b4d0729d14b018399d8aae3af292408b206c11fa542fc",
+    "bytes": 1948
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/aes112_d6.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/aes112_d6.slp",
+    "sha256": "af49795ac6920cdf3a1a907fed8e4d049ffe10ae385c418187815010393178c5",
+    "bytes": 1825
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/aes113_d15.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/aes113_d15.slp",
+    "sha256": "cd980adf977e32ba4771d053a3dc2aa2f1b5f53c10d17200e7491029e3cb26ef",
+    "bytes": 1966
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/aes114_d9.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/aes114_d9.slp",
+    "sha256": "c05434a139f21117e40330acaaba5fb1e2af02bbcff5d79dc40eb91ce26d98a3",
+    "bytes": 2017
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/aes115_cmtprods_d15.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/aes115_cmtprods_d15.slp",
+    "sha256": "ec38207d1fa1153d58fea45ab5d34a2bbd908277fee48959f58d5834705c1c19",
+    "bytes": 1991
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/final_f12.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/final_f12.slp",
+    "sha256": "e983be789bfd7c0080d923461a5dc9076a0cda72d0b5e0d42b4dc858fa20446e",
+    "bytes": 3652
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/final_f13.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/final_f13.slp",
+    "sha256": "a4eca82092bbf761dd3a097e354881eb40a3d2bc4da6e5751b8ba01f445bb4e3",
+    "bytes": 4978
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/final_f4.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/final_f4.slp",
+    "sha256": "9fa1f95b59dace527daaa87c13b6d7cb76c134f5f71491977739d8d4b98e2ddd",
+    "bytes": 523
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/final_f5.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/final_f5.slp",
+    "sha256": "4c171804c7c9ca61e509331ae537775930bf5a2783452b2bd2c95c862b3e62db",
+    "bytes": 739
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/final_f6.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/final_f6.slp",
+    "sha256": "73e4145105972dd7288a6be66aeee41c2d796eda13290860603aefe174a3c8f6",
+    "bytes": 942
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/final_f7.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/final_f7.slp",
+    "sha256": "0f6d4f4d09522b7d48dbd862ab37a9f4bb28d87d3debb5514381d99736c88115",
+    "bytes": 1421
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/final_f73.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/final_f73.slp",
+    "sha256": "519d1835d18b1a8fe843b669dc89aaff1f6afcbe588c095d5ee641fd7906ae7a",
+    "bytes": 1357
+  },
+  {
+    "path": "sources/jain/multipliers/circuits/final_f73_d6.slp",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/circuits/final_f73_d6.slp",
+    "sha256": "e704a7468be62e08e20ac0aff34906ba87a3585f6d6369449902b3d01d05b24c",
+    "bytes": 1336
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/PROVENANCE.md",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/PROVENANCE.md",
+    "sha256": "08a92b119c19d4d8b7d04df5cce74b4d9c83c6ac282a6455197a35f9de88097d",
+    "bytes": 1247
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/1.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/1.gz",
+    "sha256": "87a48065322ef97ef148c34262ed811b1039ee4c873f73ba401447290cfdf874",
+    "bytes": 41
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/10.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/10.gz",
+    "sha256": "58d4f84ec8c6d50a7ff131e3c58e8597ec8ca67f100256495fb20f2b2d04418a",
+    "bytes": 925
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/11.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/11.gz",
+    "sha256": "f9cf62a9e2820072a52d05c073375fe18060bf462ceab194ab745b486ab2b47f",
+    "bytes": 1155
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/113.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/113.gz",
+    "sha256": "ca45a2704bbb29b18d7513acfcc03bd1f6d81a88cae87e21bf38d3298bf0a3ee",
+    "bytes": 61058
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/12.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/12.gz",
+    "sha256": "ddb059603c7acdb2af705634e20c06f9c89debd4f7c886ff1e08e6eacf5681ca",
+    "bytes": 1291
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/128.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/128.gz",
+    "sha256": "b75cf92246d744683e9f78261b472d214286b197cbaa696ff57094635684cf2b",
+    "bytes": 74322
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/13.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/13.gz",
+    "sha256": "49ddf7702ca6234b27705c2c5af33d5e804d829b293ff60a2ffe127ce9dea34f",
+    "bytes": 1551
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/131.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/131.gz",
+    "sha256": "762bf1830a45a30ff5198913c13154894dc6551ddf703f09281e55785d0cc42b",
+    "bytes": 78341
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/14.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/14.gz",
+    "sha256": "722a97ae2edf5bb5a2d2869b8832dc89ef66f201a99e18c0e74eb53b3f9186e8",
+    "bytes": 1751
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/15.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/15.gz",
+    "sha256": "ed93815470eaed9c7d4ac20fc80a1235552fd2674395a841c2a3cfeb6bff259e",
+    "bytes": 2021
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/16.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/16.gz",
+    "sha256": "e918b26a6b2fbe486654396db7b8cbc2dd391b80b04042cd7c2e94d6603c9c1b",
+    "bytes": 2147
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/163.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/163.gz",
+    "sha256": "1426231e905c687ee51d237c842d914f3ffb8df777f8615ee25b21d5fbe50a84",
+    "bytes": 110338
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/17.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/17.gz",
+    "sha256": "4f250246056037ac4dc4a613212cff410bd50f4f924b6193035f123fe0699175",
+    "bytes": 2492
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/18.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/18.gz",
+    "sha256": "0db2a76822c22440c19cfc8dfd8185a276298249807b67837e73098cb098295a",
+    "bytes": 2765
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/19.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/19.gz",
+    "sha256": "66e6c0615a7507c8bbec05e49ab85a440366cb8bbf4e7385543fa8ff29c0a12a",
+    "bytes": 3064
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/193.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/193.gz",
+    "sha256": "fbda19cf0ceb3176e23053940289fea33791e9e574268c39d5d529989992584d",
+    "bytes": 144594
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/2.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/2.gz",
+    "sha256": "0145f8175c9c37545b757b049f5249003adc43e252ecdf6f7681d6441af7d4ed",
+    "bytes": 79
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/20.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/20.gz",
+    "sha256": "ddd3a32e08369f2a9043aae6b8e49a747633d5f2bf9fa869147f13c8fda1bb6f",
+    "bytes": 3229
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/21.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/21.gz",
+    "sha256": "6f7c619de6dec50055f0b693f8ae099a273a278f3a63b22938b6796abeb86316",
+    "bytes": 3731
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/22.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/22.gz",
+    "sha256": "f912373b8f8fa7858fbb0a7bcee5b2127fa943b325ef4ff0762eb41b3197fe26",
+    "bytes": 3984
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/23.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/23.gz",
+    "sha256": "c9ea517b23249436cd7b9e3c75e59ca925b82b7ac89b383d4431f1aaa890d1ea",
+    "bytes": 4214
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/233.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/233.gz",
+    "sha256": "08c563a41cf3206bbd3d2571eeaec9b77f6e167e602055bec5dbe7a812fe23ab",
+    "bytes": 191740
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/24.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/24.gz",
+    "sha256": "a8422c460e18f6ea1cebc3537664c29e03313f00677d82afd8682582949529e6",
+    "bytes": 4419
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/25.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/25.gz",
+    "sha256": "03ff287fbe8e4ef7519e3844ea964ef436e9542b84240a63df60f5e6348aaca2",
+    "bytes": 4951
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/251.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/251.gz",
+    "sha256": "88d1b3c5965ca9e809835385129334bead2a90c829029f4ddeefbbe1f772596b",
+    "bytes": 218862
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/256.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/256.gz",
+    "sha256": "5f275cad0a05f7b4bb452d38bdf9da5cbe6ef662e3904cbd511017385481014f",
+    "bytes": 225047
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/26.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/26.gz",
+    "sha256": "c8b0281cd4393080f77048c88d121fbb452fdae0619ed51e5d86c95edc8102db",
+    "bytes": 5328
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/27.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/27.gz",
+    "sha256": "775765af55dbea29b6326c5c8f638ea2fc6c40a56ae73fa7c320c513e4c6622e",
+    "bytes": 5719
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/28.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/28.gz",
+    "sha256": "1261200f6ae6ba9aa712cdd92a3a6a868a5e15443299feaa4347c0ba83179db8",
+    "bytes": 5926
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/283.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/283.gz",
+    "sha256": "2cc95589423779bf3750dd87e6199781717ca3d836da13aaf57b360a12813707",
+    "bytes": 257166
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/29.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/29.gz",
+    "sha256": "59b16af86776198d13444714cee669a0cd4379e913e052b78ff57186b3707689",
+    "bytes": 6533
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/3.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/3.gz",
+    "sha256": "b0a9e8f6527fc21f26c7e9e2e0276ae4aa271895e75730aeef24fa3bc2111721",
+    "bytes": 123
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/30.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/30.gz",
+    "sha256": "a67766b07cf69af6e564413c4dbbfbd0190ccc2344213c585facce9241d2dd61",
+    "bytes": 6822
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/31.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/31.gz",
+    "sha256": "11794c3544778fb92231515d8367a742dca2cfb4b697ee5a0babfa1382ab3839",
+    "bytes": 7093
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/32.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/32.gz",
+    "sha256": "56df04770efb3682e8a096415b5551d5526ed24402377d406dafda653ea9a551",
+    "bytes": 7237
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/33.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/33.gz",
+    "sha256": "5a3f06c8625d76d341b99d904240aad6be19504e2409e1f4656cca4d2393ddb5",
+    "bytes": 8066
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/34.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/34.gz",
+    "sha256": "94f2ff5fae47e826a455d37d4d2ebdcbe9c8ee6dbb2c2dde9cfee6367b9a2185",
+    "bytes": 8605
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/35.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/35.gz",
+    "sha256": "3dcaa382cf938add7165afab8ba9c266956c0cbdff3ff82bb5e610bdddce28ae",
+    "bytes": 9085
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/36.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/36.gz",
+    "sha256": "9477f3c585471295bf63c06e4e78058e514a5ae99f6c65b9b252c206c19f8dee",
+    "bytes": 9422
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/37.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/37.gz",
+    "sha256": "4e5abba5579c7bfc8a0f2055100ccc81eb42166bca68c4809fb7f6bd1f25fc37",
+    "bytes": 10058
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/38.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/38.gz",
+    "sha256": "4b7db373cfc032f940f4381e0a3319e18d1ad942b12daa4899fd2328d17d66f8",
+    "bytes": 10506
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/39.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/39.gz",
+    "sha256": "5ad5aed95aa444de4fb95235d6f89cbae19aff172f35960d72ee09928de16255",
+    "bytes": 10817
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/4.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/4.gz",
+    "sha256": "0fa19e2437277430556a202d1145f39d16975f52a2d121ab9253fc0d935b9dc4",
+    "bytes": 183
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/40.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/40.gz",
+    "sha256": "5239a572b8bfa4161e98cd904740e704a37b19a28ba8c97eb38c5985eea32e9a",
+    "bytes": 11059
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/41.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/41.gz",
+    "sha256": "b53c09700e725d632d93a1994a7a5ffcd5b2076abb5cad2332b9c550174d5da8",
+    "bytes": 12099
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/42.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/42.gz",
+    "sha256": "37caf13c23176933fded60ad806213a8c79fa71d297ea3d1e0d6d68d0fa12b17",
+    "bytes": 12605
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/43.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/43.gz",
+    "sha256": "1235495f47e96d2f04ce945bdac22389f38c53132382b2f3069236e631f5ae5d",
+    "bytes": 13123
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/44.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/44.gz",
+    "sha256": "208c34cf9fc88ee0bce79fae26ebfb12234fe46c8e7ff9fb982d1228c48f5830",
+    "bytes": 13375
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/45.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/45.gz",
+    "sha256": "623b4f8f412fb98c0e09a21d03e41037025b9fdd62026d571a5f10014cd24b6b",
+    "bytes": 13952
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/46.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/46.gz",
+    "sha256": "640f140d1f37a37ebef51b3fd255d5160b74f86644a0dcd916372fb25cd6c66b",
+    "bytes": 14222
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/47.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/47.gz",
+    "sha256": "d310ee04bc93a67a50656d757a6a2c5a98945d92c83b000992ebcc81b75f9f1e",
+    "bytes": 14628
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/48.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/48.gz",
+    "sha256": "1690e867f663b63731b1605254d22d80ebc5de7c52eae5fe3762cd18f907f44a",
+    "bytes": 14904
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/49.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/49.gz",
+    "sha256": "9a893dde240f8530648ca976ce3705a7e70ae6ed340d79c817a3efd911f73a65",
+    "bytes": 15947
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/5.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/5.gz",
+    "sha256": "2031b8641b54906e885e056201c78487ed24e6a29aede62dd9c2d260f18e5819",
+    "bytes": 261
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/50.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/50.gz",
+    "sha256": "3f9587481f6451ddf8800d8b0f4fd0f3b2d112a2a59ad0f1da705f0ef2b7b6a9",
+    "bytes": 16699
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/51.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/51.gz",
+    "sha256": "112c37de4722ebc4140d3ff4e49409eb62d61999a9e08cee9c840b3312080615",
+    "bytes": 17484
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/52.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/52.gz",
+    "sha256": "d02b0ce3fe0f18adf7041eba9e28436a5117f89be792c854c04f66f7643b9fdf",
+    "bytes": 17742
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/53.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/53.gz",
+    "sha256": "93ea86a9a34a7714fb4d80baad5f20d3af77f4507c32cd34cc7f9f4fea91c037",
+    "bytes": 18557
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/54.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/54.gz",
+    "sha256": "597e61bdbe48b8cee2f5e22f2d071139796a3347145b41e3b64595fee0532177",
+    "bytes": 19052
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/55.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/55.gz",
+    "sha256": "7cf6cb1d747fb10282d09522159d88976ff38bea290afbdeef3af89d496a7c61",
+    "bytes": 19582
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/56.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/56.gz",
+    "sha256": "f7d14ca486b6cb2820918fee2b42852346d882991b12e56e6407b4ed08e6b95e",
+    "bytes": 19776
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/57.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/57.gz",
+    "sha256": "2b72110aad1c496cc2d0085cd8cc8faecabe45fa60e6248521cd4740646a6fd4",
+    "bytes": 20931
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/58.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/58.gz",
+    "sha256": "0510ec285e10a54d6f3f498dbe4242b20ad4d2e75b94007715dac4f43a0d3836",
+    "bytes": 21466
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/59.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/59.gz",
+    "sha256": "78d6ea17948080fc6dc9827ae5760558983ddd19effcb53379c32001059942dd",
+    "bytes": 22045
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/6.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/6.gz",
+    "sha256": "6665f0da27a14aef1989942ad937294f110c5033b673ee79cecbb155c1b85118",
+    "bytes": 368
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/60.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/60.gz",
+    "sha256": "65d0d44224ef728e532a7ffe60ac48be8051e18a7a52c08c91606ee47187ac09",
+    "bytes": 22308
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/61.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/61.gz",
+    "sha256": "68c56571a9a676a19c284a71ca22938ca0d508548fee5d4882d86899e5918201",
+    "bytes": 22967
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/62.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/62.gz",
+    "sha256": "15ad3f6b04ce3eb634fe890fd605bf3b62bc5deb7cebc57b92d858b10b2acb6f",
+    "bytes": 23358
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/63.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/63.gz",
+    "sha256": "1e8934f228526558206cf29e812fc2c66007814afe6e0e928c6f6ce7f50ac0fc",
+    "bytes": 23690
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/64.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/64.gz",
+    "sha256": "21de8eb8a38827578c2d0e638f62bc5ea3fd9d94a2938e9af0b680f573404c39",
+    "bytes": 23840
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/7.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/7.gz",
+    "sha256": "94b65e156a7fc0815a8107082b1f85bc422e6269c4ae25f1ee6fbcf9b399ff32",
+    "bytes": 488
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/8.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/8.gz",
+    "sha256": "682952b02f615b70aaa33657229bfceccb9f4cdf2bb94b2ab8652c87ef3844f8",
+    "bytes": 604
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/9.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/9.gz",
+    "sha256": "b11c454cd8c1d7d7b9d340154ec18b625ea90cfac7a529e88f6edf7898ea50a1",
+    "bytes": 783
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/FETCHED_AT.txt",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/FETCHED_AT.txt",
+    "sha256": "c3f2fb51bd9ca73fcd13ee47fd79b6e5697f6eedc42e4d277cd09418a82e929f",
+    "bytes": 109
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/edwards.html",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/edwards.html",
+    "sha256": "3b332d6550e1b81164fb19489f3a8906d3b8b4666975c3ca94b64b72d0a3a0ad",
+    "bytes": 2607
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/linearmod2.html",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/linearmod2.html",
+    "sha256": "a61761c1aed210c0234f958aaaef59aedf10655f1d39bfa86b43ad7c35798e2a",
+    "bytes": 2802
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/m.html",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/m.html",
+    "sha256": "cb23dcd6f65dc44677e21f37db4fc9b71a8bfda730fc2bbc1c017e98d7768a3c",
+    "bytes": 120075
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/bernstein_bbe251/type2.html",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/bernstein_bbe251/type2.html",
+    "sha256": "ec73be16ed61aa929a955bace933b44767a2c8c6c64b1c1792111946c4c912e2",
+    "bytes": 2523
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/cmt/GF256mult.s106.d6",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/cmt/GF256mult.s106.d6",
+    "sha256": "37367141abab36d1c68ea608355f19136d11b51933c7f678b31fcfba387c783f",
+    "bytes": 1757
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/cmt/slp_630.txt",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/cmt/slp_630.txt",
+    "sha256": "54c2df27ccad7d3cc7dd38a620f8b29ceacba907e42391b3f48b99fb022c2bcb",
+    "bytes": 1178
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/cmt/slp_740.txt",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/cmt/slp_740.txt",
+    "sha256": "fec0c3bae895d1d854068b351ecbf7e7553f386e8a67f832aba32bebc12c6b63",
+    "bytes": 1587
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/cmt/slp_84310.txt",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/cmt/slp_84310.txt",
+    "sha256": "512a7424178ba487157fa88d8c99b83798e4c0fc0214a6744c1ef2031956074f",
+    "bytes": 2180
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/AESDEPTH16SIZE125",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/AESDEPTH16SIZE125",
+    "sha256": "b72f635d5a58e06b44d4040b95901da27418ec5a037f9123392155e96966f162",
+    "bytes": 2099
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/AESReverseDepth.txt",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/AESReverseDepth.txt",
+    "sha256": "3bb15b66443ef66f5b10c4e486af15bbb94873aa3522367b11adf8ea143e0a30",
+    "bytes": 2012
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult.tar.gz",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult.tar.gz",
+    "sha256": "b2b6047cc6e191eac58be51284a1dd8b1954a277d4d76884925f89e3c5f3cf1c",
+    "bytes": 2047122
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/README",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/README",
+    "sha256": "d383954c82ac325bc061355f1fa2ee4a8909c708c9b11f6a831d8e3ad1138b45",
+    "bytes": 329
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_100_m_7.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_100_m_7.opt.rem",
+    "sha256": "95b04ffb15dbd75099ac4f62bf9aac5f568a72f03871cf125d5ca50777469b65",
+    "bytes": 167987
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_10_m_7.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_10_m_7.opt.rem",
+    "sha256": "c17ba3ee21734a4075b260aff1f0ae5919c127620bab2cb93642b431621c8233",
+    "bytes": 2823
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_11",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_11",
+    "sha256": "f51766bd4b83978c46bc3f6bf7238451fae60471942ca8a4b930f69356be1497",
+    "bytes": 3278
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_12_m_6.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_12_m_6.opt.rem",
+    "sha256": "48b76b5fe319e121a0b781e537efdf2a63f6dc197e9642a5e08771d8e4c66084",
+    "bytes": 3838
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_13_m_0.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_13_m_0.opt.rem",
+    "sha256": "b619695b1ad8e47017c5229c6e43bb3087f2debb091856b60f1caa5616a34f92",
+    "bytes": 4729
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_14_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_14_m_1.opt.rem",
+    "sha256": "0a8e0e30b63a2ccddda9fdf08d25a4eb7bcaaf3614efae5e5299b66c9d56b0c2",
+    "bytes": 5370
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_15_m_7.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_15_m_7.opt.rem",
+    "sha256": "6aae4f9f7a267c172461ddaa7700d2a7283f16ed0d1d0fe6fd12c08607f6041a",
+    "bytes": 5849
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_16_m_6.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_16_m_6.opt.rem",
+    "sha256": "8ba9a608ccb031ca5f555e5ff8d5b84e3a11bc13f404b2a6ece11b37dbf364fd",
+    "bytes": 6525
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_17_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_17_m_2.opt.rem",
+    "sha256": "259efea3e54b79b47e1c60ffdedaebe7131cd6af76d0b2c392c32561185ce389",
+    "bytes": 7653
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_18_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_18_m_1.opt.rem",
+    "sha256": "8f71948e988fd58ee8d4d24994371a50673bf310f260c410018a6aa3103957f0",
+    "bytes": 8290
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_19_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_19_m_2.opt.rem",
+    "sha256": "25aae76767734d7eaa446744f892fe82eaef45c99994df9723e477aa8f172df0",
+    "bytes": 9426
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_20_m_7.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_20_m_7.opt.rem",
+    "sha256": "10c453b413b937819a4e67500ba9f6cb73ea3793a19e427371d7031bf745b667",
+    "bytes": 9803
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_21_m_9.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_21_m_9.opt.rem",
+    "sha256": "0606d0bd0c718daa18104bb5f7081b8fa61b55076c32a9b17b67880dd757902a",
+    "bytes": 10823
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_22_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_22_m_1.opt.rem",
+    "sha256": "4d856b92954ec51eaafb972c200ae01325a4378ac4d41bbc702eb07e20c59df7",
+    "bytes": 12006
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_23_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_23_m_2.opt.rem",
+    "sha256": "b8353d3f7246d62974c8f37a02ac74b514c2d9fecd04281c0249d0c6172de6d3",
+    "bytes": 12853
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_24_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_24_m_1.opt.rem",
+    "sha256": "ea8ff586fb03f7a024aad47aeab8b8746d046e7e756e5dcf56e8ffd4cad83651",
+    "bytes": 13404
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_25_m_7.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_25_m_7.opt.rem",
+    "sha256": "3a75125453e2a09fa0ba92d42acacef9dbecfc8f38f1b154e219c8d95a12cf02",
+    "bytes": 14703
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_26_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_26_m_1.opt.rem",
+    "sha256": "c20e9547381a8c21f8aed7eb704e0801cb8ced583435f6490d38a4e46d2c6f78",
+    "bytes": 16153
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_27_m_5.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_27_m_5.opt.rem",
+    "sha256": "36984261ed19fd7aa24925f5c7e9793042984d72f1208df03c9e68b2d3cffb89",
+    "bytes": 17314
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_28_m_9.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_28_m_9.opt.rem",
+    "sha256": "ddd08f790e9c03f8fab0ac324037d38801391fa9020a94d9599056e2198862c5",
+    "bytes": 17868
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_29_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_29_m_2.opt.rem",
+    "sha256": "406ffa437335f652cce06452ffda28042eb9fbbeffaba0e45569a6f1f6b7b85e",
+    "bytes": 19257
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_2_m_0.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_2_m_0.opt.rem",
+    "sha256": "a3eb05613410e842b05eb6bcb3e9a5a4a3d65b246c0044d1f8ad030f5b729cd6",
+    "bytes": 149
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_30_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_30_m_1.opt.rem",
+    "sha256": "07e68ba4103621d7f2258177252eb164c13cc8fd708710278f73df3462d9c2de",
+    "bytes": 19920
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_31_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_31_m_2.opt.rem",
+    "sha256": "95678ec1d04f7dfe933ee7be470691811ec87f25b10df42daac684faa14e3e84",
+    "bytes": 21459
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_32_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_32_m_1.opt.rem",
+    "sha256": "a95ccbdfcec53dd16d819a0873f84c9a92197752faea31ef38c157f2422eab19",
+    "bytes": 22386
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_33_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_33_m_2.opt.rem",
+    "sha256": "c7bdf67cdfdb6cba8998d4098bf56a81a637e9df11b1616c4e24c40122724e02",
+    "bytes": 24852
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_34_m_4.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_34_m_4.opt.rem",
+    "sha256": "c2db486cd87ba700c5b3442346c93759ee2e2e2dcab815980d08a8b4ae8c192c",
+    "bytes": 26193
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_35_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_35_m_3.opt.rem",
+    "sha256": "45e1162c212195848ae37f1a7c83f63c16892e620afcdaf8267eced25032ad0b",
+    "bytes": 27766
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_36_m_6.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_36_m_6.opt.rem",
+    "sha256": "04e77da13677995d2a35b0d85ce58287cae996d8a35b4ffccab2d1a3eccc5ad0",
+    "bytes": 28180
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_37_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_37_m_2.opt.rem",
+    "sha256": "d355c9aa25efde7d7fb3aaccc5ba4306d256000112ff75d83ea80ce4ece8ec9d",
+    "bytes": 31114
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_38_m_4.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_38_m_4.opt.rem",
+    "sha256": "753076eaf0e720c6fc875fa7ce7c517f9809439cc2cf2392feb05101390c5ee4",
+    "bytes": 32064
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_39_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_39_m_3.opt.rem",
+    "sha256": "35e6fc2188df86534225ca9f0ed6ea03a1f28804fb972764410506d7b40360da",
+    "bytes": 34126
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_3_m_0.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_3_m_0.opt.rem",
+    "sha256": "0b47b5c3810a73147da63fb4037a1feadacbd3a7942835e326edd8ee0998a0b2",
+    "bytes": 290
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_40_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_40_m_1.opt.rem",
+    "sha256": "a2cb8742e73b615a8c97e061a46dcbf880d4817c88ea4ea2a3e4197576d63546",
+    "bytes": 34253
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_41_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_41_m_2.opt.rem",
+    "sha256": "d6b9ee3f14c58c703dfd03f738230484ad413492ae60e01b94068a89dc184262",
+    "bytes": 36615
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_42_m_9.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_42_m_9.opt.rem",
+    "sha256": "acca651d43eaffcf9ce1afdc7df007040e0811bdbb53827b8f3e4f265ea30e22",
+    "bytes": 37732
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_43_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_43_m_2.opt.rem",
+    "sha256": "b008b0cd44db9abf02fadf5a6294456bf11d4b5bfa93233c536fa3379a3e116e",
+    "bytes": 40438
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_44_m_6.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_44_m_6.opt.rem",
+    "sha256": "49847f3c116d35cf306f7b28e1d4809f33d61aa6006d238c8f6dcb7a27c5c07f",
+    "bytes": 41288
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_45_m_7.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_45_m_7.opt.rem",
+    "sha256": "3e69be9ce5424624d1676e783f821285c99b3718a0756a74e8c858e08ebdd1af",
+    "bytes": 42891
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_46_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_46_m_3.opt.rem",
+    "sha256": "a493619cb38d15ac57d324b311c00cbcfed0823b02d05f2494dd8a51ce677f30",
+    "bytes": 45321
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_47_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_47_m_3.opt.rem",
+    "sha256": "0151daa835e6173134d4ea989f87ee9c293afd88661f981d6f5d29533c3cd8ad",
+    "bytes": 46378
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_48_m_6.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_48_m_6.opt.rem",
+    "sha256": "c2ed171049d675998778591dc5a8fa3063972a695a0ca99a619418c6e76db06d",
+    "bytes": 46353
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_49_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_49_m_2.opt.rem",
+    "sha256": "1e12a0c3470793086f63786dba6b8b0b8ccfbe2fd1e70800cb68d14199690620",
+    "bytes": 49909
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_4_m_0.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_4_m_0.opt.rem",
+    "sha256": "eb0e00a2d9395489622ff36d705eed861014233435aba523b0e17535ce4c8360",
+    "bytes": 498
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_50_m_7.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_50_m_7.opt.rem",
+    "sha256": "91a3421f5b75b808128963909f9348789cef1c8f58da38344ff8aa0d80a047d5",
+    "bytes": 52321
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_51_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_51_m_2.opt.rem",
+    "sha256": "ce2c0060f816d47888059f6fa5506408a46ba1cf6a81f31f6e3aad017a7ce262",
+    "bytes": 54914
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_52_m_6.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_52_m_6.opt.rem",
+    "sha256": "35ffc89ea428648eb50101df29e6601585ad6b1bd3c21d51fa0e72a87235eaec",
+    "bytes": 55996
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_53_m_8.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_53_m_8.opt.rem",
+    "sha256": "62e79f35a8bb0915bedb95fc06989c6c728fdd86b5e437c669a5554d8deb7f00",
+    "bytes": 58952
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_54_m_8.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_54_m_8.opt.rem",
+    "sha256": "da4034ae794d6634aa145a5b4abe6cd5858398b5556fdb616d149a4a102ffdb9",
+    "bytes": 59796
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_55_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_55_m_2.opt.rem",
+    "sha256": "420541f58b2cd58083bf5f16af43c3e70558325eea622eeb379a9b4f1f8db8cf",
+    "bytes": 62392
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_56_m_9.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_56_m_9.opt.rem",
+    "sha256": "af54efbd8da341323bc4d48bc3d397aa35874929bb51c62a8daec08191bbdec8",
+    "bytes": 62682
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_57_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_57_m_3.opt.rem",
+    "sha256": "fef1d8ce25e8f938eca7cc3a8b819c9eec58c5794e4bf23e2d6fbf87084d49a6",
+    "bytes": 66610
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_58_m_4.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_58_m_4.opt.rem",
+    "sha256": "7ba789dc29806146512f37272247d7023f5454280fb10d2e4233ccd11c3f0f49",
+    "bytes": 67422
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_59_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_59_m_3.opt.rem",
+    "sha256": "d609de1bd35dbe388e70d51f845f007dbb253e1cd45a0f9b6bf0ab96112da688",
+    "bytes": 69416
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_5_m_0.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_5_m_0.opt.rem",
+    "sha256": "1e95319d8684ff5c91c27cec51eecf4b73459739561a3d4487a140eb5327c2e0",
+    "bytes": 767
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_60_m_6.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_60_m_6.opt.rem",
+    "sha256": "3ecc00941dba1428d6d18d801ea96764c51d0198e1278bc703ed0fd753d97bb1",
+    "bytes": 69323
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_61_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_61_m_2.opt.rem",
+    "sha256": "329d119a00837da02ba8572e7cc2cd208499f30340342edcbc0116cecc2fb096",
+    "bytes": 73029
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_62_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_62_m_1.opt.rem",
+    "sha256": "1d5fa5bdf466aaff1eb99d03b16a6572dc243a11e8bc2e119bc68ae4ab82db3c",
+    "bytes": 74759
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_63_m_6.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_63_m_6.opt.rem",
+    "sha256": "e7d22ff7a906d4440e0749082eb114d36afbed5fee8176bca14082f7ffa2730b",
+    "bytes": 75976
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_64_m_6.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_64_m_6.opt.rem",
+    "sha256": "e2bdb60dd4a0d8cc6fed5fa21e7212adfb743b358765e39f301e495ee84f2e75",
+    "bytes": 76988
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_65_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_65_m_2.opt.rem",
+    "sha256": "cef8107edafa3ec1588c83b006ef4a284b81bd4c2269dd7f472a9ccbf6626d5a",
+    "bytes": 82572
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_66_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_66_m_1.opt.rem",
+    "sha256": "9de17513576c2c61be1a8aac9949904050a5bd615cd5972b2680dc74e97bcf35",
+    "bytes": 85223
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_67_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_67_m_3.opt.rem",
+    "sha256": "80cbb062fd97a33b38dc42e1be1995c9ed16d77af376c54755e9ad162c1f147f",
+    "bytes": 88689
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_68_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_68_m_3.opt.rem",
+    "sha256": "406e00e1ead534b8700c5ccc02d8d1eac8a39c87ff20adecf45780e2c5acd818",
+    "bytes": 90224
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_69_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_69_m_2.opt.rem",
+    "sha256": "30b85dff0e0d511109c6cec3be919d6bfe431da2b75d0deb0b933c9a0f17dc7a",
+    "bytes": 92249
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_6_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_6_m_1.opt.rem",
+    "sha256": "16e0551adada5cab7ac74c0e4ba5bcc6dc45d01f1e9031d1a0be6783fe286df7",
+    "bytes": 1046
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_70_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_70_m_3.opt.rem",
+    "sha256": "5129effeac2539103a84a2f55c0ba4cee105fe23689f817e88fd86fa35086da3",
+    "bytes": 94548
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_71_m_8.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_71_m_8.opt.rem",
+    "sha256": "f866409116478c73dafa2dd02ddfc55ea6840831b4c0315c59866c1c8ef009a3",
+    "bytes": 94860
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_72_m_8.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_72_m_8.opt.rem",
+    "sha256": "c18a89703a8aebd812a66b0c03aa8d19e3c5d068d53bfb3614681030be04db64",
+    "bytes": 95618
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_73_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_73_m_2.opt.rem",
+    "sha256": "feb95c06be31218f683be5ff1033a29f6a4d38bb5bc0438a7d2d4a9d4f8db34f",
+    "bytes": 101688
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_74_m_7.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_74_m_7.opt.rem",
+    "sha256": "43c99984645c5f3a471b239a082d0768c34194f339f1c42a8e4b52b07ca7fac3",
+    "bytes": 102131
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_75_m_7.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_75_m_7.opt.rem",
+    "sha256": "ae0d2237b68ab48884f2d3295ab3243c01e3a9b94f74c68ef00ffed7bea10fae",
+    "bytes": 102923
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_76_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_76_m_1.opt.rem",
+    "sha256": "34f634565dc5e7b651bc04272e4e8b25a86718dec2ef987a61db0566cd14b96e",
+    "bytes": 108005
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_77_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_77_m_3.opt.rem",
+    "sha256": "aa8b09ad5cba44b16793156f28059068a9fbae0d2beb9f11891fc7a41c7adce8",
+    "bytes": 111614
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_78_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_78_m_3.opt.rem",
+    "sha256": "3c44bf53d912450c3a9ca272cb50c47ceaab2f26ce9946e71d889c47829d5c02",
+    "bytes": 112900
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_79_m_6.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_79_m_6.opt.rem",
+    "sha256": "2a95fadb00226f8ccde0f4414a2ac6c1d7dd7e977c12a3b6bc7d5d7135d650ab",
+    "bytes": 113253
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_7_m_0.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_7_m_0.opt.rem",
+    "sha256": "7727028282f7221bf39dbb974adffc4131ffa275f74a6202bd8b3bcba9efd792",
+    "bytes": 1450
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_80_m_6.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_80_m_6.opt.rem",
+    "sha256": "2d53678d644b53df8e91b6d1e0451a4b79c93353b800d172ce5705b29cb3e375",
+    "bytes": 114053
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_81_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_81_m_2.opt.rem",
+    "sha256": "e4be9e426d9df0b0fe2e537620095e17fe46192c338fbe907464a6915bfce853",
+    "bytes": 119471
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_82_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_82_m_1.opt.rem",
+    "sha256": "44951d503823fdd4244cf801af2bf955de8ff4c15b0600cd94d89b5607e44daf",
+    "bytes": 121934
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_83_m_9.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_83_m_9.opt.rem",
+    "sha256": "ddb739bba82e51a5490c698a66c8437664d12e89419480068be960d78590bfd9",
+    "bytes": 122774
+  },
+  {
+    "path": "jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_84_m_9.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_84_m_9.opt.rem",
+    "error": "The read operation timed out"
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_85_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_85_m_2.opt.rem",
+    "sha256": "891e0def55d3e55be465b5577b9055a4e107e474742248cb753b489a5a17a4f6",
+    "bytes": 131075
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_86_m_4.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_86_m_4.opt.rem",
+    "sha256": "d1cc9ed667913fd7f4494b7ca2792dfcf4441f36f9e7aa6d69adf975a3a3eba8",
+    "bytes": 133122
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_87_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_87_m_3.opt.rem",
+    "sha256": "021f602e93f81ed4c2e8c8b7eb4a3f6e8fd8f09d3a2cd1f8696dcde7055a1cc8",
+    "bytes": 136974
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_88_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_88_m_1.opt.rem",
+    "sha256": "0b00aea7e2ec69e370107bf09fb9715349db046fbb000a93007bcecacfd77ffe",
+    "bytes": 137105
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_89_m_8.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_89_m_8.opt.rem",
+    "sha256": "5cb1bab8af03603da507a7c513f64740b1952b7a4f11353911927b6a4fe59d8a",
+    "bytes": 139555
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_8_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_8_m_1.opt.rem",
+    "sha256": "526f41fc4305c8ab074dce405f8453acc9423b4658137d215b1e10ff811a6d9e",
+    "bytes": 1761
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_90_m_8.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_90_m_8.opt.rem",
+    "sha256": "2a6c395d607a7e231f2a49fc7d7ac8a9363b2a68f788460c3e5a3902681e12e6",
+    "bytes": 140384
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_91_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_91_m_2.opt.rem",
+    "sha256": "e3533adb8226d0a5405cc1d720eca14db0ea54758c30e531b44fe0f3b26f52ff",
+    "bytes": 145680
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_92_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_92_m_3.opt.rem",
+    "sha256": "d3edf0570b065a9322e5c1bfa685e5e70c0b260b64a8442c3f305bbcbf03b403",
+    "bytes": 147932
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_93_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_93_m_3.opt.rem",
+    "sha256": "e473f32e3bd83ffcda04c31d009d289c06f9ffc86c8a800da9d937257e63dba1",
+    "bytes": 149956
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_94_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_94_m_1.opt.rem",
+    "sha256": "6d74f6378936602c22e8e773afeb374c2fbc333c2f7af7ec010f536c2f0145e8",
+    "bytes": 150829
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_95_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_95_m_3.opt.rem",
+    "sha256": "fc9820c781700eea80764a261e0ba6e4d7a1de8bccaec44799325605896fb3dd",
+    "bytes": 153084
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_96_m_1.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_96_m_1.opt.rem",
+    "sha256": "a7695e65addb5de5130db97f02a051747083aee32a747dfb9150b38edf80a1d0",
+    "bytes": 152782
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_97_m_2.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_97_m_2.opt.rem",
+    "sha256": "b0546498b95861afa735db2187994aa136508991c7857615353075aca039cd86",
+    "bytes": 160161
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_98_m_4.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_98_m_4.opt.rem",
+    "sha256": "e234f27bf4a9d748b752ae0a051c7351e9493bd88231a304778d0ff5bafdbd61",
+    "bytes": 164531
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_99_m_3.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_99_m_3.opt.rem",
+    "sha256": "507c0c44deae28369d16e2d1fb930b3d0321dfc7998a93a57ae3a47d9af68d39",
+    "bytes": 168492
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_9_m_5.opt.rem",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/BinPolMult_extracted/BinPolMult/s_9_m_5.opt.rem",
+    "sha256": "0e1fe90f62e10844e2bd3b7acada138c6e5c7d3ba088b7b0e2b28d1b72880c5f",
+    "bytes": 2267
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/CMT.html",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/CMT.html",
+    "sha256": "8db7dd6385e40c8b809f375363d68f337f6da0084bd3e9b627a62beb5706f490",
+    "bytes": 17154
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/FETCHED_AT.txt",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/FETCHED_AT.txt",
+    "sha256": "ca519b8ba39ee7876d9aa5929805b9556b20ae369b31ef087a45c658fd11ea3f",
+    "bytes": 140
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/GF256mult.s106.d6",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/GF256mult.s106.d6",
+    "sha256": "37367141abab36d1c68ea608355f19136d11b51933c7f678b31fcfba387c783f",
+    "bytes": 1757
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/GF65536inv387d31",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/GF65536inv387d31",
+    "sha256": "be62654861870707720a2ec4ba73b6f06c23fa2c52b3a31891dc592c0a89d3bd",
+    "bytes": 6995
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/SLP_AES_113.txt",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/SLP_AES_113.txt",
+    "sha256": "de1d21c85eaa1e4146f24b59a4f8bae515757f2a7d0011527841ebb5518b55c0",
+    "bytes": 1812
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/Sinv.txt",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/Sinv.txt",
+    "sha256": "5626e06918b587a97521e8d9bd08aaa59650af08acf2c382367768ad1d92efec",
+    "bytes": 2013
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/binary_pol_mult/B10size154depth7",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/binary_pol_mult/B10size154depth7",
+    "sha256": "197d828150f552a49154ddf2c23f2fa3d277fce9cdd16dddf0f7acdbdcf3f2a7",
+    "bytes": 2586
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/binary_pol_mult/B10size155depth6",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/binary_pol_mult/B10size155depth6",
+    "sha256": "9d10602769a9ace266e975847551c259ce8d118d1e1fe3960ab063e9a1892c5c",
+    "bytes": 2585
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/binary_pol_mult/CMT11.txt",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/binary_pol_mult/CMT11.txt",
+    "sha256": "b5075b035027054f783b33b403f73123169ec1da8da7a08a20a21a03aabd61db",
+    "bytes": 3267
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/binary_pol_mult/CMT12.txt",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/binary_pol_mult/CMT12.txt",
+    "sha256": "c6fef8e2360651dcfd05f68cb614f00fc04e3ff3ad496301288fe0334dbec5ef",
+    "bytes": 3750
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/binary_pol_mult/CMT15.txt",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/binary_pol_mult/CMT15.txt",
+    "sha256": "b5b8d0003897af3a9def3795e105caf5618bc9c62c405b11c53050986deccd38",
+    "bytes": 5436
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/multcircuit",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/multcircuit",
+    "sha256": "78162216df16ec758d597de299921f62be3bf9108256b98169f69361a6051e40",
+    "bytes": 9601
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/slp_630.txt",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/slp_630.txt",
+    "sha256": "54c2df27ccad7d3cc7dd38a620f8b29ceacba907e42391b3f48b99fb022c2bcb",
+    "bytes": 1178
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/slp_730.txt",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/slp_730.txt",
+    "sha256": "d73e12dbd1b9f9c2d7e9867a8538d6bfa14bc692c3d7ab9a2f09be6c1149ec8c",
+    "bytes": 1609
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/slp_740.txt",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/slp_740.txt",
+    "sha256": "fec0c3bae895d1d854068b351ecbf7e7553f386e8a67f832aba32bebc12c6b63",
+    "bytes": 1587
+  },
+  {
+    "path": "sources/jain/multipliers/sources/circuits/peralta_cmt/slp_84310.txt",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/multipliers/sources/circuits/peralta_cmt/slp_84310.txt",
+    "sha256": "512a7424178ba487157fa88d8c99b83798e4c0fc0214a6744c1ef2031956074f",
+    "bytes": 2180
+  },
+  {
+    "path": "sources/jain/papers/Jain_AES_Sbox_circuits_2026.pdf",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/papers/Jain_AES_Sbox_circuits_2026.pdf",
+    "sha256": "5d19283563d7c6d200628fb609b0199c179472891f2395d3d0bfa2c8f53c0121",
+    "bytes": 129324
+  },
+  {
+    "path": "sources/jain/papers/Jain_GF2m_multipliers_2026.pdf",
+    "url": "https://raw.githubusercontent.com/Swapnil-jain/gf2m-circuits/9daf883e529ab4b9c80c66632683b403f0c69e89/papers/Jain_GF2m_multipliers_2026.pdf",
+    "sha256": "57629cebdac708fe5732f811332b6195c0b7ce52232ecd9ba0ee662a2d8678d1",
+    "bytes": 155538
+  }
+]

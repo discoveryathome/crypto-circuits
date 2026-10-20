@@ -1,0 +1,1864 @@
+[
+  {
+    "instance": "aria",
+    "kind": "linear",
+    "specification": "portfolio/aria.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/aria--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-128x128/Aria--XOR=387-rs=48-symp=2.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 387,
+          "NOT": 0,
+          "total": 387,
+          "depth": 7,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [
+      {
+        "instance": "aria",
+        "metrics": {
+          "AND": 0,
+          "XOR": 384,
+          "NOT": 0,
+          "total": 384,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/aria-published-lane-replication.json",
+        "source": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-128x128/Aria--XOR=387-rs=48-symp=2.circ.txt",
+        "status": "direct-derived-prior",
+        "url": "https://github.com/usnistgov/Circuits/tree/8366158a4324ef902ce740f29ddc9f7ebb1018b2"
+      }
+    ],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "fides-midori-mantis",
+    "kind": "linear",
+    "specification": "portfolio/fides-midori-mantis.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/fides-midori-mantis--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/Fides+Midori+Mantis--XOR=24-rs=1.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [
+      {
+        "instance": "fides-midori-mantis",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 2,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/fides-midori-mantis--sbp--MIDORI_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/MIDORI_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "fides-midori-mantis",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 2,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/fides-midori-mantis--sbp--PRIDE_L_0_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/PRIDE_L_0_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "joltik",
+    "kind": "linear",
+    "specification": "portfolio/joltik.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/joltik--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/Joltik--XOR=44--XZLBZ20.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 44,
+          "NOT": 0,
+          "total": 44,
+          "depth": 7,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [
+      {
+        "XOR": 43,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2, citing Lin et al. 2021",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "post_freeze_prior": [
+      {
+        "instance": "joltik",
+        "metrics": {
+          "AND": 0,
+          "XOR": 49,
+          "NOT": 0,
+          "total": 49,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/joltik--sbp--FSE_SKOP15_i_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_SKOP15_i_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "joltik",
+        "metrics": {
+          "AND": 0,
+          "XOR": 47,
+          "NOT": 0,
+          "total": 47,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/joltik--sbp--FSE_SKOP15_i_4x4_4_SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_SKOP15_i_4x4_4_SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "joltik",
+        "metrics": {
+          "AND": 0,
+          "XOR": 49,
+          "NOT": 0,
+          "total": 49,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/joltik--sbp--JOLTIK_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/JOLTIK_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "pridel0",
+    "kind": "linear",
+    "specification": "portfolio/pridel0.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/pridel0--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/PrideL0--XOR=24-rs=-1.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [
+      {
+        "instance": "pridel0",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 2,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/pridel0--sbp--MIDORI_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/MIDORI_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "pridel0",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 2,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/pridel0--sbp--PRIDE_L_0_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/PRIDE_L_0_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "princem0",
+    "kind": "linear",
+    "specification": "portfolio/princem0.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/princem0--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/PrinceM0--XOR=24-rs=-1.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [
+      {
+        "instance": "princem0",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 2,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/princem0--sbp--PRINCE_M_0_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/PRINCE_M_0_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "qarma128",
+    "kind": "linear",
+    "specification": "portfolio/qarma128.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/qarma128--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/Qarma128--XOR=48-rs=-1.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 48,
+          "NOT": 0,
+          "total": 48,
+          "depth": 6,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "qarma64",
+    "kind": "linear",
+    "specification": "portfolio/qarma64.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/qarma64--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/Qarma64--XOR=24-rs=-1.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 8,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [
+      {
+        "instance": "qarma64",
+        "metrics": {
+          "AND": 0,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 24,
+          "depth": 2,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/qarma64--sbp--QARMA64_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/QARMA64_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "skinny",
+    "kind": "linear",
+    "specification": "portfolio/skinny.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/skinny--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/Skinny--XOR=12-EQUAL=4-rs=-1.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 12,
+          "NOT": 0,
+          "total": 12,
+          "depth": 2,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [
+      {
+        "instance": "skinny",
+        "metrics": {
+          "AND": 0,
+          "XOR": 12,
+          "NOT": 0,
+          "total": 12,
+          "depth": 2,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/skinny--sbp--SKINNY_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/SKINNY_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "smallscaleaes",
+    "kind": "linear",
+    "specification": "portfolio/smallscaleaes.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/smallscaleaes--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-16x16/SmallScaleAES--XOR=43--XZLBZ20.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 43,
+          "NOT": 0,
+          "total": 43,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [
+      {
+        "XOR": 42,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2, s-XOR embeds into general XOR",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "post_freeze_prior": [
+      {
+        "instance": "smallscaleaes",
+        "metrics": {
+          "AND": 0,
+          "XOR": 48,
+          "NOT": 0,
+          "total": 48,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/smallscaleaes--sbp--SMALLSCALE_AES_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/SMALLSCALE_AES_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "smallscaleaes",
+        "metrics": {
+          "AND": 0,
+          "XOR": 47,
+          "NOT": 0,
+          "total": 47,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/smallscaleaes--sbp--SMALLSCALE_AES_SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/SMALLSCALE_AES_SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "anubis-clefiam0",
+    "kind": "linear",
+    "specification": "portfolio/anubis-clefiam0.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/anubis-clefiam0--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/Anubis+ClefiaM0--XOR=98--XLZBZ20.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 98,
+          "NOT": 0,
+          "total": 98,
+          "depth": 9,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [
+      {
+        "XOR": 96,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2 / Xu--Sun 2026 table 4",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "clefiam1",
+    "kind": "linear",
+    "specification": "portfolio/clefiam1.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/clefiam1--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/ClefiaM1--XOR=103--XLZBZ20.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 103,
+          "NOT": 0,
+          "total": 103,
+          "depth": 10,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "foxmu4",
+    "kind": "linear",
+    "specification": "portfolio/foxmu4.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/foxmu4--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/FoxMu4--XOR=130-rs=471.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 130,
+          "NOT": 0,
+          "total": 130,
+          "depth": 13,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "square-aes-mugi",
+    "kind": "linear",
+    "specification": "portfolio/square-aes-mugi.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/square-aes-mugi--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/Square+AES+Mugi--XOR=92--maximov.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 92,
+          "NOT": 0,
+          "total": 92,
+          "depth": 6,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+        "origin": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor88-depth5.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 88,
+          "NOT": 0,
+          "total": 88,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+        "origin": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor90-depth4.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 90,
+          "NOT": 0,
+          "total": 90,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+        "origin": "sources/nist/data/slp/aes/aes-mixcols/aes-mixcols-xor97-depth3.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 97,
+          "NOT": 0,
+          "total": 97,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "twofish",
+    "kind": "linear",
+    "specification": "portfolio/twofish.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/twofish--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/Twofish--XOR=111--XLZBZ20.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 111,
+          "NOT": 0,
+          "total": 111,
+          "depth": 8,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [
+      {
+        "XOR": 110,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2, s-XOR embeds into general XOR",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "whirlwindm0",
+    "kind": "linear",
+    "specification": "portfolio/whirlwindm0.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/whirlwindm0--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/WhirlwindM0--XOR=183--XLZBZ20.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 183,
+          "NOT": 0,
+          "total": 183,
+          "depth": 14,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/whirlwindm0--xu2026-size.json",
+        "origin": "sources/circulant/results/size/Whirlwind_M0.txt; CNOT to SSA; exact output permutation",
+        "metrics": {
+          "AND": 0,
+          "XOR": 159,
+          "NOT": 0,
+          "total": 159,
+          "depth": 14,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/whirlwindm0--xu2026-depth.json",
+        "origin": "sources/circulant/results/depth/Whirlwind_M0.txt; CNOT to SSA; exact output permutation",
+        "metrics": {
+          "AND": 0,
+          "XOR": 200,
+          "NOT": 0,
+          "total": 200,
+          "depth": 16,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "whirlwindm1",
+    "kind": "linear",
+    "specification": "portfolio/whirlwindm1.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/whirlwindm1--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-32x32/WhirlwindM1--XOR=187-rs=20-symp=1-2.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 187,
+          "NOT": 0,
+          "total": 187,
+          "depth": 16,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/whirlwindm1--xu2026-size.json",
+        "origin": "sources/circulant/results/size/Whirlwind_M1.txt; CNOT to SSA; exact output permutation",
+        "metrics": {
+          "AND": 0,
+          "XOR": 169,
+          "NOT": 0,
+          "total": 169,
+          "depth": 11,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/whirlwindm1--xu2026-depth.json",
+        "origin": "sources/circulant/results/depth/Whirlwind_M1.txt; CNOT to SSA; exact output permutation",
+        "metrics": {
+          "AND": 0,
+          "XOR": 241,
+          "NOT": 0,
+          "total": 241,
+          "depth": 18,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "foxmu8",
+    "kind": "linear",
+    "specification": "portfolio/foxmu8.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/foxmu8--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-64x64/FoxMu8--XOR=540-rs=1-symp=2.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 540,
+          "NOT": 0,
+          "total": 540,
+          "depth": 14,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "grostl",
+    "kind": "linear",
+    "specification": "portfolio/grostl.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/grostl--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-64x64/Grostl--XOR=410-rs=2-symp=2.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 410,
+          "NOT": 0,
+          "total": 410,
+          "depth": 12,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "khazad",
+    "kind": "linear",
+    "specification": "portfolio/khazad.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/khazad--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-64x64/Khazad--XOR=366--XLZBZ20.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 366,
+          "NOT": 0,
+          "total": 366,
+          "depth": 18,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "whirlpool-maelstrom",
+    "kind": "linear",
+    "specification": "portfolio/whirlpool-maelstrom.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/whirlpool-maelstrom--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/ciphers-64x64/Whirlpool+Maelstrom--XOR=425-rs=4-symp=2.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 425,
+          "NOT": 0,
+          "total": 425,
+          "depth": 11,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "bkl16-4x4-gf16",
+    "kind": "linear",
+    "specification": "portfolio/bkl16-4x4-gf16.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/bkl16-4x4-gf16--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/BKL16-4x4-GF16--XOR=41-rs=2657.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 41,
+          "NOT": 0,
+          "total": 41,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [
+      {
+        "XOR": 40,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2 CTG16 row; same authors as BKL16; identity must be checked",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "post_freeze_prior": [
+      {
+        "instance": "bkl16-4x4-gf16",
+        "metrics": {
+          "AND": 0,
+          "XOR": 46,
+          "NOT": 0,
+          "total": 46,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/bkl16-4x4-gf16--sbp--C_BeiKraLea16_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/C_BeiKraLea16_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "jpst17-4x4-gf16",
+    "kind": "linear",
+    "specification": "portfolio/jpst17-4x4-gf16.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/jpst17-4x4-gf16--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/JPST17-4x4-GF16--XOR=40-rs=217-nd=4-2.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 40,
+          "NOT": 0,
+          "total": 40,
+          "depth": 6,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [
+      {
+        "instance": "jpst17-4x4-gf16",
+        "metrics": {
+          "AND": 0,
+          "XOR": 45,
+          "NOT": 0,
+          "total": 45,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/jpst17-4x4-gf16--sbp--ePrint_JeaPeySim_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ePrint_JeaPeySim_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "jpst17-4x4-gf16",
+        "metrics": {
+          "AND": 0,
+          "XOR": 43,
+          "NOT": 0,
+          "total": 43,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/jpst17-4x4-gf16--sbp--ePrint_JeaPeySim_4x4_4_SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ePrint_JeaPeySim_4x4_4_SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "klsw17-m-4x4-gf16",
+    "kind": "linear",
+    "specification": "portfolio/klsw17-m-4x4-gf16.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/klsw17-m-4x4-gf16--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/KLSW17-M-4x4-GF16--XOR=36-rs=1.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 36,
+          "NOT": 0,
+          "total": 36,
+          "depth": 8,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "ls16-4x4-gf16",
+    "kind": "linear",
+    "specification": "portfolio/ls16-4x4-gf16.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/ls16-4x4-gf16--nist.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/LS16-4x4-GF16--XOR=44-rs=178.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 44,
+          "NOT": 0,
+          "total": 44,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [
+      {
+        "XOR": 43,
+        "depth": null,
+        "source": "Yuan et al. 2024 table 2, citing Tan--Peyrin 2020 and Lin et al. 2021",
+        "status": "published-count-only; witness/port mapping unresolved"
+      }
+    ],
+    "post_freeze_prior": [
+      {
+        "instance": "ls16-4x4-gf16",
+        "metrics": {
+          "AND": 0,
+          "XOR": 47,
+          "NOT": 0,
+          "total": 47,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/ls16-4x4-gf16--sbp--FSE_LiuSim16_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/FSE_LiuSim16_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "gf4-13",
+    "kind": "multiplier",
+    "specification": "portfolio/gf4-13.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/gf4-13--final-f4.json",
+        "origin": "sources/jain/multipliers/circuits/final_f4.slp",
+        "metrics": {
+          "AND": 10,
+          "XOR": 20,
+          "NOT": 0,
+          "total": 30,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "gf5-25",
+    "kind": "multiplier",
+    "specification": "portfolio/gf5-25.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/gf5-25--final-f5.json",
+        "origin": "sources/jain/multipliers/circuits/final_f5.slp",
+        "metrics": {
+          "AND": 20,
+          "XOR": 24,
+          "NOT": 0,
+          "total": 44,
+          "depth": 6,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "gf6-49",
+    "kind": "multiplier",
+    "specification": "portfolio/gf6-49.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/gf6-49--final-f6.json",
+        "origin": "sources/jain/multipliers/circuits/final_f6.slp",
+        "metrics": {
+          "AND": 27,
+          "XOR": 30,
+          "NOT": 0,
+          "total": 57,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf6-49--cmt.json",
+        "origin": "sources/jain/multipliers/sources/circuits/cmt/slp_630.txt",
+        "metrics": {
+          "AND": 27,
+          "XOR": 30,
+          "NOT": 0,
+          "total": 57,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "gf7-89",
+    "kind": "multiplier",
+    "specification": "portfolio/gf7-89.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/gf7-89--final-f73.json",
+        "origin": "sources/jain/multipliers/circuits/final_f73.slp",
+        "metrics": {
+          "AND": 32,
+          "XOR": 51,
+          "NOT": 0,
+          "total": 83,
+          "depth": 7,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf7-89--final-f73-d6.json",
+        "origin": "sources/jain/multipliers/circuits/final_f73_d6.slp",
+        "metrics": {
+          "AND": 32,
+          "XOR": 51,
+          "NOT": 0,
+          "total": 83,
+          "depth": 6,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "gf7-91",
+    "kind": "multiplier",
+    "specification": "portfolio/gf7-91.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/gf7-91--final-f7.json",
+        "origin": "sources/jain/multipliers/circuits/final_f7.slp",
+        "metrics": {
+          "AND": 32,
+          "XOR": 55,
+          "NOT": 0,
+          "total": 87,
+          "depth": 11,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf7-91--cmt.json",
+        "origin": "sources/jain/multipliers/sources/circuits/cmt/slp_740.txt",
+        "metrics": {
+          "AND": 40,
+          "XOR": 44,
+          "NOT": 0,
+          "total": 84,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "gf8-11b",
+    "kind": "multiplier",
+    "specification": "portfolio/gf8-11b.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/gf8-11b--aes107-d13.json",
+        "origin": "sources/jain/multipliers/circuits/aes107_d13.slp",
+        "metrics": {
+          "AND": 35,
+          "XOR": 72,
+          "NOT": 0,
+          "total": 107,
+          "depth": 13,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf8-11b--aes107-k35.json",
+        "origin": "sources/jain/multipliers/circuits/aes107_k35.slp",
+        "metrics": {
+          "AND": 35,
+          "XOR": 72,
+          "NOT": 0,
+          "total": 107,
+          "depth": 19,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf8-11b--aes107-k36.json",
+        "origin": "sources/jain/multipliers/circuits/aes107_k36.slp",
+        "metrics": {
+          "AND": 36,
+          "XOR": 71,
+          "NOT": 0,
+          "total": 107,
+          "depth": 18,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf8-11b--aes108-d12.json",
+        "origin": "sources/jain/multipliers/circuits/aes108_d12.slp",
+        "metrics": {
+          "AND": 34,
+          "XOR": 74,
+          "NOT": 0,
+          "total": 108,
+          "depth": 12,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf8-11b--aes108-d19.json",
+        "origin": "sources/jain/multipliers/circuits/aes108_d19.slp",
+        "metrics": {
+          "AND": 34,
+          "XOR": 74,
+          "NOT": 0,
+          "total": 108,
+          "depth": 19,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf8-11b--aes109-d18.json",
+        "origin": "sources/jain/multipliers/circuits/aes109_d18.slp",
+        "metrics": {
+          "AND": 33,
+          "XOR": 76,
+          "NOT": 0,
+          "total": 109,
+          "depth": 18,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf8-11b--aes110-d20.json",
+        "origin": "sources/jain/multipliers/circuits/aes110_d20.slp",
+        "metrics": {
+          "AND": 32,
+          "XOR": 78,
+          "NOT": 0,
+          "total": 110,
+          "depth": 20,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf8-11b--aes110-d7.json",
+        "origin": "sources/jain/multipliers/circuits/aes110_d7.slp",
+        "metrics": {
+          "AND": 36,
+          "XOR": 74,
+          "NOT": 0,
+          "total": 110,
+          "depth": 7,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf8-11b--aes112-d14.json",
+        "origin": "sources/jain/multipliers/circuits/aes112_d14.slp",
+        "metrics": {
+          "AND": 43,
+          "XOR": 69,
+          "NOT": 0,
+          "total": 112,
+          "depth": 14,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf8-11b--aes112-d6.json",
+        "origin": "sources/jain/multipliers/circuits/aes112_d6.slp",
+        "metrics": {
+          "AND": 36,
+          "XOR": 76,
+          "NOT": 0,
+          "total": 112,
+          "depth": 6,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf8-11b--aes113-d15.json",
+        "origin": "sources/jain/multipliers/circuits/aes113_d15.slp",
+        "metrics": {
+          "AND": 43,
+          "XOR": 70,
+          "NOT": 0,
+          "total": 113,
+          "depth": 15,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf8-11b--aes114-d9.json",
+        "origin": "sources/jain/multipliers/circuits/aes114_d9.slp",
+        "metrics": {
+          "AND": 43,
+          "XOR": 71,
+          "NOT": 0,
+          "total": 114,
+          "depth": 9,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf8-11b--aes115-cmtprods-d15.json",
+        "origin": "sources/jain/multipliers/circuits/aes115_cmtprods_d15.slp",
+        "metrics": {
+          "AND": 48,
+          "XOR": 67,
+          "NOT": 0,
+          "total": 115,
+          "depth": 15,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/gf8-11b--cmt.json",
+        "origin": "sources/jain/multipliers/sources/circuits/cmt/slp_84310.txt",
+        "metrics": {
+          "AND": 48,
+          "XOR": 69,
+          "NOT": 0,
+          "total": 117,
+          "depth": 6,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "kind": "design",
+    "specification": "portfolio/design-mds4x4-w4.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/design-mds4x4-w4--tian2024.json",
+        "origin": "https://arxiv.org/html/2409.03298v1; table 6 #17 / section 3.5 tree 3 #4; 4-bit instantiation",
+        "metrics": {
+          "AND": 0,
+          "XOR": 35,
+          "NOT": 0,
+          "total": 35,
+          "depth": 6,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 41,
+          "NOT": 0,
+          "total": 41,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/GH_1/SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 39,
+          "NOT": 0,
+          "total": 39,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/GH_1/SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 38,
+          "NOT": 0,
+          "total": 38,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--SBP_depth5.json",
+        "source": "sources/sbp/SBP/result/GH_1/SBP_depth5.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 49,
+          "NOT": 0,
+          "total": 49,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_LiWang16_i_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_LiWang16_i_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 48,
+          "NOT": 0,
+          "total": 48,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_LiWang16_i_4x4_4_SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_LiWang16_i_4x4_4_SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 49,
+          "NOT": 0,
+          "total": 49,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_SKOP15_i_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_SKOP15_i_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 47,
+          "NOT": 0,
+          "total": 47,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_SKOP15_i_4x4_4_SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_SKOP15_i_4x4_4_SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 43,
+          "NOT": 0,
+          "total": 43,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--ToSC_SarSye16_i_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ToSC_SarSye16_i_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 40,
+          "NOT": 0,
+          "total": 40,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--ToSC_SarSye16_i_4x4_4_SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ToSC_SarSye16_i_4x4_4_SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 45,
+          "NOT": 0,
+          "total": 45,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--ePrint_JeaPeySim_i_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ePrint_JeaPeySim_i_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 49,
+          "NOT": 0,
+          "total": 49,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--JOLTIK_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/JOLTIK_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 48,
+          "NOT": 0,
+          "total": 48,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--SMALLSCALE_AES_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/SMALLSCALE_AES_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 47,
+          "NOT": 0,
+          "total": 47,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--SMALLSCALE_AES_SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/SMALLSCALE_AES_SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 46,
+          "NOT": 0,
+          "total": 46,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--C_BeiKraLea16_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/C_BeiKraLea16_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 47,
+          "NOT": 0,
+          "total": 47,
+          "depth": 3,
+          "dead_gates": 1
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_LiWang16_4x4_4_2_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/FSE_LiWang16_4x4_4_2_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 47,
+          "NOT": 0,
+          "total": 47,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_LiuSim16_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/FSE_LiuSim16_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 48,
+          "NOT": 0,
+          "total": 48,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--FSE_SKOP15_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/FSE_SKOP15_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 43,
+          "NOT": 0,
+          "total": 43,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--ToSC_SarSye16_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ToSC_SarSye16_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 45,
+          "NOT": 0,
+          "total": 45,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--ePrint_JeaPeySim_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ePrint_JeaPeySim_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4",
+        "metrics": {
+          "AND": 0,
+          "XOR": 43,
+          "NOT": 0,
+          "total": 43,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4--sbp--ePrint_JeaPeySim_4x4_4_SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/non_inv_mds/matrices_4x4_4/ePrint_JeaPeySim_4x4_4_SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "kind": "design",
+    "specification": "portfolio/design-mds4x4-w4-involution.json",
+    "frozen_published_witnesses": [
+      {
+        "path": "certificates/design-mds4x4-w4-involution--tian2024.json",
+        "origin": "https://arxiv.org/html/2409.03298v1; table 6 #17 / section 3.5 tree 3 #4; 4-bit instantiation",
+        "metrics": {
+          "AND": 0,
+          "XOR": 36,
+          "NOT": 0,
+          "total": 36,
+          "depth": 7,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/design-mds4x4-w4-involution--jpst17-4x4-gf16-inv-xor-41-xzlbz20-circ.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/JPST17-4x4-GF16-inv--XOR=41--XZLBZ20.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 41,
+          "NOT": 0,
+          "total": 41,
+          "depth": 6,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/design-mds4x4-w4-involution--lw16-4x4-gf16-inv-xor-44-xzlbz20-circ.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/LW16-4x4-GF16-inv--XOR=44--XZLBZ20.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 44,
+          "NOT": 0,
+          "total": 44,
+          "depth": 6,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/design-mds4x4-w4-involution--skop15-4x4-gf16-inv-xor-44-xzlbz20-circ.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/SKOP15-4x4-GF16-inv--XOR=44--XZLBZ20.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 44,
+          "NOT": 0,
+          "total": 44,
+          "depth": 8,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      },
+      {
+        "path": "certificates/design-mds4x4-w4-involution--ss16-4x4-gf16-inv-xor-38-rs-120-circ.json",
+        "origin": "sources/nist/data/slp/2021-linearmaps/circuits/mds-4x4-GF16/SS16-4x4-GF16-inv--XOR=38-rs=120.circ.txt",
+        "metrics": {
+          "AND": 0,
+          "XOR": 38,
+          "NOT": 0,
+          "total": 38,
+          "depth": 6,
+          "dead_gates": 0
+        },
+        "status": "independently-checked-code; not external review"
+      }
+    ],
+    "count_only_claims": [],
+    "post_freeze_prior": [
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 41,
+          "NOT": 0,
+          "total": 41,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/GH_1/SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 39,
+          "NOT": 0,
+          "total": 39,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/GH_1/SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 38,
+          "NOT": 0,
+          "total": 38,
+          "depth": 5,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--SBP_depth5.json",
+        "source": "sources/sbp/SBP/result/GH_1/SBP_depth5.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 49,
+          "NOT": 0,
+          "total": 49,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--FSE_LiWang16_i_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_LiWang16_i_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 48,
+          "NOT": 0,
+          "total": 48,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--FSE_LiWang16_i_4x4_4_SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_LiWang16_i_4x4_4_SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 49,
+          "NOT": 0,
+          "total": 49,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--FSE_SKOP15_i_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_SKOP15_i_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 47,
+          "NOT": 0,
+          "total": 47,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--FSE_SKOP15_i_4x4_4_SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/FSE_SKOP15_i_4x4_4_SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 43,
+          "NOT": 0,
+          "total": 43,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--ToSC_SarSye16_i_4x4_4_SBP_depth3.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ToSC_SarSye16_i_4x4_4_SBP_depth3.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 40,
+          "NOT": 0,
+          "total": 40,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--ToSC_SarSye16_i_4x4_4_SBP_depth4.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ToSC_SarSye16_i_4x4_4_SBP_depth4.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 45,
+          "NOT": 0,
+          "total": 45,
+          "depth": 4,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--ePrint_JeaPeySim_i_4x4_4_SBP.json",
+        "source": "sources/sbp/SBP/result/inv_mds/matrices_inv_4x4_4/ePrint_JeaPeySim_i_4x4_4_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      },
+      {
+        "instance": "design-mds4x4-w4-involution",
+        "metrics": {
+          "AND": 0,
+          "XOR": 49,
+          "NOT": 0,
+          "total": 49,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "path": "results/audit-baselines/design-mds4x4-w4-involution--sbp--JOLTIK_SBP.json",
+        "source": "sources/sbp/SBP/result/matrices_non_MDS/JOLTIK_SBP.txt",
+        "status": "published-witness-verified-by-two-implementations",
+        "url": "https://github.com/demirmehmet0/SBP/tree/f3880c8f87085e3eead3029593cee781e94ee60a"
+      }
+    ],
+    "completeness": "not certified; candidate-specific novelty audit required"
+  }
+]

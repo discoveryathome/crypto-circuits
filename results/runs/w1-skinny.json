@@ -1,0 +1,38 @@
+{
+  "instance": "skinny",
+  "wave": 1,
+  "seed": "553398468175f7aad453e5f39613a60f",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/skinny--nist.json",
+  "search_wall_seconds": 0.01820408401545137,
+  "search_cpu_seconds": 0.017882000000000176,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 0,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w1-skinny-0.json",
+      "sha256": "0f328c491608eebbb0d945a99b11542916cf6007ca9805fa8d2710d902a4115a",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 12,
+        "NOT": 0,
+        "total": 12,
+        "depth": 2,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 256,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0001164580462500453
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

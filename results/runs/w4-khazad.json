@@ -1,0 +1,92 @@
+{
+  "instance": "khazad",
+  "wave": 4,
+  "seed": "182f135856c631f97f4f79a0237b7093",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/khazad--nist.json",
+  "search_wall_seconds": 12.44842491694726,
+  "search_cpu_seconds": 7.63608099999999,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 86,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w4-khazad-0.json",
+      "sha256": "f6d8620aa9f9d14a4ac6eaf7be4d92323a4a370515903e3f8bab919b0290fbdb",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 366,
+        "NOT": 0,
+        "total": 366,
+        "depth": 18,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.005356124951504171
+    },
+    {
+      "path": "results/candidates/w4-khazad-1.json",
+      "sha256": "ddb08bd207b920675e39b470c908c875bdb118e46a29f7a165e2bbbeecb548f7",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 520,
+        "NOT": 0,
+        "total": 520,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.002223416930064559
+    },
+    {
+      "path": "results/candidates/w4-khazad-2.json",
+      "sha256": "31b9dbf71283011e7395048831f3b5a01a19dc4bd4762039127dbe6199121dee",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 518,
+        "NOT": 0,
+        "total": 518,
+        "depth": 7,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.003740958054549992
+    },
+    {
+      "path": "results/candidates/w4-khazad-3.json",
+      "sha256": "1dd188c12e75a7abd80bee0549594c7b56c1ace2d69b07e2451ed637b7a2f40c",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 513,
+        "NOT": 0,
+        "total": 513,
+        "depth": 8,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.002998459036462009
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

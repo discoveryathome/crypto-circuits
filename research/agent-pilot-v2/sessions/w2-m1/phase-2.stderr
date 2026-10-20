@@ -1,0 +1,21 @@
+iteration=0 elapsed=0.0140581 current=240,5 pool=34 accepted=1 invalid=0
+iteration=40000 elapsed=21.1797 current=164,11 pool=34 accepted=14122 invalid=10391
+iteration=60000 elapsed=30.7788 current=164,10 pool=34 accepted=21534 invalid=15486
+iteration=80000 elapsed=43.0478 current=168,10 pool=34 accepted=28900 invalid=20737
+iteration=100000 elapsed=55.1728 current=166,10 pool=36 accepted=36048 invalid=25892
+iteration=120000 elapsed=67.655 current=165,10 pool=36 accepted=43651 invalid=31121
+iteration=160000 elapsed=87.2287 current=166,10 pool=37 accepted=57919 invalid=41596
+iteration=220000 elapsed=105.922 current=165,10 pool=37 accepted=78923 invalid=57304
+iteration=240000 elapsed=111.218 current=165,9 pool=37 accepted=85939 invalid=62589
+iteration=260000 elapsed=116.846 current=223,7 pool=39 accepted=93217 invalid=67935
+iteration=280000 elapsed=122.652 current=165,10 pool=43 accepted=100698 invalid=73144
+iteration=300000 elapsed=129.265 current=164,12 pool=43 accepted=108699 invalid=78120
+iteration=320000 elapsed=137.287 current=169,10 pool=43 accepted=116718 invalid=83056
+iteration=360000 elapsed=148.868 current=165,9 pool=44 accepted=131205 invalid=93546
+iteration=380000 elapsed=153.635 current=165,10 pool=44 accepted=138430 invalid=98870
+iteration=400000 elapsed=158.858 current=163,10 pool=44 accepted=145957 invalid=104015
+iteration=480000 elapsed=185.349 current=163,11 pool=44 accepted=174322 invalid=124982
+iteration=500000 elapsed=194.967 current=234,6 pool=44 accepted=181624 invalid=130173
+iteration=520000 elapsed=203.63 current=165,11 pool=44 accepted=189091 invalid=135276
+iteration=580000 elapsed=229.886 current=168,9 pool=44 accepted=210639 invalid=150880
+done iterations=600068 accepted=217938 invalid=156238

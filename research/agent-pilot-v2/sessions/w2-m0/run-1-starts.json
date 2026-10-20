@@ -1,0 +1,176 @@
+[
+  {
+    "instance": "whirlwindm0",
+    "path": "results/candidates/w3-whirlwindm0-0.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w3-whirlwindm0.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+    "metrics": {
+      "AND": 0,
+      "XOR": 217,
+      "NOT": 0,
+      "total": 217,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 217,
+        "NOT": 0,
+        "total": 217,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.007487916969694197
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 217,
+        "depth": 5,
+        "total": 217
+      },
+      "ok": true,
+      "verification_seconds": 0.010316834086552262
+    }
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor157-depth12-079f1f3f3f22.json",
+    "sha256": "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 157,
+      "dead_gates": 0,
+      "depth": 12,
+      "total": 157
+    },
+    "kind": "verified-wave1-local-prior",
+    "source": "review/checks.json"
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor209-depth7-a2078fae4a0e.json",
+    "sha256": "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 209,
+      "dead_gates": 0,
+      "depth": 7,
+      "total": 209
+    },
+    "kind": "verified-wave1-local-prior",
+    "source": "review/checks.json"
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor161-depth11-65a10aa404e3.json",
+    "sha256": "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 161,
+      "dead_gates": 0,
+      "depth": 11,
+      "total": 161
+    },
+    "kind": "verified-wave1-local-prior",
+    "source": "review/checks.json"
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor163-depth10-f258c04d025f.json",
+    "sha256": "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 163,
+      "dead_gates": 0,
+      "depth": 10,
+      "total": 163
+    },
+    "kind": "verified-wave1-local-prior",
+    "source": "review/checks.json"
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "research/agent-pilot-v2/sessions/w1-m0/submissions/xor170-depth9-30045c939d4c.json",
+    "sha256": "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 170,
+      "dead_gates": 0,
+      "depth": 9,
+      "total": 170
+    },
+    "kind": "verified-wave1-local-prior",
+    "source": "review/checks.json"
+  },
+  {
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor160-depth10-250a8d3488c8.json",
+    "sha256": "250a8d3488c8ba1cdfea33f2301cd97d6907ae66294970fa505d8128c384b746",
+    "metrics": {
+      "XOR": 160,
+      "depth": 10
+    },
+    "kind": "own-dual-verified-submission"
+  },
+  {
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor208-depth7-32686df28fbb.json",
+    "sha256": "32686df28fbb8fa359de3975b18f40de85ef0f83dfa4bd59c1732634f88014af",
+    "metrics": {
+      "XOR": 208,
+      "depth": 7
+    },
+    "kind": "own-dual-verified-submission"
+  },
+  {
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor158-depth11-1e0407697651.json",
+    "sha256": "1e040769765137019c2e4e765cf352638fef2bd10e5bacdf69462cf0af9557f6",
+    "metrics": {
+      "XOR": 158,
+      "depth": 11
+    },
+    "kind": "own-dual-verified-submission"
+  },
+  {
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor168-depth9-2c60af76d409.json",
+    "sha256": "2c60af76d40924640ea9e28d22e82aef64c657e239af4b49f55d73e901f17faf",
+    "metrics": {
+      "XOR": 168,
+      "depth": 9
+    },
+    "kind": "own-dual-verified-submission"
+  },
+  {
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor215-depth6-6e2a352b3bfe.json",
+    "sha256": "6e2a352b3bfe307f24a895ec637e807c8dcb2a44cf236ee3aa7e45f29f306d35",
+    "metrics": {
+      "XOR": 215,
+      "depth": 6
+    },
+    "kind": "own-dual-verified-submission"
+  },
+  {
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor216-depth5-d28219463782.json",
+    "sha256": "d282194637823b23602327bbac71bc164ec124345a7da2767284d07c4c2b2168",
+    "metrics": {
+      "XOR": 216,
+      "depth": 5
+    },
+    "kind": "own-dual-verified-submission"
+  }
+]

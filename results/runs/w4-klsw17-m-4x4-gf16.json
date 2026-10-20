@@ -1,0 +1,56 @@
+{
+  "instance": "klsw17-m-4x4-gf16",
+  "wave": 4,
+  "seed": "b4c630743abdcb928aedd9e6f4f41257",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/klsw17-m-4x4-gf16--nist.json",
+  "search_wall_seconds": 0.14289470808580518,
+  "search_cpu_seconds": 0.0901049999999941,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 90,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w4-klsw17-m-4x4-gf16-0.json",
+      "sha256": "1ac5c5bc94cba4a698563d97d98cd672d9cf501cb3c2a1374bed5338a12797a4",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 40,
+        "NOT": 0,
+        "total": 40,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 256,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.00022312498185783625
+    },
+    {
+      "path": "results/candidates/w4-klsw17-m-4x4-gf16-1.json",
+      "sha256": "ebd251a1d1fe7ac02607385213225d81ce2b053a3ec50bb972cecd893d5ea31d",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 36,
+        "NOT": 0,
+        "total": 36,
+        "depth": 7,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 256,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.00020524999126791954
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

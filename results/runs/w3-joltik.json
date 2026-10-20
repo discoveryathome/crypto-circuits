@@ -1,0 +1,74 @@
+{
+  "instance": "joltik",
+  "wave": 3,
+  "seed": "8a1d0dae8efb078211bbfaa889bfaafa",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/joltik--nist.json",
+  "search_wall_seconds": 0.193200167035684,
+  "search_cpu_seconds": 0.09811999999999443,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 78,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w3-joltik-0.json",
+      "sha256": "026b583faa9a4b96a4b96097741031cd8ba02750c65065e2a04d81ea7d5aee68",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 48,
+        "NOT": 0,
+        "total": 48,
+        "depth": 4,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 256,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0007057919865474105
+    },
+    {
+      "path": "results/candidates/w3-joltik-1.json",
+      "sha256": "cd2c0ce43146d03e21f96788e374f43d9df80575512157254993df523b1a0bfa",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 50,
+        "NOT": 0,
+        "total": 50,
+        "depth": 3,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 256,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.00026008300483226776
+    },
+    {
+      "path": "results/candidates/w3-joltik-2.json",
+      "sha256": "0b5bb70c5807f9c21f0b6cdb9c6123a11d02528db2d9405954af567aefa0d09f",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 44,
+        "NOT": 0,
+        "total": 44,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 256,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0002357090124860406
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

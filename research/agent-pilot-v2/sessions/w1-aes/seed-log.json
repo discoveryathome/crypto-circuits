@@ -1,0 +1,40 @@
+{
+  "full_seed": "03372e8b56df69d975ecace485652e86",
+  "runs": [
+    {
+      "name": "baseline",
+      "seed_low64": 8497356694431805062,
+      "cpu_budget": 100,
+      "wall_budget": 120
+    },
+    {
+      "name": "semantic-v2",
+      "seed": 14863891643800825487,
+      "derivation": "low64(SHA256(full seed bytes || ASCII :semantic-v2:0))",
+      "cpu_budget": 240,
+      "wall_budget": 270
+    },
+    {
+      "name": "shallow-v1",
+      "seed": 4729223582868229464,
+      "derivation": "low64(SHA256(full seed bytes || ASCII :shallow-v1:0))",
+      "cpu_budget": 300,
+      "wall_budget": 330
+    },
+    {
+      "name": "shallow-v2",
+      "seed": 8059499815864148647,
+      "derivation": "low64(SHA256(full seed bytes || ASCII :shallow-v2:0))",
+      "cpu_budget": 250,
+      "wall_budget": 240
+    },
+    {
+      "name": "semantic-v3",
+      "seed": 2684076159790733047,
+      "derivation": "low64(SHA256(full seed bytes || ASCII :semantic-v3:0))",
+      "cpu_budget": 600,
+      "wall_budget": 600,
+      "effective_limit": "remaining session deadline via budget_run.py"
+    }
+  ]
+}

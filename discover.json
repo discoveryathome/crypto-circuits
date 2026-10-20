@@ -1,0 +1,63 @@
+{
+  "schema": "discover/v0",
+  "title": "Cryptographic circuit optimization",
+  "summary": "32 fixed linear-layer, binary-field multiplier and block-MDS problems. Six bounded agent sessions advanced two Whirlwind maps; larger beta recommended, public donor intake paused.",
+  "domains": [
+    "cryptography",
+    "circuit-complexity",
+    "automated-reasoning"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Mister-Meeseeks",
+      "github": "Mister-Meeseeks"
+    }
+  ],
+  "canonical_repo": "https://github.com/discoveryathome/crypto-circuits",
+  "entry": {
+    "agents": "AGENTS.md",
+    "project": "DISCOVERY.md",
+    "contributing": "docs/SUBMISSIONS.md"
+  },
+  "frontier": "discover/frontier.json",
+  "catalog": "discover/catalog.json",
+  "priority_log": "discover/priority-log.md",
+  "verification_profile": "exact-certificate",
+  "permissions": {
+    "post_messages": false,
+    "open_prs": false,
+    "maintainer_only": [
+      "approve-frontier",
+      "publish",
+      "enable-donor-intake"
+    ]
+  },
+  "review": {
+    "paused": true,
+    "note": "Repository administration: Mister-Meeseeks. Research review capacity and external scientific review remain uncommitted; the six-session screen supports a larger beta, not public donor intake."
+  },
+  "credit": {
+    "policy": "Preserve published authors, source commits and hashes. Credit reproduction, code, search and review separately; no automatic coauthorship.",
+    "kinds": [
+      "citation",
+      "acknowledgement"
+    ]
+  },
+  "requirements": {
+    "note": "Python 3.9+ standard library; first verification fetches pinned optional SBP data. C++17 for agent search, optional Z3 for selected AES experiments. See README."
+  },
+  "session": {
+    "default_minutes": 60,
+    "orient_fraction": 0.2,
+    "verify_fraction": 0.25
+  },
+  "hubs": [
+    {
+      "hub": "discoveryathome/discover",
+      "list": true,
+      "push": []
+    }
+  ],
+  "process_changed_on": "2026-10-20"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "instance": "whirlwindm1",
+    "path": "results/candidates/w3-whirlwindm1-1.json",
+    "kind": "internal-prior",
+    "receipt": "results/runs/w3-whirlwindm1.json",
+    "novelty": "unestablished and ineligible for new session credit",
+    "sha256": "90b3cceb2a476d7535fb180f3a6a2cfd5bb54eab2149521f2ba6c51d8a0c7c8d",
+    "metrics": {
+      "AND": 0,
+      "XOR": 240,
+      "NOT": 0,
+      "total": 240,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "primary": {
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 240,
+        "NOT": 0,
+        "total": 240,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.001348666031844914
+    },
+    "second": {
+      "evaluations": 33,
+      "method": "independent scalar implementation",
+      "metrics": {
+        "AND": 0,
+        "NOT": 0,
+        "XOR": 240,
+        "depth": 5,
+        "total": 240
+      },
+      "ok": true,
+      "verification_seconds": 0.0036305419635027647
+    }
+  },
+  {
+    "instance": "whirlwindm1",
+    "path": "research/agent-pilot-v2/sessions/w1-m1/submissions/candidate-166-10-10c982463574.json",
+    "sha256": "10c982463574dbaf5778d88f37518bc735549124eec2975af32c2b547d8753b5",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 166,
+      "dead_gates": 0,
+      "depth": 10,
+      "total": 166
+    },
+    "kind": "verified-wave1-local-prior",
+    "source": "review/checks.json"
+  }
+]

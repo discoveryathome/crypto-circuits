@@ -1,0 +1,9 @@
+C transpose(C const&c){
+ vector<U>order;unordered_set<U>done;auto walk=[&](auto&&self,U z)->void{if(leaf(z)||done.count(z))return;auto[a,b]=c.g.at(z);self(self,a);self(self,b);done.insert(z);order.push_back(z);};for(U o:c.out)walk(walk,o);
+ unordered_map<U,vector<U>>uses;for(int i=0;i<c.out.size();i++)uses[c.out[i]].push_back(U(1)<<i);C t;t.n=c.n;unordered_map<U,int>d;for(int i=0;i<t.n;i++)d[U(1)<<i]=0;
+ auto reduce=[&](vector<U>v)->U{unordered_set<U>s;for(U x:v){if(s.count(x))s.erase(x);else s.insert(x);}v.assign(s.begin(),s.end());if(v.empty())return 0;
+ while(v.size()>1){shuffle(v.begin(),v.end(),rng);if(rng()%5)stable_sort(v.begin(),v.end(),[&](U a,U b){return d[a]<d[b];});U a=v.back();v.pop_back();U b=v.back();v.pop_back();U z=a^b;if(!z)continue;if(!leaf(z)&&!t.g.count(z)){t.g[z]={a,b};d[z]=1+max(d[a],d[b]);}v.push_back(z);}return v.empty()?0:v[0];};
+ for(auto it=order.rbegin();it!=order.rend();it++){U z=*it,x=reduce(uses[z]);if(x){auto[a,b]=c.g.at(z);uses[a].push_back(x);uses[b].push_back(x);}}
+ for(int i=0;i<c.n;i++){U x=reduce(uses[U(1)<<i]);if(!x)return c;t.out.push_back(x);}
+ auto perm=[&](U x){U y=0;for(int i=0;i<c.n;i++)if(x>>i&1)y^=U(1)<<(4*(i/4)+(4-i%4)%4);return y;};G g;for(auto[z,ab]:t.g)g[perm(z)]={perm(ab.first),perm(ab.second)};t.g=g;vector<U>outs;for(int i=0;i<c.n;i++)outs.push_back(perm(t.out[4*(i/4)+(4-i%4)%4]));t.out=outs;if(t.out!=c.out)return c;return prune(t);
+}

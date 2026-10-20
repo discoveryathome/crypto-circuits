@@ -1,0 +1,36 @@
+{
+  "instance": "gf5-25",
+  "wave": 3,
+  "seed": "713d33aadee2e4bd5fe0744b793e73a5",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/gf5-25--final-f5.json",
+  "search_wall_seconds": 0.09623645897954702,
+  "search_cpu_seconds": 0.04951500000001374,
+  "counters": {
+    "walk_steps": 256,
+    "accepted_walk_changes": 71,
+    "candidates_considered": 2
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w3-gf5-25-0.json",
+      "sha256": "0a3c5f0e97cb40ec6b3f309561b30d6d7d4bc3342c45a545c963d2b1524ce488",
+      "ok": true,
+      "metrics": {
+        "AND": 20,
+        "XOR": 24,
+        "NOT": 0,
+        "total": 44,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "exhaustive_inputs": 1024
+      },
+      "verification_seconds": 0.014904457959346473
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

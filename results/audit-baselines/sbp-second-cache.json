@@ -1,0 +1,587 @@
+{
+  "design-mds4x4-w4:fa9bb6974cbafc01d517022a3659c33fcdc1578a934464d37ee3fbdbfc2d7b1c": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 41,
+      "depth": 3,
+      "total": 41
+    },
+    "ok": true,
+    "verification_seconds": 2.0059759160503745
+  },
+  "design-mds4x4-w4-involution:fa9bb6974cbafc01d517022a3659c33fcdc1578a934464d37ee3fbdbfc2d7b1c": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 41,
+      "depth": 3,
+      "total": 41
+    },
+    "ok": true,
+    "verification_seconds": 1.7244008330162615
+  },
+  "design-mds4x4-w4:1818e1d0d2f3f927fb46ed7f2b54f32631ab228bf9c6c85aa224c3eef757468a": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 39,
+      "depth": 4,
+      "total": 39
+    },
+    "ok": true,
+    "verification_seconds": 1.841691332985647
+  },
+  "design-mds4x4-w4-involution:1818e1d0d2f3f927fb46ed7f2b54f32631ab228bf9c6c85aa224c3eef757468a": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 39,
+      "depth": 4,
+      "total": 39
+    },
+    "ok": true,
+    "verification_seconds": 1.6168808330548927
+  },
+  "design-mds4x4-w4:2942b7e44fc11cbc99cca72fe43a7d72dbb899f898b0df2e59517b6b26935774": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 38,
+      "depth": 5,
+      "total": 38
+    },
+    "ok": true,
+    "verification_seconds": 1.6018420830368996
+  },
+  "design-mds4x4-w4-involution:2942b7e44fc11cbc99cca72fe43a7d72dbb899f898b0df2e59517b6b26935774": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 38,
+      "depth": 5,
+      "total": 38
+    },
+    "ok": true,
+    "verification_seconds": 1.5499890410574153
+  },
+  "design-mds4x4-w4:87cfc526d58cb4fbb64146ef2ffaf055bbcc399f879b7e39976702c4877bae19": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 49,
+      "depth": 3,
+      "total": 49
+    },
+    "ok": true,
+    "verification_seconds": 1.6975239170715213
+  },
+  "design-mds4x4-w4-involution:87cfc526d58cb4fbb64146ef2ffaf055bbcc399f879b7e39976702c4877bae19": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 49,
+      "depth": 3,
+      "total": 49
+    },
+    "ok": true,
+    "verification_seconds": 2.1579204170266166
+  },
+  "design-mds4x4-w4:fac8b22ce36bab34aa85c39c431c312a3bc5c0b73fbe3a2a0282e93c69b177ea": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 48,
+      "depth": 4,
+      "total": 48
+    },
+    "ok": true,
+    "verification_seconds": 2.319532166933641
+  },
+  "design-mds4x4-w4-involution:fac8b22ce36bab34aa85c39c431c312a3bc5c0b73fbe3a2a0282e93c69b177ea": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 48,
+      "depth": 4,
+      "total": 48
+    },
+    "ok": true,
+    "verification_seconds": 2.761047208099626
+  },
+  "design-mds4x4-w4:e98dd83a61a44547eb76ecf453909c09e0bce99b2f2b9d1defcf4babaae0ca3c": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 49,
+      "depth": 3,
+      "total": 49
+    },
+    "ok": true,
+    "verification_seconds": 3.0099783330224454
+  },
+  "joltik:e98dd83a61a44547eb76ecf453909c09e0bce99b2f2b9d1defcf4babaae0ca3c": {
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 49,
+      "depth": 3,
+      "total": 49
+    },
+    "ok": true,
+    "verification_seconds": 0.0010421660263091326
+  },
+  "design-mds4x4-w4-involution:e98dd83a61a44547eb76ecf453909c09e0bce99b2f2b9d1defcf4babaae0ca3c": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 49,
+      "depth": 3,
+      "total": 49
+    },
+    "ok": true,
+    "verification_seconds": 3.7378035829169676
+  },
+  "design-mds4x4-w4:90099574ba1b373019a516964f48ce42371b50a6344de663628f298cb5883281": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 47,
+      "depth": 4,
+      "total": 47
+    },
+    "ok": true,
+    "verification_seconds": 2.7502840000670403
+  },
+  "joltik:90099574ba1b373019a516964f48ce42371b50a6344de663628f298cb5883281": {
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 47,
+      "depth": 4,
+      "total": 47
+    },
+    "ok": true,
+    "verification_seconds": 0.0005423330003395677
+  },
+  "design-mds4x4-w4-involution:90099574ba1b373019a516964f48ce42371b50a6344de663628f298cb5883281": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 47,
+      "depth": 4,
+      "total": 47
+    },
+    "ok": true,
+    "verification_seconds": 2.997813208028674
+  },
+  "design-mds4x4-w4:ea34d93b45f2f59ccb89975b6b9ca918e9d06e63fab4fa0438a310615b5b9cef": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 43,
+      "depth": 3,
+      "total": 43
+    },
+    "ok": true,
+    "verification_seconds": 2.2190439170226455
+  },
+  "design-mds4x4-w4-involution:ea34d93b45f2f59ccb89975b6b9ca918e9d06e63fab4fa0438a310615b5b9cef": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 43,
+      "depth": 3,
+      "total": 43
+    },
+    "ok": true,
+    "verification_seconds": 2.157700457959436
+  },
+  "design-mds4x4-w4:8a7fa4e528329c855ae061e1fd03e0f675d06f9f9c98837496be5fb937e08b97": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 40,
+      "depth": 4,
+      "total": 40
+    },
+    "ok": true,
+    "verification_seconds": 1.9997788750333712
+  },
+  "design-mds4x4-w4-involution:8a7fa4e528329c855ae061e1fd03e0f675d06f9f9c98837496be5fb937e08b97": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 40,
+      "depth": 4,
+      "total": 40
+    },
+    "ok": true,
+    "verification_seconds": 2.4433169999392703
+  },
+  "design-mds4x4-w4:dc38550c153ed3009428cdbce0be07ac387cd3e130ea985c6fe73fbe0793bc7f": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 45,
+      "depth": 4,
+      "total": 45
+    },
+    "ok": true,
+    "verification_seconds": 2.03003024996724
+  },
+  "design-mds4x4-w4-involution:dc38550c153ed3009428cdbce0be07ac387cd3e130ea985c6fe73fbe0793bc7f": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 45,
+      "depth": 4,
+      "total": 45
+    },
+    "ok": true,
+    "verification_seconds": 2.112967750057578
+  },
+  "design-mds4x4-w4:9ff76782349db7f9aa825248792712b7786327a34ee722b464069ffd9c3cc7f3": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 49,
+      "depth": 3,
+      "total": 49
+    },
+    "ok": true,
+    "verification_seconds": 2.308323416975327
+  },
+  "joltik:9ff76782349db7f9aa825248792712b7786327a34ee722b464069ffd9c3cc7f3": {
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 49,
+      "depth": 3,
+      "total": 49
+    },
+    "ok": true,
+    "verification_seconds": 0.0005643749609589577
+  },
+  "design-mds4x4-w4-involution:9ff76782349db7f9aa825248792712b7786327a34ee722b464069ffd9c3cc7f3": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 49,
+      "depth": 3,
+      "total": 49
+    },
+    "ok": true,
+    "verification_seconds": 2.4203235410386696
+  },
+  "pridel0:9ea6fcf4d0aabed9de437b47d132c19bd3359fee2d5daed4ab08bb5d9b7e97e5": {
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 24,
+      "depth": 2,
+      "total": 24
+    },
+    "ok": true,
+    "verification_seconds": 0.00038941693492233753
+  },
+  "fides-midori-mantis:9ea6fcf4d0aabed9de437b47d132c19bd3359fee2d5daed4ab08bb5d9b7e97e5": {
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 24,
+      "depth": 2,
+      "total": 24
+    },
+    "ok": true,
+    "verification_seconds": 0.0003837919794023037
+  },
+  "princem0:15c0d1bc8c408e9398043f6fcc4f0d4f0ac9a83ec09f2a2ae8743c91d2c8421a": {
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 24,
+      "depth": 2,
+      "total": 24
+    },
+    "ok": true,
+    "verification_seconds": 0.0003967090742662549
+  },
+  "qarma64:5fd99c887496ffc0ac4a3bca37c5d9fbae785bf2d4c85dd6c13a0f411b997bf4": {
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 24,
+      "depth": 2,
+      "total": 24
+    },
+    "ok": true,
+    "verification_seconds": 0.00039062497671693563
+  },
+  "skinny:0f328c491608eebbb0d945a99b11542916cf6007ca9805fa8d2710d902a4115a": {
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 12,
+      "depth": 2,
+      "total": 12
+    },
+    "ok": true,
+    "verification_seconds": 0.0002998750424012542
+  },
+  "design-mds4x4-w4:a513b7e86159839fa3f84e165494afa4a9f95071566a5350ee3513289120a50a": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 48,
+      "depth": 3,
+      "total": 48
+    },
+    "ok": true,
+    "verification_seconds": 2.0115087090525776
+  },
+  "smallscaleaes:a513b7e86159839fa3f84e165494afa4a9f95071566a5350ee3513289120a50a": {
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 48,
+      "depth": 3,
+      "total": 48
+    },
+    "ok": true,
+    "verification_seconds": 0.000556624960154295
+  },
+  "design-mds4x4-w4:c2ea7b3e86f3d1fbe7cbf3f5e021b27b9f94372d8417bd3d0dd9783fc67a22a1": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 47,
+      "depth": 4,
+      "total": 47
+    },
+    "ok": true,
+    "verification_seconds": 1.7164050419814885
+  },
+  "smallscaleaes:c2ea7b3e86f3d1fbe7cbf3f5e021b27b9f94372d8417bd3d0dd9783fc67a22a1": {
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 47,
+      "depth": 4,
+      "total": 47
+    },
+    "ok": true,
+    "verification_seconds": 0.0005422499962151051
+  },
+  "design-mds4x4-w4:80b012edd0dababecdb3a05e1a6e4995b0809a6bd3b2f19b01af39efa085c8b5": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 46,
+      "depth": 3,
+      "total": 46
+    },
+    "ok": true,
+    "verification_seconds": 1.6586371249286458
+  },
+  "bkl16-4x4-gf16:80b012edd0dababecdb3a05e1a6e4995b0809a6bd3b2f19b01af39efa085c8b5": {
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 46,
+      "depth": 3,
+      "total": 46
+    },
+    "ok": true,
+    "verification_seconds": 0.0005615419941022992
+  },
+  "design-mds4x4-w4:ed14f8951f4386250f148d1f357812d83c8163b52b53d102458e5591d7f9b8c2": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 47,
+      "depth": 3,
+      "total": 47
+    },
+    "ok": true,
+    "verification_seconds": 1.7599786659702659
+  },
+  "design-mds4x4-w4:cfda142bf18d8694279234b3a107eca346dfb375b8101058ad34c55c1fe6e77d": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 47,
+      "depth": 3,
+      "total": 47
+    },
+    "ok": true,
+    "verification_seconds": 2.0419553329702467
+  },
+  "ls16-4x4-gf16:cfda142bf18d8694279234b3a107eca346dfb375b8101058ad34c55c1fe6e77d": {
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 47,
+      "depth": 3,
+      "total": 47
+    },
+    "ok": true,
+    "verification_seconds": 0.0005488749593496323
+  },
+  "design-mds4x4-w4:343bce0d4c7f07542c18e351efd7d6053d4e7b68544b2f1359a2be29e8c0ebfe": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 48,
+      "depth": 3,
+      "total": 48
+    },
+    "ok": true,
+    "verification_seconds": 1.9786941669881344
+  },
+  "design-mds4x4-w4:0152dc54afab634f2836b697859b9d1baa500e5d06c727a1de4c32fb63dc7d27": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 43,
+      "depth": 3,
+      "total": 43
+    },
+    "ok": true,
+    "verification_seconds": 1.8554429169744253
+  },
+  "design-mds4x4-w4:c012e28dea2fd6959a4481ef2450ba74b8a9c825a382ea3faf68a585e914d516": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 45,
+      "depth": 3,
+      "total": 45
+    },
+    "ok": true,
+    "verification_seconds": 1.757472791010514
+  },
+  "jpst17-4x4-gf16:c012e28dea2fd6959a4481ef2450ba74b8a9c825a382ea3faf68a585e914d516": {
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 45,
+      "depth": 3,
+      "total": 45
+    },
+    "ok": true,
+    "verification_seconds": 0.0005500001134350896
+  },
+  "design-mds4x4-w4:1af2e77277cc74140d4e26877c9b751b2143bf42caa91c58af0dcb337dcdbe62": {
+    "evaluations": 65536,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 43,
+      "depth": 4,
+      "total": 43
+    },
+    "ok": true,
+    "verification_seconds": 1.7626498329918832
+  },
+  "jpst17-4x4-gf16:1af2e77277cc74140d4e26877c9b751b2143bf42caa91c58af0dcb337dcdbe62": {
+    "evaluations": 17,
+    "method": "independent scalar implementation",
+    "metrics": {
+      "AND": 0,
+      "NOT": 0,
+      "XOR": 43,
+      "depth": 4,
+      "total": 43
+    },
+    "ok": true,
+    "verification_seconds": 0.0004837500164285302
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "path": "research/agent-pilot-v2/review/wave1-circulant-current-tree.json",
+    "url": "https://api.github.com/repos/DerryAlex/circulant_synth/git/trees/main?recursive=1",
+    "retrieved_at": "2026-10-20T06:53:55.677546+00:00",
+    "sha256": "42b2e43997477c18c6fcbbbb7231560497a7ae8163ab5d211d0c53b9606666c3",
+    "bytes": 8071
+  },
+  {
+    "path": "research/agent-pilot-v2/review/wave1-whirlwind-m0-published.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/size/Whirlwind_M0.txt",
+    "retrieved_at": "2026-10-20T06:53:55.678332+00:00",
+    "sha256": "ce3f73dd3b7c6a9a897e65c2ade466f579a0dbb00520b814e99e87d865d722ed",
+    "bytes": 900
+  },
+  {
+    "path": "research/agent-pilot-v2/review/wave1-whirlwind-m1-published.txt",
+    "url": "https://raw.githubusercontent.com/DerryAlex/circulant_synth/73ff05008ae1d9445a69bc792653726cdccdca5b/results/size/Whirlwind_M1.txt",
+    "retrieved_at": "2026-10-20T06:53:55.678493+00:00",
+    "sha256": "64575f58ffa7741b910315ee8583af9b24c2644c218886667e3caf02529cbe9d",
+    "bytes": 969
+  }
+]

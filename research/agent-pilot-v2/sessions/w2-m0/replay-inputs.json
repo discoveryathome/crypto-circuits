@@ -1,0 +1,44 @@
+[
+  {
+    "manifest": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/run-0-starts.json",
+    "replay_input": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/run-0-starts.txt",
+    "input_sha256": "98fce90a0c15e57c3a19ddc87afbfe5ee58ade8317d8ebd0a97e70f0bb7197ac",
+    "starts": 6
+  },
+  {
+    "manifest": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/run-1-starts.json",
+    "replay_input": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/run-1-starts.txt",
+    "input_sha256": "3c57f45285ec9a49f7e43114c8326df1da01f1c559ecc139117572ff1c9dc909",
+    "starts": 12
+  },
+  {
+    "manifest": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/run-2-starts.json",
+    "replay_input": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/run-2-starts.txt",
+    "input_sha256": "3c57f45285ec9a49f7e43114c8326df1da01f1c559ecc139117572ff1c9dc909",
+    "starts": 12
+  },
+  {
+    "manifest": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/run-3-starts.json",
+    "replay_input": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/run-3-starts.txt",
+    "input_sha256": "c0e3fd1e69cb34c4a5eca00464ad94db4c0d4399a4575d61cc43fd086b8bc0fd",
+    "starts": 41
+  },
+  {
+    "manifest": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/run-4-starts.json",
+    "replay_input": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/run-4-starts.txt",
+    "input_sha256": "87332097a7905e1709221800285cb860858c33a7b62adfff72d5186400d1c21b",
+    "starts": 42
+  },
+  {
+    "manifest": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/run-5-starts.json",
+    "replay_input": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/run-5-starts.txt",
+    "input_sha256": "87332097a7905e1709221800285cb860858c33a7b62adfff72d5186400d1c21b",
+    "starts": 42
+  },
+  {
+    "manifest": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/run-6-starts.json",
+    "replay_input": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/run-6-starts.txt",
+    "input_sha256": "c096942f168fec1ad4273d2d5a9afff9657f27fd9a08a76f8ef07db328d4b09c",
+    "starts": 43
+  }
+]

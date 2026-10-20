@@ -1,0 +1,284 @@
+{
+  "session_id": "w2-aes",
+  "instance": "square-aes-mugi",
+  "status": "complete",
+  "issued_at": "2026-10-20T06:55:59.093536+00:00",
+  "deadline": "2026-10-20T07:15:59.093536+00:00",
+  "search_ended_at": "2026-10-20T07:15:51.104303+00:00",
+  "last_process_reaped_at": "2026-10-20T07:15:51.213054+00:00",
+  "receipt_cleanup_ended_at": "2026-10-20T07:16:04.075950+00:00",
+  "elapsed_from_issued_to_process_end": 1192.010767,
+  "cleanup_seconds": 12.971647,
+  "stop_reason": "bounded final search cutoff before issued deadline, with receipt cleanup reserve",
+  "seed": "e019192dc0ef07c27033e94a2e4b5a0a",
+  "initial_frontier_sha256": "6c54381c85bc67af678078ff9127d5fc7e531e6ed7ad0910967bdb66dcc37c12",
+  "methods": [
+    "semantic DAG union across all starts and four byte-rotation symmetries; seeded annealing with cycle checks",
+    "200 extra semantic bridges, coordinated child-choice minimization, output-depth penalties",
+    "exact bounded semantic-window SMT resynthesis using installed z3 and rank-preserving bit projections",
+    "global finite-semantic-universe depth-bounded SAT extraction",
+    "ancestor-cone-focused SMT windows",
+    "pure Boolean rank extraction over output-subset and cancellation-expanded depth3 universes"
+  ],
+  "runs": [
+    {
+      "name": "global-depth3-v1",
+      "status": "unknown",
+      "started_at": "2026-10-20T07:06:57.485467+00:00",
+      "ended_at": "2026-10-20T07:08:37.499096+00:00",
+      "seed": 1057818272259097320,
+      "seed_derivation": "low64 XOR first8 SHA256(name) big-endian; z3 receives low30 bits",
+      "source_sha256": "396a89824544f2b8644cff5eafbb77b6b1d4d4dd9f3bca53aa9353a0f6d327bd",
+      "solver_wall_seconds": 100.01014475000557,
+      "solver_cpu_seconds": 42.588314,
+      "baseline_model_validation": "sat",
+      "universe": 581,
+      "options": 13760,
+      "count_bound": 96,
+      "depth_limit": 3,
+      "receipt_path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/global-depth3-v1/receipt.json",
+      "checkpoints": []
+    },
+    {
+      "name": "global-depth4-final",
+      "status": "unknown",
+      "started_at": "2026-10-20T07:14:45.697559+00:00",
+      "ended_at": "2026-10-20T07:15:51.104303+00:00",
+      "seed": 14442577003036973969,
+      "seed_derivation": "low64 XOR first8 SHA256(name) big-endian; z3 receives low30 bits",
+      "source_sha256": "7d4f1ac4ab5deb6aaffe0dcc6fc00f8a0c1f0e001d8745a0defe39f664ead005",
+      "solver_wall_seconds": 65.40430354210548,
+      "solver_cpu_seconds": 60.485127,
+      "baseline_model_validation": "sat",
+      "universe": 581,
+      "options": 13760,
+      "count_bound": 88,
+      "depth_limit": 4,
+      "receipt_path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/global-depth4-final/receipt.json",
+      "checkpoints": []
+    },
+    {
+      "name": "rank-depth3-full",
+      "status": "unknown",
+      "started_at": "2026-10-20T07:11:36.799394+00:00",
+      "ended_at": "2026-10-20T07:12:56.815925+00:00",
+      "seed": 11688720111563186954,
+      "seed_derivation": "low64 XOR first8 SHA256(name) big-endian; z3 receives low30 bits",
+      "source_sha256": "75c6416653cb2d6419f3ab4a0e3b6bb5fcaa2995e57883dd3662569aef369efa",
+      "solver_wall_seconds": 80.014663875103,
+      "solver_cpu_seconds": 51.735403000000005,
+      "baseline_model_validation": "sat",
+      "universe": 8514,
+      "options": 32826,
+      "count_bound": 96,
+      "depth_limit": 3,
+      "receipt_path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/rank-depth3-full/receipt.json",
+      "checkpoints": []
+    },
+    {
+      "name": "rank-depth3-v1",
+      "status": "unknown",
+      "started_at": "2026-10-20T07:09:14.219847+00:00",
+      "ended_at": "2026-10-20T07:10:54.235740+00:00",
+      "seed": 1296776123666946375,
+      "seed_derivation": "low64 XOR first8 SHA256(name) big-endian; z3 receives low30 bits",
+      "source_sha256": "1f61899a387a3c48f085cfdd9ad5fc4db8bc6423ab4f445c075bdf825b14ce9c",
+      "solver_wall_seconds": 100.0135117500322,
+      "solver_cpu_seconds": 63.624477999999996,
+      "baseline_model_validation": "sat",
+      "universe": 1453,
+      "options": 5419,
+      "count_bound": 96,
+      "depth_limit": 3,
+      "receipt_path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/rank-depth3-v1/receipt.json",
+      "checkpoints": []
+    },
+    {
+      "name": "sat-cones-v1",
+      "status": "complete",
+      "started_at": "2026-10-20T07:13:09.771862+00:00",
+      "ended_at": "2026-10-20T07:14:19.810379+00:00",
+      "iterations": 1009,
+      "counts": {
+        "sat": 252,
+        "accepted": 227,
+        "unsat": 739,
+        "unknown": 18
+      },
+      "best": [
+        [
+          88,
+          5
+        ],
+        [
+          90,
+          4
+        ],
+        [
+          97,
+          3
+        ]
+      ],
+      "seed": 433182791136528290,
+      "seed_derivation": "low64 XOR first8 bytes SHA256(run name), big endian",
+      "source_sha256": "66e93491ee089342f8c0e94b184edc5e17405655fe0f518b975404f79f135d55",
+      "core_cpu_seconds": 51.607473,
+      "receipt_path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/sat-cones-v1/receipt.json",
+      "checkpoints": []
+    },
+    {
+      "name": "sat-window-v1",
+      "status": "complete",
+      "started_at": "2026-10-20T07:04:26.434393+00:00",
+      "ended_at": "2026-10-20T07:06:26.675359+00:00",
+      "iterations": 1339,
+      "counts": {
+        "sat": 333,
+        "accepted": 323,
+        "unsat": 1004,
+        "unknown": 2
+      },
+      "best": [
+        [
+          88,
+          5
+        ],
+        [
+          90,
+          4
+        ],
+        [
+          97,
+          3
+        ]
+      ],
+      "seed": 12688941329530084505,
+      "seed_derivation": "low64 XOR first8 bytes SHA256(run name), big endian",
+      "source_sha256": "018375960fda2b06622c09b6b04366c1ee31f45f421553e89d959c7e733f203f",
+      "core_cpu_seconds": 78.53720799999999,
+      "receipt_path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/sat-window-v1/receipt.json",
+      "checkpoints": []
+    },
+    {
+      "name": "union-v1",
+      "status": "complete",
+      "started_at": "2026-10-20T06:58:48.430519+00:00",
+      "ended_at": "2026-10-20T07:00:28.451633+00:00",
+      "returncode": 0,
+      "seed": 8085062260873714186,
+      "seed_derivation": "low64 XOR named constant; unnamed runs XOR first8 SHA256(name) big-endian",
+      "source_sha256": "9273712e46240e96de3bb899d612eb91a05c7d1b562857f8e0654a7ed3e0585a",
+      "search_wall_seconds": 100.01386129192542,
+      "receipt_path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/union-v1/receipt.json",
+      "checkpoints": [
+        {
+          "XOR": 88,
+          "depth": 5,
+          "sha256": "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+          "dominated_by_issued_prior": true,
+          "first_checkpoint_at": "2026-10-20T06:58:48.440458+00:00"
+        },
+        {
+          "XOR": 90,
+          "depth": 4,
+          "sha256": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+          "dominated_by_issued_prior": true,
+          "first_checkpoint_at": "2026-10-20T06:58:48.585639+00:00"
+        },
+        {
+          "XOR": 97,
+          "depth": 3,
+          "sha256": "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82",
+          "dominated_by_issued_prior": true,
+          "first_checkpoint_at": "2026-10-20T06:58:48.736599+00:00"
+        }
+      ],
+      "final_log_line": "done iterations=8372644 cpu=43.0063 accepted=1508508 cycles=3121706"
+    },
+    {
+      "name": "union-v2",
+      "status": "complete",
+      "started_at": "2026-10-20T07:00:58.539107+00:00",
+      "ended_at": "2026-10-20T07:03:48.556278+00:00",
+      "returncode": 0,
+      "seed": 17150992655644173855,
+      "seed_derivation": "low64 XOR named constant; unnamed runs XOR first8 SHA256(name) big-endian",
+      "source_sha256": "f3d2caf23df1bb0f44fea136d7a5572bf40d050344b419b27bb8c0274841ce1b",
+      "search_wall_seconds": 170.00584354193415,
+      "receipt_path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-aes/union-v2/receipt.json",
+      "checkpoints": [
+        {
+          "XOR": 88,
+          "depth": 5,
+          "sha256": "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+          "dominated_by_issued_prior": true,
+          "first_checkpoint_at": "2026-10-20T07:00:58.552503+00:00"
+        },
+        {
+          "XOR": 90,
+          "depth": 4,
+          "sha256": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+          "dominated_by_issued_prior": true,
+          "first_checkpoint_at": "2026-10-20T07:00:58.705437+00:00"
+        },
+        {
+          "XOR": 97,
+          "depth": 3,
+          "sha256": "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82",
+          "dominated_by_issued_prior": true,
+          "first_checkpoint_at": "2026-10-20T07:00:58.863369+00:00"
+        }
+      ],
+      "final_log_line": "done iterations=9307553 cpu=111.492 accepted=1102761 cycles=3065277"
+    }
+  ],
+  "submissions": [],
+  "new_pareto_points_proposed": 0,
+  "first_new_checkpoint_at": null,
+  "first_atomic_submission_at": null,
+  "novelty_status": "Independent candidate-specific review required; no novelty claim by search author. Unknown-depth89-XOR guard retained.",
+  "known_prior_coordinates": [
+    [
+      88,
+      5
+    ],
+    [
+      90,
+      4
+    ],
+    [
+      97,
+      3
+    ]
+  ],
+  "invalid_submissions": 0,
+  "known_duplicate_checkpoints": 6,
+  "process_cpu_seconds": 528.582046,
+  "process_wall_seconds": 855.705943207955,
+  "process_cpu_accounting_complete": true,
+  "process_timing_scope": "budget_run child process totals include search, compilation, wrappers and invoked checkers; per-run logs retain core timings",
+  "costs_unavailable": {
+    "model_token_usage": null,
+    "model_monetary_cost": null,
+    "agent_reasoning_cpu_seconds": null
+  },
+  "source_files": {
+    "union.cpp": "9273712e46240e96de3bb899d612eb91a05c7d1b562857f8e0654a7ed3e0585a",
+    "run.py": "62505a221823f98a0590959aa3d2ad0cda2ce1819902dca32e98330803b39cc8",
+    "union-v2.cpp": "f3d2caf23df1bb0f44fea136d7a5572bf40d050344b419b27bb8c0274841ce1b",
+    "finalize.py": "2defbae644122aa675ba6186d6fe597946ffd951acb7e48da2b34a2a54ecd1dd",
+    "rank-full.py": "75c6416653cb2d6419f3ab4a0e3b6bb5fcaa2995e57883dd3662569aef369efa",
+    "sat-cones.py": "66e93491ee089342f8c0e94b184edc5e17405655fe0f518b975404f79f135d55",
+    "toolkit.cpp": "0831142ac5d31a3a49920001beb658247a8ea2a7054fa8f478c4f7683991d12e",
+    "global-v2.py": "7d4f1ac4ab5deb6aaffe0dcc6fc00f8a0c1f0e001d8745a0defe39f664ead005",
+    "rank_sat.py": "1f61899a387a3c48f085cfdd9ad5fc4db8bc6423ab4f445c075bdf825b14ce9c",
+    "sat.py": "018375960fda2b06622c09b6b04366c1ee31f45f421553e89d959c7e733f203f",
+    "global_sat.py": "396a89824544f2b8644cff5eafbb77b6b1d4d4dd9f3bca53aa9353a0f6d327bd"
+  },
+  "limitations": [
+    "All SAT UNSAT findings are bounded to chosen windows or finite semantic universe, not global optimality proofs.",
+    "Fixed binary XOR map, no S-box search, no AND gates.",
+    "No downloaded optimizer code executed, no installs, no remote writes.",
+    "Local source and receipts preserve unsuccessful methods and deterministic seeds."
+  ]
+}

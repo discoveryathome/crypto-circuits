@@ -1,0 +1,48 @@
+{
+  "schema": "discover-frontier/v0",
+  "statement": "Six capped agent sessions in two waves: four advanced the literature-reconciled frontier on Whirlwind M0/M1; six accepted Pareto points survive. All 147 submissions passed both checkers. AES MixColumns produced no advance.",
+  "status": "Agent screen passed for a larger beta; public donor intake paused; external scientific review outstanding",
+  "evidence_level": [
+    "author-checked"
+  ],
+  "claim_kind": [
+    "exact",
+    "measured"
+  ],
+  "scope": "Binary XOR/AND, paid NOT, constants; AND, XOR, total gates and depth remain separate Pareto coordinates. Six correlated sessions on three maps; not a general donor-success probability or worldwide novelty proof.",
+  "metric": {
+    "name": "sessions with literature-adjudicated advances",
+    "value": "4/6"
+  },
+  "artifacts": [
+    {
+      "path": "research/agent-pilot-v2/plan.json",
+      "sha256": "e13c95221645d66df1ba36c59df662d3dbb4e8b0ae82dcce8045911a339b0097"
+    },
+    {
+      "path": "research/agent-pilot-v2/review/assessment.json",
+      "sha256": "8121f9d68d258ed99f69a2bf36f0079ee8bd0b0b6edcfd55861cfa61b22675c6"
+    },
+    {
+      "path": "research/agent-pilot-v2/review/current-frontier.json",
+      "sha256": "8a6738faabddb71a9d8f894e9656ef0f9981a6f6fc026792c3f91d6f600bc672"
+    },
+    {
+      "path": "research/agent-pilot-v2/review/wave1-adjudication.json",
+      "sha256": "7686c014cbc354dd62317078ac33e1839e6920b7f68689c477683a9ed85e28bb"
+    },
+    {
+      "path": "research/agent-pilot-v2/review/wave2-adjudication.json",
+      "sha256": "2444f97bd6998ca8b67747d7b9e368730b979edd119982ad2776f20a0adda20d"
+    }
+  ],
+  "reproduce": "python3 tools/fetch_optional_artifacts.py && python3 research/agent-pilot-v2/tools/verify_results.py",
+  "reproduce_minutes": 1,
+  "prerequisites": [
+    "Python 3.9+",
+    "Network access for first-time optional SBP data retrieval; offline afterward"
+  ],
+  "review": "research/agent-pilot-v2/REPORT.md",
+  "updated_on": "2026-10-20",
+  "previous_record": "discover/frontier-algorithm-calibration.json"
+}

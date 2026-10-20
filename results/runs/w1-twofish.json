@@ -1,0 +1,56 @@
+{
+  "instance": "twofish",
+  "wave": 1,
+  "seed": "0322d2eccfc0cecda15f6f6bf2916af6",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/twofish--nist.json",
+  "search_wall_seconds": 0.5290410419693217,
+  "search_cpu_seconds": 0.48414999999999964,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 84,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w1-twofish-0.json",
+      "sha256": "65c255e13da2e9ffa3a22673ef741d8000b5dfd0c4ca9cd6545e93f274e26f78",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 111,
+        "NOT": 0,
+        "total": 111,
+        "depth": 8,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0006472499808296561
+    },
+    {
+      "path": "results/candidates/w1-twofish-1.json",
+      "sha256": "908233f6035fc52408bd82d169a23420698340a8049693e1720d018a4dfa7861",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 145,
+        "NOT": 0,
+        "total": 145,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.000642209080979228
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

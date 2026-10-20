@@ -1,0 +1,18 @@
+{
+  "linear_pilot/checker.py": {
+    "expected": "b1c9fe1bedd873f695bbb84626b26ad325c38e73c3362c4868420505cd7a3ef3",
+    "actual": "b1c9fe1bedd873f695bbb84626b26ad325c38e73c3362c4868420505cd7a3ef3"
+  },
+  "tools/check_submission.py": {
+    "expected": "84f6116276fbdd51ac5e82ec04e40e4b56de16daa0d2b585c289189abf9a2016",
+    "actual": "84f6116276fbdd51ac5e82ec04e40e4b56de16daa0d2b585c289189abf9a2016"
+  },
+  "tools/audit_submission.py": {
+    "expected": "5d15901dca9407acf4f5bf78afadb7649ed59632e6050ce20c7766b85e1b8b78",
+    "actual": "5d15901dca9407acf4f5bf78afadb7649ed59632e6050ce20c7766b85e1b8b78"
+  },
+  "portfolio/square-aes-mugi.json": {
+    "expected": "8ad3723557d639cb064ceaa9673a80b03adc867e2a81cc7f45d94a7e339c033f",
+    "actual": "8ad3723557d639cb064ceaa9673a80b03adc867e2a81cc7f45d94a7e339c033f"
+  }
+}

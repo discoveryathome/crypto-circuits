@@ -1,0 +1,74 @@
+{
+  "instance": "whirlwindm0",
+  "wave": 1,
+  "seed": "2399127cc5c759c97724969056606b30",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/whirlwindm0--xu2026-size.json",
+  "search_wall_seconds": 1.2582619589520618,
+  "search_cpu_seconds": 1.1537499999999952,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 77,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w1-whirlwindm0-0.json",
+      "sha256": "bbe26e3782d0855acf0c826e996e5727d78b10b55937e2a3710831a9ceb0c782",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 159,
+        "NOT": 0,
+        "total": 159,
+        "depth": 14,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0008480410324409604
+    },
+    {
+      "path": "results/candidates/w1-whirlwindm0-1.json",
+      "sha256": "d7f8d2825baa3e2ad12a069b83ada89b6e6512cdbc2b885e3baae6c78a40398f",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 222,
+        "NOT": 0,
+        "total": 222,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0009813329670578241
+    },
+    {
+      "path": "results/candidates/w1-whirlwindm0-2.json",
+      "sha256": "12159b291608e440d996a3a74280f336206ee6326d569827aa603a3e303a1fda",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 221,
+        "NOT": 0,
+        "total": 221,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0011049580061808228
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

@@ -1,0 +1,8 @@
+{
+  "additional_unlogged_initial_cli_invocations": 2,
+  "candidate": "candidate-168-11-17aa6c6ab592.json",
+  "primary_internal_seconds": 0.0007642080308869481,
+  "scalar_internal_seconds": 0.002634165924973786,
+  "separate_process_wall_seconds": "unavailable; commands shared tool call with atomic copying",
+  "purpose": "initial immediate standalone double-check, subsequently repeated with instrumented receipts"
+}

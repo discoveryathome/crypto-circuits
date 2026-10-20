@@ -1,0 +1,29 @@
+{
+  "id": "gf5-25",
+  "title": "GF(2^5), modulus 0x25",
+  "kind": "multiplier",
+  "inputs": 10,
+  "outputs": 5,
+  "width": 5,
+  "modulus": 37,
+  "baselines": [
+    {
+      "path": "certificates/gf5-25--final-f5.json",
+      "origin": "sources/jain/multipliers/circuits/final_f5.slp",
+      "metrics": {
+        "AND": 20,
+        "XOR": 24,
+        "NOT": 0,
+        "total": 44,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    }
+  ],
+  "use": "polynomial-basis multiplication component",
+  "literature_status": "Jain October 2026 plus CMT; no global optimality claim",
+  "literature_claims": [],
+  "best_published_xor_upper_bound": 24,
+  "novelty_policy": "Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker."
+}

@@ -1,0 +1,38 @@
+{
+  "instance": "square-aes-mugi",
+  "wave": 2,
+  "seed": "d96d623508b7d6b3d59bb2b14ef34a95",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+  "search_wall_seconds": 0.3914365420350805,
+  "search_cpu_seconds": 0.18885699999999872,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 10,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w2-square-aes-mugi-0.json",
+      "sha256": "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 97,
+        "NOT": 0,
+        "total": 97,
+        "depth": 3,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.00048033404164016247
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

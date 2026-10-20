@@ -1,0 +1,9 @@
+{
+  "preparation_wall_seconds": null,
+  "reason": "Preparation wall-clock was not instrumented; do not infer it from tool timestamps. Outside experimental search budget.",
+  "fresh_primary_check_seconds": 0.06815208226907998,
+  "fresh_second_check_internal_seconds": 0.6827896693721414,
+  "checks_per_implementation": 45,
+  "second_process_wall_seconds": null,
+  "optimization_search_performed": false
+}

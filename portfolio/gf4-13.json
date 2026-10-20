@@ -1,0 +1,29 @@
+{
+  "id": "gf4-13",
+  "title": "GF(2^4), modulus 0x13",
+  "kind": "multiplier",
+  "inputs": 8,
+  "outputs": 4,
+  "width": 4,
+  "modulus": 19,
+  "baselines": [
+    {
+      "path": "certificates/gf4-13--final-f4.json",
+      "origin": "sources/jain/multipliers/circuits/final_f4.slp",
+      "metrics": {
+        "AND": 10,
+        "XOR": 20,
+        "NOT": 0,
+        "total": 30,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    }
+  ],
+  "use": "polynomial-basis multiplication component",
+  "literature_status": "Jain October 2026 plus CMT; no global optimality claim",
+  "literature_claims": [],
+  "best_published_xor_upper_bound": 20,
+  "novelty_policy": "Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker."
+}

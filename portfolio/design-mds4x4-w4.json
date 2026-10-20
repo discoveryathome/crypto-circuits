@@ -1,0 +1,28 @@
+{
+  "id": "design-mds4x4-w4",
+  "title": "4x4 block MDS on four 4-bit words",
+  "kind": "design",
+  "inputs": 16,
+  "outputs": 16,
+  "involutory": false,
+  "baselines": [
+    {
+      "path": "certificates/design-mds4x4-w4--tian2024.json",
+      "origin": "https://arxiv.org/html/2409.03298v1; table 6 #17 / section 3.5 tree 3 #4; 4-bit instantiation",
+      "metrics": {
+        "AND": 0,
+        "XOR": 35,
+        "NOT": 0,
+        "total": 35,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "status": "independently-checked-code; not external review"
+    }
+  ],
+  "use": "branch-number-5 diffusion design, GL(4,2) blocks; not a full cipher security claim",
+  "literature_status": "35/36-XOR constructions published; general optimality unproved",
+  "literature_claims": [],
+  "best_published_xor_upper_bound": 35,
+  "novelty_policy": "Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker."
+}

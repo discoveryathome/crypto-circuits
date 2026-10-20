@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-10-20T06:40:32.910154+00:00",
+  "hardware_model": "Mac14,2",
+  "logical_cpus": 8,
+  "memory_bytes": 25769803776,
+  "python": "3.14.6",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "concurrent_search_sessions": 3,
+  "measurement": "Shared host; search process CPU is measured separately from elapsed agent-session caps. No exclusive host reservation. LLM model version and token usage are unavailable."
+}

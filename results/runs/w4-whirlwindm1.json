@@ -1,0 +1,56 @@
+{
+  "instance": "whirlwindm1",
+  "wave": 4,
+  "seed": "a8955b6e60f6006292bdf824f1f74e0e",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/whirlwindm1--xu2026-size.json",
+  "search_wall_seconds": 3.2711778330849484,
+  "search_cpu_seconds": 1.4560469999999839,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 82,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w4-whirlwindm1-0.json",
+      "sha256": "355f5eeeada505bfbb785fa5d2f5e79e667a48fe2228e3570980d17b4f028ef6",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 169,
+        "NOT": 0,
+        "total": 169,
+        "depth": 11,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0008892499608919024
+    },
+    {
+      "path": "results/candidates/w4-whirlwindm1-1.json",
+      "sha256": "696dfd677deb9fd96dade756964c6a22db9131856fdde66aa29fa310da547d10",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 240,
+        "NOT": 0,
+        "total": 240,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0017855409532785416
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

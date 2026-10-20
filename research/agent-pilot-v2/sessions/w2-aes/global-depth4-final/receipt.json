@@ -1,0 +1,27 @@
+{
+  "name": "global-depth4-final",
+  "seed": 14442577003036973969,
+  "seed_derivation": "low64 XOR first8 SHA256(name) big-endian; z3 receives low30 bits",
+  "started_at": "2026-10-20T07:14:45.697559+00:00",
+  "source_sha256": "7d4f1ac4ab5deb6aaffe0dcc6fc00f8a0c1f0e001d8745a0defe39f664ead005",
+  "parent_hashes": [
+    "25143c8f14e409b89a0ce20265bb628b9c11dccc07f921e823e8b7a6330013da",
+    "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+    "b3e0a93c6778fb0f4094d0b40e2664b7c0a0da6542f8f54b3a0dec43ab0aea82"
+  ],
+  "universe": 581,
+  "options": 13760,
+  "depth_limit": 4,
+  "count_bound": 88,
+  "timeout_seconds": 1000.0,
+  "installed_z3_version": "5.1.0",
+  "baseline_model_validation": "sat",
+  "status": "unknown",
+  "ended_at": "2026-10-20T07:15:51.104303+00:00",
+  "solver_wall_seconds": 65.40430354210548,
+  "solver_cpu_seconds": 60.485127,
+  "statistics": "(:added-eqs                   24185\n :arith-eq-adapter            90\n :arith-bound-propagations-lp 282314\n :arith-conflicts             3575\n :arith-fixed-eqs             291\n :arith-lower                 354035\n :arith-make-feasible         210871\n :arith-max-columns           12660\n :arith-max-rows              12104\n :arith-offset-eqs            48935\n :arith-upper                 181941\n :binary-propagations         827613257\n :conflicts                   218156\n :decisions                   1103863\n :del-clause                  212403\n :final-checks                1\n :max-memory                  114.29\n :memory                      114.29\n :minimized-lits              526208\n :mk-bool-var                 37220\n :mk-clause                   230964\n :mk-clause-binary            58109\n :num-allocs                  559236770\n :num-checks                  2\n :pb-conflicts                4180\n :pb-predicates               1\n :pb-propagations             56487910\n :pb-resolves                 4180\n :propagations                828830475\n :random-seed                 591305617\n :restarts                    586\n :rlimit-count                230312834\n :time                        65.40)",
+  "reason_unknown": "canceled",
+  "effective_timeout_policy": "min(requested solver seconds, issued deadline minus current time minus8 seconds), set immediately before solver.check",
+  "inner_absolute_cutoff": "2026-10-20T07:15:51.093536+00:00"
+}

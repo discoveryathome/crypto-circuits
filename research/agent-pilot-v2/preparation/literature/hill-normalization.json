@@ -1,0 +1,47 @@
+{
+  "native_fanin_counts": {
+    "2": 59,
+    "3": 20
+  },
+  "variants": [
+    {
+      "reverse_bits_within_bytes": false,
+      "result": {
+        "ok": true,
+        "metrics": {
+          "AND": 0,
+          "XOR": 99,
+          "NOT": 0,
+          "total": 99,
+          "depth": 3,
+          "dead_gates": 0
+        },
+        "evidence": {
+          "coefficient_equalities": 1024,
+          "proof": "exact affine propagation"
+        },
+        "verification_seconds": 0.0006999579491093755
+      },
+      "second_checker": {
+        "evaluations": 33,
+        "method": "independent scalar implementation",
+        "metrics": {
+          "AND": 0,
+          "NOT": 0,
+          "XOR": 99,
+          "depth": 3,
+          "total": 99
+        },
+        "ok": true,
+        "verification_seconds": 0.002267375006340444
+      }
+    },
+    {
+      "reverse_bits_within_bytes": true,
+      "result": {
+        "ok": false,
+        "error": "incorrect linear transformation"
+      }
+    }
+  ]
+}

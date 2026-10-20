@@ -1,0 +1,206 @@
+{
+  "session_id": "w1-aes",
+  "instance": "square-aes-mugi",
+  "issued_at": "2026-10-20T06:30:57.362806+00:00",
+  "budget_started_at": "2026-10-20T06:30:57.362806+00:00",
+  "agent_start_time_independently_instrumented": null,
+  "first_search_process_started_at": "2026-10-20T06:32:04.555975+00:00",
+  "hard_deadline": "2026-10-20T06:50:57.362806+00:00",
+  "summary_written_at": "2026-10-20T06:51:22.086501+00:00",
+  "ended_at": "2026-10-20T06:50:57.388536+00:00",
+  "search_ended_at": "2026-10-20T06:50:57.388536+00:00",
+  "agent_summary_end_at": "2026-10-20T06:51:22.086501+00:00",
+  "elapsed_from_issued_seconds": 1200.02573,
+  "receipt_cleanup_seconds_after_search": 24.697965,
+  "status": "complete",
+  "stop_reason": "global 1200-second session deadline; search supervised by budget_run.py",
+  "seed": "03372e8b56df69d975ecace485652e86",
+  "seed_derivations": "seed-log.json",
+  "initial_frontier_sha256": "6c54381c85bc67af678078ff9127d5fc7e531e6ed7ad0910967bdb66dcc37c12",
+  "runs": [
+    {
+      "name": "baseline",
+      "method": "own bounded-distance BP + exact-distance window BP",
+      "seed": 8497356694431805062,
+      "receipt_status": "complete",
+      "effective_process_status": "complete",
+      "last_logged_iterations": 239,
+      "final_log_line": "done iterations=239 cpu=21.4425 syntheses=5 windows=104",
+      "checkpoint_coordinates": [
+        [
+          88,
+          5
+        ],
+        [
+          90,
+          4
+        ],
+        [
+          97,
+          3
+        ]
+      ],
+      "checkpoint_count": 3,
+      "receipt_path": "baseline/receipt.json",
+      "stop_reason": "complete"
+    },
+    {
+      "name": "semantic-v2",
+      "method": "semantic rewrites, associative rotations, randomized topological exact-distance windows with annealing",
+      "seed": 14863891643800825487,
+      "receipt_status": "complete",
+      "effective_process_status": "complete",
+      "last_logged_iterations": 3063312,
+      "final_log_line": "done iterations=3063312 cpu=80.5563 syntheses=0 windows=57637",
+      "checkpoint_coordinates": [
+        [
+          88,
+          5
+        ],
+        [
+          90,
+          4
+        ],
+        [
+          97,
+          3
+        ]
+      ],
+      "checkpoint_count": 3,
+      "receipt_path": "semantic-v2/receipt.json",
+      "stop_reason": "complete"
+    },
+    {
+      "name": "shallow-v1",
+      "method": "depth-3 all-support rank-DAG annealing with local coordinate partition minimization",
+      "seed": 4729223582868229464,
+      "receipt_status": "interrupted",
+      "effective_process_status": "interrupted",
+      "last_logged_iterations": 41900000,
+      "final_log_line": "iterations=41900000 cpu=59.4767 cost=125 best=97 accepted=18570223",
+      "checkpoint_coordinates": [
+        [
+          88,
+          5
+        ],
+        [
+          90,
+          4
+        ],
+        [
+          97,
+          3
+        ]
+      ],
+      "checkpoint_count": 3,
+      "receipt_path": "shallow-v1/receipt.json",
+      "stop_reason": "adaptive stop: colder sharing-biased method selected after high-temperature cycles failed to improve97"
+    },
+    {
+      "name": "shallow-v2",
+      "method": "depth-3 all-support rank-DAG annealing with local coordinate partition minimization",
+      "seed": 8059499815864148647,
+      "receipt_status": "complete",
+      "effective_process_status": "complete",
+      "last_logged_iterations": 46297028,
+      "final_log_line": "done iterations=46297028 cpu=92.7784 best=97",
+      "checkpoint_coordinates": [
+        [
+          88,
+          5
+        ],
+        [
+          90,
+          4
+        ],
+        [
+          97,
+          3
+        ]
+      ],
+      "checkpoint_count": 3,
+      "receipt_path": "shallow-v2/receipt.json",
+      "stop_reason": "complete"
+    },
+    {
+      "name": "semantic-v3",
+      "method": "count-focused semantic rotations and windows with depth <=10 annealing",
+      "seed": 2684076159790733047,
+      "receipt_status": "running",
+      "effective_process_status": "terminated by global-deadline supervisor; raw receipt retained as written",
+      "last_logged_iterations": 2137000,
+      "final_log_line": "checkpoint iterations=2137000 cpu=79.5818 windows=42305 accepted=1619469 restarts=855 current=93,6",
+      "checkpoint_coordinates": [
+        [
+          88,
+          5
+        ],
+        [
+          90,
+          4
+        ],
+        [
+          97,
+          3
+        ]
+      ],
+      "checkpoint_count": 3,
+      "receipt_path": "semantic-v3/receipt.json",
+      "stop_reason": "global session deadline"
+    }
+  ],
+  "search_process_attempts": 5,
+  "source_versions_attempted": [
+    "search.cpp",
+    "search-v2.cpp",
+    "shallow.cpp",
+    "shallow-v2.cpp",
+    "search-v3.cpp"
+  ],
+  "trusted_checkpoint_checker_invocations": 30,
+  "trusted_start_validation_invocations": 30,
+  "trusted_start_validation_timing": "not separately instrumented; within wrapper process CPU/wall",
+  "trusted_cli_submission_checks": 0,
+  "internal_search_tests": "Semantic candidates are checked in core before frontier offers; each shallow initialization is materialized and checked. These are internal invariants, not independent trusted-checker evaluations. Exact invocation count unavailable.",
+  "proposals": [],
+  "new_pareto_points_proposed": 0,
+  "confirmed_novel_points": 0,
+  "novelty_status": "No new point emitted so far; correctness and novelty are separate. Known prior frontier remains (88,5),(90,4),(97,3). Unknown-depth89-XOR comparator retained.",
+  "invalid_submissions": 0,
+  "known_structural_duplicate_emissions": 15,
+  "search_emissions_are_known_prior_duplicates": true,
+  "process_cpu_seconds": 275.782538,
+  "process_wall_seconds": 1097.460134542198,
+  "process_timing_scope": "Supervised child process totals include compilation and wrappers; core timing and operation counts are in per-run logs.",
+  "known_checkpoint_checker_seconds": 0.035340084112249315,
+  "costs_unavailable": {
+    "model_token_usage": null,
+    "model_monetary_cost": null,
+    "agent_reasoning_cpu_seconds": null,
+    "preparation_costs": null,
+    "aggregate_actual_process_cpu_seconds": "Unavailable because final core rusage was not reaped by wrapper on simultaneous process-group kill."
+  },
+  "source_files": {
+    "finalize.py": "2a933f38da5b58b2421b4ef3680a997d74a002a82a4a03092a63bab5ac034166",
+    "run-shallow-v2.py": "e9a0b220043f155a99227eb6a3fb9275d9d228a215241e8d5b94253f46f1ebf2",
+    "run-shallow.py": "d867a46f1424ca970025bffab1846f642bc4338e5b4d1c79c56f70c11cc3defb",
+    "run-v2.py": "1b7ed9ac8c851f8d4c1ba87da5b81b5f980c1bdfa68bf0a736f934032510a96e",
+    "run-v3.py": "c506d23a0fbd8cf17cfc0f780df321b7afc7ec1a002541788c94f5f5e7c0a785",
+    "run_search.py": "5e5bec9e2250454b0bf6642cca0e3827a22e2340673c326b89afa0241968a474",
+    "search-v2.cpp": "36c937062cbf4f93b467e166e92139912b1c972dbc24f918632edb32f9b63567",
+    "search-v3.cpp": "603b3d159ae626b04b8491c0356b711cb03ce08e8985222b7ae4f3766d6d96b2",
+    "search.cpp": "0831142ac5d31a3a49920001beb658247a8ea2a7054fa8f478c4f7683991d12e",
+    "shallow-v2.cpp": "feb4cbc16e4a3bf17dbe7e885612a477b4e561f1e19a48aa25b4cd1922aaadcd",
+    "shallow.cpp": "9aa49f824a86fdb8d3e00af267f6c3465f4a582862c2b8287d4bbe6227e1202b"
+  },
+  "limitations": [
+    "Heuristic bounded searches do not prove optimality or absence of smaller circuits.",
+    "Depth3 specialization searches homogeneous XOR-only depth3 circuits; affine NOT choices are not searched.",
+    "No upstream optimizer executed, no installs or remote writes, no other sessions read.",
+    "Root independently adjudicates any submitted proposal."
+  ],
+  "process_cpu_seconds_accounting_complete": false,
+  "final_core_cpu_seconds_last_logged": 79.5818,
+  "aggregate_actual_process_cpu_seconds": null,
+  "process_cpu_accounting_note": "Global process-group termination killed wrapper before it reaped its core. budget_run.py RUSAGE_CHILDREN final receipt reports only3.878594 seconds, while the core log independently reports at least79.5818 seconds. Raw receipts are retained; do not treat the275.782538-second receipt sum as complete aggregate CPU or add the figures without avoiding overlap."
+}

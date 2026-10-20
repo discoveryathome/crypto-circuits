@@ -1,0 +1,56 @@
+{
+  "instance": "square-aes-mugi",
+  "wave": 1,
+  "seed": "0be4107b608176ff6196aaa79db0e2fb",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+  "search_wall_seconds": 0.20816491602454334,
+  "search_cpu_seconds": 0.2001899999999992,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 51,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w1-square-aes-mugi-0.json",
+      "sha256": "fc3733d3ee19cff903be8c623993462b886d2a62fe42a4da80c492e7ad67d808",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 90,
+        "NOT": 0,
+        "total": 90,
+        "depth": 4,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0004457089817151427
+    },
+    {
+      "path": "results/candidates/w1-square-aes-mugi-1.json",
+      "sha256": "fc15a1a873f8513733042fd196b881294fa37793be5091fc3ef94145e62f4cd4",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 108,
+        "NOT": 0,
+        "total": 108,
+        "depth": 3,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 1024,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0005417499924078584
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

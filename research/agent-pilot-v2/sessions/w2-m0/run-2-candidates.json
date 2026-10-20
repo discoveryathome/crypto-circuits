@@ -1,0 +1,442 @@
+[
+  {
+    "method": "semantic-egraph-anneal",
+    "parent_index": 1,
+    "iteration": 267614,
+    "elapsed": 2.38315,
+    "XOR": 156,
+    "depth": 12,
+    "first_checkpoint_at": "2026-10-20T07:03:27.431525+00:00",
+    "sha256": "724f1cd5675a287d08194d040c39ba5770da51c71c48f5ff38f2da6a669b0b10",
+    "seed": 511924155446304297,
+    "run": 2,
+    "source_sha256": "a202dd1214bc30a20845778fc69c10060cc23540b37cc15758d3899c3ea94326",
+    "parent_frontier": "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+    "all_start_hashes": [
+      "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+      "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+      "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+      "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+      "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+      "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+      "250a8d3488c8ba1cdfea33f2301cd97d6907ae66294970fa505d8128c384b746",
+      "32686df28fbb8fa359de3975b18f40de85ef0f83dfa4bd59c1732634f88014af",
+      "1e040769765137019c2e4e765cf352638fef2bd10e5bacdf69462cf0af9557f6",
+      "2c60af76d40924640ea9e28d22e82aef64c657e239af4b49f55d73e901f17faf",
+      "6e2a352b3bfe307f24a895ec637e807c8dcb2a44cf236ee3aa7e45f29f306d35",
+      "d282194637823b23602327bbac71bc164ec124345a7da2767284d07c4c2b2168"
+    ],
+    "checks": [
+      {
+        "tool": "check_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evidence\": {\"coefficient_equalities\": 1024, \"proof\": \"exact affine propagation\"}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 156, \"dead_gates\": 0, \"depth\": 12, \"total\": 156}, \"ok\": true, \"verification_seconds\": 0.0007171250181272626}\n",
+        "stderr": ""
+      },
+      {
+        "tool": "audit_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evaluations\": 33, \"method\": \"independent scalar implementation\", \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 156, \"depth\": 12, \"total\": 156}, \"ok\": true, \"verification_seconds\": 0.0024696249747648835}\n",
+        "stderr": ""
+      }
+    ],
+    "submitted_at": "2026-10-20T07:03:27.581862+00:00",
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor156-depth12-724f1cd5675a.json"
+  },
+  {
+    "method": "semantic-egraph-anneal",
+    "parent_index": 11,
+    "iteration": 476056,
+    "elapsed": 4.09752,
+    "XOR": 215,
+    "depth": 5,
+    "first_checkpoint_at": "2026-10-20T07:03:29.150406+00:00",
+    "sha256": "7a44ad54e4287a360597d604d9239634ca5f101d2669325ecbcb08bb1d7429a8",
+    "seed": 511924155446304297,
+    "run": 2,
+    "source_sha256": "a202dd1214bc30a20845778fc69c10060cc23540b37cc15758d3899c3ea94326",
+    "parent_frontier": "d282194637823b23602327bbac71bc164ec124345a7da2767284d07c4c2b2168",
+    "all_start_hashes": [
+      "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+      "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+      "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+      "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+      "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+      "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+      "250a8d3488c8ba1cdfea33f2301cd97d6907ae66294970fa505d8128c384b746",
+      "32686df28fbb8fa359de3975b18f40de85ef0f83dfa4bd59c1732634f88014af",
+      "1e040769765137019c2e4e765cf352638fef2bd10e5bacdf69462cf0af9557f6",
+      "2c60af76d40924640ea9e28d22e82aef64c657e239af4b49f55d73e901f17faf",
+      "6e2a352b3bfe307f24a895ec637e807c8dcb2a44cf236ee3aa7e45f29f306d35",
+      "d282194637823b23602327bbac71bc164ec124345a7da2767284d07c4c2b2168"
+    ],
+    "checks": [
+      {
+        "tool": "check_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evidence\": {\"coefficient_equalities\": 1024, \"proof\": \"exact affine propagation\"}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 215, \"dead_gates\": 0, \"depth\": 5, \"total\": 215}, \"ok\": true, \"verification_seconds\": 0.001068041892722249}\n",
+        "stderr": ""
+      },
+      {
+        "tool": "audit_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evaluations\": 33, \"method\": \"independent scalar implementation\", \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 215, \"depth\": 5, \"total\": 215}, \"ok\": true, \"verification_seconds\": 0.0032469999277964234}\n",
+        "stderr": ""
+      }
+    ],
+    "submitted_at": "2026-10-20T07:03:29.339861+00:00",
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor215-depth5-7a44ad54e428.json"
+  },
+  {
+    "method": "semantic-egraph-anneal",
+    "parent_index": 10,
+    "iteration": 929358,
+    "elapsed": 7.81703,
+    "XOR": 214,
+    "depth": 6,
+    "first_checkpoint_at": "2026-10-20T07:03:32.865368+00:00",
+    "sha256": "fd3a12945bab006c8f7a4c4cfb0db658cbef9c3c7c2ed3ce373f3d3b5ad31d76",
+    "seed": 511924155446304297,
+    "run": 2,
+    "source_sha256": "a202dd1214bc30a20845778fc69c10060cc23540b37cc15758d3899c3ea94326",
+    "parent_frontier": "6e2a352b3bfe307f24a895ec637e807c8dcb2a44cf236ee3aa7e45f29f306d35",
+    "all_start_hashes": [
+      "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+      "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+      "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+      "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+      "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+      "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+      "250a8d3488c8ba1cdfea33f2301cd97d6907ae66294970fa505d8128c384b746",
+      "32686df28fbb8fa359de3975b18f40de85ef0f83dfa4bd59c1732634f88014af",
+      "1e040769765137019c2e4e765cf352638fef2bd10e5bacdf69462cf0af9557f6",
+      "2c60af76d40924640ea9e28d22e82aef64c657e239af4b49f55d73e901f17faf",
+      "6e2a352b3bfe307f24a895ec637e807c8dcb2a44cf236ee3aa7e45f29f306d35",
+      "d282194637823b23602327bbac71bc164ec124345a7da2767284d07c4c2b2168"
+    ],
+    "checks": [
+      {
+        "tool": "check_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evidence\": {\"coefficient_equalities\": 1024, \"proof\": \"exact affine propagation\"}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 214, \"dead_gates\": 0, \"depth\": 6, \"total\": 214}, \"ok\": true, \"verification_seconds\": 0.0010074579622596502}\n",
+        "stderr": ""
+      },
+      {
+        "tool": "audit_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evaluations\": 33, \"method\": \"independent scalar implementation\", \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 214, \"depth\": 6, \"total\": 214}, \"ok\": true, \"verification_seconds\": 0.003330791019834578}\n",
+        "stderr": ""
+      }
+    ],
+    "submitted_at": "2026-10-20T07:03:33.006209+00:00",
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor214-depth6-fd3a12945bab.json"
+  },
+  {
+    "method": "semantic-egraph-anneal",
+    "parent_index": 10,
+    "iteration": 930049,
+    "elapsed": 7.82498,
+    "XOR": 212,
+    "depth": 6,
+    "first_checkpoint_at": "2026-10-20T07:03:33.006919+00:00",
+    "sha256": "bfee6316caccf1d6fb5f8f2a459abb7ed56762b0a1f945d2ec7fd16777ce495a",
+    "seed": 511924155446304297,
+    "run": 2,
+    "source_sha256": "a202dd1214bc30a20845778fc69c10060cc23540b37cc15758d3899c3ea94326",
+    "parent_frontier": "6e2a352b3bfe307f24a895ec637e807c8dcb2a44cf236ee3aa7e45f29f306d35",
+    "all_start_hashes": [
+      "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+      "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+      "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+      "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+      "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+      "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+      "250a8d3488c8ba1cdfea33f2301cd97d6907ae66294970fa505d8128c384b746",
+      "32686df28fbb8fa359de3975b18f40de85ef0f83dfa4bd59c1732634f88014af",
+      "1e040769765137019c2e4e765cf352638fef2bd10e5bacdf69462cf0af9557f6",
+      "2c60af76d40924640ea9e28d22e82aef64c657e239af4b49f55d73e901f17faf",
+      "6e2a352b3bfe307f24a895ec637e807c8dcb2a44cf236ee3aa7e45f29f306d35",
+      "d282194637823b23602327bbac71bc164ec124345a7da2767284d07c4c2b2168"
+    ],
+    "checks": [
+      {
+        "tool": "check_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evidence\": {\"coefficient_equalities\": 1024, \"proof\": \"exact affine propagation\"}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 212, \"dead_gates\": 0, \"depth\": 6, \"total\": 212}, \"ok\": true, \"verification_seconds\": 0.0008646670030429959}\n",
+        "stderr": ""
+      },
+      {
+        "tool": "audit_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evaluations\": 33, \"method\": \"independent scalar implementation\", \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 212, \"depth\": 6, \"total\": 212}, \"ok\": true, \"verification_seconds\": 0.0031785420142114162}\n",
+        "stderr": ""
+      }
+    ],
+    "submitted_at": "2026-10-20T07:03:33.136931+00:00",
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor212-depth6-bfee6316cacc.json"
+  },
+  {
+    "method": "semantic-egraph-anneal",
+    "parent_index": 8,
+    "iteration": 1366808,
+    "elapsed": 11.7118,
+    "XOR": 157,
+    "depth": 11,
+    "first_checkpoint_at": "2026-10-20T07:03:36.760326+00:00",
+    "sha256": "5e45d1db35ee9b529f4d7b0b52cef9555385fbac520ff9c7a24ce5d5f7d7f655",
+    "seed": 511924155446304297,
+    "run": 2,
+    "source_sha256": "a202dd1214bc30a20845778fc69c10060cc23540b37cc15758d3899c3ea94326",
+    "parent_frontier": "1e040769765137019c2e4e765cf352638fef2bd10e5bacdf69462cf0af9557f6",
+    "all_start_hashes": [
+      "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+      "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+      "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+      "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+      "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+      "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+      "250a8d3488c8ba1cdfea33f2301cd97d6907ae66294970fa505d8128c384b746",
+      "32686df28fbb8fa359de3975b18f40de85ef0f83dfa4bd59c1732634f88014af",
+      "1e040769765137019c2e4e765cf352638fef2bd10e5bacdf69462cf0af9557f6",
+      "2c60af76d40924640ea9e28d22e82aef64c657e239af4b49f55d73e901f17faf",
+      "6e2a352b3bfe307f24a895ec637e807c8dcb2a44cf236ee3aa7e45f29f306d35",
+      "d282194637823b23602327bbac71bc164ec124345a7da2767284d07c4c2b2168"
+    ],
+    "checks": [
+      {
+        "tool": "check_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evidence\": {\"coefficient_equalities\": 1024, \"proof\": \"exact affine propagation\"}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 157, \"dead_gates\": 0, \"depth\": 11, \"total\": 157}, \"ok\": true, \"verification_seconds\": 0.0008916250662878156}\n",
+        "stderr": ""
+      },
+      {
+        "tool": "audit_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evaluations\": 33, \"method\": \"independent scalar implementation\", \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 157, \"depth\": 11, \"total\": 157}, \"ok\": true, \"verification_seconds\": 0.0024945420445874333}\n",
+        "stderr": ""
+      }
+    ],
+    "submitted_at": "2026-10-20T07:03:36.924782+00:00",
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor157-depth11-5e45d1db35ee.json"
+  },
+  {
+    "method": "semantic-egraph-anneal",
+    "parent_index": 6,
+    "iteration": 2777489,
+    "elapsed": 24.2251,
+    "XOR": 159,
+    "depth": 10,
+    "first_checkpoint_at": "2026-10-20T07:03:49.274578+00:00",
+    "sha256": "3916369e41ca653af1ae1f540fc77fdb1066024c262e2251d421757fb1ea92cb",
+    "seed": 511924155446304297,
+    "run": 2,
+    "source_sha256": "a202dd1214bc30a20845778fc69c10060cc23540b37cc15758d3899c3ea94326",
+    "parent_frontier": "250a8d3488c8ba1cdfea33f2301cd97d6907ae66294970fa505d8128c384b746",
+    "all_start_hashes": [
+      "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+      "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+      "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+      "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+      "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+      "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+      "250a8d3488c8ba1cdfea33f2301cd97d6907ae66294970fa505d8128c384b746",
+      "32686df28fbb8fa359de3975b18f40de85ef0f83dfa4bd59c1732634f88014af",
+      "1e040769765137019c2e4e765cf352638fef2bd10e5bacdf69462cf0af9557f6",
+      "2c60af76d40924640ea9e28d22e82aef64c657e239af4b49f55d73e901f17faf",
+      "6e2a352b3bfe307f24a895ec637e807c8dcb2a44cf236ee3aa7e45f29f306d35",
+      "d282194637823b23602327bbac71bc164ec124345a7da2767284d07c4c2b2168"
+    ],
+    "checks": [
+      {
+        "tool": "check_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evidence\": {\"coefficient_equalities\": 1024, \"proof\": \"exact affine propagation\"}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 159, \"dead_gates\": 0, \"depth\": 10, \"total\": 159}, \"ok\": true, \"verification_seconds\": 0.0008881669491529465}\n",
+        "stderr": ""
+      },
+      {
+        "tool": "audit_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evaluations\": 33, \"method\": \"independent scalar implementation\", \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 159, \"depth\": 10, \"total\": 159}, \"ok\": true, \"verification_seconds\": 0.002593165962025523}\n",
+        "stderr": ""
+      }
+    ],
+    "submitted_at": "2026-10-20T07:03:49.416016+00:00",
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor159-depth10-3916369e41ca.json"
+  },
+  {
+    "method": "semantic-egraph-anneal",
+    "parent_index": 6,
+    "iteration": 3242589,
+    "elapsed": 27.9736,
+    "XOR": 158,
+    "depth": 10,
+    "first_checkpoint_at": "2026-10-20T07:03:53.022319+00:00",
+    "sha256": "4a402ae1c3b31055dd5ce576f909a16b9a1b2cb154c9afff35f8e45a616d01ef",
+    "seed": 511924155446304297,
+    "run": 2,
+    "source_sha256": "a202dd1214bc30a20845778fc69c10060cc23540b37cc15758d3899c3ea94326",
+    "parent_frontier": "250a8d3488c8ba1cdfea33f2301cd97d6907ae66294970fa505d8128c384b746",
+    "all_start_hashes": [
+      "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+      "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+      "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+      "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+      "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+      "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+      "250a8d3488c8ba1cdfea33f2301cd97d6907ae66294970fa505d8128c384b746",
+      "32686df28fbb8fa359de3975b18f40de85ef0f83dfa4bd59c1732634f88014af",
+      "1e040769765137019c2e4e765cf352638fef2bd10e5bacdf69462cf0af9557f6",
+      "2c60af76d40924640ea9e28d22e82aef64c657e239af4b49f55d73e901f17faf",
+      "6e2a352b3bfe307f24a895ec637e807c8dcb2a44cf236ee3aa7e45f29f306d35",
+      "d282194637823b23602327bbac71bc164ec124345a7da2767284d07c4c2b2168"
+    ],
+    "checks": [
+      {
+        "tool": "check_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evidence\": {\"coefficient_equalities\": 1024, \"proof\": \"exact affine propagation\"}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 158, \"dead_gates\": 0, \"depth\": 10, \"total\": 158}, \"ok\": true, \"verification_seconds\": 0.0007128330180421472}\n",
+        "stderr": ""
+      },
+      {
+        "tool": "audit_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evaluations\": 33, \"method\": \"independent scalar implementation\", \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 158, \"depth\": 10, \"total\": 158}, \"ok\": true, \"verification_seconds\": 0.0024960419395938516}\n",
+        "stderr": ""
+      }
+    ],
+    "submitted_at": "2026-10-20T07:03:53.153733+00:00",
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor158-depth10-4a402ae1c3b3.json"
+  },
+  {
+    "method": "semantic-egraph-anneal",
+    "parent_index": 10,
+    "iteration": 9097637,
+    "elapsed": 77.6462,
+    "XOR": 211,
+    "depth": 6,
+    "first_checkpoint_at": "2026-10-20T07:04:42.696228+00:00",
+    "sha256": "dd2d21b9a2eed16ff30d3fa098070b79e6a4b8961fa701086ffe10aa2c102774",
+    "seed": 511924155446304297,
+    "run": 2,
+    "source_sha256": "a202dd1214bc30a20845778fc69c10060cc23540b37cc15758d3899c3ea94326",
+    "parent_frontier": "6e2a352b3bfe307f24a895ec637e807c8dcb2a44cf236ee3aa7e45f29f306d35",
+    "all_start_hashes": [
+      "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+      "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+      "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+      "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+      "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+      "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+      "250a8d3488c8ba1cdfea33f2301cd97d6907ae66294970fa505d8128c384b746",
+      "32686df28fbb8fa359de3975b18f40de85ef0f83dfa4bd59c1732634f88014af",
+      "1e040769765137019c2e4e765cf352638fef2bd10e5bacdf69462cf0af9557f6",
+      "2c60af76d40924640ea9e28d22e82aef64c657e239af4b49f55d73e901f17faf",
+      "6e2a352b3bfe307f24a895ec637e807c8dcb2a44cf236ee3aa7e45f29f306d35",
+      "d282194637823b23602327bbac71bc164ec124345a7da2767284d07c4c2b2168"
+    ],
+    "checks": [
+      {
+        "tool": "check_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evidence\": {\"coefficient_equalities\": 1024, \"proof\": \"exact affine propagation\"}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 211, \"dead_gates\": 0, \"depth\": 6, \"total\": 211}, \"ok\": true, \"verification_seconds\": 0.0010794589761644602}\n",
+        "stderr": ""
+      },
+      {
+        "tool": "audit_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evaluations\": 33, \"method\": \"independent scalar implementation\", \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 211, \"depth\": 6, \"total\": 211}, \"ok\": true, \"verification_seconds\": 0.003148833056911826}\n",
+        "stderr": ""
+      }
+    ],
+    "submitted_at": "2026-10-20T07:04:42.844262+00:00",
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor211-depth6-dd2d21b9a2ee.json"
+  },
+  {
+    "method": "semantic-egraph-anneal",
+    "parent_index": 7,
+    "iteration": 10238461,
+    "elapsed": 91.1779,
+    "XOR": 207,
+    "depth": 7,
+    "first_checkpoint_at": "2026-10-20T07:04:56.228254+00:00",
+    "sha256": "dbd303ec9c10eb3144b787931389a6bb7ef606377ffdadb4edeeec639d28e9c1",
+    "seed": 511924155446304297,
+    "run": 2,
+    "source_sha256": "a202dd1214bc30a20845778fc69c10060cc23540b37cc15758d3899c3ea94326",
+    "parent_frontier": "32686df28fbb8fa359de3975b18f40de85ef0f83dfa4bd59c1732634f88014af",
+    "all_start_hashes": [
+      "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+      "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+      "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+      "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+      "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+      "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+      "250a8d3488c8ba1cdfea33f2301cd97d6907ae66294970fa505d8128c384b746",
+      "32686df28fbb8fa359de3975b18f40de85ef0f83dfa4bd59c1732634f88014af",
+      "1e040769765137019c2e4e765cf352638fef2bd10e5bacdf69462cf0af9557f6",
+      "2c60af76d40924640ea9e28d22e82aef64c657e239af4b49f55d73e901f17faf",
+      "6e2a352b3bfe307f24a895ec637e807c8dcb2a44cf236ee3aa7e45f29f306d35",
+      "d282194637823b23602327bbac71bc164ec124345a7da2767284d07c4c2b2168"
+    ],
+    "checks": [
+      {
+        "tool": "check_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evidence\": {\"coefficient_equalities\": 1024, \"proof\": \"exact affine propagation\"}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 207, \"dead_gates\": 0, \"depth\": 7, \"total\": 207}, \"ok\": true, \"verification_seconds\": 0.0009755840292200446}\n",
+        "stderr": ""
+      },
+      {
+        "tool": "audit_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evaluations\": 33, \"method\": \"independent scalar implementation\", \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 207, \"depth\": 7, \"total\": 207}, \"ok\": true, \"verification_seconds\": 0.0031886250944808125}\n",
+        "stderr": ""
+      }
+    ],
+    "submitted_at": "2026-10-20T07:04:56.371164+00:00",
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor207-depth7-dbd303ec9c10.json"
+  },
+  {
+    "method": "semantic-egraph-anneal",
+    "parent_index": 2,
+    "iteration": 16124986,
+    "elapsed": 147.892,
+    "XOR": 206,
+    "depth": 7,
+    "first_checkpoint_at": "2026-10-20T07:05:52.943159+00:00",
+    "sha256": "837fe5a91c9bed4768b04413aa0e8774b661e8555a2060efa9e4930c439cbdab",
+    "seed": 511924155446304297,
+    "run": 2,
+    "source_sha256": "a202dd1214bc30a20845778fc69c10060cc23540b37cc15758d3899c3ea94326",
+    "parent_frontier": "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+    "all_start_hashes": [
+      "2895efe9f1071d4826d2c3893c1cf991e4dd84874f5b21a20b7f038b8bee29cb",
+      "079f1f3f3f22191f1c461abc3514220191f0070640d07a74cf442a0045e18a42",
+      "a2078fae4a0e4feaba7e294f8109e369342b730c57d6356c96b6a3eb18fc375d",
+      "65a10aa404e3cf683a7ce9cc5b70ac9f7d1526495f64b122c238fbd59f835212",
+      "f258c04d025f02d5fc9d2358900ca7f6baff7683359e772f82e3f8bcf34f845c",
+      "30045c939d4c7919c284063fd493f1698c2318e8dfae244eeb2661b7b6d6fe8c",
+      "250a8d3488c8ba1cdfea33f2301cd97d6907ae66294970fa505d8128c384b746",
+      "32686df28fbb8fa359de3975b18f40de85ef0f83dfa4bd59c1732634f88014af",
+      "1e040769765137019c2e4e765cf352638fef2bd10e5bacdf69462cf0af9557f6",
+      "2c60af76d40924640ea9e28d22e82aef64c657e239af4b49f55d73e901f17faf",
+      "6e2a352b3bfe307f24a895ec637e807c8dcb2a44cf236ee3aa7e45f29f306d35",
+      "d282194637823b23602327bbac71bc164ec124345a7da2767284d07c4c2b2168"
+    ],
+    "checks": [
+      {
+        "tool": "check_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evidence\": {\"coefficient_equalities\": 1024, \"proof\": \"exact affine propagation\"}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 206, \"dead_gates\": 0, \"depth\": 7, \"total\": 206}, \"ok\": true, \"verification_seconds\": 0.0009875829564407468}\n",
+        "stderr": ""
+      },
+      {
+        "tool": "audit_submission.py",
+        "returncode": 0,
+        "stdout": "{\"evaluations\": 33, \"method\": \"independent scalar implementation\", \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 206, \"depth\": 7, \"total\": 206}, \"ok\": true, \"verification_seconds\": 0.003042791970074177}\n",
+        "stderr": ""
+      }
+    ],
+    "submitted_at": "2026-10-20T07:05:53.083098+00:00",
+    "path": "/Users/colkitt/discover-work/incubatedPilots/crypto-circuits/start-linear-portfolio/research/agent-pilot-v2/sessions/w2-m0/submissions/xor206-depth7-837fe5a91c9b.json"
+  }
+]

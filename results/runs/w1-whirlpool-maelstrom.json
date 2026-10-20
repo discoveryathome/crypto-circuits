@@ -1,0 +1,56 @@
+{
+  "instance": "whirlpool-maelstrom",
+  "wave": 1,
+  "seed": "ac3a40589754d05f022a3ceb3217b8df",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/whirlpool-maelstrom--nist.json",
+  "search_wall_seconds": 5.830571374972351,
+  "search_cpu_seconds": 4.322785999999994,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 86,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w1-whirlpool-maelstrom-0.json",
+      "sha256": "fa1c06c4ddd429c7f25f46d1f03d3887c72ea64fe5ea966b474275532cb21bfe",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 470,
+        "NOT": 0,
+        "total": 470,
+        "depth": 5,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0019839589949697256
+    },
+    {
+      "path": "results/candidates/w1-whirlpool-maelstrom-1.json",
+      "sha256": "8c37868acfb0a9e2462a953850da8a8b0b7b023a05f6e74912fad1dc9b8426a9",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 425,
+        "NOT": 0,
+        "total": 425,
+        "depth": 10,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0019892920972779393
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

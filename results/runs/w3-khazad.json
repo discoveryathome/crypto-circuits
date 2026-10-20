@@ -1,0 +1,74 @@
+{
+  "instance": "khazad",
+  "wave": 3,
+  "seed": "356088d72dadef0161ba85897bd12e9c",
+  "plan_sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a",
+  "start": "certificates/khazad--nist.json",
+  "search_wall_seconds": 19.99063058407046,
+  "search_cpu_seconds": 7.823414000000014,
+  "counters": {
+    "paar_restarts": 32,
+    "walk_steps": 256,
+    "accepted_walk_changes": 85,
+    "candidates_considered": 34
+  },
+  "candidates": [
+    {
+      "path": "results/candidates/w3-khazad-0.json",
+      "sha256": "f7f77a248a570a3d33efd4d5e6d661f10c6642943620e900af19375e28b9a654",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 523,
+        "NOT": 0,
+        "total": 523,
+        "depth": 7,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.007403582916595042
+    },
+    {
+      "path": "results/candidates/w3-khazad-1.json",
+      "sha256": "c753930a77c9c8befe7e3b614df1a613bfab59647c50675380cccb3f42563940",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 524,
+        "NOT": 0,
+        "total": 524,
+        "depth": 6,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.0025564589304849505
+    },
+    {
+      "path": "results/candidates/w3-khazad-2.json",
+      "sha256": "8efa70cc675eab0d8b27b67134796788235ac934cd9dd00969bbdb4e3bc06e1d",
+      "ok": true,
+      "metrics": {
+        "AND": 0,
+        "XOR": 366,
+        "NOT": 0,
+        "total": 366,
+        "depth": 16,
+        "dead_gates": 0
+      },
+      "evidence": {
+        "coefficient_equalities": 4096,
+        "proof": "exact affine propagation"
+      },
+      "verification_seconds": 0.002449958003126085
+    }
+  ],
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "status": "complete"
+}

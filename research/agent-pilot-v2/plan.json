@@ -1,0 +1,112 @@
+{
+  "version": 2,
+  "frozen_at": "2026-10-20T06:30:46.861609+00:00",
+  "purpose": "Private screening of actual agent sessions; no donor launch authorization",
+  "instances": [
+    "square-aes-mugi",
+    "whirlwindm0",
+    "whirlwindm1"
+  ],
+  "session_budget_seconds": 1200,
+  "aggregate_session_cap_seconds": 7200,
+  "concurrency": 3,
+  "sessions": [
+    {
+      "id": "w1-aes",
+      "wave": 1,
+      "instance": "square-aes-mugi",
+      "seed": "03372e8b56df69d975ecace485652e86"
+    },
+    {
+      "id": "w1-m0",
+      "wave": 1,
+      "instance": "whirlwindm0",
+      "seed": "f6a88165b9335b0d3545462389b8bbe9"
+    },
+    {
+      "id": "w1-m1",
+      "wave": 1,
+      "instance": "whirlwindm1",
+      "seed": "882f8a3d753e2f91f56213f05741aa54"
+    },
+    {
+      "id": "w2-aes",
+      "wave": 2,
+      "instance": "square-aes-mugi",
+      "seed": "e019192dc0ef07c27033e94a2e4b5a0a"
+    },
+    {
+      "id": "w2-m0",
+      "wave": 2,
+      "instance": "whirlwindm0",
+      "seed": "d538b7067d2b65adcaabc4db9ebca5ff"
+    },
+    {
+      "id": "w2-m1",
+      "wave": 2,
+      "instance": "whirlwindm1",
+      "seed": "b41a8b6ab3c78968c1169d89414dec1c"
+    }
+  ],
+  "specification_hashes": {
+    "square-aes-mugi": "8ad3723557d639cb064ceaa9673a80b03adc867e2a81cc7f45d94a7e339c033f",
+    "whirlwindm0": "ba2499f59ed277f26062bab7c0b1221e68939c199203f78872ca218b59cdba83",
+    "whirlwindm1": "46b1cf15018adb7e7747758175ab9280682b9401242a785790731f32664c5ff2"
+  },
+  "trusted_checker_hashes": {
+    "linear_pilot/checker.py": "b1c9fe1bedd873f695bbb84626b26ad325c38e73c3362c4868420505cd7a3ef3",
+    "tools/check_submission.py": "84f6116276fbdd51ac5e82ec04e40e4b56de16daa0d2b585c289189abf9a2016",
+    "tools/audit_submission.py": "5d15901dca9407acf4f5bf78afadb7649ed59632e6050ce20c7766b85e1b8b78"
+  },
+  "initial_files": {
+    "research/agent-pilot-v2/preparation/known-prior.json": "1d2e95227791d45cda253e95db41374d73887e58ff1d0feee0c7d34bfa26f06f",
+    "research/agent-pilot-v2/preparation/literature/timing.json": "61c3e948ef87f26d6677ec8b8992a1dd959df1af1f072fd7294bbd6a2904aef5",
+    "research/agent-pilot-v2/preparation/literature/comparators.json": "38f36f9354f9afb070427c5e8f8fb34853a6fbfff69c0ff4f3967b484d5ddb3c",
+    "research/agent-pilot-v2/preparation/literature/convert_hill.py": "027be2507610a706cc7f0033f7a971aeac98f1e19ca0c3613dbf2b5ad2a0f058",
+    "research/agent-pilot-v2/preparation/literature/nist-current-tree.json": "33a87dc2e2a39701823a55649129fdfebf58c065029e2ee222154cbe73d971fa",
+    "research/agent-pilot-v2/preparation/literature/sbp-current-tree.json": "157eac1be72fec2864933f5053089adc85222adc9525029f575fefa4ef9944c1",
+    "research/agent-pilot-v2/preparation/literature/downloads.json": "c99b72d4488eaa2a9a8fa564cbcd1d7aa9626671981519b78a9a1b951721fc18",
+    "research/agent-pilot-v2/preparation/literature/AUDIT.md": "82512773b54d465eae3a2888865957454c3dcb36426a9147e49605cdfdf22a05",
+    "research/agent-pilot-v2/preparation/literature/aes-mixcolumns-hill-table9-binary.json": "368ec79e35aba4dbddc8402f4055b89ebfe2a6c96b12bce5fa18d5cf5991840b",
+    "research/agent-pilot-v2/preparation/literature/aes-mixcolumns-sbp-mixed-binary.json": "aed8db913e60fd31002e26db592baa18994a002a8f35485197758804b9aec811",
+    "research/agent-pilot-v2/preparation/literature/source-receipts.json": "6400aeb0cdd5d4ff135c4c5720bff687b8f5e1c85eac994f0052e36945429409",
+    "research/agent-pilot-v2/preparation/literature/hill-normalization.json": "fbdb95e08c51b1030dbbf6b18a5654355834b286c75a19a8b05c52fd56886784",
+    "research/agent-pilot-v2/preparation/literature/circulant-current-tree.json": "42b2e43997477c18c6fcbbbb7231560497a7ae8163ab5d211d0c53b9606666c3",
+    "research/agent-pilot-v2/preparation/literature/sbp-normalization.json": "02c75e3b4c5cb677334472afe217401e4eda36bea1778d0b5e08ada3850f676e",
+    "research/agent-pilot-v2/preparation/search/test_toolkit.py": "40bf9ea965b03ec32251b1e4083822a25c6e17f541682583852ae9d0b41480bd",
+    "research/agent-pilot-v2/preparation/search/tests.json": "ab589f248d09495f820f1817f78637d8dd290bfa426788555e9011beaef02d9b",
+    "research/agent-pilot-v2/preparation/search/run_search.py": "5e5bec9e2250454b0bf6642cca0e3827a22e2340673c326b89afa0241968a474",
+    "research/agent-pilot-v2/preparation/search/README.md": "7f3f072c7313ad6c23b7dd8cfb7bcbe45c759d52a2bc9e861a84829dc045d01e",
+    "research/agent-pilot-v2/preparation/search/search.cpp": "0831142ac5d31a3a49920001beb658247a8ea2a7054fa8f478c4f7683991d12e",
+    "research/agent-pilot-v2/preparation/search/test_core.cpp": "d92394fe720c920283b044034f07be0a6a45b3a54736fd3fc62db652852d3b73",
+    "research/agent-pilot-v2/tools/collect.py": "b1b75c96ed5416e6ece2e0c82df5c73415f940358c515ee6ed8707d3e397337e",
+    "research/agent-pilot-v2/tools/budget_run.py": "2b7d6cf420be90012049cbd6e2397c73603d8d8999e87c1bff23ccd67aeac216",
+    "research/agent-pilot-v2/tools/setup.py": "4ae87cf53d33e56b1fec78eec5faf464d2e050743c971a3702f14b4cf333620a",
+    "research/agent-pilot-v2/initial-prior.json": "ff2934476659b97ddacba3ec96286b29da9b8481f277c21b19c31b7a31d36375",
+    "research/agent-pilot-v2/README.md": "209dec751580d52b4f212301b72a9031c19de9969db7d1d069c63d86a82f15bd"
+  },
+  "candidate_axes": [
+    "AND",
+    "XOR",
+    "total",
+    "depth"
+  ],
+  "seed_derivation": "Full 128-bit hex session seed; default engine uses its low 64 bits. Further experiment seeds derive deterministically and are recorded.",
+  "stopping": "1200 seconds from issued start; search processes use budget_run.py; up to two seconds cleanup grace; early stops retained.",
+  "wave2": "All verified wave-1 candidates become known prior and available starts. Only independently adjudicated novel points count as discoveries.",
+  "novelty": "Exact function and cost by both checkers; new nondominated cost tuple against published AND prior local work; candidate-specific independent-agent literature adjudication; unresolved comparators give zero credit.",
+  "decision": {
+    "min_confirmed_advances": 2,
+    "min_distinct_instances": 2,
+    "min_wave2_advances": 1,
+    "success": "larger private beta only",
+    "one_advance": "investigate further; launch remains paused",
+    "zero_advances": "keep launch postponed"
+  },
+  "costs": "Actual session elapsed, child process CPU/wall, checker time, and reviewer elapsed recorded separately. Preparation start and model-token usage may be unavailable; never impute them.",
+  "limitations": [
+    "Small correlated sample; no IID confidence claim",
+    "Same default model family; fresh contexts and search seeds do not imply independent model sampling",
+    "Independent agents and code implementations are not external scientific reviewers"
+  ]
+}

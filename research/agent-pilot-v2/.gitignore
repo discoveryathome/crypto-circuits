@@ -1,0 +1,6 @@
+**/bin/
+*.bin
+*.o
+*-bin
+__pycache__/
+/sessions/w2-m0/graph

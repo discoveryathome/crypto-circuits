@@ -1,0 +1,2788 @@
+[
+  {
+    "instance": "aria",
+    "path": "certificates/aria--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 387,
+      "NOT": 0,
+      "total": 387,
+      "depth": 7,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 16384,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.004269166034646332
+  },
+  {
+    "instance": "fides-midori-mantis",
+    "path": "certificates/fides-midori-mantis--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 24,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 256,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.0001746660564094782
+  },
+  {
+    "instance": "joltik",
+    "path": "certificates/joltik--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 44,
+      "NOT": 0,
+      "total": 44,
+      "depth": 7,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 256,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.0002224579220637679
+  },
+  {
+    "instance": "pridel0",
+    "path": "certificates/pridel0--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 24,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 256,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.00015783298294991255
+  },
+  {
+    "instance": "princem0",
+    "path": "certificates/princem0--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 24,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 256,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.0001759999431669712
+  },
+  {
+    "instance": "qarma128",
+    "path": "certificates/qarma128--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 48,
+      "NOT": 0,
+      "total": 48,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 1024,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.0010870000114664435
+  },
+  {
+    "instance": "qarma64",
+    "path": "certificates/qarma64--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 24,
+      "depth": 8,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 256,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.00016204197891056538
+  },
+  {
+    "instance": "skinny",
+    "path": "certificates/skinny--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 12,
+      "NOT": 0,
+      "total": 12,
+      "depth": 2,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 256,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.00013625004794448614
+  },
+  {
+    "instance": "smallscaleaes",
+    "path": "certificates/smallscaleaes--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 43,
+      "NOT": 0,
+      "total": 43,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 256,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.00669458310585469
+  },
+  {
+    "instance": "anubis-clefiam0",
+    "path": "certificates/anubis-clefiam0--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 98,
+      "NOT": 0,
+      "total": 98,
+      "depth": 9,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 1024,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.0010151249589398503
+  },
+  {
+    "instance": "clefiam1",
+    "path": "certificates/clefiam1--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 103,
+      "NOT": 0,
+      "total": 103,
+      "depth": 10,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 1024,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.004502249998040497
+  },
+  {
+    "instance": "foxmu4",
+    "path": "certificates/foxmu4--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 130,
+      "NOT": 0,
+      "total": 130,
+      "depth": 13,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 1024,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.003045791992917657
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "certificates/square-aes-mugi--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 92,
+      "NOT": 0,
+      "total": 92,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 1024,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.0037797499680891633
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "certificates/square-aes-mugi--aes-mixcols-xor88-depth5-circ.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 88,
+      "NOT": 0,
+      "total": 88,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 1024,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.0027745829429477453
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "certificates/square-aes-mugi--aes-mixcols-xor90-depth4-circ.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 90,
+      "NOT": 0,
+      "total": 90,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 1024,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.0005997089901939034
+  },
+  {
+    "instance": "square-aes-mugi",
+    "path": "certificates/square-aes-mugi--aes-mixcols-xor97-depth3-circ.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 97,
+      "NOT": 0,
+      "total": 97,
+      "depth": 3,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 1024,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.004468625062145293
+  },
+  {
+    "instance": "twofish",
+    "path": "certificates/twofish--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 111,
+      "NOT": 0,
+      "total": 111,
+      "depth": 8,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 1024,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.0005834170151501894
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "certificates/whirlwindm0--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 183,
+      "NOT": 0,
+      "total": 183,
+      "depth": 14,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 1024,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.00815245893318206
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "certificates/whirlwindm0--xu2026-size.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 159,
+      "NOT": 0,
+      "total": 159,
+      "depth": 14,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 1024,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.000830375007353723
+  },
+  {
+    "instance": "whirlwindm0",
+    "path": "certificates/whirlwindm0--xu2026-depth.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 200,
+      "NOT": 0,
+      "total": 200,
+      "depth": 16,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 1024,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.00344437500461936
+  },
+  {
+    "instance": "whirlwindm1",
+    "path": "certificates/whirlwindm1--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 187,
+      "NOT": 0,
+      "total": 187,
+      "depth": 16,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 1024,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.0011079579126089811
+  },
+  {
+    "instance": "whirlwindm1",
+    "path": "certificates/whirlwindm1--xu2026-size.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 169,
+      "NOT": 0,
+      "total": 169,
+      "depth": 11,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 1024,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.0008305420633405447
+  },
+  {
+    "instance": "whirlwindm1",
+    "path": "certificates/whirlwindm1--xu2026-depth.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 241,
+      "NOT": 0,
+      "total": 241,
+      "depth": 18,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 1024,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.0014034999767318368
+  },
+  {
+    "instance": "foxmu8",
+    "path": "certificates/foxmu8--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 540,
+      "NOT": 0,
+      "total": 540,
+      "depth": 14,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 4096,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.012182416976429522
+  },
+  {
+    "instance": "grostl",
+    "path": "certificates/grostl--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 410,
+      "NOT": 0,
+      "total": 410,
+      "depth": 12,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 4096,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.0021609580144286156
+  },
+  {
+    "instance": "khazad",
+    "path": "certificates/khazad--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 366,
+      "NOT": 0,
+      "total": 366,
+      "depth": 18,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 4096,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.002023375011049211
+  },
+  {
+    "instance": "whirlpool-maelstrom",
+    "path": "certificates/whirlpool-maelstrom--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 425,
+      "NOT": 0,
+      "total": 425,
+      "depth": 11,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 4096,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.0047293329844251275
+  },
+  {
+    "instance": "bkl16-4x4-gf16",
+    "path": "certificates/bkl16-4x4-gf16--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 41,
+      "NOT": 0,
+      "total": 41,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 256,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.004718041978776455
+  },
+  {
+    "instance": "jpst17-4x4-gf16",
+    "path": "certificates/jpst17-4x4-gf16--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 40,
+      "NOT": 0,
+      "total": 40,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 256,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.00022475002333521843
+  },
+  {
+    "instance": "klsw17-m-4x4-gf16",
+    "path": "certificates/klsw17-m-4x4-gf16--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 36,
+      "NOT": 0,
+      "total": 36,
+      "depth": 8,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 256,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.0006783329881727695
+  },
+  {
+    "instance": "ls16-4x4-gf16",
+    "path": "certificates/ls16-4x4-gf16--nist.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 44,
+      "NOT": 0,
+      "total": 44,
+      "depth": 4,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "coefficient_equalities": 256,
+      "proof": "exact affine propagation"
+    },
+    "verification_seconds": 0.00028845900669693947
+  },
+  {
+    "instance": "gf4-13",
+    "path": "certificates/gf4-13--final-f4.json",
+    "ok": true,
+    "metrics": {
+      "AND": 10,
+      "XOR": 20,
+      "NOT": 0,
+      "total": 30,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 256
+    },
+    "verification_seconds": 0.0031274999491870403
+  },
+  {
+    "instance": "gf5-25",
+    "path": "certificates/gf5-25--final-f5.json",
+    "ok": true,
+    "metrics": {
+      "AND": 20,
+      "XOR": 24,
+      "NOT": 0,
+      "total": 44,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 1024
+    },
+    "verification_seconds": 0.11330724996514618
+  },
+  {
+    "instance": "gf6-49",
+    "path": "certificates/gf6-49--final-f6.json",
+    "ok": true,
+    "metrics": {
+      "AND": 27,
+      "XOR": 30,
+      "NOT": 0,
+      "total": 57,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 4096
+    },
+    "verification_seconds": 0.823121041059494
+  },
+  {
+    "instance": "gf6-49",
+    "path": "certificates/gf6-49--cmt.json",
+    "ok": true,
+    "metrics": {
+      "AND": 27,
+      "XOR": 30,
+      "NOT": 0,
+      "total": 57,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 4096
+    },
+    "verification_seconds": 0.786123292054981
+  },
+  {
+    "instance": "gf7-89",
+    "path": "certificates/gf7-89--final-f73.json",
+    "ok": true,
+    "metrics": {
+      "AND": 32,
+      "XOR": 51,
+      "NOT": 0,
+      "total": 83,
+      "depth": 7,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 16384
+    },
+    "verification_seconds": 4.525838041095994
+  },
+  {
+    "instance": "gf7-89",
+    "path": "certificates/gf7-89--final-f73-d6.json",
+    "ok": true,
+    "metrics": {
+      "AND": 32,
+      "XOR": 51,
+      "NOT": 0,
+      "total": 83,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 16384
+    },
+    "verification_seconds": 5.9029918749583885
+  },
+  {
+    "instance": "gf7-91",
+    "path": "certificates/gf7-91--final-f7.json",
+    "ok": true,
+    "metrics": {
+      "AND": 32,
+      "XOR": 55,
+      "NOT": 0,
+      "total": 87,
+      "depth": 11,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 16384
+    },
+    "verification_seconds": 6.914245624910109
+  },
+  {
+    "instance": "gf7-91",
+    "path": "certificates/gf7-91--cmt.json",
+    "ok": true,
+    "metrics": {
+      "AND": 40,
+      "XOR": 44,
+      "NOT": 0,
+      "total": 84,
+      "depth": 5,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 16384
+    },
+    "verification_seconds": 4.475594083080068
+  },
+  {
+    "instance": "gf8-11b",
+    "path": "certificates/gf8-11b--aes107-d13.json",
+    "ok": true,
+    "metrics": {
+      "AND": 35,
+      "XOR": 72,
+      "NOT": 0,
+      "total": 107,
+      "depth": 13,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 65536
+    },
+    "verification_seconds": 12.187952500069514
+  },
+  {
+    "instance": "gf8-11b",
+    "path": "certificates/gf8-11b--aes107-k35.json",
+    "ok": true,
+    "metrics": {
+      "AND": 35,
+      "XOR": 72,
+      "NOT": 0,
+      "total": 107,
+      "depth": 19,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 65536
+    },
+    "verification_seconds": 5.589808208053
+  },
+  {
+    "instance": "gf8-11b",
+    "path": "certificates/gf8-11b--aes107-k36.json",
+    "ok": true,
+    "metrics": {
+      "AND": 36,
+      "XOR": 71,
+      "NOT": 0,
+      "total": 107,
+      "depth": 18,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 65536
+    },
+    "verification_seconds": 6.093292583012953
+  },
+  {
+    "instance": "gf8-11b",
+    "path": "certificates/gf8-11b--aes108-d12.json",
+    "ok": true,
+    "metrics": {
+      "AND": 34,
+      "XOR": 74,
+      "NOT": 0,
+      "total": 108,
+      "depth": 12,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 65536
+    },
+    "verification_seconds": 5.901974500040524
+  },
+  {
+    "instance": "gf8-11b",
+    "path": "certificates/gf8-11b--aes108-d19.json",
+    "ok": true,
+    "metrics": {
+      "AND": 34,
+      "XOR": 74,
+      "NOT": 0,
+      "total": 108,
+      "depth": 19,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 65536
+    },
+    "verification_seconds": 4.8679288340499625
+  },
+  {
+    "instance": "gf8-11b",
+    "path": "certificates/gf8-11b--aes109-d18.json",
+    "ok": true,
+    "metrics": {
+      "AND": 33,
+      "XOR": 76,
+      "NOT": 0,
+      "total": 109,
+      "depth": 18,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 65536
+    },
+    "verification_seconds": 4.414014666923322
+  },
+  {
+    "instance": "gf8-11b",
+    "path": "certificates/gf8-11b--aes110-d20.json",
+    "ok": true,
+    "metrics": {
+      "AND": 32,
+      "XOR": 78,
+      "NOT": 0,
+      "total": 110,
+      "depth": 20,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 65536
+    },
+    "verification_seconds": 4.972821334027685
+  },
+  {
+    "instance": "gf8-11b",
+    "path": "certificates/gf8-11b--aes110-d7.json",
+    "ok": true,
+    "metrics": {
+      "AND": 36,
+      "XOR": 74,
+      "NOT": 0,
+      "total": 110,
+      "depth": 7,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 65536
+    },
+    "verification_seconds": 5.935630665975623
+  },
+  {
+    "instance": "gf8-11b",
+    "path": "certificates/gf8-11b--aes112-d14.json",
+    "ok": true,
+    "metrics": {
+      "AND": 43,
+      "XOR": 69,
+      "NOT": 0,
+      "total": 112,
+      "depth": 14,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 65536
+    },
+    "verification_seconds": 4.802970709046349
+  },
+  {
+    "instance": "gf8-11b",
+    "path": "certificates/gf8-11b--aes112-d6.json",
+    "ok": true,
+    "metrics": {
+      "AND": 36,
+      "XOR": 76,
+      "NOT": 0,
+      "total": 112,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 65536
+    },
+    "verification_seconds": 4.935608750092797
+  },
+  {
+    "instance": "gf8-11b",
+    "path": "certificates/gf8-11b--aes113-d15.json",
+    "ok": true,
+    "metrics": {
+      "AND": 43,
+      "XOR": 70,
+      "NOT": 0,
+      "total": 113,
+      "depth": 15,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 65536
+    },
+    "verification_seconds": 6.412261874997057
+  },
+  {
+    "instance": "gf8-11b",
+    "path": "certificates/gf8-11b--aes114-d9.json",
+    "ok": true,
+    "metrics": {
+      "AND": 43,
+      "XOR": 71,
+      "NOT": 0,
+      "total": 114,
+      "depth": 9,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 65536
+    },
+    "verification_seconds": 5.537512124981731
+  },
+  {
+    "instance": "gf8-11b",
+    "path": "certificates/gf8-11b--aes115-cmtprods-d15.json",
+    "ok": true,
+    "metrics": {
+      "AND": 48,
+      "XOR": 67,
+      "NOT": 0,
+      "total": 115,
+      "depth": 15,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 65536
+    },
+    "verification_seconds": 3.2307136669987813
+  },
+  {
+    "instance": "gf8-11b",
+    "path": "certificates/gf8-11b--cmt.json",
+    "ok": true,
+    "metrics": {
+      "AND": 48,
+      "XOR": 69,
+      "NOT": 0,
+      "total": 117,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "exhaustive_inputs": 65536
+    },
+    "verification_seconds": 3.380822959006764
+  },
+  {
+    "instance": "design-mds4x4-w4",
+    "path": "certificates/design-mds4x4-w4--tian2024.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 35,
+      "NOT": 0,
+      "total": 35,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "block_minors": 69,
+      "branch_number": 5,
+      "involutory_required": false,
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "verification_seconds": 0.002706749946810305
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "path": "certificates/design-mds4x4-w4-involution--tian2024.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 36,
+      "NOT": 0,
+      "total": 36,
+      "depth": 7,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "block_minors": 69,
+      "branch_number": 5,
+      "involutory_required": true,
+      "matrix": [
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "verification_seconds": 0.0033907080069184303
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "path": "certificates/design-mds4x4-w4-involution--jpst17-4x4-gf16-inv-xor-41-xzlbz20-circ.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 41,
+      "NOT": 0,
+      "total": 41,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "block_minors": 69,
+      "branch_number": 5,
+      "involutory_required": true,
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    "verification_seconds": 0.0032412499422207475
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "path": "certificates/design-mds4x4-w4-involution--lw16-4x4-gf16-inv-xor-44-xzlbz20-circ.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 44,
+      "NOT": 0,
+      "total": 44,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "block_minors": 69,
+      "branch_number": 5,
+      "involutory_required": true,
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "verification_seconds": 0.009615250048227608
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "path": "certificates/design-mds4x4-w4-involution--skop15-4x4-gf16-inv-xor-44-xzlbz20-circ.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 44,
+      "NOT": 0,
+      "total": 44,
+      "depth": 8,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "block_minors": 69,
+      "branch_number": 5,
+      "involutory_required": true,
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "verification_seconds": 0.0028828750364482403
+  },
+  {
+    "instance": "design-mds4x4-w4-involution",
+    "path": "certificates/design-mds4x4-w4-involution--ss16-4x4-gf16-inv-xor-38-rs-120-circ.json",
+    "ok": true,
+    "metrics": {
+      "AND": 0,
+      "XOR": 38,
+      "NOT": 0,
+      "total": 38,
+      "depth": 6,
+      "dead_gates": 0
+    },
+    "evidence": {
+      "block_minors": 69,
+      "branch_number": 5,
+      "involutory_required": true,
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "verification_seconds": 0.0028878749581053853
+  }
+]

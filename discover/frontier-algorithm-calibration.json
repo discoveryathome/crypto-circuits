@@ -1,0 +1,46 @@
+{
+  "schema": "discover-frontier/v0",
+  "statement": "32 fixed instances; 160 seeded algorithm trials; zero confirmed published-frontier advances. Correctness is verified; 55 proposal novelty judgments remain unresolved.",
+  "status": "LOCAL evaluation complete; launch postponed; no donor intake",
+  "evidence_level": [
+    "author-checked"
+  ],
+  "claim_kind": [
+    "exact",
+    "measured"
+  ],
+  "scope": "Binary XOR/AND, paid NOT, constants; separate Pareto axes. No global optimality or true-zero-discovery claim.",
+  "metric": {
+    "name": "confirmed published-advance trials",
+    "value": "0/160"
+  },
+  "artifacts": [
+    {
+      "path": "results/plan.json",
+      "sha256": "c593e86b74eb5371c17c7336bc33be45a04e87f343b7a86d7507616d6388c34a"
+    },
+    {
+      "path": "results/summary.json",
+      "sha256": "7c5a2a022e86866478f9911bb6d82dc58b39ce038354135eccebfe6c7ef64df4"
+    },
+    {
+      "path": "results/novelty-audit.json",
+      "sha256": "e5835ef916335767a0b773b809998f62e90877581eff522248a5e20cf341348f"
+    },
+    {
+      "path": "results/portfolio-frontier.json",
+      "sha256": "d8afcd84f0f05f707a0a20a4fc69129911bfcab6ab44c111cd61098400ae6a12"
+    },
+    {
+      "path": "sources/manifest.json",
+      "sha256": "0add4129c6ef3803953e90fcb6433b74806dca49de3f7477681f952296942a18"
+    }
+  ],
+  "reproduce": "python3 tools/check_all.py",
+  "reproduce_minutes": 2,
+  "prerequisites": [
+    "Python 3.9+"
+  ],
+  "review": "docs/LAUNCH-ASSESSMENT.md",
+  "updated_on": "2026-10-20"
+}
