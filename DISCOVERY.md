@@ -1,5 +1,7 @@
 # Question and acceptance
 
+Current contributor instructions: [CONTRIBUTOR_WORKFLOW.md](CONTRIBUTOR_WORKFLOW.md) (21 October 2026).
+
 Can ordinary donated-agent sessions repeatedly produce useful, genuinely new,
 independently verified circuit constructions at an affordable review cost?
 The original experiment under `results/` measures the discovery yield of a

@@ -1,0 +1,58 @@
+{
+  "instance": "joltik",
+  "specification_sha256": "2146e20304c56888044a8bc136fdb6d1deba3d57ff768394729debec81a6e612",
+  "known_frontier": [
+    {
+      "path": "results/audit-baselines/joltik--sbp--FSE_SKOP15_i_4x4_4_SBP_depth3.json",
+      "sha256": "e98dd83a61a44547eb76ecf453909c09e0bce99b2f2b9d1defcf4babaae0ca3c",
+      "metrics": {
+        "AND": 0,
+        "XOR": 49,
+        "NOT": 0,
+        "total": 49,
+        "depth": 3,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "results/audit-baselines/joltik--sbp--FSE_SKOP15_i_4x4_4_SBP_depth4.json",
+      "sha256": "90099574ba1b373019a516964f48ce42371b50a6344de663628f298cb5883281",
+      "metrics": {
+        "AND": 0,
+        "XOR": 47,
+        "NOT": 0,
+        "total": 47,
+        "depth": 4,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "results/candidates/w0-joltik-2.json",
+      "sha256": "487fad487c76a4c2555d540f2b700971e55ffed7b6c74c533c2ff509c2cb5215",
+      "metrics": {
+        "AND": 0,
+        "XOR": 44,
+        "NOT": 0,
+        "total": 44,
+        "depth": 5,
+        "dead_gates": 0
+      }
+    }
+  ],
+  "published_xor_guard": 43,
+  "literature_claims": [
+    {
+      "XOR": 43,
+      "depth": null,
+      "source": "Yuan et al. 2024 table 2, citing Lin et al. 2021",
+      "status": "published-count-only; witness/port mapping unresolved"
+    }
+  ],
+  "novelty_policy": "Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker.",
+  "status": "PASS: known working targets; current external novelty review still required",
+  "review_sources": [
+    "docs/LITERATURE.md",
+    "results/novelty-audit.json",
+    "research/agent-pilot-v2/review/current-frontier.json"
+  ]
+}

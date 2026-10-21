@@ -1,0 +1,46 @@
+{
+  "instance": "twofish",
+  "specification_sha256": "802b3c2b5891f68aa0b3dfa1870481637f08e1d65522e4eedf0e7479a61add33",
+  "known_frontier": [
+    {
+      "path": "results/candidates/w0-twofish-1.json",
+      "sha256": "e37f942636dbdef1e49ffcfbaa3f287089f05af133de6f1f61feb59326ae36d8",
+      "metrics": {
+        "AND": 0,
+        "XOR": 143,
+        "NOT": 0,
+        "total": 143,
+        "depth": 5,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "results/candidates/w3-twofish-1.json",
+      "sha256": "3612f783fbdc624e3a24240582056f86611732620b3357001016f3dfed5f2370",
+      "metrics": {
+        "AND": 0,
+        "XOR": 111,
+        "NOT": 0,
+        "total": 111,
+        "depth": 7,
+        "dead_gates": 0
+      }
+    }
+  ],
+  "published_xor_guard": 110,
+  "literature_claims": [
+    {
+      "XOR": 110,
+      "depth": null,
+      "source": "Yuan et al. 2024 table 2, s-XOR embeds into general XOR",
+      "status": "published-count-only; witness/port mapping unresolved"
+    }
+  ],
+  "novelty_policy": "Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker.",
+  "status": "PASS: known working targets; current external novelty review still required",
+  "review_sources": [
+    "docs/LITERATURE.md",
+    "results/novelty-audit.json",
+    "research/agent-pilot-v2/review/current-frontier.json"
+  ]
+}

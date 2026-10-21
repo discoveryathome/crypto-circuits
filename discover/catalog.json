@@ -1,13 +1,13 @@
 {
   "schema": "discover-catalog/v0",
-  "priority_revision": 1,
-  "assessed_on": "2026-10-20",
+  "priority_revision": 2,
+  "assessed_on": "2026-10-21",
   "priority_log": "discover/priority-log.md",
-  "status": "Local research backlog only; donor intake paused",
+  "status": "Open; use current known targets, preserve frozen experiments and request external novelty review.",
   "tracks": [
     {
       "id": "linear",
-      "weight": 40,
+      "weight": 60,
       "useful_outcome": "Normalize and improve useful fixed linear maps without stale comparators.",
       "tasks": [
         {
@@ -57,31 +57,30 @@
           ]
         },
         {
-          "id": "cancellation-aware-search",
-          "question": "Does a cancellation-aware BP or bounded replacement search produce recurring published advances under a new frozen budget?",
+          "id": "improve-whirlwindm0",
+          "question": "Can a bounded search improve the known XOR/depth frontier for whirlwindm0?",
           "starting_points": [
-            "https://doi.org/10.46586/tosc.v2024.i2.322-347",
-            "docs/LITERATURE.md",
-            "results/novelty-audit.json"
+            "portfolio/whirlwindm0.json",
+            "CONTRIBUTOR_WORKFLOW.md",
+            "research/agent-pilot-v2/REPORT.md",
+            "research/agent-pilot-v2/review/current-frontier.json"
           ],
           "methods": [
             "BP variants",
             "exact bounded replacement"
           ],
-          "acceptance_gate": "A separately preregistered experiment, all seeds and failures retained, both checkers passing, candidate-specific novelty decisions. Corpus wins alone fail.",
+          "acceptance_gate": "Both checkers pass for the pinned map; strict nondominance against all known points (including unresolved proposals); fresh source review resolves count-only guards before novelty credit. Equal coordinates are not a new result.",
           "first_step": {
             "command": [
               "python3",
-              "-I",
-              "tools/check_submission.py",
-              "portfolio/twofish.json",
-              "certificates/twofish--nist.json"
+              "tools/task_context.py",
+              "whirlwindm0"
             ],
-            "expected": "ok=true and recomputed metrics",
-            "scope": "Positive control only; not a new discovery"
+            "expected": "PASS: known working targets",
+            "scope": "Verify existing local and published constructions; this is not a novelty verdict."
           },
           "bottleneck_link": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
-          "first_experiment": "Reproduce one published method against its artifact before running equal-budget method comparisons; do not edit the original plan.",
+          "first_experiment": "Choose a nondominated starting circuit from task_context, record its hash, seed and a 20-minute search cap; make one bounded rewrite or resynthesis experiment. Reserve 10 minutes for both checkers, provenance and handoff.",
           "claim_kind": [
             "exact",
             "measured"
@@ -94,10 +93,230 @@
           ],
           "existing_checks": [
             {
-              "scope": "Frozen 160-trial algorithm experiment; two implementations for every proposal",
-              "evidence": "results/summary.json",
-              "status": "local-only",
-              "remaining": "Does a cancellation-aware BP or bounded replacement search produce recurring published advances under a new frozen budget?"
+              "scope": "Known constructions and two-wave agent pilot",
+              "evidence": "research/agent-pilot-v2/REPORT.md",
+              "status": "author-checked and independent-agent review as individually recorded",
+              "remaining": "External scientific review and breadth evaluation"
+            }
+          ]
+        },
+        {
+          "id": "improve-whirlwindm1",
+          "question": "Can a bounded search improve the known XOR/depth frontier for whirlwindm1?",
+          "starting_points": [
+            "portfolio/whirlwindm1.json",
+            "CONTRIBUTOR_WORKFLOW.md",
+            "research/agent-pilot-v2/REPORT.md",
+            "research/agent-pilot-v2/review/current-frontier.json"
+          ],
+          "methods": [
+            "BP variants",
+            "exact bounded replacement"
+          ],
+          "acceptance_gate": "Both checkers pass for the pinned map; strict nondominance against all known points (including unresolved proposals); fresh source review resolves count-only guards before novelty credit. Equal coordinates are not a new result.",
+          "first_step": {
+            "command": [
+              "python3",
+              "tools/task_context.py",
+              "whirlwindm1"
+            ],
+            "expected": "PASS: known working targets",
+            "scope": "Verify existing local and published constructions; this is not a novelty verdict."
+          },
+          "bottleneck_link": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "first_experiment": "Choose a nondominated starting circuit from task_context, record its hash, seed and a 20-minute search cap; make one bounded rewrite or resynthesis experiment. Reserve 10 minutes for both checkers, provenance and handoff.",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "allowed_variations": [
+            "Separate versioned experiments only; preserve original seeds and specifications"
+          ],
+          "scope_change_triggers": [
+            "A stronger prior construction or mismatched gate model blocks the claim."
+          ],
+          "existing_checks": [
+            {
+              "scope": "Known constructions and two-wave agent pilot",
+              "evidence": "research/agent-pilot-v2/REPORT.md",
+              "status": "author-checked and independent-agent review as individually recorded",
+              "remaining": "External scientific review and breadth evaluation"
+            }
+          ]
+        },
+        {
+          "id": "improve-twofish",
+          "question": "Can a bounded search improve the known XOR/depth frontier for twofish?",
+          "starting_points": [
+            "portfolio/twofish.json",
+            "CONTRIBUTOR_WORKFLOW.md",
+            "research/agent-pilot-v2/REPORT.md",
+            "research/agent-pilot-v2/review/current-frontier.json"
+          ],
+          "methods": [
+            "BP variants",
+            "exact bounded replacement"
+          ],
+          "acceptance_gate": "Both checkers pass for the pinned map; strict nondominance against all known points (including unresolved proposals); fresh source review resolves count-only guards before novelty credit. Equal coordinates are not a new result.",
+          "first_step": {
+            "command": [
+              "python3",
+              "tools/task_context.py",
+              "twofish"
+            ],
+            "expected": "PASS: known working targets",
+            "scope": "Verify existing local and published constructions; this is not a novelty verdict."
+          },
+          "bottleneck_link": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "first_experiment": "Choose a nondominated starting circuit from task_context, record its hash, seed and a 20-minute search cap; make one bounded rewrite or resynthesis experiment. Reserve 10 minutes for both checkers, provenance and handoff.",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "allowed_variations": [
+            "Separate versioned experiments only; preserve original seeds and specifications"
+          ],
+          "scope_change_triggers": [
+            "A stronger prior construction or mismatched gate model blocks the claim."
+          ],
+          "existing_checks": [
+            {
+              "scope": "Known constructions and two-wave agent pilot",
+              "evidence": "research/agent-pilot-v2/REPORT.md",
+              "status": "author-checked and independent-agent review as individually recorded",
+              "remaining": "External scientific review and breadth evaluation"
+            }
+          ]
+        },
+        {
+          "id": "improve-joltik",
+          "question": "Can a bounded search improve the known XOR/depth frontier for joltik?",
+          "starting_points": [
+            "portfolio/joltik.json",
+            "CONTRIBUTOR_WORKFLOW.md",
+            "research/agent-pilot-v2/REPORT.md",
+            "research/agent-pilot-v2/review/current-frontier.json"
+          ],
+          "methods": [
+            "BP variants",
+            "exact bounded replacement"
+          ],
+          "acceptance_gate": "Both checkers pass for the pinned map; strict nondominance against all known points (including unresolved proposals); fresh source review resolves count-only guards before novelty credit. Equal coordinates are not a new result.",
+          "first_step": {
+            "command": [
+              "python3",
+              "tools/task_context.py",
+              "joltik"
+            ],
+            "expected": "PASS: known working targets",
+            "scope": "Verify existing local and published constructions; this is not a novelty verdict."
+          },
+          "bottleneck_link": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "first_experiment": "Choose a nondominated starting circuit from task_context, record its hash, seed and a 20-minute search cap; make one bounded rewrite or resynthesis experiment. Reserve 10 minutes for both checkers, provenance and handoff.",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "allowed_variations": [
+            "Separate versioned experiments only; preserve original seeds and specifications"
+          ],
+          "scope_change_triggers": [
+            "A stronger prior construction or mismatched gate model blocks the claim."
+          ],
+          "existing_checks": [
+            {
+              "scope": "Known constructions and two-wave agent pilot",
+              "evidence": "research/agent-pilot-v2/REPORT.md",
+              "status": "author-checked and independent-agent review as individually recorded",
+              "remaining": "External scientific review and breadth evaluation"
+            }
+          ]
+        },
+        {
+          "id": "improve-grostl",
+          "question": "Can a bounded search improve the known XOR/depth frontier for grostl?",
+          "starting_points": [
+            "portfolio/grostl.json",
+            "CONTRIBUTOR_WORKFLOW.md",
+            "research/agent-pilot-v2/REPORT.md",
+            "research/agent-pilot-v2/review/current-frontier.json"
+          ],
+          "methods": [
+            "BP variants",
+            "exact bounded replacement"
+          ],
+          "acceptance_gate": "Both checkers pass for the pinned map; strict nondominance against all known points (including unresolved proposals); fresh source review resolves count-only guards before novelty credit. Equal coordinates are not a new result.",
+          "first_step": {
+            "command": [
+              "python3",
+              "tools/task_context.py",
+              "grostl"
+            ],
+            "expected": "PASS: known working targets",
+            "scope": "Verify existing local and published constructions; this is not a novelty verdict."
+          },
+          "bottleneck_link": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "first_experiment": "Choose a nondominated starting circuit from task_context, record its hash, seed and a 20-minute search cap; make one bounded rewrite or resynthesis experiment. Reserve 10 minutes for both checkers, provenance and handoff.",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "allowed_variations": [
+            "Separate versioned experiments only; preserve original seeds and specifications"
+          ],
+          "scope_change_triggers": [
+            "A stronger prior construction or mismatched gate model blocks the claim."
+          ],
+          "existing_checks": [
+            {
+              "scope": "Known constructions and two-wave agent pilot",
+              "evidence": "research/agent-pilot-v2/REPORT.md",
+              "status": "author-checked and independent-agent review as individually recorded",
+              "remaining": "External scientific review and breadth evaluation"
+            }
+          ]
+        },
+        {
+          "id": "improve-whirlpool-maelstrom",
+          "question": "Can a bounded search improve the known XOR/depth frontier for whirlpool-maelstrom?",
+          "starting_points": [
+            "portfolio/whirlpool-maelstrom.json",
+            "CONTRIBUTOR_WORKFLOW.md",
+            "research/agent-pilot-v2/REPORT.md",
+            "research/agent-pilot-v2/review/current-frontier.json"
+          ],
+          "methods": [
+            "BP variants",
+            "exact bounded replacement"
+          ],
+          "acceptance_gate": "Both checkers pass for the pinned map; strict nondominance against all known points (including unresolved proposals); fresh source review resolves count-only guards before novelty credit. Equal coordinates are not a new result.",
+          "first_step": {
+            "command": [
+              "python3",
+              "tools/task_context.py",
+              "whirlpool-maelstrom"
+            ],
+            "expected": "PASS: known working targets",
+            "scope": "Verify existing local and published constructions; this is not a novelty verdict."
+          },
+          "bottleneck_link": "https://doi.org/10.46586/tosc.v2024.i2.322-347",
+          "first_experiment": "Choose a nondominated starting circuit from task_context, record its hash, seed and a 20-minute search cap; make one bounded rewrite or resynthesis experiment. Reserve 10 minutes for both checkers, provenance and handoff.",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "allowed_variations": [
+            "Separate versioned experiments only; preserve original seeds and specifications"
+          ],
+          "scope_change_triggers": [
+            "A stronger prior construction or mismatched gate model blocks the claim."
+          ],
+          "existing_checks": [
+            {
+              "scope": "Known constructions and two-wave agent pilot",
+              "evidence": "research/agent-pilot-v2/REPORT.md",
+              "status": "author-checked and independent-agent review as individually recorded",
+              "remaining": "External scientific review and breadth evaluation"
             }
           ]
         }
@@ -105,7 +324,7 @@
     },
     {
       "id": "field",
-      "weight": 25,
+      "weight": 15,
       "useful_outcome": "Search structural multiplier decompositions beyond fixed-circuit reassociation.",
       "tasks": [
         {
@@ -157,7 +376,7 @@
     },
     {
       "id": "design",
-      "weight": 15,
+      "weight": 10,
       "useful_outcome": "Investigate the actual block-MDS cost/depth frontier.",
       "tasks": [
         {
@@ -209,13 +428,14 @@
     },
     {
       "id": "calibration",
-      "weight": 10,
+      "weight": 15,
       "useful_outcome": "Establish genuine discovery and review costs before donors are invited.",
       "tasks": [
         {
           "id": "external-agent-calibration",
           "question": "Can externally reviewed, fixed-budget donated-agent sessions advance the reconciled frontier repeatedly?",
           "starting_points": [
+            "research/agent-pilot-v2/REPORT.md",
             "docs/LAUNCH-ASSESSMENT.md",
             "docs/LITERATURE.md",
             "results/novelty-audit.json"
@@ -238,7 +458,7 @@
             "scope": "Positive control only; not a new discovery"
           },
           "bottleneck_link": "docs/LAUNCH-ASSESSMENT.md",
-          "first_experiment": "Resolve the literature blockers and obtain a consenting reviewer before a new, separately authorized agent-session study. The current 160 algorithm trials are not this study.",
+          "first_experiment": "Extend the completed six-session screen to additional fixed maps using known improved starting points. Record cold-start context, unsuccessful sessions, token/time budget, overlap and reviewer effort; existing pilot outcomes are prior evidence.",
           "claim_kind": [
             "exact",
             "measured"
@@ -255,58 +475,6 @@
               "evidence": "results/summary.json",
               "status": "local-only",
               "remaining": "Can externally reviewed, fixed-budget donated-agent sessions advance the reconciled frontier repeatedly?"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "aes-stretch",
-      "weight": 10,
-      "useful_outcome": "Keep the complete AES S-box as high-ambition research.",
-      "tasks": [
-        {
-          "id": "aes-real-frontier",
-          "question": "Can complete AES S-box circuits improve the verified 28-AND frontier without changing the function or gate model?",
-          "starting_points": [
-            "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
-            "docs/LITERATURE.md",
-            "results/novelty-audit.json"
-          ],
-          "methods": [
-            "Nonlinear exact synthesis",
-            "representation search"
-          ],
-          "acceptance_gate": "Use the separate AES pilot: complete 256-input truth table, normalized gates and current literature comparison. Do not count it as expected routine portfolio yield.",
-          "first_step": {
-            "command": [
-              "python3",
-              "-I",
-              "tools/check_submission.py",
-              "portfolio/joltik.json",
-              "certificates/joltik--nist.json"
-            ],
-            "expected": "ok=true and recomputed metrics",
-            "scope": "Positive control only; not a new discovery"
-          },
-          "bottleneck_link": "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
-          "first_experiment": "Read ../../start-aes-sbox/docs/LITERATURE.md and its task catalogue; the positive control below only checks this portfolio installation.",
-          "claim_kind": [
-            "exact",
-            "measured"
-          ],
-          "allowed_variations": [
-            "Separate versioned experiments only; preserve original seeds and specifications"
-          ],
-          "scope_change_triggers": [
-            "A stronger prior construction or mismatched gate model blocks the claim."
-          ],
-          "existing_checks": [
-            {
-              "scope": "Frozen 160-trial algorithm experiment; two implementations for every proposal",
-              "evidence": "results/summary.json",
-              "status": "local-only",
-              "remaining": "Can complete AES S-box circuits improve the verified 28-AND frontier without changing the function or gate model?"
             }
           ]
         }

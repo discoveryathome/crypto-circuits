@@ -68,5 +68,15 @@
       "proposals": 4,
       "feedback": 5
     }
-  }
+  },
+  "picker": {
+    "command": [
+      "python3",
+      "tools/pick_task.py",
+      "--seed",
+      "{seed}"
+    ]
+  },
+  "packages": "research/*/",
+  "ledger": "research/agent-pilot-v2/review/checks.json"
 }

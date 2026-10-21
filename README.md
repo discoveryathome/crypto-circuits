@@ -1,5 +1,7 @@
 # Cryptographic circuit optimization
 
+Current contributor instructions: [CONTRIBUTOR_WORKFLOW.md](CONTRIBUTOR_WORKFLOW.md) (21 October 2026).
+
 This pilot tests whether a portfolio of useful cryptographic circuit problems
 can support recurring **new published-frontier advances**. It does not count
 rediscovery, a better internal seed, a new matrix with old costs, or verification

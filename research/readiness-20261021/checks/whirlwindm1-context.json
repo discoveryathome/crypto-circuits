@@ -1,0 +1,63 @@
+{
+  "instance": "whirlwindm1",
+  "specification_sha256": "46b1cf15018adb7e7747758175ab9280682b9401242a785790731f32664c5ff2",
+  "known_frontier": [
+    {
+      "path": "research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-163-10-dfa71c3370e1.json",
+      "sha256": "dfa71c3370e195e9063a36b1ce9b6d0cc22a51a7ecb06887603fd6cfd45959d2",
+      "metrics": {
+        "AND": 0,
+        "XOR": 163,
+        "NOT": 0,
+        "total": 163,
+        "depth": 10,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-164-9-c2ff5ef13d92.json",
+      "sha256": "c2ff5ef13d92a45918d28889e73960f89acfd00c588c1d00b1e7cf7ab2848b59",
+      "metrics": {
+        "AND": 0,
+        "XOR": 164,
+        "NOT": 0,
+        "total": 164,
+        "depth": 9,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-215-6-22daae1c178b.json",
+      "sha256": "22daae1c178b2b6d461cb75b9ee143da2f145cab86734ccd2871d404559a8298",
+      "metrics": {
+        "AND": 0,
+        "XOR": 215,
+        "NOT": 0,
+        "total": 215,
+        "depth": 6,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-224-5-0e1af86696b6.json",
+      "sha256": "0e1af86696b685838da04099fbbd720bde58c4edd89a52ad2b437357b9025c99",
+      "metrics": {
+        "AND": 0,
+        "XOR": 224,
+        "NOT": 0,
+        "total": 224,
+        "depth": 5,
+        "dead_gates": 0
+      }
+    }
+  ],
+  "published_xor_guard": 169,
+  "literature_claims": [],
+  "novelty_policy": "Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker.",
+  "status": "PASS: known working targets; current external novelty review still required",
+  "review_sources": [
+    "docs/LITERATURE.md",
+    "results/novelty-audit.json",
+    "research/agent-pilot-v2/review/current-frontier.json"
+  ]
+}

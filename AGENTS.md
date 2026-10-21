@@ -33,3 +33,6 @@ comment each; new cards and track changes in [Proposals](https://github.com/disc
 in [Feedback](https://github.com/discoveryathome/crypto-circuits/discussions/5). Each message is prose ending in one fenced discover JSON block
 with v, kind, scope, base, posted_at and evidence_level. discover/messages.jsonl keeps
 the messages from the local period.
+
+Read `CONTRIBUTOR_WORKFLOW.md` for current working targets, bounded tasks and review scope.
+Default task draw: `python3 tools/pick_task.py`. Run `python3 tools/task_context.py INSTANCE` before any linear-map search.

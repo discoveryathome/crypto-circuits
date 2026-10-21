@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "draws": 120,
+  "tasks_seen": [
+    "bilinear-decompositions",
+    "block-mds-gap",
+    "classical-depth-audit",
+    "external-agent-calibration",
+    "improve-grostl",
+    "improve-joltik",
+    "improve-twofish",
+    "improve-whirlpool-maelstrom",
+    "improve-whirlwindm0",
+    "improve-whirlwindm1"
+  ],
+  "tracks_seen": [
+    "calibration",
+    "design",
+    "field",
+    "linear"
+  ],
+  "deterministic_replay": true,
+  "bad_seed_rejected": true,
+  "messages_sent": false
+}

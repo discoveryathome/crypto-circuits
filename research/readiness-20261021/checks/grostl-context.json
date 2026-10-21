@@ -1,0 +1,39 @@
+{
+  "instance": "grostl",
+  "specification_sha256": "7cf34f87aed9c8f948916b694b5c1f7b1865e5e5d3a88e68abffb49e2dc072f1",
+  "known_frontier": [
+    {
+      "path": "results/candidates/w2-grostl-1.json",
+      "sha256": "8c76cdf87eeb6f8c76cf8639314301deaa196d10f16ca868bec5b3ffdeac60ef",
+      "metrics": {
+        "AND": 0,
+        "XOR": 410,
+        "NOT": 0,
+        "total": 410,
+        "depth": 11,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "results/candidates/w4-grostl-0.json",
+      "sha256": "0b2d9fdc4b3624439d63325928330fced333546a286e2fdb2b96fe2bb1f9508b",
+      "metrics": {
+        "AND": 0,
+        "XOR": 477,
+        "NOT": 0,
+        "total": 477,
+        "depth": 6,
+        "dead_gates": 0
+      }
+    }
+  ],
+  "published_xor_guard": 410,
+  "literature_claims": [],
+  "novelty_policy": "Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker.",
+  "status": "PASS: known working targets; current external novelty review still required",
+  "review_sources": [
+    "docs/LITERATURE.md",
+    "results/novelty-audit.json",
+    "research/agent-pilot-v2/review/current-frontier.json"
+  ]
+}

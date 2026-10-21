@@ -1,0 +1,130 @@
+[
+  {
+    "task": "classical-depth-audit",
+    "command": [
+      "python3",
+      "-I",
+      "tools/check_submission.py",
+      "portfolio/joltik.json",
+      "certificates/joltik--nist.json"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.049658709089271724,
+    "output": "{\"evidence\": {\"coefficient_equalities\": 256, \"proof\": \"exact affine propagation\"}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 44, \"dead_gates\": 0, \"depth\": 7, \"total\": 44}, \"ok\": true, \"verification_seconds\": 0.00017220794688910246}\n"
+  },
+  {
+    "task": "improve-whirlwindm0",
+    "command": [
+      "python3",
+      "tools/task_context.py",
+      "whirlwindm0"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.13885641691740602,
+    "output": "\"AND\": 0,\n        \"XOR\": 205,\n        \"NOT\": 0,\n        \"total\": 205,\n        \"depth\": 8,\n        \"dead_gates\": 0\n      }\n    },\n    {\n      \"path\": \"research/agent-pilot-v2/sessions/w2-m0/submissions/xor206-depth7-837fe5a91c9b.json\",\n      \"sha256\": \"837fe5a91c9bed4768b04413aa0e8774b661e8555a2060efa9e4930c439cbdab\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 206,\n        \"NOT\": 0,\n        \"total\": 206,\n        \"depth\": 7,\n        \"dead_gates\": 0\n      }\n    },\n    {\n      \"path\": \"research/agent-pilot-v2/sessions/w2-m0/submissions/xor210-depth6-bcaa50539c41.json\",\n      \"sha256\": \"bcaa50539c415f17e5962cc41947482ee9c5a81fa2a86b5e29aaae9f65c0244e\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 210,\n        \"NOT\": 0,\n        \"total\": 210,\n        \"depth\": 6,\n        \"dead_gates\": 0\n      }\n    },\n    {\n      \"path\": \"research/agent-pilot-v2/sessions/w2-m0/submissions/xor214-depth5-8406992ede8e.json\",\n      \"sha256\": \"8406992ede8ee3cab9b20ca2d9e24cf3ab1c9c424f90db2ed90f19abf288ce16\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 214,\n        \"NOT\": 0,\n        \"total\": 214,\n        \"depth\": 5,\n        \"dead_gates\": 0\n      }\n    }\n  ],\n  \"published_xor_guard\": 159,\n  \"literature_claims\": [],\n  \"novelty_policy\": \"Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker.\",\n  \"status\": \"PASS: known working targets; current external novelty review still required\",\n  \"review_sources\": [\n    \"docs/LITERATURE.md\",\n    \"results/novelty-audit.json\",\n    \"research/agent-pilot-v2/review/current-frontier.json\"\n  ]\n}\n"
+  },
+  {
+    "task": "improve-whirlwindm1",
+    "command": [
+      "python3",
+      "tools/task_context.py",
+      "whirlwindm1"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.11936804198194295,
+    "output": "0,\n        \"XOR\": 163,\n        \"NOT\": 0,\n        \"total\": 163,\n        \"depth\": 10,\n        \"dead_gates\": 0\n      }\n    },\n    {\n      \"path\": \"research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-164-9-c2ff5ef13d92.json\",\n      \"sha256\": \"c2ff5ef13d92a45918d28889e73960f89acfd00c588c1d00b1e7cf7ab2848b59\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 164,\n        \"NOT\": 0,\n        \"total\": 164,\n        \"depth\": 9,\n        \"dead_gates\": 0\n      }\n    },\n    {\n      \"path\": \"research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-215-6-22daae1c178b.json\",\n      \"sha256\": \"22daae1c178b2b6d461cb75b9ee143da2f145cab86734ccd2871d404559a8298\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 215,\n        \"NOT\": 0,\n        \"total\": 215,\n        \"depth\": 6,\n        \"dead_gates\": 0\n      }\n    },\n    {\n      \"path\": \"research/agent-pilot-v2/sessions/w2-m1/submissions/candidate-224-5-0e1af86696b6.json\",\n      \"sha256\": \"0e1af86696b685838da04099fbbd720bde58c4edd89a52ad2b437357b9025c99\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 224,\n        \"NOT\": 0,\n        \"total\": 224,\n        \"depth\": 5,\n        \"dead_gates\": 0\n      }\n    }\n  ],\n  \"published_xor_guard\": 169,\n  \"literature_claims\": [],\n  \"novelty_policy\": \"Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker.\",\n  \"status\": \"PASS: known working targets; current external novelty review still required\",\n  \"review_sources\": [\n    \"docs/LITERATURE.md\",\n    \"results/novelty-audit.json\",\n    \"research/agent-pilot-v2/review/current-frontier.json\"\n  ]\n}\n"
+  },
+  {
+    "task": "improve-twofish",
+    "command": [
+      "python3",
+      "tools/task_context.py",
+      "twofish"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.1145720409695059,
+    "output": "{\n  \"instance\": \"twofish\",\n  \"specification_sha256\": \"802b3c2b5891f68aa0b3dfa1870481637f08e1d65522e4eedf0e7479a61add33\",\n  \"known_frontier\": [\n    {\n      \"path\": \"results/candidates/w0-twofish-1.json\",\n      \"sha256\": \"e37f942636dbdef1e49ffcfbaa3f287089f05af133de6f1f61feb59326ae36d8\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 143,\n        \"NOT\": 0,\n        \"total\": 143,\n        \"depth\": 5,\n        \"dead_gates\": 0\n      }\n    },\n    {\n      \"path\": \"results/candidates/w3-twofish-1.json\",\n      \"sha256\": \"3612f783fbdc624e3a24240582056f86611732620b3357001016f3dfed5f2370\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 111,\n        \"NOT\": 0,\n        \"total\": 111,\n        \"depth\": 7,\n        \"dead_gates\": 0\n      }\n    }\n  ],\n  \"published_xor_guard\": 110,\n  \"literature_claims\": [\n    {\n      \"XOR\": 110,\n      \"depth\": null,\n      \"source\": \"Yuan et al. 2024 table 2, s-XOR embeds into general XOR\",\n      \"status\": \"published-count-only; witness/port mapping unresolved\"\n    }\n  ],\n  \"novelty_policy\": \"Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker.\",\n  \"status\": \"PASS: known working targets; current external novelty review still required\",\n  \"review_sources\": [\n    \"docs/LITERATURE.md\",\n    \"results/novelty-audit.json\",\n    \"research/agent-pilot-v2/review/current-frontier.json\"\n  ]\n}\n"
+  },
+  {
+    "task": "improve-joltik",
+    "command": [
+      "python3",
+      "tools/task_context.py",
+      "joltik"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.1348912080284208,
+    "output": "rontier\": [\n    {\n      \"path\": \"results/audit-baselines/joltik--sbp--FSE_SKOP15_i_4x4_4_SBP_depth3.json\",\n      \"sha256\": \"e98dd83a61a44547eb76ecf453909c09e0bce99b2f2b9d1defcf4babaae0ca3c\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 49,\n        \"NOT\": 0,\n        \"total\": 49,\n        \"depth\": 3,\n        \"dead_gates\": 0\n      }\n    },\n    {\n      \"path\": \"results/audit-baselines/joltik--sbp--FSE_SKOP15_i_4x4_4_SBP_depth4.json\",\n      \"sha256\": \"90099574ba1b373019a516964f48ce42371b50a6344de663628f298cb5883281\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 47,\n        \"NOT\": 0,\n        \"total\": 47,\n        \"depth\": 4,\n        \"dead_gates\": 0\n      }\n    },\n    {\n      \"path\": \"results/candidates/w0-joltik-2.json\",\n      \"sha256\": \"487fad487c76a4c2555d540f2b700971e55ffed7b6c74c533c2ff509c2cb5215\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 44,\n        \"NOT\": 0,\n        \"total\": 44,\n        \"depth\": 5,\n        \"dead_gates\": 0\n      }\n    }\n  ],\n  \"published_xor_guard\": 43,\n  \"literature_claims\": [\n    {\n      \"XOR\": 43,\n      \"depth\": null,\n      \"source\": \"Yuan et al. 2024 table 2, citing Lin et al. 2021\",\n      \"status\": \"published-count-only; witness/port mapping unresolved\"\n    }\n  ],\n  \"novelty_policy\": \"Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker.\",\n  \"status\": \"PASS: known working targets; current external novelty review still required\",\n  \"review_sources\": [\n    \"docs/LITERATURE.md\",\n    \"results/novelty-audit.json\",\n    \"research/agent-pilot-v2/review/current-frontier.json\"\n  ]\n}\n"
+  },
+  {
+    "task": "improve-grostl",
+    "command": [
+      "python3",
+      "tools/task_context.py",
+      "grostl"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.14915895892772824,
+    "output": "{\n  \"instance\": \"grostl\",\n  \"specification_sha256\": \"7cf34f87aed9c8f948916b694b5c1f7b1865e5e5d3a88e68abffb49e2dc072f1\",\n  \"known_frontier\": [\n    {\n      \"path\": \"results/candidates/w2-grostl-1.json\",\n      \"sha256\": \"8c76cdf87eeb6f8c76cf8639314301deaa196d10f16ca868bec5b3ffdeac60ef\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 410,\n        \"NOT\": 0,\n        \"total\": 410,\n        \"depth\": 11,\n        \"dead_gates\": 0\n      }\n    },\n    {\n      \"path\": \"results/candidates/w4-grostl-0.json\",\n      \"sha256\": \"0b2d9fdc4b3624439d63325928330fced333546a286e2fdb2b96fe2bb1f9508b\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 477,\n        \"NOT\": 0,\n        \"total\": 477,\n        \"depth\": 6,\n        \"dead_gates\": 0\n      }\n    }\n  ],\n  \"published_xor_guard\": 410,\n  \"literature_claims\": [],\n  \"novelty_policy\": \"Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker.\",\n  \"status\": \"PASS: known working targets; current external novelty review still required\",\n  \"review_sources\": [\n    \"docs/LITERATURE.md\",\n    \"results/novelty-audit.json\",\n    \"research/agent-pilot-v2/review/current-frontier.json\"\n  ]\n}\n"
+  },
+  {
+    "task": "improve-whirlpool-maelstrom",
+    "command": [
+      "python3",
+      "tools/task_context.py",
+      "whirlpool-maelstrom"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.17505970795173198,
+    "output": "{\n  \"instance\": \"whirlpool-maelstrom\",\n  \"specification_sha256\": \"55259ebda0589a10bb9b7c6f5e499f631ea40587b85bb27a3f00e3584cba1a42\",\n  \"known_frontier\": [\n    {\n      \"path\": \"results/candidates/w0-whirlpool-maelstrom-2.json\",\n      \"sha256\": \"0b87ab7131aecd90b0d65aab19f33d870133e3e8e898c277092eeb4db1b3f719\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 425,\n        \"NOT\": 0,\n        \"total\": 425,\n        \"depth\": 10,\n        \"dead_gates\": 0\n      }\n    },\n    {\n      \"path\": \"results/candidates/w1-whirlpool-maelstrom-0.json\",\n      \"sha256\": \"fa1c06c4ddd429c7f25f46d1f03d3887c72ea64fe5ea966b474275532cb21bfe\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 470,\n        \"NOT\": 0,\n        \"total\": 470,\n        \"depth\": 5,\n        \"dead_gates\": 0\n      }\n    },\n    {\n      \"path\": \"results/candidates/w3-whirlpool-maelstrom-0.json\",\n      \"sha256\": \"0d6eef9ec877d81bca5a54ba1ce9d713a9acd79336777184878953d270f6576f\",\n      \"metrics\": {\n        \"AND\": 0,\n        \"XOR\": 469,\n        \"NOT\": 0,\n        \"total\": 469,\n        \"depth\": 6,\n        \"dead_gates\": 0\n      }\n    }\n  ],\n  \"published_xor_guard\": 425,\n  \"literature_claims\": [],\n  \"novelty_policy\": \"Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker.\",\n  \"status\": \"PASS: known working targets; current external novelty review still required\",\n  \"review_sources\": [\n    \"docs/LITERATURE.md\",\n    \"results/novelty-audit.json\",\n    \"research/agent-pilot-v2/review/current-frontier.json\"\n  ]\n}\n"
+  },
+  {
+    "task": "bilinear-decompositions",
+    "command": [
+      "python3",
+      "-I",
+      "tools/check_submission.py",
+      "portfolio/gf8-11b.json",
+      "certificates/gf8-11b--aes107-d13.json"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 2.0252145840786397,
+    "output": "{\"evidence\": {\"exhaustive_inputs\": 65536}, \"metrics\": {\"AND\": 35, \"NOT\": 0, \"XOR\": 72, \"dead_gates\": 0, \"depth\": 13, \"total\": 107}, \"ok\": true, \"verification_seconds\": 1.9490452089812607}\n"
+  },
+  {
+    "task": "block-mds-gap",
+    "command": [
+      "python3",
+      "-I",
+      "tools/check_submission.py",
+      "portfolio/design-mds4x4-w4-involution.json",
+      "certificates/design-mds4x4-w4-involution--tian2024.json"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.06491391593590379,
+    "output": "{\"evidence\": {\"block_minors\": 69, \"branch_number\": 5, \"involutory_required\": true, \"matrix\": [[1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1], [1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1], [1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0], [0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0], [1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1], [0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1], [0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0], [0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0], [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0], [0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0], [0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0], [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1], [1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0], [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0], [1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0], [0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1]]}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 36, \"dead_gates\": 0, \"depth\": 7, \"total\": 36}, \"ok\": true, \"verification_seconds\": 0.0034714579815045}\n"
+  },
+  {
+    "task": "external-agent-calibration",
+    "command": [
+      "python3",
+      "-I",
+      "tools/check_submission.py",
+      "portfolio/joltik.json",
+      "certificates/joltik--nist.json"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.049658709089271724,
+    "output": "{\"evidence\": {\"coefficient_equalities\": 256, \"proof\": \"exact affine propagation\"}, \"metrics\": {\"AND\": 0, \"NOT\": 0, \"XOR\": 44, \"dead_gates\": 0, \"depth\": 7, \"total\": 44}, \"ok\": true, \"verification_seconds\": 0.00017220794688910246}\n"
+  }
+]
