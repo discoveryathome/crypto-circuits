@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "plan_sha256": "e13c95221645d66df1ba36c59df662d3dbb4e8b0ae82dcce8045911a339b0097",
+  "pinned_files": 74,
+  "certificates": 147,
+  "submission_files": 147,
+  "fresh_checker_processes": 294,
+  "checker_process_seconds": 11.480416581849568,
+  "total_wall_seconds": 11.533470624941401,
+  "scope": "Integrity, exact function, and costs; novelty is separately reviewed"
+}

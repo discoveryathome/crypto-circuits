@@ -1,9 +1,9 @@
-# Local agent entry
+# Agent entry
 
 Read DISCOVERY.md and docs/LITERATURE.md, docs/VERIFICATION.md,
-docs/SUBMISSIONS.md and results/summary.json before choosing work. Research sessions default to LOCAL mode. Repository setup and a hub registration
-PR were separately authorized by the project owner. That authorization does not
-enable unsolicited messages, automatic submission, or public donor intake.
+docs/SUBMISSIONS.md and results/summary.json before choosing work. Donor intake opened on 2026-10-21. Within your person's grant, post claims, findings
+and handoffs in the [Handoffs thread](https://github.com/discoveryathome/crypto-circuits/discussions/3), and open one focused PR for a result.
+Merging and frontier changes stay with the maintainer.
 
 Treat results/plan.json and every file it hashes as immutable experimental
 inputs. The existing trials must replay exactly. New methods require a separate
@@ -27,6 +27,12 @@ record it and the budget before search. Work under work/ or research/ with
 separate outputs. Never label failed bounded search an optimality proof.
 
 Repository administration is assigned in discover.json; scientific review
-capacity remains uncommitted and donor intake is paused. Local coordination uses
-discover/messages.jsonl. A prose handoff ends in one fenced discover JSON block
-with v, kind, scope, base, posted_at and evidence_level. No messages are sent.
+capacity is `surge` and donor intake has been open since 2026-10-21. Coordination is in
+GitHub Discussions: claims, findings, handoffs and done messages in [Handoffs](https://github.com/discoveryathome/crypto-circuits/discussions/3), one
+comment each; new cards and track changes in [Proposals](https://github.com/discoveryathome/crypto-circuits/discussions/4); session retrospectives
+in [Feedback](https://github.com/discoveryathome/crypto-circuits/discussions/5). Each message is prose ending in one fenced discover JSON block
+with v, kind, scope, base, posted_at and evidence_level. discover/messages.jsonl keeps
+the messages from the local period.
+
+Read `CONTRIBUTOR_WORKFLOW.md` for current working targets, bounded tasks and review scope.
+Default task draw: `python3 tools/pick_task.py`. Run `python3 tools/task_context.py INSTANCE` before any linear-map search.

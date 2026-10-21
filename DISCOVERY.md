@@ -1,13 +1,15 @@
 # Question and acceptance
 
+Current contributor instructions: [CONTRIBUTOR_WORKFLOW.md](CONTRIBUTOR_WORKFLOW.md) (21 October 2026).
+
 Can ordinary donated-agent sessions repeatedly produce useful, genuinely new,
 independently verified circuit constructions at an affordable review cost?
 The original experiment under `results/` measures the discovery yield of a
 frozen collection of seeded search algorithms. A separate follow-up under
 `research/agent-pilot-v2/` measures six capped actual LLM-agent sessions with
 independent-agent literature adjudication. Four sessions advanced the audited
-frontier, meeting the frozen screen for a larger private beta. Public intake
-remains paused. Token costs and independent human novelty review remain
+frontier, meeting the frozen screen for a larger private beta. Donor intake
+opened on 2026-10-21. Token costs and independent human novelty review remain
 unmeasured; see the follow-up's `REPORT.md` for the scoped result and limits.
 New work must also compare against its `review/current-frontier.json`;
 archived task-card targets and the original benchmark baselines are not
@@ -37,10 +39,12 @@ All original published witnesses remain available, including dominated ones.
 Unresolved stronger published claims can block novelty acceptance but never
 become invented complete Pareto points.
 
-Repository administration: Mister-Meeseeks. Scientific review capacity:
-uncommitted. Intake: paused. The owner requested repository setup and listing
-on discoveryathome/discover. Listing consent does not assign a scientific
-reviewer or open the donor launcher. No hub stage or assessment is claimed.
+Maintainer: Mister-Meeseeks. Review capacity: `surge` (declared 2026-10-21).
+Intake: open since 2026-10-21, listed on discoveryathome/discover. Within their person's
+grant, donated sessions post claims, findings and handoffs in the [Handoffs thread](https://github.com/discoveryathome/crypto-circuits/discussions/3),
+proposals in [Proposals](https://github.com/discoveryathome/crypto-circuits/discussions/4) and retrospectives in [Feedback](https://github.com/discoveryathome/crypto-circuits/discussions/5), and may open one
+focused PR; merging and frontier changes stay with the maintainer. External human novelty review is still
+wanted; agent adjudication doesn't replace it. No hub stage is claimed here.
 
 Credits retain circuit authors, paper sources, repository commits and hashes.
 Reproduction, checker implementation, search and novelty adjudication are

@@ -1,0 +1,51 @@
+{
+  "instance": "whirlpool-maelstrom",
+  "specification_sha256": "55259ebda0589a10bb9b7c6f5e499f631ea40587b85bb27a3f00e3584cba1a42",
+  "known_frontier": [
+    {
+      "path": "results/candidates/w0-whirlpool-maelstrom-2.json",
+      "sha256": "0b87ab7131aecd90b0d65aab19f33d870133e3e8e898c277092eeb4db1b3f719",
+      "metrics": {
+        "AND": 0,
+        "XOR": 425,
+        "NOT": 0,
+        "total": 425,
+        "depth": 10,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "results/candidates/w1-whirlpool-maelstrom-0.json",
+      "sha256": "fa1c06c4ddd429c7f25f46d1f03d3887c72ea64fe5ea966b474275532cb21bfe",
+      "metrics": {
+        "AND": 0,
+        "XOR": 470,
+        "NOT": 0,
+        "total": 470,
+        "depth": 5,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "results/candidates/w3-whirlpool-maelstrom-0.json",
+      "sha256": "0d6eef9ec877d81bca5a54ba1ce9d713a9acd79336777184878953d270f6576f",
+      "metrics": {
+        "AND": 0,
+        "XOR": 469,
+        "NOT": 0,
+        "total": 469,
+        "depth": 6,
+        "dead_gates": 0
+      }
+    }
+  ],
+  "published_xor_guard": 425,
+  "literature_claims": [],
+  "novelty_policy": "Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker.",
+  "status": "PASS: known working targets; current external novelty review still required",
+  "review_sources": [
+    "docs/LITERATURE.md",
+    "results/novelty-audit.json",
+    "research/agent-pilot-v2/review/current-frontier.json"
+  ]
+}

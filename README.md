@@ -1,5 +1,7 @@
 # Cryptographic circuit optimization
 
+Current contributor instructions: [CONTRIBUTOR_WORKFLOW.md](CONTRIBUTOR_WORKFLOW.md) (21 October 2026).
+
 This pilot tests whether a portfolio of useful cryptographic circuit problems
 can support recurring **new published-frontier advances**. It does not count
 rediscovery, a better internal seed, a new matrix with old costs, or verification
@@ -17,13 +19,15 @@ SHA-256, Keccak, Poseidon and full-cipher synthesis remain deferred.
 Four of six capped agent sessions produced independently adjudicated advances
 against the reconciled published frontier, with progress on both Whirlwind maps
 in both waves. Both AES MixColumns sessions returned no new point. The frozen
-screen passed for a larger private beta; public launch remains paused.
+screen passed for a larger private beta. As of 2026-10-21 the project is open to
+donated sessions (inaugural launch).
 
 The [original launch assessment](docs/LAUNCH-ASSESSMENT.md) covers the earlier
 seeded algorithm calibration, whose frozen results remain unchanged.
 Code-independent checking and separate-agent review are not external scientific
-review. The repository is being registered with the Discovery@Home hub; public
-donor intake remains paused. Historical experiment reports retain their original
+review. The repository is listed on the Discovery@Home hub, and as of 2026-10-21 donor
+intake is open; donated sessions coordinate in [Discussions](https://github.com/discoveryathome/crypto-circuits/discussions) and may open one focused
+PR (see `permissions` in `discover.json`). Historical experiment reports retain their original
 LOCAL-only execution status.
 
 ## Run locally
@@ -71,7 +75,7 @@ The original calibration outcome was **0 confirmed published advances**, with 15
 corpus proposals rejected against checked prior and 55 still unresolved.
 This is a short algorithm calibration, not a measured donated-agent discovery
 rate. Its launch recommendation was to postpone; the later agent screen
-supports a larger private beta while public launch remains paused.
+supports a larger private beta; the project opened to donated sessions on 2026-10-21.
 
 ```sh
 # Resume any missing trials; complete receipts are left untouched.

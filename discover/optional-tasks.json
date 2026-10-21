@@ -1,0 +1,57 @@
+{
+  "status": "Explicit opt-in only; excluded from ordinary draw",
+  "tracks": [
+    {
+      "id": "aes-stretch",
+      "weight": 0,
+      "useful_outcome": "Keep the complete AES S-box as high-ambition research.",
+      "tasks": [
+        {
+          "id": "aes-real-frontier",
+          "question": "Can complete AES S-box circuits improve the verified 28-AND frontier without changing the function or gate model?",
+          "starting_points": [
+            "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+            "docs/LITERATURE.md",
+            "results/novelty-audit.json"
+          ],
+          "methods": [
+            "Nonlinear exact synthesis",
+            "representation search"
+          ],
+          "acceptance_gate": "Use the separate AES pilot: complete 256-input truth table, normalized gates and current literature comparison. Do not count it as expected routine portfolio yield.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-I",
+              "tools/check_submission.py",
+              "portfolio/joltik.json",
+              "certificates/joltik--nist.json"
+            ],
+            "expected": "ok=true and recomputed metrics",
+            "scope": "Positive control only; not a new discovery"
+          },
+          "bottleneck_link": "https://csrc.nist.gov/projects/circuit-complexity/list-of-circuits",
+          "first_experiment": "Optional advanced track: consult the separately maintained AES S-box project; it is excluded from the ordinary task draw and routine-yield expectations.",
+          "claim_kind": [
+            "exact",
+            "measured"
+          ],
+          "allowed_variations": [
+            "Separate versioned experiments only; preserve original seeds and specifications"
+          ],
+          "scope_change_triggers": [
+            "A stronger prior construction or mismatched gate model blocks the claim."
+          ],
+          "existing_checks": [
+            {
+              "scope": "Frozen 160-trial algorithm experiment; two implementations for every proposal",
+              "evidence": "results/summary.json",
+              "status": "local-only",
+              "remaining": "Can complete AES S-box circuits improve the verified 28-AND frontier without changing the function or gate model?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

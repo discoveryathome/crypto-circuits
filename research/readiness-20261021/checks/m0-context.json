@@ -1,0 +1,111 @@
+{
+  "instance": "whirlwindm0",
+  "specification_sha256": "ba2499f59ed277f26062bab7c0b1221e68939c199203f78872ca218b59cdba83",
+  "known_frontier": [
+    {
+      "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor156-depth12-724f1cd5675a.json",
+      "sha256": "724f1cd5675a287d08194d040c39ba5770da51c71c48f5ff38f2da6a669b0b10",
+      "metrics": {
+        "AND": 0,
+        "XOR": 156,
+        "NOT": 0,
+        "total": 156,
+        "depth": 12,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor157-depth11-5e45d1db35ee.json",
+      "sha256": "5e45d1db35ee9b529f4d7b0b52cef9555385fbac520ff9c7a24ce5d5f7d7f655",
+      "metrics": {
+        "AND": 0,
+        "XOR": 157,
+        "NOT": 0,
+        "total": 157,
+        "depth": 11,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor158-depth10-4a402ae1c3b3.json",
+      "sha256": "4a402ae1c3b31055dd5ce576f909a16b9a1b2cb154c9afff35f8e45a616d01ef",
+      "metrics": {
+        "AND": 0,
+        "XOR": 158,
+        "NOT": 0,
+        "total": 158,
+        "depth": 10,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor166-depth9-85b9deac384c.json",
+      "sha256": "85b9deac384c7bcbc40b3775b570f7216b0055eb781ae9296eafa058e5ed21ad",
+      "metrics": {
+        "AND": 0,
+        "XOR": 166,
+        "NOT": 0,
+        "total": 166,
+        "depth": 9,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor205-depth8-e3cbdd52d90d.json",
+      "sha256": "e3cbdd52d90d10579166be56af34bf2f5ddc2fb508ee9547a0047f146fc34b10",
+      "metrics": {
+        "AND": 0,
+        "XOR": 205,
+        "NOT": 0,
+        "total": 205,
+        "depth": 8,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor206-depth7-837fe5a91c9b.json",
+      "sha256": "837fe5a91c9bed4768b04413aa0e8774b661e8555a2060efa9e4930c439cbdab",
+      "metrics": {
+        "AND": 0,
+        "XOR": 206,
+        "NOT": 0,
+        "total": 206,
+        "depth": 7,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor210-depth6-bcaa50539c41.json",
+      "sha256": "bcaa50539c415f17e5962cc41947482ee9c5a81fa2a86b5e29aaae9f65c0244e",
+      "metrics": {
+        "AND": 0,
+        "XOR": 210,
+        "NOT": 0,
+        "total": 210,
+        "depth": 6,
+        "dead_gates": 0
+      }
+    },
+    {
+      "path": "research/agent-pilot-v2/sessions/w2-m0/submissions/xor214-depth5-8406992ede8e.json",
+      "sha256": "8406992ede8ee3cab9b20ca2d9e24cf3ab1c9c424f90db2ed90f19abf288ce16",
+      "metrics": {
+        "AND": 0,
+        "XOR": 214,
+        "NOT": 0,
+        "total": 214,
+        "depth": 5,
+        "dead_gates": 0
+      }
+    }
+  ],
+  "published_xor_guard": 159,
+  "literature_claims": [],
+  "novelty_policy": "Corpus advances are proposals. Published novelty needs candidate-specific literature audit and second checker.",
+  "status": "PASS: known working targets; current external novelty review still required",
+  "review_sources": [
+    "docs/LITERATURE.md",
+    "results/novelty-audit.json",
+    "research/agent-pilot-v2/review/current-frontier.json"
+  ]
+}

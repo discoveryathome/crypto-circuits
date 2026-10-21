@@ -56,8 +56,8 @@ structure checks and scalar gate evaluator.
 - Designs: evaluates all 65,536 inputs, checks the actual minimum word branch
   number, and verifies involution by composition when required.
 
-This is independence of implementation, not independence of authorship. Both
-checkers need external review before donor intake. A valid certificate proves
+This is independence of implementation, not independence of authorship. External review of both
+checkers remains a scientific assurance task after the 21 October intake decision. A valid certificate proves
 function and cost, not global optimality, novelty, resistance to side channels,
 or security of a cipher incorporating a new diffusion layer.
 

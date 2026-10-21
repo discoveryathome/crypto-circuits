@@ -44,6 +44,5 @@ and involution requirement in advance. Do not add bespoke constraints after
 finding a candidate to create an easier leaderboard.
 
 No automatic frontier publication, git push, message sending, or hub submission
-is implemented. Store proposals locally for review. Intake remains paused until
-there is evidence of useful discovery yield and a consenting maintainer with
-review capacity.
+is implemented. Store proposals locally for review. Intake opened on 21 October 2026 under the recorded maintainer decision.
+External scientific review remains pending; use CONTRIBUTOR_WORKFLOW.md for current targets.

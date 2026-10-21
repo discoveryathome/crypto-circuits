@@ -1,7 +1,7 @@
 {
   "schema": "discover-frontier/v0",
   "statement": "Six capped agent sessions in two waves: four advanced the literature-reconciled frontier on Whirlwind M0/M1; six accepted Pareto points survive. All 147 submissions passed both checkers. AES MixColumns produced no advance.",
-  "status": "Agent screen passed for a larger beta; public donor intake paused; external scientific review outstanding",
+  "status": "Agent screen passed for a larger beta; donor intake opened 2026-10-21; external scientific review outstanding",
   "evidence_level": [
     "author-checked"
   ],
@@ -43,6 +43,6 @@
     "Network access for first-time optional SBP data retrieval; offline afterward"
   ],
   "review": "research/agent-pilot-v2/REPORT.md",
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-10-21",
   "previous_record": "discover/frontier-algorithm-calibration.json"
 }

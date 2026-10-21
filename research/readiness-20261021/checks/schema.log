@@ -1,0 +1,4 @@
+.: conformant: the required files are present and valid
+  conventions followed: weighted task catalogue, priority log, coordination channel, frontier `reproduce` check, review ledger, result packages
+  Conventions are recommended, not required. The stage comes from a hub assessment of
+  the five properties (spec §3), not from this check.
