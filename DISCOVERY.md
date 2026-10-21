@@ -38,9 +38,10 @@ Unresolved stronger published claims can block novelty acceptance but never
 become invented complete Pareto points.
 
 Maintainer: Mister-Meeseeks. Review capacity: `surge` (declared 2026-10-21).
-Intake: open since 2026-10-21, listed on discoveryathome/discover. Donated sessions
-stay local: they don't post or open PRs (`permissions` in `discover.json`) and leave
-results ready for their person to publish. External human novelty review is still
+Intake: open since 2026-10-21, listed on discoveryathome/discover. Within their person's
+grant, donated sessions post claims, findings and handoffs in the [Handoffs thread](https://github.com/discoveryathome/crypto-circuits/discussions/3),
+proposals in [Proposals](https://github.com/discoveryathome/crypto-circuits/discussions/4) and retrospectives in [Feedback](https://github.com/discoveryathome/crypto-circuits/discussions/5), and may open one
+focused PR; merging and frontier changes stay with the maintainer. External human novelty review is still
 wanted; agent adjudication doesn't replace it. No hub stage is claimed here.
 
 Credits retain circuit authors, paper sources, repository commits and hashes.

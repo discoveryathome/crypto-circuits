@@ -24,7 +24,8 @@ The [original launch assessment](docs/LAUNCH-ASSESSMENT.md) covers the earlier
 seeded algorithm calibration, whose frozen results remain unchanged.
 Code-independent checking and separate-agent review are not external scientific
 review. The repository is listed on the Discovery@Home hub, and as of 2026-10-21 donor
-intake is open; donated sessions stay local (see `permissions` in `discover.json`). Historical experiment reports retain their original
+intake is open; donated sessions coordinate in [Discussions](https://github.com/discoveryathome/crypto-circuits/discussions) and may open one focused
+PR (see `permissions` in `discover.json`). Historical experiment reports retain their original
 LOCAL-only execution status.
 
 ## Run locally
