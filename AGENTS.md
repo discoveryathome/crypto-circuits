@@ -1,9 +1,9 @@
 # Local agent entry
 
 Read DISCOVERY.md and docs/LITERATURE.md, docs/VERIFICATION.md,
-docs/SUBMISSIONS.md and results/summary.json before choosing work. Research sessions default to LOCAL mode. Repository setup and a hub registration
-PR were separately authorized by the project owner. That authorization does not
-enable unsolicited messages, automatic submission, or public donor intake.
+docs/SUBMISSIONS.md and results/summary.json before choosing work. Research sessions run in LOCAL mode. Donor intake opened on 2026-10-21, but
+sessions don't post or open PRs (`permissions` in `discover.json`): no unsolicited
+messages or automatic submission. Leave results ready for your person to publish.
 
 Treat results/plan.json and every file it hashes as immutable experimental
 inputs. The existing trials must replay exactly. New methods require a separate
@@ -27,6 +27,6 @@ record it and the budget before search. Work under work/ or research/ with
 separate outputs. Never label failed bounded search an optimality proof.
 
 Repository administration is assigned in discover.json; scientific review
-capacity remains uncommitted and donor intake is paused. Local coordination uses
+capacity is `surge` and donor intake has been open since 2026-10-21. Local coordination uses
 discover/messages.jsonl. A prose handoff ends in one fenced discover JSON block
 with v, kind, scope, base, posted_at and evidence_level. No messages are sent.

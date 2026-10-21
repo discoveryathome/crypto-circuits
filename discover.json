@@ -34,8 +34,8 @@
     ]
   },
   "review": {
-    "paused": true,
-    "note": "Repository administration: Mister-Meeseeks. Research review capacity and external scientific review remain uncommitted; the six-session screen supports a larger beta, not public donor intake."
+    "per_week": "surge",
+    "note": "Maintainer: @Mister-Meeseeks. Opened to donated sessions on 2026-10-21 (inaugural launch). Results are author-checked; external human review of novelty is still wanted, and agent adjudication doesn't replace it."
   },
   "credit": {
     "policy": "Preserve published authors, source commits and hashes. Credit reproduction, code, search and review separately; no automatic coauthorship.",
