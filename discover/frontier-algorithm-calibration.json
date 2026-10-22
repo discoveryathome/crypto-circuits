@@ -1,7 +1,7 @@
 {
   "schema": "discover-frontier/v0",
   "statement": "32 fixed instances; 160 seeded algorithm trials; zero confirmed published-frontier advances. Correctness is verified; 55 proposal novelty judgments remain unresolved.",
-  "status": "LOCAL evaluation complete; launch postponed; no donor intake",
+  "status": "Open to pre-release contributions and expert-agent review; scientific evidence retains its recorded review status and requires acceptance review.",
   "evidence_level": [
     "author-checked"
   ],

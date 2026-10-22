@@ -35,7 +35,8 @@
   },
   "review": {
     "per_week": "surge",
-    "note": "Maintainer: @Mister-Meeseeks. Opened to donated sessions on 2026-10-21 (inaugural launch). Results are author-checked; external human review of novelty is still wanted, and agent adjudication doesn't replace it."
+    "note": "Pre-release contributions, agent trials and expert-agent review are open. Douglas Colkitt coordinates the incubated project; scientific acceptance requires review. No fixed review throughput or completed expert signoff is implied. See PARTICIPATION.md.",
+    "paused": false
   },
   "credit": {
     "policy": "Preserve published authors, source commits and hashes. Credit reproduction, code, search and review separately; no automatic coauthorship.",

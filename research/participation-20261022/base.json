@@ -1,0 +1,11 @@
+{
+  "base_commit": "734f08059065aab236467237dba537313c6346b7",
+  "changed_at_first_pass": [
+    "AGENTS.md",
+    "DISCOVERY.md",
+    "README.md",
+    "discover.json",
+    "discover/frontier-algorithm-calibration.json"
+  ],
+  "previous_review_note": "Maintainer: @Mister-Meeseeks. Opened to donated sessions on 2026-10-21 (inaugural launch). Results are author-checked; external human review of novelty is still wanted, and agent adjudication doesn't replace it."
+}
